@@ -39,10 +39,24 @@ def parse_data(path_input, path_output):
         try:
             for j in data[i].keys():
                 if j in data_filter:
-                    final_result[j] = data[i][j]
+                    counter =1
+                    for k in data[i][j]:
+                        index = f'layer_{counter}'
+                        final_result[index] = k
+                        counter += 1
         except:
-            pass
+            None
 
     dict_to_json(path=path_output, data=final_result)
 
     return 200
+
+######### delete when tested ###############
+def  main():
+    path_input='data.json'
+    path_output='data_parsed.json' 
+    parse_data(path_input=path_input, path_output=path_output)
+
+if __name__ == '__main__':
+    main()
+    
