@@ -5,8 +5,8 @@ def json_to_dict(path):
     Loads json from path and return it in dict type
     path := str
     '''
-    with open(path,'r') as fp:
-        a = json.load(fp) 
+    
+    a = json.loads(path) 
     return a
 
 
