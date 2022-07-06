@@ -22,13 +22,15 @@ def dict_to_json(path, data):
         json.dump(data, f, indent=4)
 
     return 200
-def parse_data(path_input, path_output):
+
+
+def parse_data(json_as_string, path_output):
     '''
     Parse data from path_input to path_output
-    path_input := str
+    json_as_string := str
     path_output := str
     '''
-    data = json_to_dict(path=path_input)
+    data = json_to_dict(json_as_string)
 
     data_parsed = data.copy()
     i = 'components'
