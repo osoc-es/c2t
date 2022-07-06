@@ -6,7 +6,7 @@ def json_to_dict(path):
     path := str
     '''
     with open(path,'r') as fp:
-        a = json.load(fp)[0]  
+        a = json.load(fp) 
     return a
 
 
@@ -30,31 +30,24 @@ def parse_data(path_input, path_output):
     '''
     data = json_to_dict(path=path_input)
 
-    final_result = dict()
-    data_filter = ['Id','Os','Architecture','Layers']
+    data_parsed = data.copy()
+    i = 'components'
+    k = 'properties'
 
-    for i in data.keys():
-        if i in data_filter:
-            final_result[i] = data[i]
-        try:
-            for j in data[i].keys():
-                if j in data_filter:
-                    counter =1
-                    for k in data[i][j]:
-                        index = f'layer_{counter}'
-                        final_result[index] = k
-                        counter += 1
-        except:
-            None
+    for j,_ in enumerate(data[i]): #enumerate components
+        for l, _ in enumerate(data[i][j][k]): # enumerate properties
+            aux_key = data[i][j][k][l]['name']
+            aux_value = data[i][j][k][l]['value']
+            data_parsed[i][j][aux_key] = aux_value
 
-    dict_to_json(path=path_output, data=final_result)
+    dict_to_json(path=path_output, data=data_parsed)
 
     return 200
 
 ######### delete when tested ###############
 def  main():
-    path_input='data.json'
-    path_output='data_parsed.json' 
+    path_input='widoco_test.json'
+    path_output='widoco_test_8.json' 
     parse_data(path_input=path_input, path_output=path_output)
 
 if __name__ == '__main__':
