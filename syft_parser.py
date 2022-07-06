@@ -1,12 +1,12 @@
 import json
 
-def json_to_dict(path):
+def json_to_dict(json_as_string):
     '''
-    Loads json from path and return it in dict type
-    path := str
+    Loads json from string and return it in dict type
+    json_as_string := str
     '''
     
-    a = json.loads(path) 
+    a = json.loads(json_as_string) 
     return a
 
 
