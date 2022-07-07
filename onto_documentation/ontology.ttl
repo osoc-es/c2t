@@ -1,0 +1,172 @@
+@prefix : <http://dockerpedia.inf.utfsm.cl/vocab#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://dockerpedia.inf.utfsm.cl/vocab#> .
+
+<http://dockerpedia.inf.utfsm.cl/vocab#> rdf:type owl:Ontology ;
+                                          <http://purl.org/dc/elements/1.1/description> "Ontology code created by Chowlk" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://dockerpedia.inf.utfsm.cl/vocab#hasImage
+:hasImage rdf:type owl:ObjectProperty ;
+          rdfs:domain :DockerFile ;
+          rdfs:range :Image ;
+          rdfs:comment "A docker file has software images" ;
+          rdfs:label "hasImage" .
+
+
+###  http://dockerpedia.inf.utfsm.cl/vocab#hasPackages
+:hasPackages rdf:type owl:ObjectProperty ;
+             rdfs:domain :ImageLayer ;
+             rdfs:range :PackageVersion ;
+             rdfs:comment "One software layer is part of a software image" ;
+             rdfs:label "hasPackages" .
+
+
+###  http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn
+:isInstalledOn rdf:type owl:ObjectProperty ;
+               rdfs:domain :PackageVersion ;
+               rdfs:range :Image ;
+               rdfs:comment "One OS may have installed several software packages on it" ;
+               rdfs:label "isInstalledOn" .
+
+
+###  https://w3id.org/okn/o/c2t#hasLayer
+<https://w3id.org/okn/o/c2t#hasLayer> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain :Image ;
+                                      rdfs:range :ImageLayer ;
+                                      rdfs:comment "Several packages may have been installed on an image" ;
+                                      rdfs:label "hasLayer" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://dockerpedia.inf.utfsm.cl/vocab#imageIdentifier
+:imageIdentifier rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Image ;
+                 rdfs:comment "Each image is different from the others as it has a unique identifier" ;
+                 rdfs:label "imageIdentifier" .
+
+
+###  http://dockerpedia.inf.utfsm.cl/vocab#layerIdentifier
+:layerIdentifier rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :ImageLayer ;
+                 rdfs:comment "Each layer is different from the others as it has a unique identifier" ;
+                 rdfs:label "layerIdentifier" .
+
+
+###  http://dockerpedia.inf.utfsm.cl/vocab#tag
+:tag rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Image ;
+     rdfs:comment "Image’s versions are identified by its tag" ;
+     rdfs:label "tag" .
+
+
+###  https://w3id.org/okn/o/c2t#arquitecture
+<https://w3id.org/okn/o/c2t#arquitecture> rdf:type owl:DatatypeProperty ;
+                                          rdfs:domain :Image ;
+                                          rdfs:comment "The architecture for which the image is built. For example, amd64" ;
+                                          rdfs:label "arquitecture" .
+
+
+###  https://w3id.org/okn/o/c2t#language
+<https://w3id.org/okn/o/c2t#language> rdf:type owl:DatatypeProperty ;
+                                      rdfs:domain :PackageVersion ;
+                                      rdfs:comment "A package version is written in a programming language" ;
+                                      rdfs:label "language" .
+
+
+###  https://w3id.org/okn/o/c2t#license
+<https://w3id.org/okn/o/c2t#license> rdf:type owl:DatatypeProperty ;
+                                     rdfs:domain :PackageVersion ;
+                                     rdfs:comment "A package version may specify the version that is being used" ;
+                                     rdfs:label "license" .
+
+
+###  https://w3id.org/okn/o/c2t#name
+<https://w3id.org/okn/o/c2t#name> rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain :PackageVersion ;
+                                  rdfs:comment "Each package version has name" ;
+                                  rdfs:label "name" .
+
+
+###  https://w3id.org/okn/o/c2t#operativeSystem
+<https://w3id.org/okn/o/c2t#operativeSystem> rdf:type owl:DatatypeProperty ;
+                                             rdfs:domain :Image ;
+                                             rdfs:comment "Each image is built over an operative system" ;
+                                             rdfs:label "operativeSystem" .
+
+
+###  https://w3id.org/okn/o/c2t#packageURL
+<https://w3id.org/okn/o/c2t#packageURL> rdf:type owl:DatatypeProperty ;
+                                        rdfs:domain :PackageVersion ;
+                                        rdfs:comment "A package version may be associated to an URL" ;
+                                        rdfs:label "packageURL" .
+
+
+###  https://w3id.org/okn/o/c2t#publisher
+<https://w3id.org/okn/o/c2t#publisher> rdf:type owl:DatatypeProperty ;
+                                       rdfs:domain :PackageVersion ;
+                                       rdfs:comment "A package version is published by the publisher" ;
+                                       rdfs:label "publisher" .
+
+
+###  https://w3id.org/okn/o/c2t#version
+<https://w3id.org/okn/o/c2t#version> rdf:type owl:DatatypeProperty ;
+                                     rdfs:domain :PackageVersion ;
+                                     rdfs:comment "A package may have more than one version available" ;
+                                     rdfs:label "version" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dockerpedia.inf.utfsm.cl/vocab#DockerFile
+:DockerFile rdf:type owl:Class ;
+            rdfs:comment "A file containing the instructions required to build an image (docker:SoftwareImage) in the Docker framework" ;
+            rdfs:label "DockerFile" .
+
+
+###  http://dockerpedia.inf.utfsm.cl/vocab#Image
+:Image rdf:type owl:Class ;
+       rdfs:comment "A serialized copy of the state of a software stored in some non-volatile form such as a file" ;
+       rdfs:label "Image" .
+
+
+###  http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer
+:ImageLayer rdf:type owl:Class ;
+            rdfs:comment "A layer of a Docker image are a set files generated from running a command from a DockerFile" ;
+            rdfs:label "ImageLayer" .
+
+
+###  http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion
+:PackageVersion rdf:type owl:Class ;
+                rdfs:comment "Version of a software package" ;
+                rdfs:label "PackageVersion" .
+
+
+###  https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion
+<https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion> rdf:type owl:Class ;
+                                                           rdfs:subClassOf :PackageVersion ;
+                                                           rdfs:comment "Version of an operative system package" ;
+                                                           rdfs:label "OperativeSystemPackageVersion" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

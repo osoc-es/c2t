@@ -1,0 +1,467 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "https://w3id.org/okn/o/c2t", "http://dockerpedia.inf.utfsm.cl/vocab", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#",
+    "description" : {
+      "undefined" : "Ontology code created by Chowlk"
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "5",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Literal"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OperativeSystemPackageVersion",
+      "undefined" : "OperativeSystemPackageVersion"
+    },
+    "comment" : {
+      "undefined" : "Version of an operative system package"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#DockerFile",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DockerFile",
+      "undefined" : "DockerFile"
+    },
+    "comment" : {
+      "undefined" : "A file containing the instructions required to build an image (docker:SoftwareImage) in the Docker framework"
+    },
+    "id" : "22"
+  }, {
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImageLayer",
+      "undefined" : "ImageLayer"
+    },
+    "comment" : {
+      "undefined" : "A layer of a Docker image are a set files generated from running a command from a DockerFile"
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PackageVersion",
+      "undefined" : "PackageVersion"
+    },
+    "subClasses" : [ "18" ],
+    "comment" : {
+      "undefined" : "Version of a software package"
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#Image",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Image",
+      "undefined" : "Image"
+    },
+    "comment" : {
+      "undefined" : "A serialized copy of the state of a software stored in some non-volatile form such as a file"
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/okn/o/c2t#hasLayer",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasLayer",
+      "undefined" : "hasLayer"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Several packages may have been installed on an image"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#language",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "language",
+      "undefined" : "language"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "A package version is written in a programming language"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#packageURL",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "packageURL",
+      "undefined" : "packageURL"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "A package version may be associated to an URL"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#imageIdentifier",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "imageIdentifier",
+      "undefined" : "imageIdentifier"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Each image is different from the others as it has a unique identifier"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#license",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "license",
+      "undefined" : "license"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "A package version may specify the version that is being used"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#publisher",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "publisher",
+      "undefined" : "publisher"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "A package version is published by the publisher"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#name",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "name",
+      "undefined" : "name"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Each package version has name"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#hasImage",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasImage",
+      "undefined" : "hasImage"
+    },
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "A docker file has software images"
+    },
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#version",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "version",
+      "undefined" : "version"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "A package may have more than one version available"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#tag",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "tag",
+      "undefined" : "tag"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Image’s versions are identified by its tag"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#hasPackages",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasPackages",
+      "undefined" : "hasPackages"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "One software layer is part of a software image"
+    },
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#layerIdentifier",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "layerIdentifier",
+      "undefined" : "layerIdentifier"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "Each layer is different from the others as it has a unique identifier"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#arquitecture",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "arquitecture",
+      "undefined" : "arquitecture"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The architecture for which the image is built. For example, amd64"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#operativeSystem",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "operativeSystem",
+      "undefined" : "operativeSystem"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Each image is built over an operative system"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "isInstalledOn",
+      "undefined" : "isInstalledOn"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "One OS may have installed several software packages on it"
+    },
+    "attributes" : [ "object" ],
+    "id" : "30"
+  }, {
+    "range" : "4",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  } ]
+}
