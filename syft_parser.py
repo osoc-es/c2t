@@ -24,7 +24,22 @@ def dict_to_json(path, data):
     return 200
 
 
-def parse_data(json_as_string, path_output):
+def read_inspect_id(inspect_path):
+    '''
+    Gets image_id form  inspect.json
+
+    inspect_path := str
+    '''
+    #open file
+    with open(inspect_path,'r') as fp:
+        a = json.load(fp)[0]
+
+    #get image_id
+    image_id = a['Id']
+
+    return image_id
+
+def parse_data(json_as_string, path_output, inspect_path):
     '''
     Parse data from path_input to path_output
     json_as_string := str
@@ -42,7 +57,10 @@ def parse_data(json_as_string, path_output):
             aux_value = data[i][j][k][l]['value']
             data_parsed[i][j][aux_key] = aux_value
 
+    data_parsed['Image_Identifier'] = read_inspect_id(inspect_path=inspect_path)
+
     dict_to_json(path=path_output, data=data_parsed)
+
 
     return 200
 
@@ -50,7 +68,7 @@ def parse_data(json_as_string, path_output):
 def  main():
     path_input='widoco_test.json'
     path_output='widoco_test_8.json' 
-    parse_data(path_input=path_input, path_output=path_output)
+    parse_data(path_input= "widoco.json", path_output="cleanwidoco.json")
 
 if __name__ == '__main__':
     main()
