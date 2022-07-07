@@ -7,41 +7,42 @@
 dpv: a owl:Ontology ;
     dc:description "Ontology code created by Chowlk" .
 
-dpv:HasImage a owl:ObjectProperty ;
-    rdfs:label "HasImage" ;
+dpv:hasImage a owl:ObjectProperty ;
+    rdfs:label "hasImage" ;
     rdfs:comment "A docker file has software images" ;
     rdfs:domain dpv:DockerFile ;
     rdfs:range dpv:Image .
 
-dpv:IsInstalledOn a owl:ObjectProperty ;
-    rdfs:label "is installed on" ;
+dpv:isInstalledOn a owl:ObjectProperty ;
+    rdfs:label "isInstalledOn" ;
     rdfs:comment "One OS may have installed several software packages on it" ;
     rdfs:domain dpv:PackageVersion ;
     rdfs:range dpv:Image .
 
-dpv:ImageIdentifier a owl:DatatypeProperty ;
-    rdfs:label "ImageIdentifier" ;
+dpv:imageIdentifier a owl:DatatypeProperty ;
+    rdfs:label "imageIdentifier" ;
     rdfs:comment "Each image is different from the others as it has a unique identifier" ;
     rdfs:domain dpv:Image .
 
-c2t:HasLayer a owl:ObjectProperty ;
-    rdfs:label "has layer" ;
+c2t:hasLayer a owl:ObjectProperty ;
+    rdfs:label "hasLayer" ;
     rdfs:comment "Several packages may have been installed on an image" ;
     rdfs:domain dpv:Image ;
     rdfs:range dpv:ImageLayer .
 
-c2t:IsInLayer a owl:ObjectProperty ;
-    rdfs:label "is in layer" ;
+dpv:hasPackages a owl:ObjectProperty ;
+    rdfs:label "hasPackages" ;
     rdfs:comment "One software layer is part of a software image" ;
-    rdfs:domain dpv:PackageVersion .
+    rdfs:domain dpv:ImageLayer ;
+    rdfs:range dpv:PackageVersion .
 
-dpv:LayerIdentifier a owl:DatatypeProperty ;
-    rdfs:label "LayerIdentifier" ;
+dpv:layerIdentifier a owl:DatatypeProperty ;
+    rdfs:label "layerIdentifier" ;
     rdfs:comment "Each layer is different from the others as it has a unique identifier" ;
     rdfs:domain dpv:ImageLayer .
 
-dpv:Tag a owl:DatatypeProperty ;
-    rdfs:label "Tag" ;
+dpv:tag a owl:DatatypeProperty ;
+    rdfs:label "tag" ;
     rdfs:comment "Image’s versions are identified by its tag" ;
     rdfs:domain dpv:Image .
 
@@ -50,43 +51,43 @@ c2t:OperativeSystemPackageVersion a owl:Class ;
     rdfs:comment "Version of an operative system package" ;
     rdfs:subClassOf dpv:PackageVersion .
 
-c2t:Arquitecture a owl:DatatypeProperty ;
-    rdfs:label "Arquitecture" ;
+c2t:arquitecture a owl:DatatypeProperty ;
+    rdfs:label "arquitecture" ;
     rdfs:comment "The architecture for which the image is built. For example, amd64" ;
     rdfs:domain dpv:Image .
 
-c2t:Language a owl:DatatypeProperty ;
-    rdfs:label "Language" ;
+c2t:language a owl:DatatypeProperty ;
+    rdfs:label "language" ;
     rdfs:comment "A package version is written in a programming language" ;
     rdfs:domain dpv:PackageVersion .
 
-c2t:License a owl:DatatypeProperty ;
-    rdfs:label "License" ;
+c2t:license a owl:DatatypeProperty ;
+    rdfs:label "license" ;
     rdfs:comment "A package version may specify the version that is being used" ;
     rdfs:domain dpv:PackageVersion .
 
-c2t:Name a owl:DatatypeProperty ;
-    rdfs:label "Name" ;
+c2t:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
     rdfs:comment "Each package version has name" ;
     rdfs:domain dpv:PackageVersion .
 
-c2t:OperativeSystem a owl:DatatypeProperty ;
-    rdfs:label "OperativeSystem" ;
+c2t:operativeSystem a owl:DatatypeProperty ;
+    rdfs:label "operativeSystem" ;
     rdfs:comment "Each image is built over an operative system" ;
     rdfs:domain dpv:Image .
 
-c2t:PackageURL a owl:DatatypeProperty ;
-    rdfs:label "PackageURL" ;
+c2t:packageURL a owl:DatatypeProperty ;
+    rdfs:label "packageURL" ;
     rdfs:comment "A package version may be associated to an URL" ;
     rdfs:domain dpv:PackageVersion .
 
-c2t:Publisher a owl:DatatypeProperty ;
-    rdfs:label "Publisher" ;
+c2t:publisher a owl:DatatypeProperty ;
+    rdfs:label "publisher" ;
     rdfs:comment "A package version is published by the publisher" ;
     rdfs:domain dpv:PackageVersion .
 
-c2t:Version a owl:DatatypeProperty ;
-    rdfs:label "Version" ;
+c2t:version a owl:DatatypeProperty ;
+    rdfs:label "version" ;
     rdfs:comment "A package may have more than one version available" ;
     rdfs:domain dpv:PackageVersion .
 
