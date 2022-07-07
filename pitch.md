@@ -10,7 +10,7 @@
 - Asegura que las aplicaciones se vayan a ejecutar igual en todos los entornos
 ## Qué problema tiene docker?
 - Es difícil mirar dentro de esos sitemas/aplicaciones
-- Es complicado detectar vulnerabilidades debido a lo anterior
+- Es complicado detectar problemas de seguridad debido a lo anterior
 ## Nuestra solución
 - Nuestra herramienta permite ver de que está compuesto esa aplicación (imagen)
 - Podemos realizar busquedas dentro de la misma
