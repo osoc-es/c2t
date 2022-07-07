@@ -13,11 +13,11 @@ dpv:HasImage a owl:ObjectProperty ;
     rdfs:domain dpv:DockerFile ;
     rdfs:range dpv:Image .
 
-dpv:HasPackages a owl:ObjectProperty ;
-    rdfs:label "HasPackages" ;
+dpv:IsInstalledOn a owl:ObjectProperty ;
+    rdfs:label "is installed on" ;
     rdfs:comment "One OS may have installed several software packages on it" ;
-    rdfs:domain dpv:ImageLayer ;
-    rdfs:range dpv:PackageVersion .
+    rdfs:domain dpv:PackageVersion ;
+    rdfs:range dpv:Image .
 
 dpv:ImageIdentifier a owl:DatatypeProperty ;
     rdfs:label "ImageIdentifier" ;
@@ -30,11 +30,10 @@ c2t:HasLayer a owl:ObjectProperty ;
     rdfs:domain dpv:Image ;
     rdfs:range dpv:ImageLayer .
 
-dpv:IsLayerOf a owl:ObjectProperty ;
-    rdfs:label "IsLayerOf" ;
+c2t:IsInLayer a owl:ObjectProperty ;
+    rdfs:label "is in layer" ;
     rdfs:comment "One software layer is part of a software image" ;
-    rdfs:domain dpv:ImageLayer ;
-    rdfs:range dpv:Image .
+    rdfs:domain dpv:PackageVersion .
 
 dpv:LayerIdentifier a owl:DatatypeProperty ;
     rdfs:label "LayerIdentifier" ;
