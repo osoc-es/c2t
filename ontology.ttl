@@ -24,11 +24,11 @@ dpv:ImageIdentifier a owl:DatatypeProperty ;
     rdfs:comment "Each image is different from the others as it has a unique identifier" ;
     rdfs:domain dpv:Image .
 
-dpv:IsInstalledOn a owl:ObjectProperty ;
-    rdfs:label "IsInstalledOn" ;
+c2t:HasLayer a owl:ObjectProperty ;
+    rdfs:label "has layer" ;
     rdfs:comment "Several packages may have been installed on an image" ;
-    rdfs:domain dpv:PackageVersion ;
-    rdfs:range dpv:Image .
+    rdfs:domain dpv:Image ;
+    rdfs:range dpv:ImageLayer .
 
 dpv:IsLayerOf a owl:ObjectProperty ;
     rdfs:label "IsLayerOf" ;
