@@ -52,10 +52,18 @@ def parse_data(json_as_string, path_output, inspect_path):
     k = 'properties'
 
     for j,_ in enumerate(data[i]): #enumerate components
+        layer_list = []
+        
         for l, _ in enumerate(data[i][j][k]): # enumerate properties
             aux_key = data[i][j][k][l]['name']
             aux_value = data[i][j][k][l]['value']
-            data_parsed[i][j][aux_key] = aux_value
+            if 'layerID' in aux_key:
+                layer_list.append(aux_value)
+            else:
+                data_parsed[i][j][aux_key] = aux_value
+        data_parsed[i][j].pop('properties')
+        if len(layer_list)>0:
+            data_parsed[i][j]['layersId'] = layer_list
 
     data_parsed['Image_Identifier'] = read_inspect_id(inspect_path=inspect_path)
 
