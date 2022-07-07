@@ -15,3 +15,8 @@
 - Nuestra herramienta permite ver de que está compuesto esa aplicación (imagen)
 - Podemos realizar busquedas dentro de la misma
 - Podemos comparar diferencias entre imagenes para detectar posibles errores
+
+## Casos de uso
+- Busqueda de una libreria en una imagen docker
+- Busqueda de una vulnerabilidad en una imagen docker
+- Comparacion de dos imagenes docker para encontrar diferencias en versiones y paquetes
