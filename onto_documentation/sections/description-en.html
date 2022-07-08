@@ -1,4 +1,6 @@
 <h2 id="desc" class="list">Containers To Triples: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</span>
-
+Containers to triples (c2t) is a knowledge-graph project with the help of Open Summer of Code Madrid. The goal is to build a knowledge-graphs with all the dependencies and metadata of a docker image to help to it undertanding. With this graph we can make SPARQL queries to stract useful information from these images that would be much more difficult to find otherwise.</span>
+<span class="markdown">
+The main classes of this vocabulary are dpv:Image which describes a Docker Image that has dpv:ImageLayer which describes a layer of a Docker Image (both of them are reused from <a>https://cbuil.github.io/dockerpedia-ontology/release/0.1.0/index-en.html</a>) and c2t:PackageVersion, wich describes an especific Package with its verision. This package dvp:isInstalledOn a certain dvp:Image on a certain dvp:ImageLayer</span>
+    
