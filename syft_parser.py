@@ -24,14 +24,14 @@ def dict_to_json(path, data):
     return 200
 
 
-def read_inspect_id(inspect_path):
+def read_inspect_id():
     '''
     Gets image_id form  inspect.json
 
     inspect_path := str
     '''
     #open file
-    with open(inspect_path,'r') as fp:
+    with open('./inspect.json','r') as fp:
         a = json.load(fp)[0]
 
     #get image_id
@@ -39,7 +39,7 @@ def read_inspect_id(inspect_path):
 
     return image_id
 
-def parse_data(json_as_string, path_output, inspect_path):
+def parse_data(json_as_string, path_output):
     '''
     Parse data from path_input to path_output
     json_as_string := str
@@ -65,7 +65,7 @@ def parse_data(json_as_string, path_output, inspect_path):
         if len(layer_list)>0:
             data_parsed[i][j]['layersId'] = layer_list
 
-    data_parsed['Image_Identifier'] = read_inspect_id(inspect_path=inspect_path)
+    data_parsed['image_identifier'] = read_inspect_id()
 
     dict_to_json(path=path_output, data=data_parsed)
 
