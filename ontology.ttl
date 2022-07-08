@@ -11,6 +11,8 @@ dpv: a owl:Ontology ;
     dc:title "Containers To Triples" ;
     dc:license "https://opensource.org/licenses/Apache-2.0" .
 
+dc:license rdf:type owl:AnnotationProperty .    
+
 dpv:hasImage a owl:ObjectProperty ;
     rdfs:label "hasImage" ;
     rdfs:comment "A docker file has software images" ;
