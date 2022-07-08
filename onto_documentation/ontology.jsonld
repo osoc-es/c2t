@@ -1,8 +1,30 @@
 [ {
   "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/citation" : [ {
+    "@language" : "en",
+    "@value" : "Cite this vocabulary as: L. Herrera, D. Lázaro, A. Pascual. Containers To Triples"
+  } ],
+  "http://purl.org/dc/elements/1.1/created" : [ {
+    "@language" : "en",
+    "@value" : "July, 2022"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Lara Herrera, David Lázaro y Adrián Pascual"
+  } ],
   "http://purl.org/dc/elements/1.1/description" : [ {
-    "@value" : "Ontology code created by Chowlk"
+    "@language" : "en",
+    "@value" : "Ontology code created to illustrate the project Containers To Triples"
+  } ],
+  "http://purl.org/dc/elements/1.1/license" : [ {
+    "@id" : "https://opensource.org/licenses/Apache-2.0"
+  } ],
+  "http://purl.org/dc/elements/1.1/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/okn"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Containers To Triples"
   } ]
 }, {
   "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#DockerFile",
@@ -122,7 +144,25 @@
     "@value" : "tag"
   } ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/citation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion",
@@ -137,7 +177,7 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
   } ]
 }, {
-  "@id" : "https://w3id.org/okn/o/c2t#arquitecture",
+  "@id" : "https://w3id.org/okn/o/c2t#architecture",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The architecture for which the image is built. For example, amd64"
@@ -146,7 +186,7 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "arquitecture"
+    "@value" : "architecture"
   } ]
 }, {
   "@id" : "https://w3id.org/okn/o/c2t#hasLayer",

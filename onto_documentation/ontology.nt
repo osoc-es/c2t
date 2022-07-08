@@ -1,5 +1,11 @@
 <http://dockerpedia.inf.utfsm.cl/vocab#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://dockerpedia.inf.utfsm.cl/vocab#> <http://purl.org/dc/elements/1.1/description> "Ontology code created by Chowlk" .
+<http://dockerpedia.inf.utfsm.cl/vocab#> <http://purl.org/dc/elements/1.1/citation> "Cite this vocabulary as: L. Herrera, D. Lázaro, A. Pascual. Containers To Triples"@en .
+<http://dockerpedia.inf.utfsm.cl/vocab#> <http://purl.org/dc/elements/1.1/created> "July, 2022"@en .
+<http://dockerpedia.inf.utfsm.cl/vocab#> <http://purl.org/dc/elements/1.1/creator> "Lara Herrera, David Lázaro y Adrián Pascual" .
+<http://dockerpedia.inf.utfsm.cl/vocab#> <http://purl.org/dc/elements/1.1/description> "Ontology code created to illustrate the project Containers To Triples"@en .
+<http://dockerpedia.inf.utfsm.cl/vocab#> <http://purl.org/dc/elements/1.1/license> <https://opensource.org/licenses/Apache-2.0> .
+<http://dockerpedia.inf.utfsm.cl/vocab#> <http://purl.org/dc/elements/1.1/preferredNamespaceUri> "https://w3id.org/okn" .
+<http://dockerpedia.inf.utfsm.cl/vocab#> <http://purl.org/dc/elements/1.1/title> "Containers To Triples"@en .
 # 
 # 
 # #################################################################
@@ -9,8 +15,26 @@
 # #################################################################
 # 
 # 
+# http://purl.org/dc/elements/1.1/citation
+<http://purl.org/dc/elements/1.1/citation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/created
+<http://purl.org/dc/elements/1.1/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/elements/1.1/description
 <http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/preferredNamespaceUri
+<http://purl.org/dc/elements/1.1/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
@@ -76,11 +100,11 @@
 <http://dockerpedia.inf.utfsm.cl/vocab#tag> <http://www.w3.org/2000/01/rdf-schema#comment> "Image’s versions are identified by its tag" .
 <http://dockerpedia.inf.utfsm.cl/vocab#tag> <http://www.w3.org/2000/01/rdf-schema#label> "tag" .
 # 
-# https://w3id.org/okn/o/c2t#arquitecture
-<https://w3id.org/okn/o/c2t#arquitecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/okn/o/c2t#arquitecture> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#Image> .
-<https://w3id.org/okn/o/c2t#arquitecture> <http://www.w3.org/2000/01/rdf-schema#comment> "The architecture for which the image is built. For example, amd64" .
-<https://w3id.org/okn/o/c2t#arquitecture> <http://www.w3.org/2000/01/rdf-schema#label> "arquitecture" .
+# https://w3id.org/okn/o/c2t#architecture
+<https://w3id.org/okn/o/c2t#architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/okn/o/c2t#architecture> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#Image> .
+<https://w3id.org/okn/o/c2t#architecture> <http://www.w3.org/2000/01/rdf-schema#comment> "The architecture for which the image is built. For example, amd64" .
+<https://w3id.org/okn/o/c2t#architecture> <http://www.w3.org/2000/01/rdf-schema#label> "architecture" .
 # 
 # https://w3id.org/okn/o/c2t#language
 <https://w3id.org/okn/o/c2t#language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .

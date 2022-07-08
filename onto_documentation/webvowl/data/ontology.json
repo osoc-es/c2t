@@ -1,11 +1,53 @@
 {
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
-    "languages" : [ "undefined" ],
-    "baseIris" : [ "https://w3id.org/okn/o/c2t", "http://dockerpedia.inf.utfsm.cl/vocab", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/okn/o/c2t", "http://dockerpedia.inf.utfsm.cl/vocab", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "en" : "Containers To Triples"
+    },
     "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#",
+    "author" : [ "Lara Herrera, David Lázaro y Adrián Pascual" ],
     "description" : {
-      "undefined" : "Ontology code created by Chowlk"
+      "en" : "Ontology code created to illustrate the project Containers To Triples"
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://opensource.org/licenses/Apache-2.0",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Lara Herrera, David Lázaro y Adrián Pascual",
+        "type" : "label"
+      } ],
+      "citation" : [ {
+        "identifier" : "citation",
+        "language" : "en",
+        "value" : "Cite this vocabulary as: L. Herrera, D. Lázaro, A. Pascual. Containers To Triples",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "en",
+        "value" : "July, 2022",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/okn",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Containers To Triples",
+        "type" : "label"
+      } ]
     }
   },
   "namespace" : [ ],
@@ -43,7 +85,7 @@
     "id" : "18",
     "type" : "owl:Class"
   }, {
-    "id" : "22",
+    "id" : "21",
     "type" : "owl:Class"
   }, {
     "id" : "2",
@@ -153,7 +195,7 @@
     "comment" : {
       "undefined" : "A file containing the instructions required to build an image (docker:SoftwareImage) in the Docker framework"
     },
-    "id" : "22"
+    "id" : "21"
   }, {
     "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer",
     "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
@@ -219,10 +261,10 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "20",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "21",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "23",
     "type" : "owl:datatypeProperty"
@@ -240,10 +282,10 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "29",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "30",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "31",
     "type" : "rdfs:SubClassOf"
@@ -333,6 +375,20 @@
     "attributes" : [ "datatype", "external" ],
     "id" : "19"
   }, {
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#hasImage",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasImage",
+      "undefined" : "hasImage"
+    },
+    "domain" : "21",
+    "comment" : {
+      "undefined" : "A docker file has software images"
+    },
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
     "iri" : "https://w3id.org/okn/o/c2t#name",
     "baseIri" : "https://w3id.org/okn/o/c2t",
     "range" : "15",
@@ -345,21 +401,7 @@
       "undefined" : "Each package version has name"
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "20"
-  }, {
-    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#hasImage",
-    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
-    "range" : "1",
-    "label" : {
-      "IRI-based" : "hasImage",
-      "undefined" : "hasImage"
-    },
-    "domain" : "22",
-    "comment" : {
-      "undefined" : "A docker file has software images"
-    },
-    "attributes" : [ "object" ],
-    "id" : "21"
+    "id" : "22"
   }, {
     "iri" : "https://w3id.org/okn/o/c2t#version",
     "baseIri" : "https://w3id.org/okn/o/c2t",
@@ -417,12 +459,12 @@
     "attributes" : [ "datatype" ],
     "id" : "26"
   }, {
-    "iri" : "https://w3id.org/okn/o/c2t#arquitecture",
+    "iri" : "https://w3id.org/okn/o/c2t#architecture",
     "baseIri" : "https://w3id.org/okn/o/c2t",
     "range" : "12",
     "label" : {
-      "IRI-based" : "arquitecture",
-      "undefined" : "arquitecture"
+      "IRI-based" : "architecture",
+      "undefined" : "architecture"
     },
     "domain" : "1",
     "comment" : {
@@ -430,20 +472,6 @@
     },
     "attributes" : [ "datatype", "external" ],
     "id" : "27"
-  }, {
-    "iri" : "https://w3id.org/okn/o/c2t#operativeSystem",
-    "baseIri" : "https://w3id.org/okn/o/c2t",
-    "range" : "28",
-    "label" : {
-      "IRI-based" : "operativeSystem",
-      "undefined" : "operativeSystem"
-    },
-    "domain" : "1",
-    "comment" : {
-      "undefined" : "Each image is built over an operative system"
-    },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "29"
   }, {
     "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn",
     "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
@@ -457,11 +485,25 @@
       "undefined" : "One OS may have installed several software packages on it"
     },
     "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#operativeSystem",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "operativeSystem",
+      "undefined" : "operativeSystem"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Each image is built over an operative system"
+    },
+    "attributes" : [ "datatype", "external" ],
     "id" : "30"
   }, {
     "range" : "4",
     "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "31"
   } ]
 }
