@@ -9,7 +9,7 @@ dpv: a owl:Ontology ;
     dc:creator "Lara Herrera, David Lázaro y Adrián Pascual" ;
     dc:created "July, 2022" ;
     dc:title "Containers To Triples" ;
-    dc:license "Apache-2.0" .
+    dc:license "https://opensource.org/licenses/Apache-2.0" .
 
 dpv:hasImage a owl:ObjectProperty ;
     rdfs:label "hasImage" ;
