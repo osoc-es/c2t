@@ -1,6 +1,6 @@
 OntologyName JsonPath source
 dpv:imageIdentifier image_identifier inspect
-layer_identifier_package components.layersID.* syft
+layer_identifier_package components.layersId.* syft
 layer_identifier_image RootFS.Layers inspect
 c2t:packageURL components.purl syft
 dpv:tag RepoTags inspect
