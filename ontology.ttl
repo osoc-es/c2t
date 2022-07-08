@@ -5,7 +5,11 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 dpv: a owl:Ontology ;
-    dc:description "Ontology code created by Chowlk" .
+    dc:description "Ontology code created to illustrate the project Containers To Triples" ;
+    dc:creator "Lara Herrera, David Lázaro y Adrián Pascual" ;
+    dc:created "July, 2022" ;
+    dc:title "Containers To Triples" ;
+    dc:license "Apache-2.0" .
 
 dpv:hasImage a owl:ObjectProperty ;
     rdfs:label "hasImage" ;
@@ -51,8 +55,8 @@ c2t:OperativeSystemPackageVersion a owl:Class ;
     rdfs:comment "Version of an operative system package" ;
     rdfs:subClassOf dpv:PackageVersion .
 
-c2t:arquitecture a owl:DatatypeProperty ;
-    rdfs:label "arquitecture" ;
+c2t:architecture a owl:DatatypeProperty ;
+    rdfs:label "architecture" ;
     rdfs:comment "The architecture for which the image is built. For example, amd64" ;
     rdfs:domain dpv:Image .
 
