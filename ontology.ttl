@@ -5,13 +5,21 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 dpv: a owl:Ontology ;
-    dc:description "Ontology code created to illustrate the project Containers To Triples" ;
+    dc:description "Ontology code created to illustrate the project Containers To Triples"@en ;
     dc:creator "Lara Herrera, David Lázaro y Adrián Pascual" ;
-    dc:created "July, 2022" ;
-    dc:title "Containers To Triples" ;
-    dc:license "https://opensource.org/licenses/Apache-2.0" .
+    dc:created "July, 2022"@en ;
+    dc:title "Containers To Triples"@en ;
+    dc:license <https://opensource.org/licenses/Apache-2.0> ;
+    dc:preferredNamespaceUri "https://w3id.org/okn" ;
+    dc:citation "Cite this vocabulary as: L. Herrera, D. Lázaro, A. Pascual. Containers To Triples"@en .
 
-dc:license rdf:type owl:AnnotationProperty .    
+dc:description rdf:type owl:AnnotationProperty .
+dc:creator rdf:type owl:AnnotationProperty .
+dc:created rdf:type owl:AnnotationProperty .
+dc:title rdf:type owl:AnnotationProperty .
+dc:license rdf:type owl:AnnotationProperty . 
+dc:preferredNamespaceUri rdf:type owl:AnnotationProperty .
+dc:citation rdf:type owl:AnnotationProperty.    
 
 dpv:hasImage a owl:ObjectProperty ;
     rdfs:label "hasImage" ;
