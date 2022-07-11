@@ -1,6 +1,6 @@
 import click
 import os 
-import syft_parser 
+import src.syft_parser as syft_parser 
 import morph_kgc
 
 @click.group()

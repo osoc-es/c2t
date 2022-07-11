@@ -11,7 +11,7 @@
 
 
 :ls a rml:LogicalSource ;
-  rml:source "./result.json";
+  rml:source "./mini_result.json";
   rml:referenceFormulation ql:JSONPath ;
   rml:iterator "$" .
 
@@ -61,7 +61,7 @@
         rml:objectMap [ 
             rr:parentTriplesMap <Image_Layer_Mapping>;
             rr:joinCondition [
-                rr:child "layersId";  rr:parent "layersId";];
+                rr:child "components.layersId";  rr:parent "components.layersId";];
     ]
 ].
 

@@ -1,0 +1,44 @@
+prefixes:
+  c2t: <https://w3id.org/c2t#> .
+  c2ti: <https://w3id.org/c2t/i/> .
+  dc: <http://purl.org/dc/elements/1.1/> .
+  dpv: <http://dockerpedia.inf.utfsm.cl/vocab#> .
+  owl: <http://www.w3.org/2002/07/owl#> .
+  rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+  rr: <http://www.w3.org/ns/r2rml#> .
+  rml: <http://semweb.mmlab.be/ns/rml#> .
+  ql: <http://semweb.mmlab.be/ns/ql#> . 
+  : <http://example.org/> .
+
+
+
+
+sources:
+  syft-source: ['data\mini_result.json~jsonpath', '$.*']
+  inspect-source: ['data\inspect.json~jsonpath', '$.*.RootFS']
+mappings:
+  image:
+    sources:
+      - inspect
+
+    s: https://w3id.org/docker/image/$(Id)
+    po:
+      - [dc:identifier,$(Id)]
+      - [a, dpv:Image]
+      - [ex:author,$(Author)]
+      - [ex:os,$(Os)]
+      - [ex:architecture, $(Architecture)]
+      - [ex:dockerVersion, $(DockerVersion)]
+      - [ex:container, $(Container)]
+      - [ex:size,$(Size)]
+      - p: ex:rootFs
+        o:
+          - mapping : layer
+
+  layer:
+    sources:  
+      - layer-source
+    po:
+      - [a,ex:Layer]
+      - [ex:Layer,$(Layers),xsd:string]
+      
