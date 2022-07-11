@@ -38,7 +38,7 @@
             "purl": "pkg:deb/ubuntu/adduser@3.118ubuntu2?arch=all&distro=ubuntu-20.04",
             "syft:package:foundBy": "dpkgdb-cataloger",
             "syft:package:metadataType": "DpkgMetadata",
-            "syft_package_type": "deb",
+            "syft:package:type": "deb",
             "syft:location:0:path": "/usr/share/doc/adduser/copyright",
             "syft:location:1:path": "/var/lib/dpkg/status",
             "syft:metadata:installedSize": "624",
