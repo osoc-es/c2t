@@ -3,6 +3,7 @@ import os
 import src.syft_parser as syft_parser 
 import morph_kgc
 
+
 @click.group()
 def cli():
     '''This is a tool for your docker containers.'''
@@ -30,7 +31,6 @@ def dockerhub(name):
     morph_kgc.materialize('config.ini')
 
 
-
 @cli.command()
 @click.argument('name')
 def dockerfile(name):
@@ -40,6 +40,20 @@ def dockerfile(name):
     syft = os.popen(('syft '+name+' -o cyclonedx-json')).read()
     syft_parser.parse_data(syft, 'result.json')
     morph_kgc.materialize('config.ini')
+
+
+@cli.command()
+@click.argument('name1', 'name2')
+def compare(name1, name2):
+    """ Inspect your image from its name or ID """
+    os.system(('docker inspect '+ name1+' > inspect1.json'))
+    os.system(('docker inspect '+ name2+' > inspect2.json'))
+    syft1 = os.popen(('syft '+name1+' -o cyclonedx-json')).read()
+    syft2 = os.popen(('syft '+name2+' -o cyclonedx-json')).read()
+    syft_parser.parse_data(syft1, 'result1.json')
+    syft_parser.parse_data(syft2, 'result2.json')
+    morph_kgc.materialize('config1.ini')
+    morph_kgc.materialize('config2.ini')
 
 
 if __name__ == '__main__':
