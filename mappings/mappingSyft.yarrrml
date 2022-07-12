@@ -9,7 +9,7 @@ prefixes:
 
 sources:
   component-source: ['../data/mini_result.json~jsonpath', '$.components[*]']
-  inspect-source: ['../data/inspect.json~jsonpath', '$']
+  inspect-source: ['../data/inspect.json~jsonpath', '$.*']
 
 mappings:
 
