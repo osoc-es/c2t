@@ -35,15 +35,9 @@
                 "/bin/bash",
                 "-c",
                 "#(nop) ",
-<<<<<<< HEAD
                 "CMD [\"python3\"]"
             ],
             "Image": "sha256:18ade06c19dae9318a194bed24df9608e099f3b19865bdb88dce22f97b964bf7",
-=======
-                "SHELL [/bin/bash -c]"
-            ],
-            "Image": "sha256:6b333fe405e491c2a81a00018ec938c789ff9be066a2451cbe4f5ebaea308118",
->>>>>>> b101d6d685401d8df79fea3451e81f3bdf9a2aaa
             "Volumes": null,
             "WorkingDir": "",
             "Entrypoint": null,
@@ -68,11 +62,7 @@
                 "-c"
             ]
         },
-<<<<<<< HEAD
         "DockerVersion": "20.10.12",
-=======
-        "DockerVersion": "19.03.2",
->>>>>>> b101d6d685401d8df79fea3451e81f3bdf9a2aaa
         "Author": "",
         "Config": {
             "Hostname": "",
@@ -95,15 +85,9 @@
                 "PYTHON_GET_PIP_SHA256=ba3ab8267d91fd41c58dbce08f76db99f747f716d85ce1865813842bb035524d"
             ],
             "Cmd": [
-<<<<<<< HEAD
                 "python3"
             ],
             "Image": "sha256:18ade06c19dae9318a194bed24df9608e099f3b19865bdb88dce22f97b964bf7",
-=======
-                "/bin/bash"
-            ],
-            "Image": "sha256:6b333fe405e491c2a81a00018ec938c789ff9be066a2451cbe4f5ebaea308118",
->>>>>>> b101d6d685401d8df79fea3451e81f3bdf9a2aaa
             "Volumes": null,
             "WorkingDir": "",
             "Entrypoint": null,
@@ -130,7 +114,6 @@
         },
         "Architecture": "amd64",
         "Os": "linux",
-<<<<<<< HEAD
         "Size": 914661176,
         "VirtualSize": 914661176,
         "GraphDriver": {
@@ -139,22 +122,12 @@
                 "MergedDir": "/var/lib/docker/overlay2/080261b8d2cf464f61a0ddc806bbe82812472ced8f0313b3bcf2ad04ae25cdea/merged",
                 "UpperDir": "/var/lib/docker/overlay2/080261b8d2cf464f61a0ddc806bbe82812472ced8f0313b3bcf2ad04ae25cdea/diff",
                 "WorkDir": "/var/lib/docker/overlay2/080261b8d2cf464f61a0ddc806bbe82812472ced8f0313b3bcf2ad04ae25cdea/work"
-=======
-        "Size": 38768546,
-        "VirtualSize": 38768546,
-        "GraphDriver": {
-            "Data": {
-                "MergedDir": "/var/lib/docker/overlay2/15e8a6c0717ae60c77b18ef766c780f86c15d861220b6885a618a5cba5771e5f/merged",
-                "UpperDir": "/var/lib/docker/overlay2/15e8a6c0717ae60c77b18ef766c780f86c15d861220b6885a618a5cba5771e5f/diff",
-                "WorkDir": "/var/lib/docker/overlay2/15e8a6c0717ae60c77b18ef766c780f86c15d861220b6885a618a5cba5771e5f/work"
->>>>>>> b101d6d685401d8df79fea3451e81f3bdf9a2aaa
             },
             "Name": "overlay2"
         },
         "RootFS": {
             "Type": "layers",
             "Layers": [
-<<<<<<< HEAD
                 "sha256:97d5fec864d84417c057008f153140193d2cc924b545b0c6fec10ae891fb26f9",
                 "sha256:6840c8ff46bd2c0ab4086d311c3e4903639b586c84d4f4ad28d156a2cc749e5f",
                 "sha256:66183893ba248fa10375cfec3e598d7df626b44c7740156e935ce2fcd5589aa7",
@@ -164,9 +137,6 @@
                 "sha256:ba95fb9ea3e2f81ce8a4c33b684f74b777b4d3e7f9b515ea7d2e66608cbc15fb",
                 "sha256:7ae141717ba663725cccffd51144f761d50f34d06418e2bdd3cec9b48bff8284",
                 "sha256:9d5f84e3acdc02af5dbc829f99d4c0bb444cc512bc3839e52f05ec4dd5e3221d"
-=======
-                "sha256:a669dbb2d94fd2333c3e4d91521d0c3221c27c23e69747a4269aad7eb6cd27b5"
->>>>>>> b101d6d685401d8df79fea3451e81f3bdf9a2aaa
             ]
         },
         "Metadata": {
