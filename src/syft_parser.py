@@ -1,4 +1,5 @@
 import json
+import os
 
 def json_to_dict(json_as_string):
     '''
@@ -31,7 +32,7 @@ def read_inspect_id():
     inspect_path := str
     '''
     #open file
-    with open(r'..\data\inspect1.json','r') as fp:
+    with open(os.path.dirname(os.path.normpath(os.getcwd())),'r') as fp:
         a = json.load(fp)[0]
 
     #get image_id
