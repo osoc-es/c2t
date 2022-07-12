@@ -1,18 +1,18 @@
 [
     {
-        "Id": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+        "Id": "sha256:4564665e4e1c6357c15127d44334257c8cc4db4ed4cc154432a7a68529ae50e1",
         "RepoTags": [
-            "wagoodman/dive:latest"
+            "atareao/baseimage:latest"
         ],
         "RepoDigests": [
-            "wagoodman/dive@sha256:99f1f4aa52ad34310766a53076a6d272be23335febf43ef9c33838f2f2ba481b"
+            "atareao/baseimage@sha256:96408f1b2a4044942b9590a33de7b373a42460c29209bf48546785931aa5e964"
         ],
         "Parent": "",
         "Comment": "",
-        "Created": "2021-03-07T21:49:41.554574221Z",
-        "Container": "c7841a4acae8138825d10077cf9beb91d1ef1ac43aa2077e4021528b82c1d75c",
+        "Created": "2020-01-02T06:43:07.105332402Z",
+        "Container": "41c127310b4de4fbd3145b406a96c4eaa466c73955b6032dc90ad57caf76c5ac",
         "ContainerConfig": {
-            "Hostname": "c7841a4acae8",
+            "Hostname": "41c127310b4d",
             "Domainname": "",
             "User": "",
             "AttachStdin": false,
@@ -25,21 +25,37 @@
                 "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
             ],
             "Cmd": [
-                "/bin/sh",
+                "/bin/bash",
                 "-c",
                 "#(nop) ",
-                "ENTRYPOINT [\"/usr/local/bin/dive\"]"
+                "SHELL [/bin/bash -c]"
             ],
-            "Image": "sha256:e86a43737ce49c086e0615f0a1691cd046774b24138652663d2fde6f44df93a4",
+            "Image": "sha256:6b333fe405e491c2a81a00018ec938c789ff9be066a2451cbe4f5ebaea308118",
             "Volumes": null,
             "WorkingDir": "",
-            "Entrypoint": [
-                "/usr/local/bin/dive"
-            ],
+            "Entrypoint": null,
             "OnBuild": null,
-            "Labels": {}
+            "Labels": {
+                "arch": "amd64",
+                "family": "haswell silvermont excavator zx-c",
+                "kernelversion": "4.10.0",
+                "minfamily": "ivybridge silvermont piledriver zx-c",
+                "minkernelversion": "4.4.148",
+                "operatingsystem": "linux",
+                "org.label-schema.build-date": "2019-01-22T14:10:00+00:00",
+                "org.label-schema.name": "minimal base images with Ubuntu",
+                "org.label-schema.schema-version": "1.0rc1",
+                "org.label-schema.vcs-type": "git",
+                "org.label-schema.vcs-url": "https://github.com/Blitznote/apt-image",
+                "org.label-schema.vendor": "Blitznote",
+                "subarch": "cx16 fxsr pclmul popcnt mmx sse2 sse3 ssse3 sse4_1 sse4_2"
+            },
+            "Shell": [
+                "/bin/bash",
+                "-c"
+            ]
         },
-        "DockerVersion": "20.10.3+azure",
+        "DockerVersion": "19.03.2",
         "Author": "",
         "Config": {
             "Hostname": "",
@@ -54,35 +70,50 @@
             "Env": [
                 "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
             ],
-            "Cmd": null,
-            "Image": "sha256:e86a43737ce49c086e0615f0a1691cd046774b24138652663d2fde6f44df93a4",
+            "Cmd": [
+                "/bin/bash"
+            ],
+            "Image": "sha256:6b333fe405e491c2a81a00018ec938c789ff9be066a2451cbe4f5ebaea308118",
             "Volumes": null,
             "WorkingDir": "",
-            "Entrypoint": [
-                "/usr/local/bin/dive"
-            ],
+            "Entrypoint": null,
             "OnBuild": null,
-            "Labels": null
+            "Labels": {
+                "arch": "amd64",
+                "family": "haswell silvermont excavator zx-c",
+                "kernelversion": "4.10.0",
+                "minfamily": "ivybridge silvermont piledriver zx-c",
+                "minkernelversion": "4.4.148",
+                "operatingsystem": "linux",
+                "org.label-schema.build-date": "2019-01-22T14:10:00+00:00",
+                "org.label-schema.name": "minimal base images with Ubuntu",
+                "org.label-schema.schema-version": "1.0rc1",
+                "org.label-schema.vcs-type": "git",
+                "org.label-schema.vcs-url": "https://github.com/Blitznote/apt-image",
+                "org.label-schema.vendor": "Blitznote",
+                "subarch": "cx16 fxsr pclmul popcnt mmx sse2 sse3 ssse3 sse4_1 sse4_2"
+            },
+            "Shell": [
+                "/bin/bash",
+                "-c"
+            ]
         },
         "Architecture": "amd64",
         "Os": "linux",
-        "Size": 82432721,
-        "VirtualSize": 82432721,
+        "Size": 38768546,
+        "VirtualSize": 38768546,
         "GraphDriver": {
             "Data": {
-                "LowerDir": "/var/lib/docker/overlay2/373abf3ff1efd5fa8da4d0dcdfbd32b95ef673aab395e3b1e705e94c8ffd9b6a/diff:/var/lib/docker/overlay2/39704a63fadba839983c84351c0ee71fdc2c10a52f5a4b631ee9f03dd693e5c0/diff",
-                "MergedDir": "/var/lib/docker/overlay2/dab5eea8767820466a661e0bea585dd44178b0dab6ead49d52b00a0a4fbe3623/merged",
-                "UpperDir": "/var/lib/docker/overlay2/dab5eea8767820466a661e0bea585dd44178b0dab6ead49d52b00a0a4fbe3623/diff",
-                "WorkDir": "/var/lib/docker/overlay2/dab5eea8767820466a661e0bea585dd44178b0dab6ead49d52b00a0a4fbe3623/work"
+                "MergedDir": "/var/lib/docker/overlay2/15e8a6c0717ae60c77b18ef766c780f86c15d861220b6885a618a5cba5771e5f/merged",
+                "UpperDir": "/var/lib/docker/overlay2/15e8a6c0717ae60c77b18ef766c780f86c15d861220b6885a618a5cba5771e5f/diff",
+                "WorkDir": "/var/lib/docker/overlay2/15e8a6c0717ae60c77b18ef766c780f86c15d861220b6885a618a5cba5771e5f/work"
             },
             "Name": "overlay2"
         },
         "RootFS": {
             "Type": "layers",
             "Layers": [
-                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae",
-                "sha256:78307e298962d26b7d0c01e1113ac9c28d4752203d74fe3cea371bbbb9183e84",
-                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+                "sha256:a669dbb2d94fd2333c3e4d91521d0c3221c27c23e69747a4269aad7eb6cd27b5"
             ]
         },
         "Metadata": {
