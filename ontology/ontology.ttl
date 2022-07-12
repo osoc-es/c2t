@@ -3,6 +3,7 @@
 @prefix dpv: <http://dockerpedia.inf.utfsm.cl/vocab#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <https://purl.org/dc/terms/> .
 
 dpv: a owl:Ontology ;
     dc:description "Ontology code created to illustrate the project Containers To Triples"@en ;
@@ -10,7 +11,7 @@ dpv: a owl:Ontology ;
     dc:created "July, 2022"@en ;
     dc:title "Containers To Triples"@en ;
     dc:licenseURI <https://opensource.org/licenses/Apache-2.0> ;
-    Dc:licenseName "Apache 2.0" ;
+    dc:licenseName "Apache 2.0" ;
     dc:preferredNamespaceUri "https://w3id.org/okn" ;
     dc:citation "Cite this vocabulary as: L. Herrera, D. Lázaro, A. Pascual. Containers To Triples"@en .
 
@@ -27,11 +28,6 @@ dpv:isInstalledOn a owl:ObjectProperty ;
     rdfs:domain dpv:PackageVersion ;
     rdfs:range dpv:Image .
 
-dpv:imageIdentifier a owl:DatatypeProperty ;
-    rdfs:label "imageIdentifier" ;
-    rdfs:comment "Each image is different from the others as it has a unique identifier" ;
-    rdfs:domain dpv:Image .
-
 c2t:hasLayer a owl:ObjectProperty ;
     rdfs:label "hasLayer" ;
     rdfs:comment "Several packages may have been installed on an image" ;
@@ -44,10 +40,10 @@ dpv:hasPackages a owl:ObjectProperty ;
     rdfs:domain dpv:ImageLayer ;
     rdfs:range dpv:PackageVersion .
 
-dpv:layerIdentifier a owl:DatatypeProperty ;
-    rdfs:label "layerIdentifier" ;
-    rdfs:comment "Each layer is different from the others as it has a unique identifier" ;
-    rdfs:domain dpv:ImageLayer .
+dct:identifier a owl:DatatypeProperty ;
+    rdfs:label "identifier" ;
+    rdfs:comment "An unambiguous reference to the resource within a given context" ;
+    rdfs:isDefinedBy rdfs:Resource .
 
 dpv:tag a owl:DatatypeProperty ;
     rdfs:label "tag" ;
@@ -84,6 +80,11 @@ c2t:operativeSystem a owl:DatatypeProperty ;
     rdfs:comment "Each image is built over an operative system" ;
     rdfs:domain dpv:Image .
 
+c2t:created a owl:DataTypeProperty ;	
+    rdfs:label "created" ;
+    rdfs:comment "Each image has a creation date" ;
+    rdfs:domain dpv:Image .
+
 c2t:packageURL a owl:DatatypeProperty ;
     rdfs:label "packageURL" ;
     rdfs:comment "A package version may be associated to an URL" ;
@@ -97,7 +98,7 @@ c2t:publisher a owl:DatatypeProperty ;
 c2t:version a owl:DatatypeProperty ;
     rdfs:label "version" ;
     rdfs:comment "A package may have more than one version available" ;
-    rdfs:domain dpv:PackageVersion .
+    rdfs:domain dpv:PackageVersion .		
 
 dpv:DockerFile a owl:Class ;
     rdfs:label "DockerFile" ;
@@ -114,4 +115,6 @@ dpv:Image a owl:Class ;
 dpv:PackageVersion a owl:Class ;
     rdfs:label "PackageVersion" ;
     rdfs:comment "Version of a software package" .
+
+
 
