@@ -1,4 +1,4 @@
-![logo](/onto_documentation/images/logo.png=300x200) 
+![logo](/onto_documentation/images/logo.png) 
 ## Estructura para el pitch
 1. Qué es docker?
 2. Qué problema soluciona docker?
