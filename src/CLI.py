@@ -1,6 +1,6 @@
 import click
 import os 
-import src.syft_parser as syft_parser 
+import syft_parser as syft_parser 
 import morph_kgc
 
 
@@ -14,10 +14,11 @@ def cli():
 @click.argument('name')
 def image(name):
     """ Inspect your image from its name or ID """
-    os.system(('docker inspect '+ name+' > inspect.json'))
+    os.system(('docker inspect '+ name+' > ../data/inspect1.json'))
     syft = os.popen(('syft '+name+' -o cyclonedx-json')).read()
-    syft_parser.parse_data(syft, 'result.json')
-    morph_kgc.materialize('config.ini')
+    syft_parser.parse_data(syft, '../data/result1.json')
+    g = morph_kgc.materialize('../config.ini')
+    g.serialize(destination="grafo.nt", format="ntriples")
 
 
 @cli.command()
@@ -28,7 +29,7 @@ def dockerhub(name):
     os.system(('docker inspect '+ name+' > inspect.json'))
     syft = os.popen(('syft '+name+' -o cyclonedx-json')).read()
     syft_parser.parse_data(syft, 'result.json')
-    morph_kgc.materialize('config.ini')
+    
 
 
 @cli.command()
@@ -43,7 +44,8 @@ def dockerfile(name):
 
 
 @cli.command()
-@click.argument('name1', 'name2')
+@click.argument('name1')
+@click.argument('name2')
 def compare(name1, name2):
     """ Inspect your image from its name or ID """
     os.system(('docker inspect '+ name1+' > inspect1.json'))

@@ -1,0 +1,474 @@
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-runewidth%40v0.0.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-units%40v0.4.0> <https://w3id.org/c2t#version> "v0.4.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fhashicorp%2Fhcl%40v1.0.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-keys%402.2-r0%3Farch%3Dx86_64%26upstream%3Dalpine-keys%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "alpine-keys (2.2-r0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffatih%2Fcolor%40v1.7.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/fatih/color (v1.7.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fviper%40v1.4.0> <https://w3id.org/c2t#name> "github.com/spf13/viper" .
+<https://w3id.org/c2t/i/Image/sha256%3A822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081> <http://dockerpedia.inf.utfsm.cl/vocab#hasLayer> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fca-certificates-bundle%4020191127-r4%3Farch%3Dx86_64%26upstream%3Dca-certificates%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "ca-certificates-bundle (20191127-r4)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-baselayout%403.2.0-r7%3Farch%3Dx86_64%26upstream%3Dalpine-baselayout%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdustin%2Fgo-humanize%40v1.0.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fhashicorp%2Fhcl%40v1.0.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/hashicorp/hcl@v1.0.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmagiconair%2Fproperties%40v1.8.1> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Ftext%40v0.3.2> <https://w3id.org/c2t#packageURL> "pkg:golang/golang.org/x/text@v0.3.2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fpflag%40v1.0.5> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/spf13/pflag@v1.0.5" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fgocui%40v0.6.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fwagoodman%2Fdive%40%28devel%29> <https://w3id.org/c2t#version> "(devel)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fhashicorp%2Fhcl%40v1.0.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffsnotify%2Ffsnotify%40v1.4.7> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fcespare%2Fxxhash%40v1.1.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-connections%40v0.4.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibcrypto1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fgo-digest%40v1.0.0-rc1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fkeybinding%40v1.0.0> <https://w3id.org/c2t#name> "github.com/awesome-gocui/keybinding" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl-utils%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/Image/sha256%3A822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081> <https://w3id.org/c2t#operativeSystem> "linux" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fgocui%40v0.6.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "1.1.24-r10" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-baselayout%403.2.0-r7%3Farch%3Dx86_64%26upstream%3Dalpine-baselayout%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/alpine-baselayout@3.2.0-r7?arch=x86_64&upstream=alpine-baselayout&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fgocui%40v0.6.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgogo%2Fprotobuf%40v1.3.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fgo-digest%40v1.0.0-rc1> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibcrypto1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "1.1.1j-r0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fgo-digest%40v1.0.0-rc1> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Ftermbox-go%40v0.0.0-20190427202837-c0aef3d18bcc> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/awesome-gocui/termbox-go (v0.0.0-20190427202837-c0aef3d18bcc)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmagiconair%2Fproperties%40v1.8.1> <https://w3id.org/c2t#version> "v1.8.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fbusybox%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "busybox (1.31.1-r19)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl-utils%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/Image/sha256%3A822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dockerpedia.inf.utfsm.cl/vocab#Image> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fpflag%40v1.0.5> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgenproto%40v0.0.0-20190620144150-6af8c5fc6601> <https://w3id.org/c2t#version> "v0.0.0-20190620144150-6af8c5fc6601" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fjwalterweatherman%40v1.1.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fgo-homedir%40v1.1.0> <https://w3id.org/c2t#name> "github.com/mitchellh/go-homedir" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdustin%2Fgo-humanize%40v1.0.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fafero%40v1.2.2> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/spf13/afero@v1.2.2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fsirupsen%2Flogrus%40v1.4.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fviper%40v1.4.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-connections%40v0.4.0> <https://w3id.org/c2t#version> "v0.4.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fgocui%40v0.6.0> <https://w3id.org/c2t#version> "v0.6.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgolang%2Fprotobuf%40v1.3.1> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/golang/protobuf (v1.3.1)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fapk-tools%402.10.5-r1%3Farch%3Dx86_64%26upstream%3Dapk-tools%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "apk-tools" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fimage-spec%40v1.0.1> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/opencontainers/image-spec (v1.0.1)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibssl1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/libssl1.1@1.1.1j-r0?arch=x86_64&upstream=openssl&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpkg%2Ferrors%40v0.8.1> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffsnotify%2Ffsnotify%40v1.4.7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/Image/sha256%3A822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081> <http://www.w3.org/2000/01/rdf-schema#label> "wagoodman/dive:latest" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibcrypto1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Timo Teras <timo.teras@iki.fi>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdustin%2Fgo-humanize%40v1.0.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/dustin/go-humanize@v1.0.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-runewidth%40v0.0.4> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fsirupsen%2Flogrus%40v1.4.2> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fwagoodman%2Fdive%40%28devel%29> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fmapstructure%40v1.1.2> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmagiconair%2Fproperties%40v1.8.1> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/magiconair/properties (v1.8.1)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fhashicorp%2Fhcl%40v1.0.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fsirupsen%2Flogrus%40v1.4.2> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-connections%40v0.4.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/docker/go-connections@v0.4.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fnet%40v0.0.0-20190827160401-ba9fcec4b297> <http://www.w3.org/2000/01/rdf-schema#label> "golang.org/x/net (v0.0.0-20190827160401-ba9fcec4b297)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fscanelf%401.2.6-r0%3Farch%3Dx86_64%26upstream%3Dpax-utils%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "1.2.6-r0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fssl_client%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/Image/sha256%3A822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081> <https://purl.org/dc/terms/identifier> "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081" .
+<https://w3id.org/c2t/i/Image/sha256%3A822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081> <http://dockerpedia.inf.utfsm.cl/vocab#hasLayer> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A78307e298962d26b7d0c01e1113ac9c28d4752203d74fe3cea371bbbb9183e84> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffsnotify%2Ffsnotify%40v1.4.7> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fviper%40v1.4.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fdistribution%40v2.7.0-rc.0.0.20181024170156-93e082742a00%2Bincompatible> <https://w3id.org/c2t#version> "v2.7.0-rc.0.0.20181024170156-93e082742a00+incompatible" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fimage-spec%40v1.0.1> <https://w3id.org/c2t#version> "v1.0.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcobra%40v0.0.5> <https://w3id.org/c2t#name> "github.com/spf13/cobra" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Ftext%40v0.3.2> <https://w3id.org/c2t#name> "golang.org/x/text" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fsirupsen%2Flogrus%40v1.4.2> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/sirupsen/logrus (v1.4.2)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpelletier%2Fgo-toml%40v1.4.0> <https://w3id.org/c2t#name> "github.com/pelletier/go-toml" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fafero%40v1.2.2> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/spf13/afero (v1.2.2)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgoogle%2Fuuid%40v1.1.1> <https://w3id.org/c2t#name> "github.com/google/uuid" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-keys%402.2-r0%3Farch%3Dx86_64%26upstream%3Dalpine-keys%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "alpine-keys" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgolang%2Fprotobuf%40v1.3.1> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fapk-tools%402.10.5-r1%3Farch%3Dx86_64%26upstream%3Dapk-tools%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "apk-tools (2.10.5-r1)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fimage-spec%40v1.0.1> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fjwalterweatherman%40v1.1.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fdistribution%40v2.7.0-rc.0.0.20181024170156-93e082742a00%2Bincompatible> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/docker/distribution (v2.7.0-rc.0.0.20181024170156-93e082742a00+incompatible)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fcli%40v0.0.0-20190906153656-016a3232168d> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/docker/cli@v0.0.0-20190906153656-016a3232168d" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fgocui%40v0.6.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/awesome-gocui/gocui (v0.6.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-baselayout%403.2.0-r7%3Farch%3Dx86_64%26upstream%3Dalpine-baselayout%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fapk-tools%402.10.5-r1%3Farch%3Dx86_64%26upstream%3Dapk-tools%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fkeybinding%40v1.0.0> <https://w3id.org/c2t#version> "v1.0.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fjwalterweatherman%40v1.1.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibtls-standalone%402.9.1-r1%3Farch%3Dx86_64%26upstream%3Dlibtls-standalone%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "2.9.1-r1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fsirupsen%2Flogrus%40v1.4.2> <https://w3id.org/c2t#version> "v1.4.2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fkeybinding%40v1.0.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fdistribution%40v2.7.0-rc.0.0.20181024170156-93e082742a00%2Bincompatible> <https://w3id.org/c2t#name> "github.com/docker/distribution" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fscanelf%401.2.6-r0%3Farch%3Dx86_64%26upstream%3Dpax-utils%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "scanelf (1.2.6-r0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fphayes%2Fpermbits%40v0.0.0-20190612203442-39d7c581d2ee> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/phayes/permbits@v0.0.0-20190612203442-39d7c581d2ee" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fengine%40v0.0.0-20190822205725-ed20165a37b4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/Image/sha256%3A822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081> <https://w3id.org/c2t#created> "2021-03-07T21:49:41.554574221Z" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fssl_client%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "ssl_client" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcast%40v1.3.0> <https://w3id.org/c2t#version> "v1.3.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibcrypto1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcobra%40v0.0.5> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fgo-homedir%40v1.1.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/mitchellh/go-homedir@v1.1.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fgo-homedir%40v1.1.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fmapstructure%40v1.1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fkeybinding%40v1.0.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-keys%402.2-r0%3Farch%3Dx86_64%26upstream%3Dalpine-keys%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgogo%2Fprotobuf%40v1.3.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/gogo/protobuf (v1.3.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdustin%2Fgo-humanize%40v1.0.0> <https://w3id.org/c2t#version> "v1.0.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fssl_client%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fkeybinding%40v1.0.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl-utils%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/musl-utils@1.1.24-r10?arch=x86_64&upstream=musl&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fviper%40v1.4.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fscanelf%401.2.6-r0%3Farch%3Dx86_64%26upstream%3Dpax-utils%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/scanelf@1.2.6-r0?arch=x86_64&upstream=pax-utils&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fengine%40v0.0.0-20190822205725-ed20165a37b4> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fphayes%2Fpermbits%40v0.0.0-20190612203442-39d7c581d2ee> <https://w3id.org/c2t#version> "v0.0.0-20190612203442-39d7c581d2ee" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fmapstructure%40v1.1.2> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fca-certificates-bundle%4020191127-r4%3Farch%3Dx86_64%26upstream%3Dca-certificates%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Natanael Copa <ncopa@alpinelinux.org>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgolang%2Fprotobuf%40v1.3.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgopkg.in%2Fyaml.v2%40v2.2.2> <http://www.w3.org/2000/01/rdf-schema#label> "gopkg.in/yaml.v2 (v2.2.2)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgoogle%2Fuuid%40v1.1.1> <https://w3id.org/c2t#version> "v1.1.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fcli%40v0.0.0-20190906153656-016a3232168d> <https://w3id.org/c2t#version> "v0.0.0-20190906153656-016a3232168d" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flogrusorgru%2Faurora%40v0.0.0-20190803045625-94edacc10f9b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fviper%40v1.4.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/spf13/viper@v1.4.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpelletier%2Fgo-toml%40v1.4.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fapk-tools%402.10.5-r1%3Farch%3Dx86_64%26upstream%3Dapk-tools%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgolang%2Fprotobuf%40v1.3.1> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Ftext%40v0.3.2> <http://www.w3.org/2000/01/rdf-schema#label> "golang.org/x/text (v0.3.2)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibc-utils%400.7.2-r3%3Farch%3Dx86_64%26upstream%3Dlibc-dev%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fgo-digest%40v1.0.0-rc1> <https://w3id.org/c2t#version> "v1.0.0-rc1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-baselayout%403.2.0-r7%3Farch%3Dx86_64%26upstream%3Dalpine-baselayout%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "3.2.0-r7" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flogrusorgru%2Faurora%40v0.0.0-20190803045625-94edacc10f9b> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcobra%40v0.0.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Ftext%40v0.3.2> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-baselayout%403.2.0-r7%3Farch%3Dx86_64%26upstream%3Dalpine-baselayout%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "alpine-baselayout (3.2.0-r7)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-connections%40v0.4.0> <https://w3id.org/c2t#name> "github.com/docker/go-connections" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fzlib%401.2.11-r3%3Farch%3Dx86_64%26upstream%3Dzlib%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Natanael Copa <ncopa@alpinelinux.org>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fssl_client%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "1.31.1-r19" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgo-errors%2Ferrors%40v1.0.1> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibtls-standalone%402.9.1-r1%3Farch%3Dx86_64%26upstream%3Dlibtls-standalone%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "libtls-standalone (2.9.1-r1)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgrpc%40v1.21.1> <https://w3id.org/c2t#version> "v1.21.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcobra%40v0.0.5> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Ftermbox-go%40v0.0.0-20190427202837-c0aef3d18bcc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fkeybinding%40v1.0.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/awesome-gocui/keybinding@v1.0.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgenproto%40v0.0.0-20190620144150-6af8c5fc6601> <https://w3id.org/c2t#name> "google.golang.org/genproto" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgopkg.in%2Fyaml.v2%40v2.2.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flogrusorgru%2Faurora%40v0.0.0-20190803045625-94edacc10f9b> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/logrusorgru/aurora (v0.0.0-20190803045625-94edacc10f9b)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flunixbochs%2Fvtclean%40v1.0.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fkeybinding%40v1.0.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibtls-standalone%402.9.1-r1%3Farch%3Dx86_64%26upstream%3Dlibtls-standalone%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "libtls-standalone" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-colorable%40v0.1.2> <https://w3id.org/c2t#version> "v0.1.2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fscanelf%401.2.6-r0%3Farch%3Dx86_64%26upstream%3Dpax-utils%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fdistribution%40v2.7.0-rc.0.0.20181024170156-93e082742a00%2Bincompatible> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-colorable%40v0.1.2> <https://w3id.org/c2t#name> "github.com/mattn/go-colorable" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fgo-digest%40v1.0.0-rc1> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/opencontainers/go-digest (v1.0.0-rc1)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fhashicorp%2Fhcl%40v1.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/hashicorp/hcl (v1.0.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgopkg.in%2Fyaml.v2%40v2.2.2> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fcli%40v0.0.0-20190906153656-016a3232168d> <https://w3id.org/c2t#name> "github.com/docker/cli" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgogo%2Fprotobuf%40v1.3.0> <https://w3id.org/c2t#version> "v1.3.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fsys%40v0.0.0-20200212091648-12a6c2dcc1e4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Ftermbox-go%40v0.0.0-20190427202837-c0aef3d18bcc> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fapk-tools%402.10.5-r1%3Farch%3Dx86_64%26upstream%3Dapk-tools%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgrpc%40v1.21.1> <http://www.w3.org/2000/01/rdf-schema#label> "google.golang.org/grpc (v1.21.1)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgopkg.in%2Fyaml.v2%40v2.2.2> <https://w3id.org/c2t#name> "gopkg.in/yaml.v2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-units%40v0.4.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgo-errors%2Ferrors%40v1.0.1> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/go-errors/errors@v1.0.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibc-utils%400.7.2-r3%3Farch%3Dx86_64%26upstream%3Dlibc-dev%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Natanael Copa <ncopa@alpinelinux.org>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Ftermbox-go%40v0.0.0-20190427202837-c0aef3d18bcc> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/awesome-gocui/termbox-go@v0.0.0-20190427202837-c0aef3d18bcc" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpelletier%2Fgo-toml%40v1.4.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fnet%40v0.0.0-20190827160401-ba9fcec4b297> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgrpc%40v1.21.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fengine%40v0.0.0-20190822205725-ed20165a37b4> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/docker/engine@v0.0.0-20190822205725-ed20165a37b4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgolang%2Fprotobuf%40v1.3.1> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fssl_client%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "ssl_client (1.31.1-r19)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgoogle%2Fuuid%40v1.1.1> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibssl1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fimage-spec%40v1.0.1> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/opencontainers/image-spec@v1.0.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffsnotify%2Ffsnotify%40v1.4.7> <https://w3id.org/c2t#version> "v1.4.7" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmagiconair%2Fproperties%40v1.8.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flogrusorgru%2Faurora%40v0.0.0-20190803045625-94edacc10f9b> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fengine%40v0.0.0-20190822205725-ed20165a37b4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgo-errors%2Ferrors%40v1.0.1> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/go-errors/errors (v1.0.1)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffsnotify%2Ffsnotify%40v1.4.7> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/fsnotify/fsnotify@v1.4.7" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgrpc%40v1.21.1> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-isatty%40v0.0.9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fgocui%40v0.6.0> <https://w3id.org/c2t#name> "github.com/awesome-gocui/gocui" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fzlib%401.2.11-r3%3Farch%3Dx86_64%26upstream%3Dzlib%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "1.2.11-r3" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgrpc%40v1.21.1> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fpflag%40v1.0.5> <https://w3id.org/c2t#version> "v1.0.5" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcobra%40v0.0.5> <https://w3id.org/c2t#version> "v0.0.5" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fsys%40v0.0.0-20200212091648-12a6c2dcc1e4> <http://www.w3.org/2000/01/rdf-schema#label> "golang.org/x/sys (v0.0.0-20200212091648-12a6c2dcc1e4)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fcli%40v0.0.0-20190906153656-016a3232168d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcast%40v1.3.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgenproto%40v0.0.0-20190620144150-6af8c5fc6601> <http://www.w3.org/2000/01/rdf-schema#label> "google.golang.org/genproto (v0.0.0-20190620144150-6af8c5fc6601)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fdistribution%40v2.7.0-rc.0.0.20181024170156-93e082742a00%2Bincompatible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcobra%40v0.0.5> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffatih%2Fcolor%40v1.7.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fsys%40v0.0.0-20200212091648-12a6c2dcc1e4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fafero%40v1.2.2> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-isatty%40v0.0.9> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgenproto%40v0.0.0-20190620144150-6af8c5fc6601> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fcespare%2Fxxhash%40v1.1.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/cespare/xxhash@v1.1.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fcli%40v0.0.0-20190906153656-016a3232168d> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-units%40v0.4.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fpflag%40v1.0.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fdistribution%40v2.7.0-rc.0.0.20181024170156-93e082742a00%2Bincompatible> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-isatty%40v0.0.9> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fcespare%2Fxxhash%40v1.1.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/cespare/xxhash (v1.1.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fssl_client%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Ftermbox-go%40v0.0.0-20190427202837-c0aef3d18bcc> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibc-utils%400.7.2-r3%3Farch%3Dx86_64%26upstream%3Dlibc-dev%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fmapstructure%40v1.1.2> <https://w3id.org/c2t#version> "v1.1.2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgopkg.in%2Fyaml.v2%40v2.2.2> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fcespare%2Fxxhash%40v1.1.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fsys%40v0.0.0-20200212091648-12a6c2dcc1e4> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fcli%40v0.0.0-20190906153656-016a3232168d> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-baselayout%403.2.0-r7%3Farch%3Dx86_64%26upstream%3Dalpine-baselayout%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "alpine-baselayout" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-connections%40v0.4.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgoogle%2Fuuid%40v1.1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fzlib%401.2.11-r3%3Farch%3Dx86_64%26upstream%3Dzlib%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "zlib" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibssl1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fzlib%401.2.11-r3%3Farch%3Dx86_64%26upstream%3Dzlib%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/zlib@1.2.11-r3?arch=x86_64&upstream=zlib&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/Image/sha256%3A822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081> <https://w3id.org/c2t#architecture> "amd64" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-units%40v0.4.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-runewidth%40v0.0.4> <https://w3id.org/c2t#name> "github.com/mattn/go-runewidth" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibc-utils%400.7.2-r3%3Farch%3Dx86_64%26upstream%3Dlibc-dev%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "libc-utils" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-isatty%40v0.0.9> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/mattn/go-isatty@v0.0.9" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgoogle%2Fuuid%40v1.1.1> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgenproto%40v0.0.0-20190620144150-6af8c5fc6601> <https://w3id.org/c2t#packageURL> "pkg:golang/google.golang.org/genproto@v0.0.0-20190620144150-6af8c5fc6601" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-colorable%40v0.1.2> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fscanelf%401.2.6-r0%3Farch%3Dx86_64%26upstream%3Dpax-utils%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-connections%40v0.4.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffatih%2Fcolor%40v1.7.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-colorable%40v0.1.2> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fkeybinding%40v1.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/awesome-gocui/keybinding (v1.0.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffatih%2Fcolor%40v1.7.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/fatih/color@v1.7.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdustin%2Fgo-humanize%40v1.0.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fviper%40v1.4.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/spf13/viper (v1.4.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibcrypto1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/libcrypto1.1@1.1.1j-r0?arch=x86_64&upstream=openssl&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fafero%40v1.2.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fmapstructure%40v1.1.2> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/mitchellh/mapstructure (v1.1.2)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibtls-standalone%402.9.1-r1%3Farch%3Dx86_64%26upstream%3Dlibtls-standalone%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgo-errors%2Ferrors%40v1.0.1> <https://w3id.org/c2t#name> "github.com/go-errors/errors" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fphayes%2Fpermbits%40v0.0.0-20190612203442-39d7c581d2ee> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Ftermbox-go%40v0.0.0-20190427202837-c0aef3d18bcc> <https://w3id.org/c2t#version> "v0.0.0-20190427202837-c0aef3d18bcc" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-keys%402.2-r0%3Farch%3Dx86_64%26upstream%3Dalpine-keys%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmagiconair%2Fproperties%40v1.8.1> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffatih%2Fcolor%40v1.7.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fscanelf%401.2.6-r0%3Farch%3Dx86_64%26upstream%3Dpax-utils%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgogo%2Fprotobuf%40v1.3.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-units%40v0.4.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/docker/go-units (v0.4.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fcespare%2Fxxhash%40v1.1.0> <https://w3id.org/c2t#name> "github.com/cespare/xxhash" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdustin%2Fgo-humanize%40v1.0.0> <https://w3id.org/c2t#name> "github.com/dustin/go-humanize" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "musl" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fssl_client%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Natanael Copa <ncopa@alpinelinux.org>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fafero%40v1.2.2> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcast%40v1.3.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-isatty%40v0.0.9> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibssl1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgopkg.in%2Fyaml.v2%40v2.2.2> <https://w3id.org/c2t#packageURL> "pkg:golang/gopkg.in/yaml.v2@v2.2.2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fcli%40v0.0.0-20190906153656-016a3232168d> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fca-certificates-bundle%4020191127-r4%3Farch%3Dx86_64%26upstream%3Dca-certificates%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "ca-certificates-bundle" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgogo%2Fprotobuf%40v1.3.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fapk-tools%402.10.5-r1%3Farch%3Dx86_64%26upstream%3Dapk-tools%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/apk-tools@2.10.5-r1?arch=x86_64&upstream=apk-tools&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fviper%40v1.4.0> <https://w3id.org/c2t#version> "v1.4.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Ftext%40v0.3.2> <https://w3id.org/c2t#version> "v0.3.2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fafero%40v1.2.2> <https://w3id.org/c2t#version> "v1.2.2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flogrusorgru%2Faurora%40v0.0.0-20190803045625-94edacc10f9b> <https://w3id.org/c2t#version> "v0.0.0-20190803045625-94edacc10f9b" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpkg%2Ferrors%40v0.8.1> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffatih%2Fcolor%40v1.7.0> <https://w3id.org/c2t#name> "github.com/fatih/color" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcast%40v1.3.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fmapstructure%40v1.1.2> <https://w3id.org/c2t#name> "github.com/mitchellh/mapstructure" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fpflag%40v1.0.5> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-connections%40v0.4.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fbusybox%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-colorable%40v0.1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-runewidth%40v0.0.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fgo-homedir%40v1.1.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/mitchellh/go-homedir (v1.1.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibtls-standalone%402.9.1-r1%3Farch%3Dx86_64%26upstream%3Dlibtls-standalone%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgoogle%2Fuuid%40v1.1.1> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fphayes%2Fpermbits%40v0.0.0-20190612203442-39d7c581d2ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibssl1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "libssl1.1 (1.1.1j-r0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-colorable%40v0.1.2> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/mattn/go-colorable (v0.1.2)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgoogle%2Fuuid%40v1.1.1> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/google/uuid@v1.1.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-baselayout%403.2.0-r7%3Farch%3Dx86_64%26upstream%3Dalpine-baselayout%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Natanael Copa <ncopa@alpinelinux.org>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fpflag%40v1.0.5> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/spf13/pflag (v1.0.5)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fbusybox%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgolang%2Fprotobuf%40v1.3.1> <https://w3id.org/c2t#version> "v1.3.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-keys%402.2-r0%3Farch%3Dx86_64%26upstream%3Dalpine-keys%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Natanael Copa <ncopa@alpinelinux.org>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fwagoodman%2Fdive%40%28devel%29> <https://w3id.org/c2t#name> "github.com/wagoodman/dive" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fimage-spec%40v1.0.1> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fsirupsen%2Flogrus%40v1.4.2> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fphayes%2Fpermbits%40v0.0.0-20190612203442-39d7c581d2ee> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fnet%40v0.0.0-20190827160401-ba9fcec4b297> <https://w3id.org/c2t#version> "v0.0.0-20190827160401-ba9fcec4b297" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fpflag%40v1.0.5> <https://w3id.org/c2t#name> "github.com/spf13/pflag" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffatih%2Fcolor%40v1.7.0> <https://w3id.org/c2t#version> "v1.7.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fengine%40v0.0.0-20190822205725-ed20165a37b4> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/docker/engine (v0.0.0-20190822205725-ed20165a37b4)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffsnotify%2Ffsnotify%40v1.4.7> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fafero%40v1.2.2> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcast%40v1.3.0> <https://w3id.org/c2t#name> "github.com/spf13/cast" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fjwalterweatherman%40v1.1.0> <https://w3id.org/c2t#version> "v1.1.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgogo%2Fprotobuf%40v1.3.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/gogo/protobuf@v1.3.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmagiconair%2Fproperties%40v1.8.1> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/magiconair/properties@v1.8.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fengine%40v0.0.0-20190822205725-ed20165a37b4> <https://w3id.org/c2t#version> "v0.0.0-20190822205725-ed20165a37b4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpkg%2Ferrors%40v0.8.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fsys%40v0.0.0-20200212091648-12a6c2dcc1e4> <https://w3id.org/c2t#version> "v0.0.0-20200212091648-12a6c2dcc1e4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fca-certificates-bundle%4020191127-r4%3Farch%3Dx86_64%26upstream%3Dca-certificates%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "20191127-r4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibcrypto1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "libcrypto1.1 (1.1.1j-r0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fimage-spec%40v1.0.1> <https://w3id.org/c2t#name> "github.com/opencontainers/image-spec" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fbusybox%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "1.31.1-r19" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcobra%40v0.0.5> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/spf13/cobra@v0.0.5" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgogo%2Fprotobuf%40v1.3.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fapk-tools%402.10.5-r1%3Farch%3Dx86_64%26upstream%3Dapk-tools%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Natanael Copa <ncopa@alpinelinux.org>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fwagoodman%2Fdive%40%28devel%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fzlib%401.2.11-r3%3Farch%3Dx86_64%26upstream%3Dzlib%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "zlib (1.2.11-r3)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-colorable%40v0.1.2> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/mattn/go-colorable@v0.1.2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fgo-homedir%40v1.1.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fjwalterweatherman%40v1.1.0> <https://w3id.org/c2t#name> "github.com/spf13/jwalterweatherman" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcast%40v1.3.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fgo-homedir%40v1.1.0> <https://w3id.org/c2t#version> "v1.1.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgogo%2Fprotobuf%40v1.3.0> <https://w3id.org/c2t#name> "github.com/gogo/protobuf" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpkg%2Ferrors%40v0.8.1> <https://w3id.org/c2t#name> "github.com/pkg/errors" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibssl1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "1.1.1j-r0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "musl (1.1.24-r10)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-runewidth%40v0.0.4> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-keys%402.2-r0%3Farch%3Dx86_64%26upstream%3Dalpine-keys%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fwagoodman%2Fdive%40%28devel%29> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-units%40v0.4.0> <https://w3id.org/c2t#name> "github.com/docker/go-units" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fimage-spec%40v1.0.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fwagoodman%2Fdive%40%28devel%29> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-keys%402.2-r0%3Farch%3Dx86_64%26upstream%3Dalpine-keys%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/alpine-keys@2.2-r0?arch=x86_64&upstream=alpine-keys&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fca-certificates-bundle%4020191127-r4%3Farch%3Dx86_64%26upstream%3Dca-certificates%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-runewidth%40v0.0.4> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/mattn/go-runewidth@v0.0.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fgo-digest%40v1.0.0-rc1> <https://w3id.org/c2t#name> "github.com/opencontainers/go-digest" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgo-errors%2Ferrors%40v1.0.1> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fzlib%401.2.11-r3%3Farch%3Dx86_64%26upstream%3Dzlib%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fimage-spec%40v1.0.1> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fphayes%2Fpermbits%40v0.0.0-20190612203442-39d7c581d2ee> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/phayes/permbits (v0.0.0-20190612203442-39d7c581d2ee)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibcrypto1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "libcrypto1.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fengine%40v0.0.0-20190822205725-ed20165a37b4> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fphayes%2Fpermbits%40v0.0.0-20190612203442-39d7c581d2ee> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fmapstructure%40v1.1.2> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpelletier%2Fgo-toml%40v1.4.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpkg%2Ferrors%40v0.8.1> <https://w3id.org/c2t#version> "v0.8.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fgo-homedir%40v1.1.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fviper%40v1.4.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fsys%40v0.0.0-20200212091648-12a6c2dcc1e4> <https://w3id.org/c2t#name> "golang.org/x/sys" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fjwalterweatherman%40v1.1.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-connections%40v0.4.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/docker/go-connections (v0.4.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl-utils%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "musl-utils (1.1.24-r10)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fbusybox%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "busybox" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Ftermbox-go%40v0.0.0-20190427202837-c0aef3d18bcc> <https://w3id.org/c2t#name> "github.com/awesome-gocui/termbox-go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fsys%40v0.0.0-20200212091648-12a6c2dcc1e4> <https://w3id.org/c2t#packageURL> "pkg:golang/golang.org/x/sys@v0.0.0-20200212091648-12a6c2dcc1e4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-isatty%40v0.0.9> <https://w3id.org/c2t#name> "github.com/mattn/go-isatty" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fwagoodman%2Fdive%40%28devel%29> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/wagoodman/dive ((devel))" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flogrusorgru%2Faurora%40v0.0.0-20190803045625-94edacc10f9b> <https://w3id.org/c2t#name> "github.com/logrusorgru/aurora" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fgo-homedir%40v1.1.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-keys%402.2-r0%3Farch%3Dx86_64%26upstream%3Dalpine-keys%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "2.2-r0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgoogle%2Fuuid%40v1.1.1> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/google/uuid (v1.1.1)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgopkg.in%2Fyaml.v2%40v2.2.2> <https://w3id.org/c2t#version> "v2.2.2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcast%40v1.3.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/spf13/cast (v1.3.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgo-errors%2Ferrors%40v1.0.1> <https://w3id.org/c2t#version> "v1.0.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgolang%2Fprotobuf%40v1.3.1> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/golang/protobuf@v1.3.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibtls-standalone%402.9.1-r1%3Farch%3Dx86_64%26upstream%3Dlibtls-standalone%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fca-certificates-bundle%4020191127-r4%3Farch%3Dx86_64%26upstream%3Dca-certificates%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/ca-certificates-bundle@20191127-r4?arch=x86_64&upstream=ca-certificates&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Ftext%40v0.3.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpkg%2Ferrors%40v0.8.1> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/pkg/errors (v0.8.1)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fnet%40v0.0.0-20190827160401-ba9fcec4b297> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fsys%40v0.0.0-20200212091648-12a6c2dcc1e4> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpelletier%2Fgo-toml%40v1.4.0> <https://w3id.org/c2t#version> "v1.4.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgo-errors%2Ferrors%40v1.0.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fssl_client%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/ssl_client@1.31.1-r19?arch=x86_64&upstream=busybox&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgolang%2Fprotobuf%40v1.3.1> <https://w3id.org/c2t#name> "github.com/golang/protobuf" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmitchellh%2Fmapstructure%40v1.1.2> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/mitchellh/mapstructure@v1.1.2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibssl1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Timo Teras <timo.teras@iki.fi>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flogrusorgru%2Faurora%40v0.0.0-20190803045625-94edacc10f9b> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcast%40v1.3.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/spf13/cast@v1.3.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-units%40v0.4.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fjwalterweatherman%40v1.1.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/spf13/jwalterweatherman@v1.1.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpkg%2Ferrors%40v0.8.1> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/pkg/errors@v0.8.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flunixbochs%2Fvtclean%40v1.0.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flunixbochs%2Fvtclean%40v1.0.0> <https://w3id.org/c2t#version> "v1.0.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Ftext%40v0.3.2> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl-utils%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "1.1.24-r10" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fnet%40v0.0.0-20190827160401-ba9fcec4b297> <https://w3id.org/c2t#packageURL> "pkg:golang/golang.org/x/net@v0.0.0-20190827160401-ba9fcec4b297" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibssl1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "libssl1.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Ftext%40v0.3.2> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fdistribution%40v2.7.0-rc.0.0.20181024170156-93e082742a00%2Bincompatible> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/docker/distribution@v2.7.0-rc.0.0.20181024170156-93e082742a00+incompatible" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdustin%2Fgo-humanize%40v1.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/dustin/go-humanize (v1.0.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpelletier%2Fgo-toml%40v1.4.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fca-certificates-bundle%4020191127-r4%3Farch%3Dx86_64%26upstream%3Dca-certificates%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgo-errors%2Ferrors%40v1.0.1> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgrpc%40v1.21.1> <https://w3id.org/c2t#packageURL> "pkg:golang/google.golang.org/grpc@v1.21.1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flunixbochs%2Fvtclean%40v1.0.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flunixbochs%2Fvtclean%40v1.0.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/lunixbochs/vtclean@v1.0.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Falpine-baselayout%403.2.0-r7%3Farch%3Dx86_64%26upstream%3Dalpine-baselayout%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fjwalterweatherman%40v1.1.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/spf13/jwalterweatherman (v1.1.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Timo TerÃ¤s <timo.teras@iki.fi>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgenproto%40v0.0.0-20190620144150-6af8c5fc6601> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flunixbochs%2Fvtclean%40v1.0.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgrpc%40v1.21.1> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fca-certificates-bundle%4020191127-r4%3Farch%3Dx86_64%26upstream%3Dca-certificates%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmagiconair%2Fproperties%40v1.8.1> <https://w3id.org/c2t#name> "github.com/magiconair/properties" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fhashicorp%2Fhcl%40v1.0.0> <https://w3id.org/c2t#version> "v1.0.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgopkg.in%2Fyaml.v2%40v2.2.2> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffatih%2Fcolor%40v1.7.0> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibcrypto1.1%401.1.1j-r0%3Farch%3Dx86_64%26upstream%3Dopenssl%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fcespare%2Fxxhash%40v1.1.0> <https://w3id.org/c2t#version> "v1.1.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fnet%40v0.0.0-20190827160401-ba9fcec4b297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibc-utils%400.7.2-r3%3Farch%3Dx86_64%26upstream%3Dlibc-dev%26distro%3Dalpine-3.12.4> <http://www.w3.org/2000/01/rdf-schema#label> "libc-utils (0.7.2-r3)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgrpc%40v1.21.1> <https://w3id.org/c2t#name> "google.golang.org/grpc" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fafero%40v1.2.2> <https://w3id.org/c2t#name> "github.com/spf13/afero" .
+<https://w3id.org/c2t/i/Image/sha256%3A822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081> <http://dockerpedia.inf.utfsm.cl/vocab#hasLayer> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpkg%2Ferrors%40v0.8.1> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-runewidth%40v0.0.4> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/mattn/go-runewidth (v0.0.4)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fengine%40v0.0.0-20190822205725-ed20165a37b4> <https://w3id.org/c2t#name> "github.com/docker/engine" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdustin%2Fgo-humanize%40v1.0.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fsirupsen%2Flogrus%40v1.4.2> <https://w3id.org/c2t#name> "github.com/sirupsen/logrus" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fbusybox%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-runewidth%40v0.0.4> <https://w3id.org/c2t#version> "v0.0.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fscanelf%401.2.6-r0%3Farch%3Dx86_64%26upstream%3Dpax-utils%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Natanael Copa <ncopa@alpinelinux.org>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fgocui%40v0.6.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/awesome-gocui/gocui@v0.6.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-isatty%40v0.0.9> <https://w3id.org/c2t#version> "v0.0.9" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl-utils%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "musl-utils" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fnet%40v0.0.0-20190827160401-ba9fcec4b297> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fhashicorp%2Fhcl%40v1.0.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fphayes%2Fpermbits%40v0.0.0-20190612203442-39d7c581d2ee> <https://w3id.org/c2t#name> "github.com/phayes/permbits" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl-utils%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fdistribution%40v2.7.0-rc.0.0.20181024170156-93e082742a00%2Bincompatible> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/Image/sha256%3A822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081> <http://dockerpedia.inf.utfsm.cl/vocab#tag> "wagoodman/dive:latest" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fsirupsen%2Flogrus%40v1.4.2> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/sirupsen/logrus@v1.4.2" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpelletier%2Fgo-toml%40v1.4.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/pelletier/go-toml (v1.4.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibc-utils%400.7.2-r3%3Farch%3Dx86_64%26upstream%3Dlibc-dev%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&upstream=libc-dev&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fbusybox%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/busybox@1.31.1-r19?arch=x86_64&upstream=busybox&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flogrusorgru%2Faurora%40v0.0.0-20190803045625-94edacc10f9b> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/logrusorgru/aurora@v0.0.0-20190803045625-94edacc10f9b" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/musl@1.1.24-r10?arch=x86_64&upstream=musl&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fhashicorp%2Fhcl%40v1.0.0> <https://w3id.org/c2t#name> "github.com/hashicorp/hcl" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgenproto%40v0.0.0-20190620144150-6af8c5fc6601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibc-utils%400.7.2-r3%3Farch%3Dx86_64%26upstream%3Dlibc-dev%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "0.7.2-r3" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flunixbochs%2Fvtclean%40v1.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/lunixbochs/vtclean (v1.0.0)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffsnotify%2Ffsnotify%40v1.4.7> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/fsnotify/fsnotify (v1.4.7)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmagiconair%2Fproperties%40v1.8.1> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-colorable%40v0.1.2> <https://w3id.org/c2t#language> "go" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Flunixbochs%2Fvtclean%40v1.0.0> <https://w3id.org/c2t#name> "github.com/lunixbochs/vtclean" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgoogle.golang.org%2Fgenproto%40v0.0.0-20190620144150-6af8c5fc6601> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fscanelf%401.2.6-r0%3Farch%3Dx86_64%26upstream%3Dpax-utils%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#name> "scanelf" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-isatty%40v0.0.9> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/mattn/go-isatty (v0.0.9)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fbusybox%401.31.1-r19%3Farch%3Dx86_64%26upstream%3Dbusybox%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Natanael Copa <ncopa@alpinelinux.org>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Ftermbox-go%40v0.0.0-20190427202837-c0aef3d18bcc> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fcespare%2Fxxhash%40v1.1.0> <https://w3id.org/c2t#type> "go-module" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fawesome-gocui%2Fgocui%40v0.6.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibtls-standalone%402.9.1-r1%3Farch%3Dx86_64%26upstream%3Dlibtls-standalone%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#packageURL> "pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64&upstream=libtls-standalone&distro=alpine-3.12.4" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fcobra%40v0.0.5> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/spf13/cobra (v0.0.5)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fcespare%2Fxxhash%40v1.1.0> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fnet%40v0.0.0-20190827160401-ba9fcec4b297> <https://w3id.org/c2t#name> "golang.org/x/net" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fgo-digest%40v1.0.0-rc1> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fmusl-utils%401.1.24-r10%3Farch%3Dx86_64%26upstream%3Dmusl%26distro%3Dalpine-3.12.4> <http://purl.org/dc/elements/1.1/publisher> "Timo TerÃ¤s <timo.teras@iki.fi>" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ffsnotify%2Ffsnotify%40v1.4.7> <https://w3id.org/c2t#name> "github.com/fsnotify/fsnotify" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Flibc-utils%400.7.2-r3%3Farch%3Dx86_64%26upstream%3Dlibc-dev%26distro%3Dalpine-3.12.4> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fzlib%401.2.11-r3%3Farch%3Dx86_64%26upstream%3Dzlib%26distro%3Dalpine-3.12.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/c2t#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fwagoodman%2Fdive%40%28devel%29> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/wagoodman/dive@(devel)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpelletier%2Fgo-toml%40v1.4.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/pelletier/go-toml@v1.4.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fspf13%2Fpflag%40v1.0.5> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://dockerpedia.inf.utfsm.cl/vocab#Image/sha256%3A83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fcli%40v0.0.0-20190906153656-016a3232168d> <http://www.w3.org/2000/01/rdf-schema#label> "github.com/docker/cli (v0.0.0-20190906153656-016a3232168d)" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fdocker%2Fgo-units%40v0.4.0> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/docker/go-units@v0.4.0" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Fgo-digest%40v1.0.0-rc1> <https://w3id.org/c2t#packageURL> "pkg:golang/github.com/opencontainers/go-digest@v1.0.0-rc1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fapk-tools%402.10.5-r1%3Farch%3Dx86_64%26upstream%3Dapk-tools%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#version> "2.10.5-r1" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Aalpine%2Fzlib%401.2.11-r3%3Farch%3Dx86_64%26upstream%3Dzlib%26distro%3Dalpine-3.12.4> <https://w3id.org/c2t#type> "apk" .
+
