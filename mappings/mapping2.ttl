@@ -28,7 +28,7 @@ map:om_000 rdf:type rr:ObjectMap ;
 	rr:termType rr:IRI .
 
 map:om_001 rdf:type rr:ObjectMap ;
-	rr:template "http://dockerpedia.inf.utfsm.cl/vocab#Image/{RootFS.Layers}" ;
+	rr:template "https://w3id.org/c2t/i/Image/{RootFS.Layers}" ;
 	rr:termType rr:IRI .
 
 map:om_002 rml:reference "Id" ;
@@ -60,7 +60,7 @@ map:om_008 rdf:type rr:ObjectMap ;
 	rr:termType rr:IRI .
 
 map:om_009 rdf:type rr:ObjectMap ;
-	rr:template "http://dockerpedia.inf.utfsm.cl/vocab#Image/{layersId}" ;
+	rr:template "https://w3id.org/c2t/i/Image/{layersId}" ;
 	rr:termType rr:IRI .
 
 map:om_010 rml:reference "name" ;
