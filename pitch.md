@@ -1,10 +1,9 @@
-![logo](/onto_documentation/images/logo.png)
 ## Estructura para el pitch
 1. Qué es docker?
 2. Qué problema soluciona docker?
 3. Qué problema tiene docker?
 4. Nuestra solución para el problema
-![presentacion](/onto_documentation/images/presentacion.png)
+![presentacion](/onto_documentation/images/presentacion.png) 
 ## Qué es docker?
 - Es una herramienta que esta en auge
 - Permite crear sistemas replicables
