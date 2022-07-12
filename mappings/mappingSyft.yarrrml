@@ -4,10 +4,10 @@ prefixes:
   dc: "http://purl.org/dc/elements/1.1/" 
   dpv: "http://dockerpedia.inf.utfsm.cl/vocab#" 
   dct: "https://purl.org/dc/terms/"
+  rdfs:	"http://www.w3.org/2000/01/rdf-schema#"
 
 
 sources:
-  syft-source: ['data\mini_result.json~jsonpath', '$']
   component-source: ['data.json~jsonpath', '$.components[*]']
   inspect-source: ['data\inspect.json~jsonpath', '$']
 
@@ -19,11 +19,13 @@ mappings:
     s: c2ti:Image/$(Id)
     po:
       - [a,dpv:Image]
-      - [dpv:hasLayer,c2ti:Layers$(RootFS.Layers.*)~iri]
+      - [dpv:hasLayer,dpv:Image/$(RootFS.Layers)~iri]
       - [dct:identifier,$(Id)]
       - [dpv:tag,$(RepoTags)]
       - [c2t:operativeSystem,$(Os)]
       - [c2t:architecture, $(Architecture)]
+      - [c2t:created, $(Created)]
+      - [rdfs:label, $(RepoTags)]
     
   
   packageversion:
@@ -32,13 +34,15 @@ mappings:
     s: c2ti:PackageVersion/$(purl)
     po:
       - [a, c2t:PackageVersion]
-      - [dpv:isInstalledOn,c2ti:$(layersId)~iri]
+      - [dpv:isInstalledOn,dpv:Image/$(layersId)~iri]
       - [c2t:name,$(name)]
       - [c2t:language,$(syft:package:language)]
       - [c2t:packageURL,$(purl)]
       - [c2t:version,$(version)]
-      - [c2t:publisher,$(publisher)]
-      - [c2t:license,$(licenses.*.license.id)]
+      - [dc:publisher,$(publisher)]
+      - [dc:license,$(licenses.*.license.id)]
+      - [rdfs:label, $(name) ($(version))]
+      - [c2t:type, $(syft:package:type)]
       
 
       
