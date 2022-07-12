@@ -8,8 +8,8 @@ prefixes:
 
 
 sources:
-  component-source: ['data.json~jsonpath', '$.components[*]']
-  inspect-source: ['data\inspect.json~jsonpath', '$']
+  component-source: ['../data/mini_result.json~jsonpath', '$.components[*]']
+  inspect-source: ['../data/inspect.json~jsonpath', '$']
 
 mappings:
 
@@ -19,7 +19,7 @@ mappings:
     s: c2ti:Image/$(Id)
     po:
       - [a,dpv:Image]
-      - [dpv:hasLayer,dpv:Image/$(RootFS.Layers)~iri]
+      - [dpv:hasLayer,c2ti:Image/$(RootFS.Layers)~iri]
       - [dct:identifier,$(Id)]
       - [dpv:tag,$(RepoTags)]
       - [c2t:operativeSystem,$(Os)]
@@ -34,7 +34,7 @@ mappings:
     s: c2ti:PackageVersion/$(purl)
     po:
       - [a, c2t:PackageVersion]
-      - [dpv:isInstalledOn,dpv:Image/$(layersId)~iri]
+      - [dpv:isInstalledOn,c2ti:Image/$(layersId)~iri]
       - [c2t:name,$(name)]
       - [c2t:language,$(syft:package:language)]
       - [c2t:packageURL,$(purl)]
