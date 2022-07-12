@@ -1,44 +1,49 @@
 prefixes:
-  c2t: <https://w3id.org/c2t#> .
-  c2ti: <https://w3id.org/c2t/i/> .
-  dc: <http://purl.org/dc/elements/1.1/> .
-  dpv: <http://dockerpedia.inf.utfsm.cl/vocab#> .
-  owl: <http://www.w3.org/2002/07/owl#> .
-  rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-  rr: <http://www.w3.org/ns/r2rml#> .
-  rml: <http://semweb.mmlab.be/ns/rml#> .
-  ql: <http://semweb.mmlab.be/ns/ql#> . 
-  : <http://example.org/> .
-
-
+  c2t: "<https://w3id.org/c2t#>" 
+  c2ti: "<https://w3id.org/c2t/i/>"
+  dc: "<http://purl.org/dc/elements/1.1/>" 
+  dpv: "<http://dockerpedia.inf.utfsm.cl/vocab#>" 
+  owl: "<http://www.w3.org/2002/07/owl#>" 
+  rdfs: "<http://www.w3.org/2000/01/rdf-schema#>" 
+  rr: "<http://www.w3.org/ns/r2rml#>" 
+  rml: "<http://semweb.mmlab.be/ns/rml#>" 
+  ql: "<http://semweb.mmlab.be/ns/ql#>"
+  dct: "<https://purl.org/dc/terms/>"
 
 
 sources:
-  syft-source: ['data\mini_result.json~jsonpath', '$.*']
-  inspect-source: ['data\inspect.json~jsonpath', '$.*.RootFS']
+  syft-source: ['data\mini_result.json~jsonpath', '$']
+  component-source: ['data.json~jsonpath', '$.components[*]']
+  inspect-source: ['data\inspect.json~jsonpath', '$']
+
 mappings:
-  image:
+
+  Image:
     sources:
-      - inspect
-
-    s: https://w3id.org/docker/image/$(Id)
+      - inspect-source
+    s: c2ti:Image/$(Id)
     po:
-      - [dc:identifier,$(Id)]
-      - [a, dpv:Image]
-      - [ex:author,$(Author)]
-      - [ex:os,$(Os)]
-      - [ex:architecture, $(Architecture)]
-      - [ex:dockerVersion, $(DockerVersion)]
-      - [ex:container, $(Container)]
-      - [ex:size,$(Size)]
-      - p: ex:rootFs
-        o:
-          - mapping : layer
-
-  layer:
-    sources:  
-      - layer-source
+      - [a,dpv:Image]
+      - [dpv:hasLayer,c2ti:Layers$(RootFS.Layers.*)~iri]
+      - [dct:identifier,$(Id)]
+      - [dpv:tag,$(RepoTags)]
+      - [c2t:operativeSystem,$(Os)]
+      - [c2t:architecture, $(Architecture)]
+    
+  
+  PackageVersion:
+    sources:
+      - component-source
+    s: c2ti:PackageVersion/$(purl)
     po:
-      - [a,ex:Layer]
-      - [ex:Layer,$(Layers),xsd:string]
+      - [a, c2t:PackageVersion]
+      - [dpv:isInstalledOn,c2ti:$(layersId)~iri]
+      - [c2t:name,$(name)]
+      - [c2t:language,$(syft:package:language)]
+      - [c2t:packageURL,$(purl)]
+      - [c2t:version,$(version)]
+      - [c2t:publisher,$(publisher)]
+      - [c2t:license,$(licenses.*.license.id)]
+      
+
       
