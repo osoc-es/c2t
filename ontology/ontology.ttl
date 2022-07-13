@@ -4,6 +4,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <https://purl.org/dc/terms/> .
+@prefix sd: <https://w3id.org/okn/o/sd#> .
 
 dpv: a owl:Ontology ;
     dc:description "Ontology code created to illustrate the project Containers To Triples"@en ;
@@ -26,7 +27,7 @@ dpv:isInstalledOn a owl:ObjectProperty ;
     rdfs:label "isInstalledOn" ;
     rdfs:comment "One OS may have installed several software packages on it" ;
     rdfs:domain dpv:PackageVersion ;
-    rdfs:range dpv:Image .
+    rdfs:isDefinedBy "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn" .
 
 c2t:hasLayer a owl:ObjectProperty ;
     rdfs:label "hasLayer" ;
@@ -34,71 +35,97 @@ c2t:hasLayer a owl:ObjectProperty ;
     rdfs:domain dpv:Image ;
     rdfs:range dpv:ImageLayer .
 
-dpv:hasPackages a owl:ObjectProperty ;
-    rdfs:label "hasPackages" ;
-    rdfs:comment "One software layer is part of a software image" ;
-    rdfs:domain dpv:ImageLayer ;
-    rdfs:range dpv:PackageVersion .
+c2t:isOperativeSystemOf a owl:ObjectProperty ;
+    rdfs:label "isOperativeSystemOf" ;
+    rdfs:comment "An image could have an operative system" ;
+    rdfs:domain dpv:OperatingSystem ;
+    rdfs:range dpv:Image .
+
+c2t:distributionOf a owl:ObjectProperty ;
+    rdfs:label "distributionOf" ;
+    rdfs:comment "A distribution is an operating system made from a software collection that includes the kernel and, often, a package management system" ;        
+    rdfs:domain dpv:OperatingSystem ;
+    rdfs:range dpv:OperatingSystem .
 
 dct:identifier a owl:DatatypeProperty ;
     rdfs:label "identifier" ;
     rdfs:comment "An unambiguous reference to the resource within a given context" ;
-    rdfs:isDefinedBy rdfs:Resource .
+    rdfs:isDefinedBy  "http://purl.org/dc/terms/identifier" .
 
 dpv:tag a owl:DatatypeProperty ;
     rdfs:label "tag" ;
     rdfs:comment "Image’s versions are identified by its tag" ;
     rdfs:domain dpv:Image .
 
-c2t:OperativeSystemPackageVersion a owl:Class ;
-    rdfs:label "OperativeSystemPackageVersion" ;
-    rdfs:comment "Version of an operative system package" ;
-    rdfs:subClassOf dpv:PackageVersion .
-
 c2t:architecture a owl:DatatypeProperty ;
     rdfs:label "architecture" ;
     rdfs:comment "The architecture for which the image is built. For example, amd64" ;
     rdfs:domain dpv:Image .
 
-c2t:language a owl:DatatypeProperty ;
-    rdfs:label "language" ;
-    rdfs:comment "A package version is written in a programming language" ;
-    rdfs:domain dpv:PackageVersion .
+sd:dateCreated a owl:DataTypeProperty ;
+    rdfs:label "dateCreated" ;
+    rdfs:comment "Date when a software component was created" ;
+    rdfs:domain dpv:Image .    
 
-c2t:license a owl:DatatypeProperty ;
-    rdfs:label "license" ;
-    rdfs:comment "A package version may specify the version that is being used" ;
-    rdfs:domain dpv:PackageVersion .
+dpv:size a owl:DataTypeProperty ;
+    rdfs:label "size" ;
+    rdfs:comment "An image/package has a size" ;
+    rdfs:isDefinedBy "http://dockerpedia.inf.utfsm.cl/vocab#size".    
 
-c2t:name a owl:DatatypeProperty ;
+sd:name a owl:DatatypeProperty ;
     rdfs:label "name" ;
-    rdfs:comment "Each package version has name" ;
+    rdfs:comment "Name of the resource" ;
+    rdfs:isDefinedBy "https://w3id.org/okn/o/sd#name" .    
+
+sd:programmingLanguage a owl:DatatypeProperty ;
+    rdfs:label "programmingLanguage" ;
+    rdfs:comment "Language used to code a software component" ;
     rdfs:domain dpv:PackageVersion .
-
-c2t:operativeSystem a owl:DatatypeProperty ;
-    rdfs:label "operativeSystem" ;
-    rdfs:comment "Each image is built over an operative system" ;
-    rdfs:domain dpv:Image .
-
-c2t:created a owl:DataTypeProperty ;	
-    rdfs:label "created" ;
-    rdfs:comment "Each image has a creation date" ;
-    rdfs:domain dpv:Image .
 
 c2t:packageURL a owl:DatatypeProperty ;
     rdfs:label "packageURL" ;
     rdfs:comment "A package version may be associated to an URL" ;
-    rdfs:domain dpv:PackageVersion .
+    rdfs:domain dpv:PackageVersion .    
 
-c2t:publisher a owl:DatatypeProperty ;
+sd:hasVersionId a owl:DatatypeProperty ;
+    rdfs:label "hasVersionId" ;
+    rdfs:comment "Identifier of the version of this software" ;
+    rdfs:isDefinedBy "https://w3id.org/okn/o/sd#hasVersionId" .        
+
+dct:publisher a owl:DatatypeProperty ;
     rdfs:label "publisher" ;
-    rdfs:comment "A package version is published by the publisher" ;
+    rdfs:comment "A package/operating system is published by the publisher" ;
     rdfs:domain dpv:PackageVersion .
 
-c2t:version a owl:DatatypeProperty ;
-    rdfs:label "version" ;
-    rdfs:comment "A package may have more than one version available" ;
-    rdfs:domain dpv:PackageVersion .		
+dct:license a owl:DatatypeProperty ;
+    rdfs:label "license" ;
+    rdfs:comment "A package version may specify the version that is being used" ;
+    rdfs:isDefinedBy "https://purl.org/dc/terms/license" .
+
+c2t:operativeSystemPackageVersion a owl:DataTypeProperty ;
+    rdfs:label "operativeSystemPackageVersion" ;
+    rdfs:comment "Version of an operative system package" ;
+    rdfs:domain dpv:PackageVersion .
+
+sd:description a owl:DataTypeProperty ;
+    rdfs:label "description" ;
+    rdfs:comment "A description of a resource" ;
+    rdfs:domain dpv:OperatingSystem .
+
+sd:hasDocumentation a owl:DataTypeProperty ;
+    rdfs:label "hasDocumentation" ;
+    rdfs:comment "Pointer to the documentation of the model" ;
+    rdfs:domain dpv:OperatingSystem .
+
+sd:issueTracker a owl:DataTypeProperty ;
+    rdfs:label "issueTracker" ;
+    rdfs:comment "Pointer to the documentation of the model" ;
+    rdfs:domain dpv:OperatingSystem .
+
+sd:website a owl:DataTypeProperty ;
+    rdfs:label "website" ;
+    rdfs:comment "Website of the software" ;
+    rdfs:domain dpv:OperatingSystem .
 
 dpv:DockerFile a owl:Class ;
     rdfs:label "DockerFile" ;
@@ -115,6 +142,10 @@ dpv:Image a owl:Class ;
 dpv:PackageVersion a owl:Class ;
     rdfs:label "PackageVersion" ;
     rdfs:comment "Version of a software package" .
+
+dpv:OperatingSystem a owl:Class ;
+    rdfs:label "OperatingSystem" ;
+    rdfs:comment "A software operating system representation" .    
 
 
 
