@@ -19,7 +19,7 @@ mappings:
     s: c2ti:Image/$(Id)
     po:
       - [a,dpv:Image]
-      - [dpv:hasLayer,c2ti:Image/$(RootFS.Layers)~iri]
+      - [dpv:hasLayer,c2ti:$(RootFS.Layers)~iri]
       - [dct:identifier,$(Id)]
       - [dpv:tag,$(RepoTags)]
       - [c2t:operativeSystem,$(Os)]
@@ -34,7 +34,7 @@ mappings:
     s: c2ti:PackageVersion/$(purl)
     po:
       - [a, c2t:PackageVersion]
-      - [dpv:isInstalledOn,c2ti:Image/$(image_identifier)~iri]
+      - [dpv:isInstalledOn,c2ti:$(image_identifier)~iri]
       - [c2t:name,$(name)]
       - [c2t:language,$(syft:package:language)]
       - [c2t:packageURL,$(purl)]
@@ -43,3 +43,4 @@ mappings:
       - [dc:license,$(licenses.*.license.id)]
       - [rdfs:label, $(name) ($(version))]
       - [c2t:type, $(syft:package:type)]
+      
