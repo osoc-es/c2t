@@ -3,9 +3,12 @@ import os
 import syft_parser as syft_parser 
 import morph_kgc
 
-def get_graph():
-    #os.path.dirname(os.path.normpath(yourpath))
-    pass
+def get_graph(name):
+    os.system(('docker inspect '+ name+' > ../data/inspect1.json'))
+    syft = os.popen(('syft '+name+' -o cyclonedx-json')).read()
+    syft_parser.parse_data(syft, '../data/result1.json')
+    g = morph_kgc.materialize('../config.ini')
+    g.serialize(destination="grafo.nt", format="ntriples")
 
 @click.group()
 def cli():
@@ -17,11 +20,7 @@ def cli():
 @click.argument('name')
 def image(name):
     """ Inspect your image from its name or ID """
-    os.system(('docker inspect '+ name+' > ../data/inspect1.json'))
-    syft = os.popen(('syft '+name+' -o cyclonedx-json')).read()
-    syft_parser.parse_data(syft, '../data/result1.json')
-    g = morph_kgc.materialize('../config.ini')
-    g.serialize(destination="grafo.nt", format="ntriples")
+    get_graph(name)
 
 
 @cli.command()

@@ -65,7 +65,7 @@ def parse_data(json_as_string, path_output):
             else:
                 data_parsed[i][j][aux_key] = aux_value
 
-        if 'externalReferences' in data[i][j].keys()
+        if 'externalReferences' in data[i][j].keys():
             for l_2, _ in enumerate(data[i][j]['externalReferences']): # enumerate properties
                 aux_key = data[i][j]['externalReferences'][l_2]['type']
                 aux_value = data[i][j]['externalReferences'][l_2]['url']
