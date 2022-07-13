@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>Containers To Triples</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://dockerpedia.inf.utfsm.cl/vocab#","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://dockerpedia.inf.utfsm.cl/vocab#","name":"Containers To Triples", "headline":"Ontology code created to illustrate the project Containers To Triples", "datePublished":"Wed Jul 13 16:11:42 CEST 2022", "author":[{"@type":"Person","name":"Lara Herrera, David Lázaro y Adrián Pascual"}]}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>Containers To Triples</h1>
+
+
+<dl>
+<dt>Latest version:</dt>
+<dd><a href="http://dockerpedia.inf.utfsm.cl/vocab#">http://dockerpedia.inf.utfsm.cl/vocab#</a></dd>
+<dt>Authors:</dt>
+<dd>Lara Herrera, David Lázaro y Adrián Pascual</dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.rdf" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.org" /></a>
+</dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
+<!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd>Lara Herrera, David Lázaro y Adrián Pascual. Containers To Triples.</dd>
+</dl>
+
+<hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
+Ontology code created to illustrate the project Containers To Triples</span>
+</div>
+<div id="toc"></div> 
+
+<!--INTRODUCTION SECTION-->
+    <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
+<div id="namespacedeclarations">
+<h3 id="ns" class="list">Namespace declarations</h3>
+<div id="ns" align="center">
+<table>
+<caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
+<tbody>
+<tr><td><b>[Ontology NS Prefix]</b></td><td>&lt;http://dockerpedia.inf.utfsm.cl/vocab#&gt;</td></tr>
+<tr><td></td><td></td></tr>
+<tr><td><b>c2t</b></td><td>&lt;https://w3id.org/okn/o/c2t&gt;</td></tr>
+<tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl&gt;</td></tr>
+<tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns&gt;</td></tr>
+<tr><td><b>xml</b></td><td>&lt;http://www.w3.org/XML/1998/namespace&gt;</td></tr>
+<tr><td><b>xsd</b></td><td>&lt;http://www.w3.org/2001/XMLSchema&gt;</td></tr>
+<tr><td><b>rdfs</b></td><td>&lt;http://www.w3.org/2000/01/rdf-schema&gt;</td></tr>
+<tr><td><b>dc</b></td><td>&lt;http://purl.org/dc/elements/1.1&gt;</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">Containers To Triples: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
+   <li>
+      <a href="#DockerFile" title="http://dockerpedia.inf.utfsm.cl/vocab#DockerFile">DockerFile</a>
+   </li>
+   <li>
+      <a href="#Image" title="http://dockerpedia.inf.utfsm.cl/vocab#Image">Image</a>
+   </li>
+   <li>
+      <a href="#ImageLayer" title="http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer">ImageLayer</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion"
+         title="https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion">OperativeSystemPackageVersion</a>
+   </li>
+   <li>
+      <a href="#PackageVersion"
+         title="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion">PackageVersion</a>
+   </li>
+</ul><h4>Object Properties</h4><ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
+   <li>
+      <a href="#hasImage" title="http://dockerpedia.inf.utfsm.cl/vocab#hasImage">hasImage</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/c2t#hasLayer" title="https://w3id.org/okn/o/c2t#hasLayer">hasLayer</a>
+   </li>
+   <li>
+      <a href="#hasPackages" title="http://dockerpedia.inf.utfsm.cl/vocab#hasPackages">hasPackages</a>
+   </li>
+   <li>
+      <a href="#isInstalledOn"
+         title="http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn">isInstalledOn</a>
+   </li>
+</ul><h4>Data Properties</h4><ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
+   <li>
+      <a href="#https://w3id.org/okn/o/c2t#architecture" title="https://w3id.org/okn/o/c2t#architecture">architecture</a>
+   </li>
+   <li>
+      <a href="#imageIdentifier"
+         title="http://dockerpedia.inf.utfsm.cl/vocab#imageIdentifier">imageIdentifier</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/c2t#language" title="https://w3id.org/okn/o/c2t#language">language</a>
+   </li>
+   <li>
+      <a href="#layerIdentifier"
+         title="http://dockerpedia.inf.utfsm.cl/vocab#layerIdentifier">layerIdentifier</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/c2t#license" title="https://w3id.org/okn/o/c2t#license">license</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/c2t#name" title="https://w3id.org/okn/o/c2t#name">name</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/c2t#operativeSystem" title="https://w3id.org/okn/o/c2t#operativeSystem">operativeSystem</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/c2t#packageURL" title="https://w3id.org/okn/o/c2t#packageURL">packageURL</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/c2t#publisher" title="https://w3id.org/okn/o/c2t#publisher">publisher</a>
+   </li>
+   <li>
+      <a href="#tag" title="http://dockerpedia.inf.utfsm.cl/vocab#tag">tag</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/c2t#version" title="https://w3id.org/okn/o/c2t#version">version</a>
+   </li>
+</ul><iframe align="center" width="100%" height ="500px" src="webvowl/index.html"></iframe> 
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">Containers To Triples: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</span>
+
+</div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for Containers To Triples classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Containers To Triples.
+<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#DockerFile" title="http://dockerpedia.inf.utfsm.cl/vocab#DockerFile">DockerFile</a>
+      </li>
+      <li>
+         <a href="#Image" title="http://dockerpedia.inf.utfsm.cl/vocab#Image">Image</a>
+      </li>
+      <li>
+         <a href="#ImageLayer" title="http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer">ImageLayer</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion"
+            title="https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion">OperativeSystemPackageVersion</a>
+      </li>
+      <li>
+         <a href="#PackageVersion"
+            title="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion">PackageVersion</a>
+      </li>
+   </ul>
+   <div class="entity" id="DockerFile">
+      <h3>DockerFile<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dockerpedia.inf.utfsm.cl/vocab#DockerFile</p>
+      <div class="comment">
+         <span class="markdown">A file containing the instructions required to build an image (docker:SoftwareImage) in the Docker framework</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasImage" title="http://dockerpedia.inf.utfsm.cl/vocab#hasImage">hasImage</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Image">
+      <h3>Image<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dockerpedia.inf.utfsm.cl/vocab#Image</p>
+      <div class="comment">
+         <span class="markdown">A serialized copy of the state of a software stored in some non-volatile form such as a file</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://w3id.org/okn/o/c2t#architecture" title="https://w3id.org/okn/o/c2t#architecture">architecture</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/okn/o/c2t#hasLayer" title="https://w3id.org/okn/o/c2t#hasLayer">hasLayer</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#imageIdentifier"
+               title="http://dockerpedia.inf.utfsm.cl/vocab#imageIdentifier">imageIdentifier</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/okn/o/c2t#operativeSystem" title="https://w3id.org/okn/o/c2t#operativeSystem">operativeSystem</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#tag" title="http://dockerpedia.inf.utfsm.cl/vocab#tag">tag</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasImage" title="http://dockerpedia.inf.utfsm.cl/vocab#hasImage">hasImage</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isInstalledOn"
+               title="http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn">isInstalledOn</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ImageLayer">
+      <h3>ImageLayer<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer</p>
+      <div class="comment">
+         <span class="markdown">A layer of a Docker image are a set files generated from running a command from a DockerFile</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasPackages" title="http://dockerpedia.inf.utfsm.cl/vocab#hasPackages">hasPackages</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#layerIdentifier"
+               title="http://dockerpedia.inf.utfsm.cl/vocab#layerIdentifier">layerIdentifier</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/okn/o/c2t#hasLayer" title="https://w3id.org/okn/o/c2t#hasLayer">hasLayer</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion">
+      <h3>OperativeSystemPackageVersion<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion</p>
+      <div class="comment">
+         <span class="markdown">Version of an operative system package</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#PackageVersion"
+               title="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion">PackageVersion</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PackageVersion">
+      <h3>PackageVersion<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion</p>
+      <div class="comment">
+         <span class="markdown">Version of a software package</span>
+      </div>
+      <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion"
+               title="https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion">OperativeSystemPackageVersion</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isInstalledOn"
+               title="http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn">isInstalledOn</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/okn/o/c2t#language" title="https://w3id.org/okn/o/c2t#language">language</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/okn/o/c2t#license" title="https://w3id.org/okn/o/c2t#license">license</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/okn/o/c2t#name" title="https://w3id.org/okn/o/c2t#name">name</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/okn/o/c2t#packageURL" title="https://w3id.org/okn/o/c2t#packageURL">packageURL</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/okn/o/c2t#publisher" title="https://w3id.org/okn/o/c2t#publisher">publisher</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/okn/o/c2t#version" title="https://w3id.org/okn/o/c2t#version">version</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasPackages" title="http://dockerpedia.inf.utfsm.cl/vocab#hasPackages">hasPackages</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#hasImage" title="http://dockerpedia.inf.utfsm.cl/vocab#hasImage">hasImage</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/okn/o/c2t#hasLayer" title="https://w3id.org/okn/o/c2t#hasLayer">hasLayer</a>
+      </li>
+      <li>
+         <a href="#hasPackages" title="http://dockerpedia.inf.utfsm.cl/vocab#hasPackages">hasPackages</a>
+      </li>
+      <li>
+         <a href="#isInstalledOn"
+            title="http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn">isInstalledOn</a>
+      </li>
+   </ul>
+   <div class="entity" id="hasImage">
+      <h3>hasImage<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dockerpedia.inf.utfsm.cl/vocab#hasImage</p>
+      <div class="comment">
+         <span class="markdown">A docker file has software images</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DockerFile" title="http://dockerpedia.inf.utfsm.cl/vocab#DockerFile">DockerFile</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Image" title="http://dockerpedia.inf.utfsm.cl/vocab#Image">Image</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/c2t#hasLayer">
+      <h3>hasLayer<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/c2t#hasLayer</p>
+      <div class="comment">
+         <span class="markdown">Several packages may have been installed on an image</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Image" title="http://dockerpedia.inf.utfsm.cl/vocab#Image">Image</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ImageLayer" title="http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer">ImageLayer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasPackages">
+      <h3>hasPackages<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dockerpedia.inf.utfsm.cl/vocab#hasPackages</p>
+      <div class="comment">
+         <span class="markdown">One software layer is part of a software image</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ImageLayer" title="http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer">ImageLayer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#PackageVersion"
+                  title="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion">PackageVersion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isInstalledOn">
+      <h3>isInstalledOn<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn</p>
+      <div class="comment">
+         <span class="markdown">One OS may have installed several software packages on it</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PackageVersion"
+                  title="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion">PackageVersion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Image" title="http://dockerpedia.inf.utfsm.cl/vocab#Image">Image</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#https://w3id.org/okn/o/c2t#architecture" title="https://w3id.org/okn/o/c2t#architecture">architecture</a>
+      </li>
+      <li>
+         <a href="#imageIdentifier"
+            title="http://dockerpedia.inf.utfsm.cl/vocab#imageIdentifier">imageIdentifier</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/okn/o/c2t#language" title="https://w3id.org/okn/o/c2t#language">language</a>
+      </li>
+      <li>
+         <a href="#layerIdentifier"
+            title="http://dockerpedia.inf.utfsm.cl/vocab#layerIdentifier">layerIdentifier</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/okn/o/c2t#license" title="https://w3id.org/okn/o/c2t#license">license</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/okn/o/c2t#name" title="https://w3id.org/okn/o/c2t#name">name</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/okn/o/c2t#operativeSystem" title="https://w3id.org/okn/o/c2t#operativeSystem">operativeSystem</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/okn/o/c2t#packageURL" title="https://w3id.org/okn/o/c2t#packageURL">packageURL</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/okn/o/c2t#publisher" title="https://w3id.org/okn/o/c2t#publisher">publisher</a>
+      </li>
+      <li>
+         <a href="#tag" title="http://dockerpedia.inf.utfsm.cl/vocab#tag">tag</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/okn/o/c2t#version" title="https://w3id.org/okn/o/c2t#version">version</a>
+      </li>
+   </ul>
+   <div class="entity" id="https://w3id.org/okn/o/c2t#architecture">
+      <h3>architecture<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/c2t#architecture</p>
+      <div class="comment">
+         <span class="markdown">The architecture for which the image is built. For example, amd64</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Image" title="http://dockerpedia.inf.utfsm.cl/vocab#Image">Image</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="imageIdentifier">
+      <h3>imageIdentifier<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dockerpedia.inf.utfsm.cl/vocab#imageIdentifier</p>
+      <div class="comment">
+         <span class="markdown">Each image is different from the others as it has a unique identifier</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Image" title="http://dockerpedia.inf.utfsm.cl/vocab#Image">Image</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/c2t#language">
+      <h3>language<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/c2t#language</p>
+      <div class="comment">
+         <span class="markdown">A package version is written in a programming language</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PackageVersion"
+                  title="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion">PackageVersion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="layerIdentifier">
+      <h3>layerIdentifier<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dockerpedia.inf.utfsm.cl/vocab#layerIdentifier</p>
+      <div class="comment">
+         <span class="markdown">Each layer is different from the others as it has a unique identifier</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ImageLayer" title="http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer">ImageLayer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/c2t#license">
+      <h3>license<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/c2t#license</p>
+      <div class="comment">
+         <span class="markdown">A package version may specify the version that is being used</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PackageVersion"
+                  title="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion">PackageVersion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/c2t#name">
+      <h3>name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/c2t#name</p>
+      <div class="comment">
+         <span class="markdown">Each package version has name</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PackageVersion"
+                  title="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion">PackageVersion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/c2t#operativeSystem">
+      <h3>operativeSystem<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/c2t#operativeSystem</p>
+      <div class="comment">
+         <span class="markdown">Each image is built over an operative system</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Image" title="http://dockerpedia.inf.utfsm.cl/vocab#Image">Image</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/c2t#packageURL">
+      <h3>packageURL<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/c2t#packageURL</p>
+      <div class="comment">
+         <span class="markdown">A package version may be associated to an URL</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PackageVersion"
+                  title="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion">PackageVersion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/c2t#publisher">
+      <h3>publisher<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/c2t#publisher</p>
+      <div class="comment">
+         <span class="markdown">A package version is published by the publisher</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PackageVersion"
+                  title="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion">PackageVersion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="tag">
+      <h3>tag<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dockerpedia.inf.utfsm.cl/vocab#tag</p>
+      <div class="comment">
+         <span class="markdown">Image’s versions are identified by its tag</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Image" title="http://dockerpedia.inf.utfsm.cl/vocab#Image">Image</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/c2t#version">
+      <h3>version<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/c2t#version</p>
+      <div class="comment">
+         <span class="markdown">A package may have more than one version available</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PackageVersion"
+                  title="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion">PackageVersion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+</div>
+</div>
+</div>
+    
+
+<!--REFERENCES SECTION-->
+  <div id="references">
+<h2 id="ref" class="list">References <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+Add your references here. It is recommended to have them as a list.</span>
+
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>
