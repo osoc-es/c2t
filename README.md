@@ -1,4 +1,4 @@
-[logo](logo.png)
+![logo](onto_documentation/images/logo.png)
 What we do is transform docker images into knowledge graphs.
 ## Installation
 For using this repo we asume that you have installed:

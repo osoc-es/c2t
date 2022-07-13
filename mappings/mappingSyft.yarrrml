@@ -5,6 +5,7 @@ prefixes:
   dpv: "http://dockerpedia.inf.utfsm.cl/vocab#" 
   dct: "https://purl.org/dc/terms/"
   rdfs:	"http://www.w3.org/2000/01/rdf-schema#"
+  sd: "htttp://w3id.org/okn/o/sd#"
 
 
 sources:
@@ -16,15 +17,15 @@ mappings:
   image:
     sources:
       - inspect-source
-    s: c2ti:Image/$(Id)
+    s: c2ti:$(Id)
     po:
       - [a,dpv:Image]
       - [dpv:hasLayer,c2ti:$(RootFS.Layers)~iri]
       - [dct:identifier,$(Id)]
       - [dpv:tag,$(RepoTags)]
-      - [c2t:operativeSystem,$(Os)]
       - [c2t:architecture, $(Architecture)]
       - [c2t:created, $(Created)]
+      - [dpv:size,$(Size)]
       - [rdfs:label, $(RepoTags)]
     
   
@@ -33,14 +34,32 @@ mappings:
       - component-source
     s: c2ti:PackageVersion/$(purl)
     po:
-      - [a, c2t:PackageVersion]
+      - [a, dpv:PackageVersion]
       - [dpv:isInstalledOn,c2ti:$(image_identifier)~iri]
-      - [c2t:name,$(name)]
-      - [c2t:language,$(syft:package:language)]
+      - [sd:name,$(name)]
+      - [sd:programmingLanguage,$(syft:package:language)]
       - [c2t:packageURL,$(purl)]
-      - [c2t:version,$(version)]
-      - [dc:publisher,$(publisher)]
-      - [dc:license,$(licenses.*.license.id)]
+      - [sd:hasVerdionId,$(version)]
+      - [dct:publisher,$(publisher)]
+      - [dct:license,$(licenses.*.license.id)]
+      - [dpv:size,$(syft:metadata:installedSize)]
+      - [c2t:operativeSystemPackageVersion, $(syft:package:type)]
+      - [dpv:isInstalledOn,c2ti:$(layersId)~iri]
       - [rdfs:label, $(name) ($(version))]
-      - [c2t:type, $(syft:package:type)]
-      
+  
+  operatingsystem:
+    sources:
+      - component-source
+    s: c2ti:$(os_identifier)
+    po:
+      - [a, dpv:OperatingSystem]
+      - [sd:name,$(name)]
+      - [sd:hasVersionId,$(version)]
+      - [sd:description,$(description)]
+      - [dct:license,$(license)]
+      - [sd:hasdocumentation,$(documentation)]
+      - [sd:issueTracker,$(issue-tracker)]
+      - [sd:website,$(website)]
+      - [c2t:distributionOf,$(os_identifier)]
+      - [c2t:isOperativeSystemOf,c2ti:$(image_identifier)~iri]
+
