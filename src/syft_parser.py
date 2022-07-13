@@ -57,18 +57,27 @@ def parse_data(json_as_string, path_output):
     for j,_ in enumerate(data[i]): #enumerate components
         layer_list = []
         
-        for l, _ in enumerate(data[i][j][k]): # enumerate properties
-            aux_key = data[i][j][k][l]['name']
-            aux_value = data[i][j][k][l]['value']
+        for l_1, _ in enumerate(data[i][j]['properties']): # enumerate properties
+            aux_key = data[i][j]['properties'][l_1]['name']
+            aux_value = data[i][j]['properties'][l_1]['value']
             if 'layerID' in aux_key:
                 layer_list.append(aux_value)
             else:
                 data_parsed[i][j][aux_key] = aux_value
+        
+        for l_2, _ in enumerate(data[i][j]['externalReferences']): # enumerate properties
+            aux_key = data[i][j]['externalReferences'][l_2]['type']
+            aux_value = data[i][j]['externalReferences'][l_2]['url']
+            data_parsed[i][j][aux_key] = aux_value
+        
+        data_parsed[i][j]['image_identifier'] = read_inspect_id() 
         data_parsed[i][j].pop('properties')
+        data_parsed[i][j].pop('externalReferences')
+
         if len(layer_list)>0:
             data_parsed[i][j]['layersId'] = layer_list
 
-    data_parsed['image_identifier'] = read_inspect_id()
+    
 
     dict_to_json(path=path_output, data=data_parsed)
 
