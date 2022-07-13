@@ -64,15 +64,17 @@ def parse_data(json_as_string, path_output):
                 layer_list.append(aux_value)
             else:
                 data_parsed[i][j][aux_key] = aux_value
-        
-        for l_2, _ in enumerate(data[i][j]['externalReferences']): # enumerate properties
-            aux_key = data[i][j]['externalReferences'][l_2]['type']
-            aux_value = data[i][j]['externalReferences'][l_2]['url']
-            data_parsed[i][j][aux_key] = aux_value
-        
+
+        if 'externalReferences' in data[i][j].keys()
+            for l_2, _ in enumerate(data[i][j]['externalReferences']): # enumerate properties
+                aux_key = data[i][j]['externalReferences'][l_2]['type']
+                aux_value = data[i][j]['externalReferences'][l_2]['url']
+                data_parsed[i][j][aux_key] = aux_value
+            data_parsed[i][j].pop('externalReferences')
+
         data_parsed[i][j]['image_identifier'] = read_inspect_id() 
         data_parsed[i][j].pop('properties')
-        data_parsed[i][j].pop('externalReferences')
+        
 
         if len(layer_list)>0:
             data_parsed[i][j]['layersId'] = layer_list
@@ -86,7 +88,7 @@ def parse_data(json_as_string, path_output):
 
 ######### delete when tested ###############
 def  main():
-    path_input='widoco_test.json'
+    path_input='result1.json'
     path_output='widoco_test_8.json' 
     parse_data(path_input= "widoco.json", path_output="cleanwidoco.json")
 
