@@ -8,8 +8,8 @@ prefixes:
 
 
 sources:
-  component-source: ['../data/mini_result.json~jsonpath', '$.components[*]']
-  inspect-source: ['../data/inspect.json~jsonpath', '$.*']
+  component-source: ['../data/result1.json~jsonpath', '$.components[*]']
+  inspect-source: ['../data/inspect1.json~jsonpath', '$.*']
 
 mappings:
 

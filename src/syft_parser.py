@@ -32,7 +32,15 @@ def read_inspect_id():
     inspect_path := str
     '''
     #open file
+<<<<<<< HEAD
     with open(os.path.dirname(os.path.normpath(os.getcwd())),'r') as fp:
+=======
+<<<<<<< HEAD
+    with open(r'../data/inspect1.json','r') as fp:
+=======
+    with open('..\data\inspect1.json','r') as fp:
+>>>>>>> b101d6d685401d8df79fea3451e81f3bdf9a2aaa
+>>>>>>> 1b2bf112f365b3c01d8c8f3507bba99285fc8028
         a = json.load(fp)[0]
 
     #get image_id
