@@ -39,7 +39,7 @@ mappings:
       - [sd:name,$(name)]
       - [sd:programmingLanguage,$(syft:package:language)]
       - [c2t:packageURL,$(purl)]
-      - [sd:hasVerdionId,$(version)]
+      - [sd:hasVersionId,$(version)]
       - [dct:publisher,$(publisher)]
       - [dct:license,$(licenses.*.license.id)]
       - [dpv:size,$(syft:metadata:installedSize)]
