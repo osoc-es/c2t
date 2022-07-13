@@ -190,7 +190,7 @@ map:pm_012 rdf:type rr:PredicateMap ;
 	rr:constant c2t:packageURL .
 
 map:pm_013 rdf:type rr:PredicateMap ;
-	rr:constant sd:hasVerdionId .
+	rr:constant sd:hasVersionId .
 
 map:pm_014 rdf:type rr:PredicateMap ;
 	rr:constant dct:publisher .
