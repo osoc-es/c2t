@@ -374,13 +374,13 @@ map:s_002 rdf:type rr:SubjectMap ;
 
 map:source_000 rml:iterator "$.components[*]" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "./data/result1.json" ;
+	rml:source "./tmp/result1.json" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "component-source" .
 
 map:source_001 rml:iterator "$.*" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "./data/inspect1.json" ;
+	rml:source "./tmp/inspect1.json" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "inspect-source" .
 

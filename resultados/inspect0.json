@@ -1,0 +1,126 @@
+[
+    {
+        "Id": "sha256:c8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469",
+        "RepoTags": [
+            "mongo:latest"
+        ],
+        "RepoDigests": [
+            "mongo@sha256:37e84d3dd30cdfb5472ec42b8a6b4dc6ca7cacd91ebcfa0410a54528bbc5fa6d"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2022-06-13T22:08:51.667362387Z",
+        "Container": "f6620f49e7842a9ee1fa76e9e54091d1b3a88826cbf25502a4146bcd27018b3b",
+        "ContainerConfig": {
+            "Hostname": "f6620f49e784",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "27017/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.12",
+                "JSYAML_VERSION=3.13.1",
+                "MONGO_PACKAGE=mongodb-org",
+                "MONGO_REPO=repo.mongodb.org",
+                "MONGO_MAJOR=5.0",
+                "MONGO_VERSION=5.0.9",
+                "HOME=/data/db"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"mongod\"]"
+            ],
+            "Image": "sha256:c38d431132a48d48210e69008552d327516dd988d9a7a2f825aee6fedc9faed8",
+            "Volumes": {
+                "/data/configdb": {},
+                "/data/db": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "20.10.12",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "27017/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.12",
+                "JSYAML_VERSION=3.13.1",
+                "MONGO_PACKAGE=mongodb-org",
+                "MONGO_REPO=repo.mongodb.org",
+                "MONGO_MAJOR=5.0",
+                "MONGO_VERSION=5.0.9",
+                "HOME=/data/db"
+            ],
+            "Cmd": [
+                "mongod"
+            ],
+            "Image": "sha256:c38d431132a48d48210e69008552d327516dd988d9a7a2f825aee6fedc9faed8",
+            "Volumes": {
+                "/data/configdb": {},
+                "/data/db": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 701471245,
+        "VirtualSize": 701471245,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/66d773bbc6f297d30597f7427d1e4f62f5b13e6b8a53aa54fff80e81697b7532/diff:/var/lib/docker/overlay2/dc124bc3e09f4327d843bfdeb58a1d6439f85576b11dde65bae5a63e2c7dee3b/diff:/var/lib/docker/overlay2/c310cb35655aad8ace98b8a00cde1c8a2b232cc8474b6b3a71b03e4a3245fab9/diff:/var/lib/docker/overlay2/4a4919b7223ca2bb687c00ade22fb536e66d6c0a807356e2122986d79a384692/diff:/var/lib/docker/overlay2/4ac7e92a52fb83ef80138281ce506966fc6ea2e8849f7fab05818a5273ca6324/diff:/var/lib/docker/overlay2/9231d384a01bdbbcf905370a13edf588c8593a5920eb78c0bcd873583bc05af7/diff:/var/lib/docker/overlay2/5ea7fa4864f77fe710202276d0c221beb73f9d0eb74057c763b21fef2d1d3620/diff:/var/lib/docker/overlay2/9f9603f502e67fef229bfb12e62607fc3d575f4ded2c12b90616dbbc7ed4e928/diff",
+                "MergedDir": "/var/lib/docker/overlay2/14aac4b7ea0e179432d71241256da6e850ffaeb4fe1902aa61d2c2dee4a1cbf1/merged",
+                "UpperDir": "/var/lib/docker/overlay2/14aac4b7ea0e179432d71241256da6e850ffaeb4fe1902aa61d2c2dee4a1cbf1/diff",
+                "WorkDir": "/var/lib/docker/overlay2/14aac4b7ea0e179432d71241256da6e850ffaeb4fe1902aa61d2c2dee4a1cbf1/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:af7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4",
+                "sha256:dc1709ad02bf4b6f64e8cb039bdf4d4b0d6a522954a9041cddb3891fb879cbf8",
+                "sha256:515aef222e666f3469bfef93ddc3f4e34b67c91f4a40bbabaf2cbae22332cfb0",
+                "sha256:a0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895",
+                "sha256:86018f608fb23448bbc3892c8bd15e2dd9a6aa0842bfd0cec96ed01525e069a6",
+                "sha256:ccce83c1748ef6a46dd0e6b6f6bdfb852cde8881d4f8824ea161c737f0dc54cd",
+                "sha256:57347ee55fa15458d49bc25c14f722372e60939097ed8f9505f70fd991727baa",
+                "sha256:fe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b",
+                "sha256:e7465d5fff711a49231ae330c882924474c83988148e9b5a6dac332cb39d94f0"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
