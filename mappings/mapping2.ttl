@@ -4,7 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix map: <http://mapping.example.com/> .
-@prefix sd: <htttp://w3id.org/okn/o/sd#> .
+@prefix sd: <https://w3id.org/okn/o/sd#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix v: <http://rdf.data-vocabulary.org/#> .
 @prefix c2t: <https://w3id.org/c2t#> .
@@ -375,13 +375,13 @@ map:s_002 rdf:type rr:SubjectMap ;
 
 map:source_000 rml:iterator "$.components[*]" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "./data/mini_result.json" ;
+	rml:source "./tmp/result1.json" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "component-source" .
 
 map:source_001 rml:iterator "$.*" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "./data/inspect1.json" ;
+	rml:source "./tmp/inspect1.json" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "inspect-source" .
 
