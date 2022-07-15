@@ -1,10 +1,10 @@
 {
     "bomFormat": "CycloneDX",
     "specVersion": "1.4",
-    "serialNumber": "urn:uuid:33d6f584-ad1e-4130-a5e1-72001ca1fdb4",
+    "serialNumber": "urn:uuid:e76ece79-e49b-4011-ab99-f4a1f60ee3c2",
     "version": 1,
     "metadata": {
-        "timestamp": "2022-07-15T11:39:49+02:00",
+        "timestamp": "2022-07-15T13:15:42+02:00",
         "tools": [
             {
                 "vendor": "anchore",

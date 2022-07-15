@@ -1,4 +1,4 @@
-import enum
+from genericpath import exists
 import click
 import os 
 import syft_parser as syft_parser 
@@ -15,12 +15,12 @@ def get_graph(name, save, i, output_path):#, temp_folder:tempfile.TemporaryDirec
     temp_folder = os.makedirs("tmp", exist_ok=True)
     os.system(('docker inspect '+ name+' > '+ os.path.join("tmp" ,'inspect1.json')))
     if save:
-        open(os.path.join(output_path ,'inspect'+str(i)+'.json'), 'x')
+        open(os.path.join(output_path ,'inspect'+str(i)+'.json'), 'w')
         shutil.copy(os.path.join("tmp" ,'inspect1.json'), os.path.join(output_path ,'inspect'+str(i)+'.json'))
     syft = os.popen(('syft '+name+' -o cyclonedx-json')).read()
     syft_parser.parse_data(syft, os.path.join("tmp" ,'result1.json'), os.path.join("tmp" ,'inspect1.json'))
     if save:
-        open(os.path.join(output_path ,'result'+str(i)+'.json'), 'x')
+        open(os.path.join(output_path ,'result'+str(i)+'.json'), 'w')
         shutil.copy(os.path.join("tmp" ,'result1.json'), os.path.join(output_path ,'result'+str(i)+'.json'))
         # Read in the file
     # with open(os.path.join("tmp" ,'config.ini'), 'r') as file :
@@ -44,11 +44,11 @@ def get_graph(name, save, i, output_path):#, temp_folder:tempfile.TemporaryDirec
 
 
 def temp_dir(name, save, i, output_file):
-    temp = os.mkdir("tmp")#tempfile.TemporaryDirectory(dir = os.path.dirname(os.getcwd()))
-    f = open(os.path.join("tmp" ,'mapping.ttl'), 'x')
+    temp = os.makedirs("tmp",exist_ok=True)#tempfile.TemporaryDirectory(dir = os.path.dirname(os.getcwd()))
+    f = open(os.path.join("tmp" ,'mapping.ttl'), 'w')
     shutil.copy('../mappings/mapping2.ttl', os.path.join("tmp" ,'mapping.ttl'))
     f.close()
-    f1 = open(os.path.join("tmp" ,'config.ini'), 'x')
+    f1 = open(os.path.join("tmp" ,'config.ini'), 'w')
     shutil.copy(os.path.join('../config.ini'), os.path.join("tmp" ,'config.ini'))
     f1.close()
     get_graph(name, save, i, output_file)#, temp)
@@ -68,9 +68,9 @@ def cli():
 @click.option('-s', '--save', type=bool, is_flag=True, help="saves temporal json archives in a new directory")
 @click.option('-o', '--output_path', type=str ,help="output directory path to store results. If the directory does not exist, the tool will create it.")
 def image(input_path, input_image, save, output_path):
-    """ Inspect y:our image or images from its name or ID;"""
-    os.mkdir(output_path)
-    open(output_path+'/final_result.nt', 'x')
+    """ Inspect y:our image or images from its name or ID;"""    
+    os.makedirs(output_path, exist_ok=True)
+    open(output_path+'/final_result.nt', 'w')
     if input_path:
         if os.path.isfile(input_path):
             with open(input_path,'r') as fp:
