@@ -90,7 +90,7 @@ map:om_014 rml:reference "publisher" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_015 rml:reference "licenses.*.license.id" ;
+map:om_015 rml:reference "licenses.license.id" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
@@ -142,9 +142,9 @@ map:om_027 rml:reference "website" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_028 rml:reference "os_identifier" ;
-	rdf:type rr:ObjectMap ;
-	rr:termType rr:Literal .
+map:om_028 rdf:type rr:ObjectMap ;
+	rr:template "https://w3id.org/c2t/i/{image_os}" ;
+	rr:termType rr:IRI .
 
 map:om_029 rdf:type rr:ObjectMap ;
 	rr:template "https://w3id.org/c2t/i/{image_identifier}" ;
@@ -372,15 +372,16 @@ map:s_001 rdf:type rr:SubjectMap ;
 map:s_002 rdf:type rr:SubjectMap ;
 	rr:template "https://w3id.org/c2t/i/{os_identifier}" .
 
+
 map:source_000 rml:iterator "$.components[*]" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "./tmp/result1.json" ;
+	rml:source "./data/mini_result.json" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "component-source" .
 
 map:source_001 rml:iterator "$.*" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "./tmp/inspect1.json" ;
+	rml:source "./data/inspect1.json" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "inspect-source" .
 

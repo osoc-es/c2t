@@ -60,6 +60,6 @@ mappings:
       - [sd:hasdocumentation,$(documentation)]
       - [sd:issueTracker,$(issue-tracker)]
       - [sd:website,$(website)]
-      - [c2t:distributionOf,$(os_identifier)]
+      - [c2t:distributionOf,c2ti:$(image_os)~iri]
       - [c2t:isOperativeSystemOf,c2ti:$(image_identifier)~iri]
 
