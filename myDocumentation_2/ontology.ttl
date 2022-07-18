@@ -61,7 +61,7 @@
           rdfs:domain :DockerFile ;
           rdfs:range :Image ;
           rdfs:comment "A docker file has software images" ;
-          rdfs:label "has image" .
+          rdfs:label "hasImage" .
 
 
 ###  http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn
@@ -71,7 +71,8 @@
                           :ImageLayer ;
                rdfs:comment "One OS may have installed several software packages on it" ;
                rdfs:isDefinedBy "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn" ;
-               rdfs:label "is installed on" .
+               rdfs:label "isInstalled on" ,
+                          "isInstalledOn" .
 
 
 ###  https://w3id.org/okn/o/c2t#distributionOf
@@ -79,7 +80,7 @@
                                             rdfs:domain :OperatingSystem ;
                                             rdfs:range :OperatingSystem ;
                                             rdfs:comment "A distribution is an operating system made from a software collection that includes the kernel and, often, a package management system" ;
-                                            rdfs:label "distribution of" .
+                                            rdfs:label "distributionOf" .
 
 
 ###  https://w3id.org/okn/o/c2t#hasLayer
@@ -87,7 +88,7 @@
                                       rdfs:domain :Image ;
                                       rdfs:range :ImageLayer ;
                                       rdfs:comment "Several packages may have been installed on an image" ;
-                                      rdfs:label "has layer" .
+                                      rdfs:label "hasLayer" .
 
 
 ###  https://w3id.org/okn/o/c2t#isOperativeSystemOf
@@ -95,7 +96,7 @@
                                                  rdfs:domain :OperatingSystem ;
                                                  rdfs:range :Image ;
                                                  rdfs:comment "An image could have an operative system" ;
-                                                 rdfs:label "is operative system of" .
+                                                 rdfs:label "isOperativeSystemOf" .
 
 
 #################################################################
@@ -104,6 +105,8 @@
 
 ###  http://dockerpedia.inf.utfsm.cl/vocab#size
 :size rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Image ,
+                  :PackageVersion ;
       rdfs:comment "An image/package has a size" ;
       rdfs:isDefinedBy "http://dockerpedia.inf.utfsm.cl/vocab#size" ;
       rdfs:label "size" .
@@ -118,6 +121,7 @@
 
 ###  https://purl.org/dc/terms/identifier
 <https://purl.org/dc/terms/identifier> rdf:type owl:DatatypeProperty ;
+                                       rdfs:domain :Image ;
                                        rdfs:comment "An unambiguous reference to the resource within a given context" ;
                                        rdfs:isDefinedBy "http://purl.org/dc/terms/identifier" ;
                                        rdfs:label "identifier" .
@@ -125,6 +129,7 @@
 
 ###  https://purl.org/dc/terms/license
 <https://purl.org/dc/terms/license> rdf:type owl:DatatypeProperty ;
+                                    rdfs:domain :OperatingSystem ;
                                     rdfs:comment "A package version may specify the version that is being used" ;
                                     rdfs:isDefinedBy "https://purl.org/dc/terms/license" ;
                                     rdfs:label "license" .
@@ -148,21 +153,21 @@
 <https://w3id.org/okn/o/c2t#operativeSystemPackageVersion> rdf:type owl:DatatypeProperty ;
                                                            rdfs:domain :PackageVersion ;
                                                            rdfs:comment "Version of an operative system package" ;
-                                                           rdfs:label "operative system package version" .
+                                                           rdfs:label "operativeSystemPackageVersion" .
 
 
 ###  https://w3id.org/okn/o/c2t#packageURL
 <https://w3id.org/okn/o/c2t#packageURL> rdf:type owl:DatatypeProperty ;
                                         rdfs:domain :PackageVersion ;
                                         rdfs:comment "A package version may be associated to an URL" ;
-                                        rdfs:label "package u r l" .
+                                        rdfs:label "packageURL" .
 
 
 ###  httpsd: htttp://w3id.org/okn/o/sd#dateCreated
 <httpsd: htttp://w3id.org/okn/o/sd#dateCreated> rdf:type owl:DatatypeProperty ;
                                                 rdfs:domain :Image ;
                                                 rdfs:comment "Date when a software component was created" ;
-                                                rdfs:label "date created" .
+                                                rdfs:label "dateCreated" .
 
 
 ###  httpsd: htttp://w3id.org/okn/o/sd#description
@@ -176,25 +181,28 @@
 <httpsd: htttp://w3id.org/okn/o/sd#hasDocumentation> rdf:type owl:DatatypeProperty ;
                                                      rdfs:domain :OperatingSystem ;
                                                      rdfs:comment "Pointer to the documentation of the model" ;
-                                                     rdfs:label "has documentation" .
+                                                     rdfs:label "hasDocumentation" .
 
 
 ###  httpsd: htttp://w3id.org/okn/o/sd#hasVersionId
 <httpsd: htttp://w3id.org/okn/o/sd#hasVersionId> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain :OperatingSystem ;
                                                  rdfs:comment "Identifier of the version of this software" ;
                                                  rdfs:isDefinedBy "https://w3id.org/okn/o/sd#hasVersionId" ;
-                                                 rdfs:label "has version id" .
+                                                 rdfs:label "hasVersionId" .
 
 
 ###  httpsd: htttp://w3id.org/okn/o/sd#issueTracker
 <httpsd: htttp://w3id.org/okn/o/sd#issueTracker> rdf:type owl:DatatypeProperty ;
                                                  rdfs:domain :OperatingSystem ;
                                                  rdfs:comment "Pointer to the documentation of the model" ;
-                                                 rdfs:label "issue tracker" .
+                                                 rdfs:label "issueTracker" .
 
 
 ###  httpsd: htttp://w3id.org/okn/o/sd#name
 <httpsd: htttp://w3id.org/okn/o/sd#name> rdf:type owl:DatatypeProperty ;
+                                         rdfs:domain :PackageVersion ,
+                                                     :operatingsystem ;
                                          rdfs:comment "Name of the resource" ;
                                          rdfs:isDefinedBy "https://w3id.org/okn/o/sd#name" ;
                                          rdfs:label "name" .
@@ -204,7 +212,7 @@
 <httpsd: htttp://w3id.org/okn/o/sd#programmingLanguage> rdf:type owl:DatatypeProperty ;
                                                         rdfs:domain :PackageVersion ;
                                                         rdfs:comment "Language used to code a software component" ;
-                                                        rdfs:label "programming language" .
+                                                        rdfs:label "programmingLanguage" .
 
 
 ###  httpsd: htttp://w3id.org/okn/o/sd#website
@@ -246,6 +254,10 @@
 :PackageVersion rdf:type owl:Class ;
                 rdfs:comment "Version of a software package" ;
                 rdfs:label "PackageVersion" .
+
+
+###  http://dockerpedia.inf.utfsm.cl/vocab#operatingsystem
+:operatingsystem rdf:type owl:Class .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

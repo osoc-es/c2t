@@ -84,7 +84,7 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#DockerFile"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "has image"
+    "@value" : "hasImage"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
@@ -102,7 +102,9 @@
     "@value" : "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "is installed on"
+    "@value" : "isInstalled on"
+  }, {
+    "@value" : "isInstalledOn"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
@@ -110,10 +112,18 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer"
   } ]
 }, {
+  "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#operatingsystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
   "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#size",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "An image/package has a size"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
+  }, {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://dockerpedia.inf.utfsm.cl/vocab#size"
@@ -163,6 +173,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "An unambiguous reference to the resource within a given context"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://purl.org/dc/terms/identifier"
   } ],
@@ -174,6 +187,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A package version may specify the version that is being used"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://purl.org/dc/terms/license"
@@ -215,7 +231,7 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "distribution of"
+    "@value" : "distributionOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
@@ -230,7 +246,7 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "has layer"
+    "@value" : "hasLayer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer"
@@ -245,7 +261,7 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "is operative system of"
+    "@value" : "isOperativeSystemOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
@@ -260,7 +276,7 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "operative system package version"
+    "@value" : "operativeSystemPackageVersion"
   } ]
 }, {
   "@id" : "https://w3id.org/okn/o/c2t#packageURL",
@@ -272,7 +288,7 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "package u r l"
+    "@value" : "packageURL"
   } ]
 }, {
   "@id" : "httpsd: htttp://w3id.org/okn/o/sd#dateCreated",
@@ -284,7 +300,7 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "date created"
+    "@value" : "dateCreated"
   } ]
 }, {
   "@id" : "httpsd: htttp://w3id.org/okn/o/sd#description",
@@ -308,7 +324,7 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "has documentation"
+    "@value" : "hasDocumentation"
   } ]
 }, {
   "@id" : "httpsd: htttp://w3id.org/okn/o/sd#hasVersionId",
@@ -316,11 +332,14 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Identifier of the version of this software"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://w3id.org/okn/o/sd#hasVersionId"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "has version id"
+    "@value" : "hasVersionId"
   } ]
 }, {
   "@id" : "httpsd: htttp://w3id.org/okn/o/sd#issueTracker",
@@ -332,13 +351,18 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "issue tracker"
+    "@value" : "issueTracker"
   } ]
 }, {
   "@id" : "httpsd: htttp://w3id.org/okn/o/sd#name",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Name of the resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
+  }, {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#operatingsystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://w3id.org/okn/o/sd#name"
@@ -356,7 +380,7 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "programming language"
+    "@value" : "programmingLanguage"
   } ]
 }, {
   "@id" : "httpsd: htttp://w3id.org/okn/o/sd#website",

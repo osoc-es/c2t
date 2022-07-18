@@ -54,7 +54,7 @@
 <http://dockerpedia.inf.utfsm.cl/vocab#hasImage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#DockerFile> .
 <http://dockerpedia.inf.utfsm.cl/vocab#hasImage> <http://www.w3.org/2000/01/rdf-schema#range> <http://dockerpedia.inf.utfsm.cl/vocab#Image> .
 <http://dockerpedia.inf.utfsm.cl/vocab#hasImage> <http://www.w3.org/2000/01/rdf-schema#comment> "A docker file has software images" .
-<http://dockerpedia.inf.utfsm.cl/vocab#hasImage> <http://www.w3.org/2000/01/rdf-schema#label> "has image" .
+<http://dockerpedia.inf.utfsm.cl/vocab#hasImage> <http://www.w3.org/2000/01/rdf-schema#label> "hasImage" .
 # 
 # http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn
 <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -63,28 +63,29 @@
 <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer> .
 <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://www.w3.org/2000/01/rdf-schema#comment> "One OS may have installed several software packages on it" .
 <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn" .
-<http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://www.w3.org/2000/01/rdf-schema#label> "is installed on" .
+<http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://www.w3.org/2000/01/rdf-schema#label> "isInstalled on" .
+<http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <http://www.w3.org/2000/01/rdf-schema#label> "isInstalledOn" .
 # 
 # https://w3id.org/okn/o/c2t#distributionOf
 <https://w3id.org/okn/o/c2t#distributionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/okn/o/c2t#distributionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem> .
 <https://w3id.org/okn/o/c2t#distributionOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem> .
 <https://w3id.org/okn/o/c2t#distributionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A distribution is an operating system made from a software collection that includes the kernel and, often, a package management system" .
-<https://w3id.org/okn/o/c2t#distributionOf> <http://www.w3.org/2000/01/rdf-schema#label> "distribution of" .
+<https://w3id.org/okn/o/c2t#distributionOf> <http://www.w3.org/2000/01/rdf-schema#label> "distributionOf" .
 # 
 # https://w3id.org/okn/o/c2t#hasLayer
 <https://w3id.org/okn/o/c2t#hasLayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/okn/o/c2t#hasLayer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#Image> .
 <https://w3id.org/okn/o/c2t#hasLayer> <http://www.w3.org/2000/01/rdf-schema#range> <http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer> .
 <https://w3id.org/okn/o/c2t#hasLayer> <http://www.w3.org/2000/01/rdf-schema#comment> "Several packages may have been installed on an image" .
-<https://w3id.org/okn/o/c2t#hasLayer> <http://www.w3.org/2000/01/rdf-schema#label> "has layer" .
+<https://w3id.org/okn/o/c2t#hasLayer> <http://www.w3.org/2000/01/rdf-schema#label> "hasLayer" .
 # 
 # https://w3id.org/okn/o/c2t#isOperativeSystemOf
 <https://w3id.org/okn/o/c2t#isOperativeSystemOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/okn/o/c2t#isOperativeSystemOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem> .
 <https://w3id.org/okn/o/c2t#isOperativeSystemOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://dockerpedia.inf.utfsm.cl/vocab#Image> .
 <https://w3id.org/okn/o/c2t#isOperativeSystemOf> <http://www.w3.org/2000/01/rdf-schema#comment> "An image could have an operative system" .
-<https://w3id.org/okn/o/c2t#isOperativeSystemOf> <http://www.w3.org/2000/01/rdf-schema#label> "is operative system of" .
+<https://w3id.org/okn/o/c2t#isOperativeSystemOf> <http://www.w3.org/2000/01/rdf-schema#label> "isOperativeSystemOf" .
 # 
 # 
 # 
@@ -97,6 +98,8 @@
 # 
 # http://dockerpedia.inf.utfsm.cl/vocab#size
 <http://dockerpedia.inf.utfsm.cl/vocab#size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dockerpedia.inf.utfsm.cl/vocab#size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#Image> .
+<http://dockerpedia.inf.utfsm.cl/vocab#size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion> .
 <http://dockerpedia.inf.utfsm.cl/vocab#size> <http://www.w3.org/2000/01/rdf-schema#comment> "An image/package has a size" .
 <http://dockerpedia.inf.utfsm.cl/vocab#size> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://dockerpedia.inf.utfsm.cl/vocab#size" .
 <http://dockerpedia.inf.utfsm.cl/vocab#size> <http://www.w3.org/2000/01/rdf-schema#label> "size" .
@@ -109,12 +112,14 @@
 # 
 # https://purl.org/dc/terms/identifier
 <https://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#Image> .
 <https://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "An unambiguous reference to the resource within a given context" .
 <https://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/dc/terms/identifier" .
 <https://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "identifier" .
 # 
 # https://purl.org/dc/terms/license
 <https://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem> .
 <https://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#comment> "A package version may specify the version that is being used" .
 <https://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://purl.org/dc/terms/license" .
 <https://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#label> "license" .
@@ -135,19 +140,19 @@
 <https://w3id.org/okn/o/c2t#operativeSystemPackageVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/okn/o/c2t#operativeSystemPackageVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion> .
 <https://w3id.org/okn/o/c2t#operativeSystemPackageVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Version of an operative system package" .
-<https://w3id.org/okn/o/c2t#operativeSystemPackageVersion> <http://www.w3.org/2000/01/rdf-schema#label> "operative system package version" .
+<https://w3id.org/okn/o/c2t#operativeSystemPackageVersion> <http://www.w3.org/2000/01/rdf-schema#label> "operativeSystemPackageVersion" .
 # 
 # https://w3id.org/okn/o/c2t#packageURL
 <https://w3id.org/okn/o/c2t#packageURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/okn/o/c2t#packageURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion> .
 <https://w3id.org/okn/o/c2t#packageURL> <http://www.w3.org/2000/01/rdf-schema#comment> "A package version may be associated to an URL" .
-<https://w3id.org/okn/o/c2t#packageURL> <http://www.w3.org/2000/01/rdf-schema#label> "package u r l" .
+<https://w3id.org/okn/o/c2t#packageURL> <http://www.w3.org/2000/01/rdf-schema#label> "packageURL" .
 # 
 # httpsd: htttp://w3id.org/okn/o/sd#dateCreated
 <httpsd:%20htttp://w3id.org/okn/o/sd#dateCreated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <httpsd:%20htttp://w3id.org/okn/o/sd#dateCreated> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#Image> .
 <httpsd:%20htttp://w3id.org/okn/o/sd#dateCreated> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when a software component was created" .
-<httpsd:%20htttp://w3id.org/okn/o/sd#dateCreated> <http://www.w3.org/2000/01/rdf-schema#label> "date created" .
+<httpsd:%20htttp://w3id.org/okn/o/sd#dateCreated> <http://www.w3.org/2000/01/rdf-schema#label> "dateCreated" .
 # 
 # httpsd: htttp://w3id.org/okn/o/sd#description
 <httpsd:%20htttp://w3id.org/okn/o/sd#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -159,22 +164,26 @@
 <httpsd:%20htttp://w3id.org/okn/o/sd#hasDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <httpsd:%20htttp://w3id.org/okn/o/sd#hasDocumentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem> .
 <httpsd:%20htttp://w3id.org/okn/o/sd#hasDocumentation> <http://www.w3.org/2000/01/rdf-schema#comment> "Pointer to the documentation of the model" .
-<httpsd:%20htttp://w3id.org/okn/o/sd#hasDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "has documentation" .
+<httpsd:%20htttp://w3id.org/okn/o/sd#hasDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "hasDocumentation" .
 # 
 # httpsd: htttp://w3id.org/okn/o/sd#hasVersionId
 <httpsd:%20htttp://w3id.org/okn/o/sd#hasVersionId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<httpsd:%20htttp://w3id.org/okn/o/sd#hasVersionId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem> .
 <httpsd:%20htttp://w3id.org/okn/o/sd#hasVersionId> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier of the version of this software" .
 <httpsd:%20htttp://w3id.org/okn/o/sd#hasVersionId> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/okn/o/sd#hasVersionId" .
-<httpsd:%20htttp://w3id.org/okn/o/sd#hasVersionId> <http://www.w3.org/2000/01/rdf-schema#label> "has version id" .
+<httpsd:%20htttp://w3id.org/okn/o/sd#hasVersionId> <http://www.w3.org/2000/01/rdf-schema#label> "hasVersionId" .
 # 
 # httpsd: htttp://w3id.org/okn/o/sd#issueTracker
 <httpsd:%20htttp://w3id.org/okn/o/sd#issueTracker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <httpsd:%20htttp://w3id.org/okn/o/sd#issueTracker> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem> .
 <httpsd:%20htttp://w3id.org/okn/o/sd#issueTracker> <http://www.w3.org/2000/01/rdf-schema#comment> "Pointer to the documentation of the model" .
-<httpsd:%20htttp://w3id.org/okn/o/sd#issueTracker> <http://www.w3.org/2000/01/rdf-schema#label> "issue tracker" .
+<httpsd:%20htttp://w3id.org/okn/o/sd#issueTracker> <http://www.w3.org/2000/01/rdf-schema#label> "issueTracker" .
 # 
 # httpsd: htttp://w3id.org/okn/o/sd#name
 <httpsd:%20htttp://w3id.org/okn/o/sd#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<httpsd:%20htttp://w3id.org/okn/o/sd#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion> .
+<httpsd:%20htttp://w3id.org/okn/o/sd#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#operatingsystem> .
+<http://dockerpedia.inf.utfsm.cl/vocab#operatingsystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <httpsd:%20htttp://w3id.org/okn/o/sd#name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the resource" .
 <httpsd:%20htttp://w3id.org/okn/o/sd#name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/okn/o/sd#name" .
 <httpsd:%20htttp://w3id.org/okn/o/sd#name> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
@@ -183,7 +192,7 @@
 <httpsd:%20htttp://w3id.org/okn/o/sd#programmingLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <httpsd:%20htttp://w3id.org/okn/o/sd#programmingLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion> .
 <httpsd:%20htttp://w3id.org/okn/o/sd#programmingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Language used to code a software component" .
-<httpsd:%20htttp://w3id.org/okn/o/sd#programmingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "programming language" .
+<httpsd:%20htttp://w3id.org/okn/o/sd#programmingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "programmingLanguage" .
 # 
 # httpsd: htttp://w3id.org/okn/o/sd#website
 <httpsd:%20htttp://w3id.org/okn/o/sd#website> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -224,5 +233,7 @@
 <http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Version of a software package" .
 <http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion> <http://www.w3.org/2000/01/rdf-schema#label> "PackageVersion" .
+# 
+# http://dockerpedia.inf.utfsm.cl/vocab#operatingsystem
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
