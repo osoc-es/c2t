@@ -134,20 +134,5 @@ def dockerfile(input_path, image_name, save, output_path):
     f.close()
 
 
-@cli.command()
-@click.argument('name1')
-@click.argument('name2')
-def compare(name1, name2):
-    """ Inspect your image from its name or ID """
-    os.system(('docker inspect '+ name1+' > inspect1.json'))
-    os.system(('docker inspect '+ name2+' > inspect2.json'))
-    syft1 = os.popen(('syft '+name1+' -o cyclonedx-json')).read()
-    syft2 = os.popen(('syft '+name2+' -o cyclonedx-json')).read()
-    syft_parser.parse_data(syft1, 'result1.json')
-    syft_parser.parse_data(syft2, 'result2.json')
-    morph_kgc.materialize('config1.ini')
-    morph_kgc.materialize('config2.ini')
-
-
 if __name__ == '__main__':
     cli()
