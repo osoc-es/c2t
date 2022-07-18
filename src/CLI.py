@@ -37,14 +37,16 @@ def get_graph(name, save, i, output_path):#, temp_folder:tempfile.TemporaryDirec
 
 def temp_dir(name, save, i, output_file):
     temp = os.makedirs("tmp",exist_ok=True)#tempfile.TemporaryDirectory(dir = os.path.dirname(os.getcwd()))
-    f = open(os.path.join("tmp" ,'mapping.ttl'), 'w')
-    shutil.copy('../mappings/mapping2.ttl', os.path.join("tmp" ,'mapping.ttl'))
-    f.close()
-    f1 = open(os.path.join("tmp" ,'config.ini'), 'w')
-    shutil.copy(os.path.join('../config.ini'), os.path.join("tmp" ,'config.ini'))
-    f1.close()
-    get_graph(name, save, i, output_file)#, temp)
-    shutil.rmtree('tmp')
+    try:
+        f = open(os.path.join("tmp" ,'mapping.ttl'), 'w')
+        shutil.copy('../mappings/mapping2.ttl', os.path.join("tmp" ,'mapping.ttl'))
+        f.close()
+        f1 = open(os.path.join("tmp" ,'config.ini'), 'w')
+        shutil.copy(os.path.join('../config.ini'), os.path.join("tmp" ,'config.ini'))
+        f1.close()
+        get_graph(name, save, i, output_file)#, temp)
+    except:
+        shutil.rmtree('tmp')
     print('DONE')
 
 
@@ -132,21 +134,6 @@ def dockerfile(input_path, image_name, save, output_path):
     else:
         temp_dir(image_name, False, 0, output_path)
     f.close()
-
-
-@cli.command()
-@click.argument('name1')
-@click.argument('name2')
-def compare(name1, name2):
-    """ Inspect your image from its name or ID """
-    os.system(('docker inspect '+ name1+' > inspect1.json'))
-    os.system(('docker inspect '+ name2+' > inspect2.json'))
-    syft1 = os.popen(('syft '+name1+' -o cyclonedx-json')).read()
-    syft2 = os.popen(('syft '+name2+' -o cyclonedx-json')).read()
-    syft_parser.parse_data(syft1, 'result1.json')
-    syft_parser.parse_data(syft2, 'result2.json')
-    morph_kgc.materialize('config1.ini')
-    morph_kgc.materialize('config2.ini')
 
 
 if __name__ == '__main__':
