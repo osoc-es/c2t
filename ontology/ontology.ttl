@@ -27,7 +27,8 @@ dpv:isInstalledOn a owl:ObjectProperty ;
     rdfs:label "isInstalledOn" ;
     rdfs:comment "One OS may have installed several software packages on it" ;
     rdfs:domain dpv:PackageVersion ;
-    rdfs:isDefinedBy "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn" .
+    rdfs:isDefinedBy "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn" ;
+    rdfs:range dpv:Image .
 
 c2t:hasLayer a owl:ObjectProperty ;
     rdfs:label "hasLayer" ;
