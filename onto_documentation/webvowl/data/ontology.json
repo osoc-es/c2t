@@ -2,7 +2,7 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/okn/o/c2t", "http://dockerpedia.inf.utfsm.cl/vocab", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/okn/o/c2t", "httpsd: htttp://w3id.org/okn/o/sd", "http://dockerpedia.inf.utfsm.cl/vocab", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://purl.org/dc/terms" ],
     "title" : {
       "en" : "Containers To Triples"
     },
@@ -12,17 +12,17 @@
       "en" : "Ontology code created to illustrate the project Containers To Triples"
     },
     "other" : {
-      "license" : [ {
-        "identifier" : "license",
-        "language" : "undefined",
-        "value" : "https://opensource.org/licenses/Apache-2.0",
-        "type" : "iri"
-      } ],
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
         "value" : "Lara Herrera, David Lázaro y Adrián Pascual",
         "type" : "label"
+      } ],
+      "licenseURI" : [ {
+        "identifier" : "licenseURI",
+        "language" : "undefined",
+        "value" : "https://opensource.org/licenses/Apache-2.0",
+        "type" : "iri"
       } ],
       "citation" : [ {
         "identifier" : "citation",
@@ -34,6 +34,12 @@
         "identifier" : "created",
         "language" : "en",
         "value" : "July, 2022",
+        "type" : "label"
+      } ],
+      "licenseName" : [ {
+        "identifier" : "licenseName",
+        "language" : "undefined",
+        "value" : "Apache 2.0",
         "type" : "label"
       } ],
       "preferredNamespaceUri" : [ {
@@ -52,25 +58,13 @@
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "5",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "7",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "9",
+    "id" : "13",
     "type" : "rdfs:Literal"
   }, {
     "id" : "10",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "11",
-    "type" : "rdfs:Literal"
-  }, {
     "id" : "12",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "14",
     "type" : "rdfs:Literal"
   }, {
     "id" : "15",
@@ -82,41 +76,63 @@
     "id" : "17",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "18",
+    "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "21",
-    "type" : "owl:Class"
+    "id" : "18",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Literal"
   }, {
     "id" : "2",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "25",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "37",
     "type" : "owl:Class"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "28",
+    "id" : "30",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "23",
     "type" : "rdfs:Literal"
   } ],
   "classAttribute" : [ {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "5",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "7",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "9",
+    "id" : "13",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -130,21 +146,7 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "11",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "id" : "12",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "14",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -171,19 +173,45 @@
       "undefined" : "Literal"
     }
   }, {
-    "iri" : "https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion",
-    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "OperativeSystemPackageVersion",
-      "undefined" : "OperativeSystemPackageVersion"
+      "IRI-based" : "OperatingSystem",
+      "undefined" : "OperatingSystem"
     },
     "comment" : {
-      "undefined" : "Version of an operative system package"
+      "undefined" : "A software operating system representation"
     },
-    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "id" : "18",
-    "superClasses" : [ "4" ]
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
   }, {
     "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#DockerFile",
     "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
@@ -195,7 +223,7 @@
     "comment" : {
       "undefined" : "A file containing the instructions required to build an image (docker:SoftwareImage) in the Docker framework"
     },
-    "id" : "21"
+    "id" : "25"
   }, {
     "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer",
     "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
@@ -207,7 +235,24 @@
     "comment" : {
       "undefined" : "A layer of a Docker image are a set files generated from running a command from a DockerFile"
     },
-    "id" : "2"
+    "id" : "7"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "1" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "33"
+  }, {
+    "instances" : 0,
+    "union" : [ "9", "4" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
   }, {
     "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion",
     "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
@@ -216,11 +261,22 @@
       "IRI-based" : "PackageVersion",
       "undefined" : "PackageVersion"
     },
-    "subClasses" : [ "18" ],
     "comment" : {
       "undefined" : "Version of a software package"
     },
-    "id" : "4"
+    "id" : "9"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "9", "1" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "37"
   }, {
     "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#Image",
     "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
@@ -235,7 +291,28 @@
     "id" : "1"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "28",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "23",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -243,57 +320,100 @@
   } ],
   "property" : [ {
     "id" : "0",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "3",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "6",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "8",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "13",
+    "id" : "11",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "19",
+    "id" : "14",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "20",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "22",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "23",
-    "type" : "owl:datatypeProperty"
-  }, {
     "id" : "24",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "25",
     "type" : "owl:objectProperty"
   }, {
     "id" : "26",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "27",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "29",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "30",
+    "id" : "28",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "31",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
+    "iri" : "httpsd: htttp://w3id.org/okn/o/sd#dateCreated",
+    "baseIri" : "httpsd: htttp://w3id.org/okn/o/sd",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "dateCreated",
+      "undefined" : "dateCreated"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Date when a software component was created"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "httpsd: htttp://w3id.org/okn/o/sd#issueTracker",
+    "baseIri" : "httpsd: htttp://w3id.org/okn/o/sd",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "issueTracker",
+      "undefined" : "issueTracker"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Pointer to the documentation of the model"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "3"
+  }, {
     "iri" : "https://w3id.org/okn/o/c2t#hasLayer",
     "baseIri" : "https://w3id.org/okn/o/c2t",
-    "range" : "2",
+    "range" : "7",
     "label" : {
       "IRI-based" : "hasLayer",
       "undefined" : "hasLayer"
@@ -303,53 +423,33 @@
       "undefined" : "Several packages may have been installed on an image"
     },
     "attributes" : [ "object", "external" ],
-    "id" : "0"
-  }, {
-    "iri" : "https://w3id.org/okn/o/c2t#language",
-    "baseIri" : "https://w3id.org/okn/o/c2t",
-    "range" : "5",
-    "label" : {
-      "IRI-based" : "language",
-      "undefined" : "language"
-    },
-    "domain" : "4",
-    "comment" : {
-      "undefined" : "A package version is written in a programming language"
-    },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "3"
+    "id" : "6"
   }, {
     "iri" : "https://w3id.org/okn/o/c2t#packageURL",
     "baseIri" : "https://w3id.org/okn/o/c2t",
-    "range" : "7",
+    "range" : "10",
     "label" : {
       "IRI-based" : "packageURL",
       "undefined" : "packageURL"
     },
-    "domain" : "4",
+    "domain" : "9",
     "comment" : {
       "undefined" : "A package version may be associated to an URL"
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "6"
-  }, {
-    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#imageIdentifier",
-    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
-    "range" : "9",
-    "label" : {
-      "IRI-based" : "imageIdentifier",
-      "undefined" : "imageIdentifier"
-    },
-    "domain" : "1",
-    "comment" : {
-      "undefined" : "Each image is different from the others as it has a unique identifier"
-    },
-    "attributes" : [ "datatype" ],
     "id" : "8"
   }, {
-    "iri" : "https://w3id.org/okn/o/c2t#license",
-    "baseIri" : "https://w3id.org/okn/o/c2t",
-    "range" : "10",
+    "iri" : "https://purl.org/dc/terms/license",
+    "baseIri" : "https://purl.org/dc/terms",
+    "range" : "12",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://purl.org/dc/terms/license",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "license",
       "undefined" : "license"
@@ -359,21 +459,71 @@
       "undefined" : "A package version may specify the version that is being used"
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "13"
+    "id" : "11"
   }, {
-    "iri" : "https://w3id.org/okn/o/c2t#publisher",
-    "baseIri" : "https://w3id.org/okn/o/c2t",
-    "range" : "14",
+    "iri" : "httpsd: htttp://w3id.org/okn/o/sd#description",
+    "baseIri" : "httpsd: htttp://w3id.org/okn/o/sd",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "description",
+      "undefined" : "description"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "A description of a resource"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "httpsd: htttp://w3id.org/okn/o/sd#hasDocumentation",
+    "baseIri" : "httpsd: htttp://w3id.org/okn/o/sd",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "hasDocumentation",
+      "undefined" : "hasDocumentation"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Pointer to the documentation of the model"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://purl.org/dc/terms/identifier",
+    "baseIri" : "https://purl.org/dc/terms",
+    "range" : "19",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/identifier",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "identifier",
+      "undefined" : "identifier"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "An unambiguous reference to the resource within a given context"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://purl.org/dc/terms/publisher",
+    "baseIri" : "https://purl.org/dc/terms",
+    "range" : "23",
     "label" : {
       "IRI-based" : "publisher",
       "undefined" : "publisher"
     },
-    "domain" : "4",
+    "domain" : "9",
     "comment" : {
-      "undefined" : "A package version is published by the publisher"
+      "undefined" : "A package/operating system is published by the publisher"
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "19"
+    "id" : "22"
   }, {
     "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#hasImage",
     "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
@@ -382,44 +532,60 @@
       "IRI-based" : "hasImage",
       "undefined" : "hasImage"
     },
-    "domain" : "21",
+    "domain" : "25",
     "comment" : {
       "undefined" : "A docker file has software images"
     },
     "attributes" : [ "object" ],
-    "id" : "20"
+    "id" : "24"
   }, {
-    "iri" : "https://w3id.org/okn/o/c2t#name",
-    "baseIri" : "https://w3id.org/okn/o/c2t",
-    "range" : "15",
+    "iri" : "httpsd: htttp://w3id.org/okn/o/sd#hasVersionId",
+    "baseIri" : "httpsd: htttp://w3id.org/okn/o/sd",
+    "range" : "27",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/okn/o/sd#hasVersionId",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasVersionId",
+      "undefined" : "hasVersionId"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Identifier of the version of this software"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "httpsd: htttp://w3id.org/okn/o/sd#name",
+    "baseIri" : "httpsd: htttp://w3id.org/okn/o/sd",
+    "range" : "30",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/okn/o/sd#name",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "name",
       "undefined" : "name"
     },
-    "domain" : "4",
+    "domain" : "29",
     "comment" : {
-      "undefined" : "Each package version has name"
+      "undefined" : "Name of the resource"
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "22"
-  }, {
-    "iri" : "https://w3id.org/okn/o/c2t#version",
-    "baseIri" : "https://w3id.org/okn/o/c2t",
-    "range" : "16",
-    "label" : {
-      "IRI-based" : "version",
-      "undefined" : "version"
-    },
-    "domain" : "4",
-    "comment" : {
-      "undefined" : "A package may have more than one version available"
-    },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "23"
+    "id" : "28"
   }, {
     "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#tag",
     "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
-    "range" : "17",
+    "range" : "13",
     "label" : {
       "IRI-based" : "tag",
       "undefined" : "tag"
@@ -429,39 +595,89 @@
       "undefined" : "Image’s versions are identified by its tag"
     },
     "attributes" : [ "datatype" ],
-    "id" : "24"
+    "id" : "31"
   }, {
-    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#hasPackages",
-    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "iri" : "httpsd: htttp://w3id.org/okn/o/sd#website",
+    "baseIri" : "httpsd: htttp://w3id.org/okn/o/sd",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "website",
+      "undefined" : "website"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Website of the software"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#distributionOf",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
     "range" : "4",
     "label" : {
-      "IRI-based" : "hasPackages",
-      "undefined" : "hasPackages"
+      "IRI-based" : "distributionOf",
+      "undefined" : "distributionOf"
     },
-    "domain" : "2",
+    "domain" : "4",
     "comment" : {
-      "undefined" : "One software layer is part of a software image"
+      "undefined" : "A distribution is an operating system made from a software collection that includes the kernel and, often, a package management system"
     },
-    "attributes" : [ "object" ],
-    "id" : "25"
+    "attributes" : [ "object", "external" ],
+    "id" : "34"
   }, {
-    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#layerIdentifier",
-    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
-    "range" : "11",
+    "iri" : "httpsd: htttp://w3id.org/okn/o/sd#programmingLanguage",
+    "baseIri" : "httpsd: htttp://w3id.org/okn/o/sd",
+    "range" : "18",
     "label" : {
-      "IRI-based" : "layerIdentifier",
-      "undefined" : "layerIdentifier"
+      "IRI-based" : "programmingLanguage",
+      "undefined" : "programmingLanguage"
     },
-    "domain" : "2",
+    "domain" : "9",
     "comment" : {
-      "undefined" : "Each layer is different from the others as it has a unique identifier"
+      "undefined" : "Language used to code a software component"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#size",
+    "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
+    "range" : "38",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://dockerpedia.inf.utfsm.cl/vocab#size",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "size",
+      "undefined" : "size"
+    },
+    "domain" : "37",
+    "comment" : {
+      "undefined" : "An image/package has a size"
     },
     "attributes" : [ "datatype" ],
-    "id" : "26"
+    "id" : "36"
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#isOperativeSystemOf",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "isOperativeSystemOf",
+      "undefined" : "isOperativeSystemOf"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "An image could have an operative system"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "40"
   }, {
     "iri" : "https://w3id.org/okn/o/c2t#architecture",
     "baseIri" : "https://w3id.org/okn/o/c2t",
-    "range" : "12",
+    "range" : "42",
     "label" : {
       "IRI-based" : "architecture",
       "undefined" : "architecture"
@@ -471,39 +687,42 @@
       "undefined" : "The architecture for which the image is built. For example, amd64"
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "27"
+    "id" : "41"
+  }, {
+    "iri" : "https://w3id.org/okn/o/c2t#operativeSystemPackageVersion",
+    "baseIri" : "https://w3id.org/okn/o/c2t",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "operativeSystemPackageVersion",
+      "undefined" : "operativeSystemPackageVersion"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Version of an operative system package"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "43"
   }, {
     "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn",
     "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
-    "range" : "1",
+    "range" : "33",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "isInstalledOn",
       "undefined" : "isInstalledOn"
     },
-    "domain" : "4",
+    "domain" : "9",
     "comment" : {
       "undefined" : "One OS may have installed several software packages on it"
     },
     "attributes" : [ "object" ],
-    "id" : "29"
-  }, {
-    "iri" : "https://w3id.org/okn/o/c2t#operativeSystem",
-    "baseIri" : "https://w3id.org/okn/o/c2t",
-    "range" : "28",
-    "label" : {
-      "IRI-based" : "operativeSystem",
-      "undefined" : "operativeSystem"
-    },
-    "domain" : "1",
-    "comment" : {
-      "undefined" : "Each image is built over an operative system"
-    },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "30"
-  }, {
-    "range" : "4",
-    "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "31"
+    "id" : "44"
   } ]
 }

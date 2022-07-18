@@ -16,7 +16,10 @@
     "@language" : "en",
     "@value" : "Ontology code created to illustrate the project Containers To Triples"
   } ],
-  "http://purl.org/dc/elements/1.1/license" : [ {
+  "http://purl.org/dc/elements/1.1/licenseName" : [ {
+    "@value" : "Apache 2.0"
+  } ],
+  "http://purl.org/dc/elements/1.1/licenseURI" : [ {
     "@id" : "https://opensource.org/licenses/Apache-2.0"
   } ],
   "http://purl.org/dc/elements/1.1/preferredNamespaceUri" : [ {
@@ -54,6 +57,15 @@
     "@value" : "ImageLayer"
   } ]
 }, {
+  "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A software operating system representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "OperatingSystem"
+  } ]
+}, {
   "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -78,33 +90,6 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
   } ]
 }, {
-  "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#hasPackages",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "One software layer is part of a software image"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "hasPackages"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
-  } ]
-}, {
-  "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#imageIdentifier",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Each image is different from the others as it has a unique identifier"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "imageIdentifier"
-  } ]
-}, {
   "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -113,23 +98,35 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isInstalled on"
+  }, {
     "@value" : "isInstalledOn"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
+  }, {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer"
   } ]
 }, {
-  "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#layerIdentifier",
+  "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#size",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Each layer is different from the others as it has a unique identifier"
+    "@value" : "An image/package has a size"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer"
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
+  }, {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://dockerpedia.inf.utfsm.cl/vocab#size"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "layerIdentifier"
+    "@value" : "size"
   } ]
 }, {
   "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#tag",
@@ -156,7 +153,10 @@
   "@id" : "http://purl.org/dc/elements/1.1/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/elements/1.1/license",
+  "@id" : "http://purl.org/dc/elements/1.1/licenseName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/licenseURI",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/preferredNamespaceUri",
@@ -165,16 +165,46 @@
   "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://w3id.org/okn/o/c2t#OperativeSystemPackageVersion",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@id" : "https://purl.org/dc/terms/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Version of an operative system package"
+    "@value" : "An unambiguous reference to the resource within a given context"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://purl.org/dc/terms/identifier"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "OperativeSystemPackageVersion"
+    "@value" : "identifier"
+  } ]
+}, {
+  "@id" : "https://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A package version may specify the version that is being used"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://purl.org/dc/terms/license"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "license"
+  } ]
+}, {
+  "@id" : "https://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A package/operating system is published by the publisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "publisher"
   } ]
 }, {
   "@id" : "https://w3id.org/okn/o/c2t#architecture",
@@ -187,6 +217,21 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "architecture"
+  } ]
+}, {
+  "@id" : "https://w3id.org/okn/o/c2t#distributionOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A distribution is an operating system made from a software collection that includes the kernel and, often, a package management system"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "distributionOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
   } ]
 }, {
   "@id" : "https://w3id.org/okn/o/c2t#hasLayer",
@@ -204,52 +249,31 @@
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer"
   } ]
 }, {
-  "@id" : "https://w3id.org/okn/o/c2t#language",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@id" : "https://w3id.org/okn/o/c2t#isOperativeSystemOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "A package version is written in a programming language"
+    "@value" : "An image could have an operative system"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "language"
-  } ]
-}, {
-  "@id" : "https://w3id.org/okn/o/c2t#license",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "A package version may specify the version that is being used"
+    "@value" : "isOperativeSystemOf"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "license"
-  } ]
-}, {
-  "@id" : "https://w3id.org/okn/o/c2t#name",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Each package version has name"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "name"
-  } ]
-}, {
-  "@id" : "https://w3id.org/okn/o/c2t#operativeSystem",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Each image is built over an operative system"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
+  } ]
+}, {
+  "@id" : "https://w3id.org/okn/o/c2t#operativeSystemPackageVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Version of an operative system package"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "operativeSystem"
+    "@value" : "operativeSystemPackageVersion"
   } ]
 }, {
   "@id" : "https://w3id.org/okn/o/c2t#packageURL",
@@ -264,27 +288,107 @@
     "@value" : "packageURL"
   } ]
 }, {
-  "@id" : "https://w3id.org/okn/o/c2t#publisher",
+  "@id" : "httpsd: htttp://w3id.org/okn/o/sd#dateCreated",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "A package version is published by the publisher"
+    "@value" : "Date when a software component was created"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#Image"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "publisher"
+    "@value" : "dateCreated"
   } ]
 }, {
-  "@id" : "https://w3id.org/okn/o/c2t#version",
+  "@id" : "httpsd: htttp://w3id.org/okn/o/sd#description",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "A package may have more than one version available"
+    "@value" : "A description of a resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "description"
+  } ]
+}, {
+  "@id" : "httpsd: htttp://w3id.org/okn/o/sd#hasDocumentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pointer to the documentation of the model"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasDocumentation"
+  } ]
+}, {
+  "@id" : "httpsd: htttp://w3id.org/okn/o/sd#hasVersionId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Identifier of the version of this software"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/okn/o/sd#hasVersionId"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasVersionId"
+  } ]
+}, {
+  "@id" : "httpsd: htttp://w3id.org/okn/o/sd#issueTracker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pointer to the documentation of the model"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "issueTracker"
+  } ]
+}, {
+  "@id" : "httpsd: htttp://w3id.org/okn/o/sd#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Name of the resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
+  }, {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/okn/o/sd#name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "name"
+  } ]
+}, {
+  "@id" : "httpsd: htttp://w3id.org/okn/o/sd#programmingLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Language used to code a software component"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "version"
+    "@value" : "programmingLanguage"
+  } ]
+}, {
+  "@id" : "httpsd: htttp://w3id.org/okn/o/sd#website",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Website of the software"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "website"
   } ]
 } ]
