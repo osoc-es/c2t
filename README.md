@@ -29,4 +29,4 @@ Once we have these data sources, we have to create a knowledge graph. For this p
 Available here: [https://osoc-es.github.io/c2t/onto_documentation/index-en.html](https://osoc-es.github.io/c2t/onto_documentation/index-en.html)
 
 ## Ontology diagram
-![onto_map](onto_documentation/images/diagram.svg)
+![onto_map](myDocumentation/images/diagram.svg)
