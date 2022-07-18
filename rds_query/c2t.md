@@ -53,9 +53,27 @@ else:
     {'head': {'vars': ['package', 'version']}, 'results': {'bindings': [{'package': {'type': 'uri', 'value': 'https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Fwheel%400.37.1'}}]}}
 
 
-# Caso de uso 2: comparar dos imágenes
+# Caso de uso 2: Encontrar todas las imágenes
 
 
 ```python
+from SPARQLWrapper import SPARQLWrapper, CSV
+
+sparql = SPARQLWrapper("http://localhost:3030/grafo")
+
+sparql.setQuery("""
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dpv: <http://dockerpedia.inf.utfsm.cl/vocab#>
+SELECT ?name
+WHERE {
+?image a dpv:Image.
+?image rdfs:label ?name
+} 
+""")
+sparql.setReturnFormat(CSV)
+results = sparql.query().convert()
+print(results)
 
 ```
+
+# Caso de uso 3: 
