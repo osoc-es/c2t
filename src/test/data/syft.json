@@ -83,6 +83,57 @@
       ]
     },
     {
+      "bom-ref": "pkg:maven/log4j/log4j@1.2.17?package-id=2ac542944a46bc8e",
+      "type": "library",
+      "group": "log4j",
+      "name": "log4j",
+      "version": "1.2.17",
+      "cpe": "cpe:2.3:a:apache:log4j:1.2.17:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/log4j/log4j@1.2.17",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:log4j:log4j:1.2.17:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:28dbf3e91b475b55a9bed6a8cb96ea4c98f3e6722a87e7cce3d91bedbcf9c156"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/jena-fuseki/fuseki-server.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "log4j"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "log4j"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/jena-fuseki/fuseki-server.jar:log4j"
+        }
+      ]
+    },
+    {
       "type": "operating-system",
       "name": "debian",
       "version": "10",
