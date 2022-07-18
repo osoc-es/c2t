@@ -1,6 +1,7 @@
-from genericpath import exists
 import click
-import os 
+import os
+
+from numpy import require 
 import syft_parser as syft_parser 
 import morph_kgc
 import shutil 
@@ -24,9 +25,9 @@ def get_graph(name, save, i, output_path):#, temp_folder:tempfile.TemporaryDirec
         shutil.copy(os.path.join("tmp" ,'result1.json'), os.path.join(output_path ,'result_syft_'+str(i)+'.json'))
     g = morph_kgc.materialize('./tmp/config.ini')
     print('acaba')
-    g.serialize(destination=os.path.join("tmp" ,"grafo"+str(i)+".nt"), format="ntriples")
-    with open(os.path.join(output_path,"final_result.nt"), "a") as new_file:
-        with open(os.path.join("tmp","grafo"+str(i)+".nt"), 'r') as f:
+    g.serialize(destination=os.path.join("tmp" ,"grafo"+str(i)+".ttl"), format="ttl")
+    with open(os.path.join(output_path,"final_result.ttl"), "a") as new_file:
+        with open(os.path.join("tmp","grafo"+str(i)+".ttl"), 'r') as f:
             for line in f:
                 new_file.write(line)
             new_file.write("\n")
@@ -57,11 +58,11 @@ def cli():
 @click.option('-p', '--input_path', type=str, help="input path of the file or directory with the name or ID of the images to inspect.")
 @click.option('-i', '--input_image', type=str, help="name or ID of the image to inspect")
 @click.option('-s', '--save', type=bool, is_flag=True, help="saves temporal json archives in a new directory")
-@click.option('-o', '--output_path', type=str ,help="output directory path to store results. If the directory does not exist, the tool will create it.")
+@click.option('-o', '--output_path', type=str , required= True, help="output directory path to store results. If the directory does not exist, the tool will create it.")
 def image(input_path, input_image, save, output_path):
     """ Inspect y:our image or images from its name or ID;"""    
     os.makedirs(output_path, exist_ok=True)
-    open(output_path+'/final_result.nt', 'w')
+    f = open(output_path+'/final_result.ttl', 'w')
     if input_path:
         if os.path.isfile(input_path):
             with open(input_path,'r') as fp:
@@ -79,29 +80,58 @@ def image(input_path, input_image, save, output_path):
             temp_dir(input_image, True, 0, output_path)
         else:
             temp_dir(input_image, False, 0, output_path)
+    f.close()
 
 
 
 @cli.command()
-@click.argument('name')
-def dockerhub(name):
-    """ Inspect an image from dockerhub """
-    os.system(('docker pull '+ name))
-    os.system(('docker inspect '+ name+' > inspect.json'))
-    syft = os.popen(('syft '+name+' -o cyclonedx-json')).read()
-    syft_parser.parse_data(syft, 'result.json')
-    
+@click.option('-p', '--input_path', type=str, help="input path of the file or directory with the name of the images to inspect in dockerhub.")
+@click.option('-i', '--input_image', type=str, help="name or ID of the image to inspect in dockerhub")
+@click.option('-s', '--save', type=bool, is_flag=True, help="saves temporal json archives in the output directory")
+@click.option('-o', '--output_path', type=str, required= True, help="output directory path to store results. If the directory does not exist, the tool will create it.")
+def dockerhub(input_path, input_image, save, output_path):
+    """ Inspect an image or images from dockerhub """
+    os.makedirs(output_path, exist_ok=True)
+    f = open(output_path+'/final_result.ttl', 'w')
+    if input_path:
+        if os.path.isfile(input_path):
+            with open(input_path,'r') as fp:
+                names = [elem.rstrip() for elem in fp.readlines()]
+                for name in names:
+                    os.system(('docker pull '+ name))
+                for i,elem in enumerate(names):
+                    
+                    if save:
+                        temp_dir(elem, True, i, output_path)
+                    else:
+                        temp_dir(elem, False, i, output_path)
+        else:
+            print('The file does not exists')
+    if input_image:
+        os.system(('docker pull '+ input_image))
+        if save:
+            temp_dir(input_image, True, 0, output_path)
+        else:
+            temp_dir(input_image, False, 0, output_path)
+    f.close()
 
 
 @cli.command()
-@click.argument('name')
-def dockerfile(name):
+@click.option('-p', '--input_path', type=str, required= True, help="input path of the dockerfile")
+@click.option('-i', '--image_name', type=str, required= True, help="name of the image in the dockerfile")
+@click.option('-s', '--save', type=bool, is_flag=True, help="saves temporal json archives in the output directory")
+@click.option('-o', '--output_path', type=str, required= True, help="output directory path to store results. If the directory does not exist, the tool will create it.")
+def dockerfile(input_path, image_name, save, output_path):
     "Inspect your image from your local dockerfile. The name must be between 2 and 255 letters."
-    os.system(("docker build . -t "+name))
-    os.system(("docker inspect "+name+' > inspect.json'))
-    syft = os.popen(('syft '+name+' -o cyclonedx-json')).read()
-    syft_parser.parse_data(syft, 'result.json')
-    morph_kgc.materialize('./tmp/config.ini')
+    os.makedirs(output_path, exist_ok=True)
+    f = open(output_path+'/final_result.ttl', 'w')
+    print("docker build "+str(input_path)+ " -t "+image_name)
+    os.system(("docker build "+str(input_path)+ " -t "+image_name))
+    if save:
+        temp_dir(image_name, True, 0, output_path)
+    else:
+        temp_dir(image_name, False, 0, output_path)
+    f.close()
 
 
 @cli.command()
