@@ -2,8 +2,6 @@
 <rdf:RDF xmlns="http://dockerpedia.inf.utfsm.cl/vocab#"
      xml:base="http://dockerpedia.inf.utfsm.cl/vocab"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:sd="https://w3id.org/okn/o/sd#"
-     xmlns:c2t="https://w3id.org/okn/o/c2t#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -90,60 +88,6 @@
     
 
 
-    <!-- https://w3id.org/okn/o/c2t#operativeSystemPackageVersion -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/okn/o/c2t#operativeSystemPackageVersion">
-        <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- https://w3id.org/okn/o/sd#dateCreated -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/okn/o/sd#dateCreated">
-        <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#Image"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- https://w3id.org/okn/o/sd#description -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/okn/o/sd#description">
-        <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- https://w3id.org/okn/o/sd#hasDocumentation -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/okn/o/sd#hasDocumentation">
-        <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- https://w3id.org/okn/o/sd#issueTracker -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/okn/o/sd#issueTracker">
-        <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- https://w3id.org/okn/o/sd#website -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/okn/o/sd#website">
-        <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -163,7 +107,7 @@
         <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#DockerFile"/>
         <rdfs:range rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#Image"/>
         <rdfs:comment>A docker file has software images</rdfs:comment>
-        <rdfs:label>hasImage</rdfs:label>
+        <rdfs:label>has image</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -174,9 +118,10 @@
     <owl:ObjectProperty rdf:about="http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn">
         <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"/>
         <rdfs:range rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#Image"/>
+        <rdfs:range rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer"/>
         <rdfs:comment>One OS may have installed several software packages on it</rdfs:comment>
         <rdfs:isDefinedBy>http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn</rdfs:isDefinedBy>
-        <rdfs:label>isInstalledOn</rdfs:label>
+        <rdfs:label>is installed on</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -188,7 +133,7 @@
         <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
         <rdfs:range rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
         <rdfs:comment>A distribution is an operating system made from a software collection that includes the kernel and, often, a package management system</rdfs:comment>
-        <rdfs:label>distributionOf</rdfs:label>
+        <rdfs:label>distribution of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -200,7 +145,7 @@
         <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#Image"/>
         <rdfs:range rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#ImageLayer"/>
         <rdfs:comment>Several packages may have been installed on an image</rdfs:comment>
-        <rdfs:label>hasLayer</rdfs:label>
+        <rdfs:label>has layer</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -212,7 +157,7 @@
         <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
         <rdfs:range rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#Image"/>
         <rdfs:comment>An image could have an operative system</rdfs:comment>
-        <rdfs:label>isOperativeSystemOf</rdfs:label>
+        <rdfs:label>is operative system of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -226,6 +171,17 @@
      -->
 
 
+    
+
+
+    <!-- http://dockerpedia.inf.utfsm.cl/vocab#size -->
+
+
+    <owl:DatatypeProperty rdf:about="http://dockerpedia.inf.utfsm.cl/vocab#size">
+        <rdfs:comment>An image/package has a size</rdfs:comment>
+        <rdfs:isDefinedBy>http://dockerpedia.inf.utfsm.cl/vocab#size</rdfs:isDefinedBy>
+        <rdfs:label>size</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -284,32 +240,87 @@
     
 
 
+    <!-- https://w3id.org/okn/o/c2t#operativeSystemPackageVersion -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/okn/o/c2t#operativeSystemPackageVersion">
+        <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"/>
+        <rdfs:comment>Version of an operative system package</rdfs:comment>
+        <rdfs:label>operative system package version</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://w3id.org/okn/o/c2t#packageURL -->
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/okn/o/c2t#packageURL">
         <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"/>
         <rdfs:comment>A package version may be associated to an URL</rdfs:comment>
-        <rdfs:label>packageURL</rdfs:label>
+        <rdfs:label>package u r l</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/okn/o/sd#hasVersionId -->
+    <!-- httpsd: htttp://w3id.org/okn/o/sd#dateCreated -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/okn/o/sd#hasVersionId">
+    <owl:DatatypeProperty rdf:about="httpsd: htttp://w3id.org/okn/o/sd#dateCreated">
+        <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#Image"/>
+        <rdfs:comment>Date when a software component was created</rdfs:comment>
+        <rdfs:label>date created</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- httpsd: htttp://w3id.org/okn/o/sd#description -->
+
+
+    <owl:DatatypeProperty rdf:about="httpsd: htttp://w3id.org/okn/o/sd#description">
+        <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
+        <rdfs:comment>A description of a resource</rdfs:comment>
+        <rdfs:label>description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- httpsd: htttp://w3id.org/okn/o/sd#hasDocumentation -->
+
+
+    <owl:DatatypeProperty rdf:about="httpsd: htttp://w3id.org/okn/o/sd#hasDocumentation">
+        <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
+        <rdfs:comment>Pointer to the documentation of the model</rdfs:comment>
+        <rdfs:label>has documentation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- httpsd: htttp://w3id.org/okn/o/sd#hasVersionId -->
+
+
+    <owl:DatatypeProperty rdf:about="httpsd: htttp://w3id.org/okn/o/sd#hasVersionId">
         <rdfs:comment>Identifier of the version of this software</rdfs:comment>
         <rdfs:isDefinedBy>https://w3id.org/okn/o/sd#hasVersionId</rdfs:isDefinedBy>
-        <rdfs:label>hasVersionId</rdfs:label>
+        <rdfs:label>has version id</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/okn/o/sd#name -->
+    <!-- httpsd: htttp://w3id.org/okn/o/sd#issueTracker -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/okn/o/sd#name">
+    <owl:DatatypeProperty rdf:about="httpsd: htttp://w3id.org/okn/o/sd#issueTracker">
+        <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
+        <rdfs:comment>Pointer to the documentation of the model</rdfs:comment>
+        <rdfs:label>issue tracker</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- httpsd: htttp://w3id.org/okn/o/sd#name -->
+
+
+    <owl:DatatypeProperty rdf:about="httpsd: htttp://w3id.org/okn/o/sd#name">
         <rdfs:comment>Name of the resource</rdfs:comment>
         <rdfs:isDefinedBy>https://w3id.org/okn/o/sd#name</rdfs:isDefinedBy>
         <rdfs:label>name</rdfs:label>
@@ -317,13 +328,24 @@
     
 
 
-    <!-- https://w3id.org/okn/o/sd#programmingLanguage -->
+    <!-- httpsd: htttp://w3id.org/okn/o/sd#programmingLanguage -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/okn/o/sd#programmingLanguage">
+    <owl:DatatypeProperty rdf:about="httpsd: htttp://w3id.org/okn/o/sd#programmingLanguage">
         <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion"/>
         <rdfs:comment>Language used to code a software component</rdfs:comment>
-        <rdfs:label>programmingLanguage</rdfs:label>
+        <rdfs:label>programming language</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- httpsd: htttp://w3id.org/okn/o/sd#website -->
+
+
+    <owl:DatatypeProperty rdf:about="httpsd: htttp://w3id.org/okn/o/sd#website">
+        <rdfs:domain rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
+        <rdfs:comment>Website of the software</rdfs:comment>
+        <rdfs:label>website</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -387,127 +409,6 @@
         <rdfs:comment>Version of a software package</rdfs:comment>
         <rdfs:label>PackageVersion</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#DataTypeProperty -->
-
-
-    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DataTypeProperty"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    
-
-
-    <!-- http://dockerpedia.inf.utfsm.cl/vocab#size -->
-
-
-    <owl:NamedIndividual rdf:about="http://dockerpedia.inf.utfsm.cl/vocab#size">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataTypeProperty"/>
-        <rdfs:comment>An image/package has a size</rdfs:comment>
-        <rdfs:isDefinedBy>http://dockerpedia.inf.utfsm.cl/vocab#size</rdfs:isDefinedBy>
-        <rdfs:label>size</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/okn/o/c2t#operativeSystemPackageVersion -->
-
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/okn/o/c2t#operativeSystemPackageVersion">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataTypeProperty"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/okn/o/sd#dateCreated -->
-
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/okn/o/sd#dateCreated">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataTypeProperty"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/okn/o/sd#description -->
-
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/okn/o/sd#description">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataTypeProperty"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/okn/o/sd#hasDocumentation -->
-
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/okn/o/sd#hasDocumentation">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataTypeProperty"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/okn/o/sd#issueTracker -->
-
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/okn/o/sd#issueTracker">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataTypeProperty"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/okn/o/sd#website -->
-
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/okn/o/sd#website">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataTypeProperty"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    <rdf:Description rdf:about="https://w3id.org/okn/o/c2t#operativeSystemPackageVersion">
-        <rdfs:comment>Version of an operative system package</rdfs:comment>
-        <rdfs:label>operativeSystemPackageVersion</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/okn/o/sd#dateCreated">
-        <rdfs:comment>Date when a software component was created</rdfs:comment>
-        <rdfs:label>dateCreated</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/okn/o/sd#description">
-        <rdfs:comment>A description of a resource</rdfs:comment>
-        <rdfs:label>description</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/okn/o/sd#hasDocumentation">
-        <rdfs:comment>Pointer to the documentation of the model</rdfs:comment>
-        <rdfs:label>hasDocumentation</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/okn/o/sd#issueTracker">
-        <rdfs:comment>Pointer to the documentation of the model</rdfs:comment>
-        <rdfs:label>issueTracker</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/okn/o/sd#website">
-        <rdfs:comment>Website of the software</rdfs:comment>
-        <rdfs:label>website</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 
