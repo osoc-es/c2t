@@ -30,7 +30,7 @@ class TestCLI(unittest.TestCase):
         g = morph_kgc.materialize('./tmp/config.ini')
         g.serialize(destination=os.path.join("tmp", "graph.nt"), format="ntriples")
         # perform queries
-        # query for licenses
+        # query for packages with license (there is one)
         query = """
         PREFIX dct: <https://purl.org/dc/terms/>
         SELECT DISTINCT ?license 
@@ -41,33 +41,48 @@ class TestCLI(unittest.TestCase):
         qres = g.query(query)
         self.assertEqual(len(qres), 1)
 
+        # Query for packages in Java installed on an image (there is one result)
+        # The image tag is python:3.9
+        query = """
+                PREFIX dct: <https://purl.org/dc/terms/>
+                PREFIX dpv: <http://dockerpedia.inf.utfsm.cl/vocab#>
+                PREFIX sd: <https://w3id.org/okn/o/sd#>
+                SELECT DISTINCT ?package 
+                WHERE {
+                    ?p a dpv:PackageVersion;
+                       dpv:isInstalledOn ?img;
+                       sd:programmingLanguage "java" .
+                    ?img dpv:tag "python:3.9".
+                }
+                """
+        qres = g.query(query)
+        self.assertEqual(len(qres), 1)
+
         #Query for testing OS
         query = """
         PREFIX dct: <https://purl.org/dc/terms/> 
-        PREFIX c2t: <https://w3id.org/okn/o/c2t#>
+        PREFIX c2t: <https://w3id.org/c2t#>
+        PREFIX dpv: <http://dockerpedia.inf.utfsm.cl/vocab#>
         PREFIX sd: <https://w3id.org/okn/o/sd#>
         SELECT DISTINCT ?os 
         WHERE {
             ?os sd:name ?nom ;
-            sd:hasVersionId ?ver;
-            sd:description ?desc;
-            sd:issueTracker ?tracker;
-            sd:website ?website.
-  
+                a dpv:OperatingSystem;
+                sd:hasVersionId ?ver;
+                c2t:distributionOf ?os2;
+                c2t:isOperativeSystemOf ?image;
+                sd:description ?desc;
+                sd:issueTracker ?tracker;
+                sd:website ?website.
+            ?image c2t:architecture ?arch.
         }
         """
-        # 
+        #
         qres = g.query(query)
-
-        for row in qres:
-            print(row.os)
-
         self.assertEqual(len(qres), 1)
-        # Query for others:
-            # OS
-            # Packages
-            # Metadata (architectures, etc.)
 
+        # delete tmp folder
+        shutil.rmtree("tmp")
 
 
 if __name__ == '__main__':
