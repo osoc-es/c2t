@@ -105,9 +105,6 @@
   }, {
     "id" : "1",
     "type" : "owl:Class"
-  }, {
-    "id" : "29",
-    "type" : "owl:Thing"
   } ],
   "classAttribute" : [ {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -595,7 +592,7 @@
   }, {
     "iri" : "http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn",
     "baseIri" : "http://dockerpedia.inf.utfsm.cl/vocab",
-    "range" : "29",
+    "range" : "1",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
