@@ -116,7 +116,7 @@ c2t:packageURL rdf:type owl:DatatypeProperty ;
 
 ### sd:hasVersionId
 sd:hasVersionId rdf:type owl:DatatypeProperty ;
-		rdfs:domain dpv:OperatingSystem;
+		rdfs:domain dpv:OperatingSystem ;
 		rdfs:comment "Identifier of the version of this software" ;
     	rdfs:isDefinedBy "https://w3id.org/okn/o/sd#hasVersionId" ;  
 		rdfs:label "hasVersionId" .
