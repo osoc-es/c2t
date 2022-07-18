@@ -27,7 +27,7 @@ mappings:
       - [c2t:created, $(Created)]
       - [dpv:size,$(Size)]
       - [rdfs:label, $(RepoTags)]
-      - []
+
     
   
   packageversion:

@@ -45,9 +45,9 @@ def temp_dir(name, save, i, output_file):
         shutil.copy(os.path.join('../config.ini'), os.path.join("tmp" ,'config.ini'))
         f1.close()
         get_graph(name, save, i, output_file)#, temp)
+        shutil.rmtree('tmp')
     except:
         shutil.rmtree('tmp')
-    print('DONE')
 
 
 @click.group()
