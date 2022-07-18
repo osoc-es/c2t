@@ -37,14 +37,16 @@ def get_graph(name, save, i, output_path):#, temp_folder:tempfile.TemporaryDirec
 
 def temp_dir(name, save, i, output_file):
     temp = os.makedirs("tmp",exist_ok=True)#tempfile.TemporaryDirectory(dir = os.path.dirname(os.getcwd()))
-    f = open(os.path.join("tmp" ,'mapping.ttl'), 'w')
-    shutil.copy('../mappings/mapping2.ttl', os.path.join("tmp" ,'mapping.ttl'))
-    f.close()
-    f1 = open(os.path.join("tmp" ,'config.ini'), 'w')
-    shutil.copy(os.path.join('../config.ini'), os.path.join("tmp" ,'config.ini'))
-    f1.close()
-    get_graph(name, save, i, output_file)#, temp)
-    shutil.rmtree('tmp')
+    try:
+        f = open(os.path.join("tmp" ,'mapping.ttl'), 'w')
+        shutil.copy('../mappings/mapping2.ttl', os.path.join("tmp" ,'mapping.ttl'))
+        f.close()
+        f1 = open(os.path.join("tmp" ,'config.ini'), 'w')
+        shutil.copy(os.path.join('../config.ini'), os.path.join("tmp" ,'config.ini'))
+        f1.close()
+        get_graph(name, save, i, output_file)#, temp)
+    except:
+        shutil.rmtree('tmp')
     print('DONE')
 
 
