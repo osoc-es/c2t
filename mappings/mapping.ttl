@@ -1,0 +1,202 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix map: <http://mapping.example.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix v: <http://rdf.data-vocabulary.org/#> .
+@prefix c2t: <https://w3id.org/c2t#> .
+@prefix c2ti: <https://w3id.org/c2t/i/> .
+@prefix dpv: <http://dockerpedia.inf.utfsm.cl/vocab#> .
+@prefix dct: <https://purl.org/dc/terms/> .
+
+map:map_image_000 rml:logicalSource map:source_001 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "image" ;
+	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004, map:pom_005 ;
+	rr:subjectMap map:s_000 .
+
+map:map_packageversion_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "packageversion" ;
+	rr:predicateObjectMap map:pom_006, map:pom_007, map:pom_008, map:pom_009, map:pom_010, map:pom_011, map:pom_012, map:pom_013 ;
+	rr:subjectMap map:s_001 .
+
+map:om_000 rdf:type rr:ObjectMap ;
+	rr:constant "http://dockerpedia.inf.utfsm.cl/vocab#Image" ;
+	rr:termType rr:IRI .
+
+map:om_001 rdf:type rr:ObjectMap ;
+	rr:template "https://w3id.org/c2t/i/Layers{RootFS.Layers}" ;
+	rr:termType rr:IRI .
+
+map:om_002 rml:reference "Id" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_003 rml:reference "RepoTags" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_004 rml:reference "Os" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_005 rml:reference "Architecture" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_006 rdf:type rr:ObjectMap ;
+	rr:constant "https://w3id.org/c2t#PackageVersion" ;
+	rr:termType rr:IRI .
+
+map:om_007 rdf:type rr:ObjectMap ;
+	rr:template "https://w3id.org/c2t/i/{layersId}" ;
+	rr:termType rr:IRI .
+
+map:om_008 rml:reference "name" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_009 rml:reference "syft:package:language" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_010 rml:reference "purl" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_011 rml:reference "version" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_012 rml:reference "publisher" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_013 rml:reference "licenses.*.license.id" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant dpv:hasLayer .
+
+map:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant dct:identifier .
+
+map:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant dpv:tag .
+
+map:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant c2t:operativeSystem .
+
+map:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant c2t:architecture .
+
+map:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant dpv:isInstalledOn .
+
+map:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant c2t:name .
+
+map:pm_009 rdf:type rr:PredicateMap ;
+	rr:constant c2t:language .
+
+map:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant c2t:packageURL .
+
+map:pm_011 rdf:type rr:PredicateMap ;
+	rr:constant c2t:version .
+
+map:pm_012 rdf:type rr:PredicateMap ;
+	rr:constant c2t:publisher .
+
+map:pm_013 rdf:type rr:PredicateMap ;
+	rr:constant c2t:license .
+
+map:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_000 ;
+	rr:predicateMap map:pm_000 .
+
+map:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_001 ;
+	rr:predicateMap map:pm_001 .
+
+map:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_002 ;
+	rr:predicateMap map:pm_002 .
+
+map:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_003 ;
+	rr:predicateMap map:pm_003 .
+
+map:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_004 ;
+	rr:predicateMap map:pm_004 .
+
+map:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_005 ;
+	rr:predicateMap map:pm_005 .
+
+map:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_006 ;
+	rr:predicateMap map:pm_006 .
+
+map:pom_007 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_007 ;
+	rr:predicateMap map:pm_007 .
+
+map:pom_008 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_008 ;
+	rr:predicateMap map:pm_008 .
+
+map:pom_009 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_009 ;
+	rr:predicateMap map:pm_009 .
+
+map:pom_010 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_010 ;
+	rr:predicateMap map:pm_010 .
+
+map:pom_011 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_011 ;
+	rr:predicateMap map:pm_011 .
+
+map:pom_012 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_012 ;
+	rr:predicateMap map:pm_012 .
+
+map:pom_013 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_013 ;
+	rr:predicateMap map:pm_013 .
+
+map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_image_000, map:map_packageversion_000 ;
+	rdf:type <http://rdfs.org/ns/void#Dataset> .
+
+map:s_000 rdf:type rr:SubjectMap ;
+	rr:template "https://w3id.org/c2t/i/Image/{Id}" .
+
+map:s_001 rdf:type rr:SubjectMap ;
+	rr:template "https://w3id.org/c2t/i/PackageVersion/{purl}" .
+
+map:source_000 rml:iterator "$.components[*]" ;
+	rml:referenceFormulation ql:JSONPath ;
+	rml:source "data/mini_result.json" ;
+	rdf:type rml:LogicalSource ;
+	rdfs:label "component-source" .
+
+map:source_001 rml:iterator "$" ;
+	rml:referenceFormulation ql:JSONPath ;
+	rml:source "data/inspect.json" ;
+	rdf:type rml:LogicalSource ;
+	rdfs:label "inspect-source" .
+
+

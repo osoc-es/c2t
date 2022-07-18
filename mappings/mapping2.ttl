@@ -4,7 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix map: <http://mapping.example.com/> .
-@prefix sd: <htttp://w3id.org/okn/o/sd#> .
+@prefix sd: <https://w3id.org/okn/o/sd#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix v: <http://rdf.data-vocabulary.org/#> .
 @prefix c2t: <https://w3id.org/c2t#> .
@@ -90,7 +90,7 @@ map:om_014 rml:reference "publisher" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_015 rml:reference "licenses.*.license.id" ;
+map:om_015 rml:reference "licenses.license.id" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
@@ -142,9 +142,9 @@ map:om_027 rml:reference "website" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_028 rml:reference "os_identifier" ;
-	rdf:type rr:ObjectMap ;
-	rr:termType rr:Literal .
+map:om_028 rdf:type rr:ObjectMap ;
+	rr:template "https://w3id.org/c2t/i/{image_os}" ;
+	rr:termType rr:IRI .
 
 map:om_029 rdf:type rr:ObjectMap ;
 	rr:template "https://w3id.org/c2t/i/{image_identifier}" ;
@@ -371,6 +371,7 @@ map:s_001 rdf:type rr:SubjectMap ;
 
 map:s_002 rdf:type rr:SubjectMap ;
 	rr:template "https://w3id.org/c2t/i/{os_identifier}" .
+
 
 map:source_000 rml:iterator "$.components[*]" ;
 	rml:referenceFormulation ql:JSONPath ;

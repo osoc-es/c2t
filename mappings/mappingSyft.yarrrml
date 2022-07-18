@@ -5,7 +5,7 @@ prefixes:
   dpv: "http://dockerpedia.inf.utfsm.cl/vocab#" 
   dct: "https://purl.org/dc/terms/"
   rdfs:	"http://www.w3.org/2000/01/rdf-schema#"
-  sd: "htttp://w3id.org/okn/o/sd#"
+  sd: "https://w3id.org/okn/o/sd#"
 
 
 sources:
@@ -27,6 +27,7 @@ mappings:
       - [c2t:created, $(Created)]
       - [dpv:size,$(Size)]
       - [rdfs:label, $(RepoTags)]
+      - []
     
   
   packageversion:
@@ -43,7 +44,7 @@ mappings:
       - [dct:publisher,$(publisher)]
       - [dct:license,$(licenses.*.license.id)]
       - [dpv:size,$(syft:metadata:installedSize)]
-      - [c2t:operativeSystemPackageVersion, $(syft:package:type)]
+      - [c2t:packageType, $(syft:package:type)]
       - [dpv:isInstalledOn,c2ti:$(layersId)~iri]
       - [rdfs:label, $(name) ($(version))]
   
@@ -60,6 +61,6 @@ mappings:
       - [sd:hasdocumentation,$(documentation)]
       - [sd:issueTracker,$(issue-tracker)]
       - [sd:website,$(website)]
-      - [c2t:distributionOf,$(os_identifier)]
+      - [c2t:distributionOf,c2ti:$(image_os)~iri]
       - [c2t:isOperativeSystemOf,c2ti:$(image_identifier)~iri]
 

@@ -64,7 +64,10 @@
             "issue-tracker": "https://bugs.debian.org/",
             "website": "https://www.debian.org/",
             "other": "https://www.debian.org/support",
-            "image_identifier": "sha256:9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4"
+            "image_identifier": "sha256:9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4",
+            "os_identifier":"debian11",
+            "image_os":"linux"
+
         }
     ]
 }

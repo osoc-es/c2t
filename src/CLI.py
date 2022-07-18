@@ -15,22 +15,13 @@ def get_graph(name, save, i, output_path):#, temp_folder:tempfile.TemporaryDirec
     temp_folder = os.makedirs("tmp", exist_ok=True)
     os.system(('docker inspect '+ name+' > '+ os.path.join("tmp" ,'inspect1.json')))
     if save:
-        open(os.path.join(output_path ,'inspect'+str(i)+'.json'), 'w')
-        shutil.copy(os.path.join("tmp" ,'inspect1.json'), os.path.join(output_path ,'inspect'+str(i)+'.json'))
+        open(os.path.join(output_path ,'result_inspect_'+str(i)+'.json'), 'w')
+        shutil.copy(os.path.join("tmp" ,'inspect1.json'), os.path.join(output_path ,'result_inspect_'+str(i)+'.json'))
     syft = os.popen(('syft '+name+' -o cyclonedx-json')).read()
     syft_parser.parse_data(syft, os.path.join("tmp" ,'result1.json'), os.path.join("tmp" ,'inspect1.json'))
     if save:
-        open(os.path.join(output_path ,'result'+str(i)+'.json'), 'w')
-        shutil.copy(os.path.join("tmp" ,'result1.json'), os.path.join(output_path ,'result'+str(i)+'.json'))
-        # Read in the file
-    # with open(os.path.join("tmp" ,'config.ini'), 'r') as file :
-    #     filedata = file.read()
-    # # Replace the target string
-    # filedata = filedata.replace('DIRECCION', "tmp" +'mapping.ttl' )
-    # # Write the file out again
-    # with open(os.path.join("tmp" ,'config.ini'), 'w') as file:
-    #     file.write(filedata)
-    current_directory = os.getcwd()
+        open(os.path.join(output_path ,'result_syft_'+str(i)+'.json'), 'w')
+        shutil.copy(os.path.join("tmp" ,'result1.json'), os.path.join(output_path ,'result_syft_'+str(i)+'.json'))
     g = morph_kgc.materialize('./tmp/config.ini')
     print('acaba')
     g.serialize(destination=os.path.join("tmp" ,"grafo"+str(i)+".nt"), format="ntriples")

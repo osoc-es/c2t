@@ -25,7 +25,7 @@ def dict_to_json(path, data):
     return 200
 
 
-def read_inspect_id(path):
+def read_inspect(path):
     '''
     Gets image_id form  inspect.json
 
@@ -39,8 +39,8 @@ def read_inspect_id(path):
 
     #get image_id
     image_id = a['Id']
-
-    return image_id
+    os_id = a['Os']
+    return image_id,os_id
 
 def parse_data(json_as_string, path_output, path):
     '''
@@ -51,6 +51,7 @@ def parse_data(json_as_string, path_output, path):
     data = json_to_dict(json_as_string)
 
     data_parsed = data.copy()
+    image_id,os_id = read_inspect(path)
     i = 'components'
     k = 'properties'
 
@@ -71,8 +72,11 @@ def parse_data(json_as_string, path_output, path):
                 aux_value = data[i][j]['externalReferences'][l_2]['url']
                 data_parsed[i][j][aux_key] = aux_value
             data_parsed[i][j].pop('externalReferences')
+        if data[i][j]['type'] == 'operating-system':
+            data[i][j]['os_identifier'] = data[i][j]['name']+'_'+data[i][j]['version']
+            data_parsed[i][j]['image_os'] = os_id
 
-        data_parsed[i][j]['image_identifier'] = read_inspect_id(path) 
+        data_parsed[i][j]['image_identifier'] = image_id 
         data_parsed[i][j].pop('properties')
         
 

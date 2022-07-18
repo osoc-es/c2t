@@ -1,0 +1,1441 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:3de5e698-37f6-4e43-acb5-0c548b819078",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2022-07-17T13:19:06+02:00",
+        "tools": [
+            {
+                "vendor": "anchore",
+                "name": "syft",
+                "version": "0.49.0"
+            }
+        ],
+        "component": {
+            "bom-ref": "568ee4e63895537b",
+            "type": "container",
+            "name": "822b23d200a3",
+            "version": "sha256:454a1b34351049751782d480d8c833f90fb3b06b20f6dfe7aabd8c63531db4af"
+        }
+    },
+    "components": [
+        {
+            "bom-ref": "pkg:alpine/alpine-baselayout@3.2.0-r7?arch=x86_64&upstream=alpine-baselayout&distro=alpine-3.12.4&package-id=ab971b290905df2",
+            "type": "library",
+            "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+            "name": "alpine-baselayout",
+            "version": "3.2.0-r7",
+            "description": "Alpine base dir structure and init scripts",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/alpine-baselayout@3.2.0-r7?arch=x86_64&upstream=alpine-baselayout&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:cpe23": "cpe:2.3:a:alpine:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "c3ce4065bd8a69d20ad392d4cf006ed652c3f1a7",
+            "syft:metadata:installedSize": "409600",
+            "syft:metadata:originPackage": "alpine-baselayout",
+            "syft:metadata:pullChecksum": "Q1WGpU5dl4U99OvcQ2KILlb+d6DAk=",
+            "syft:metadata:pullDependencies": "/bin/sh so:libc.musl-x86_64.so.1",
+            "syft:metadata:size": "19912",
+            "distribution": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/alpine-keys@2.2-r0?arch=x86_64&upstream=alpine-keys&distro=alpine-3.12.4&package-id=2efbb5604af8adf8",
+            "type": "library",
+            "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+            "name": "alpine-keys",
+            "version": "2.2-r0",
+            "description": "Public keys for Alpine Linux packages",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:alpine-keys:alpine-keys:2.2-r0:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/alpine-keys@2.2-r0?arch=x86_64&upstream=alpine-keys&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:cpe23": "cpe:2.3:a:alpine:alpine_keys:2.2-r0:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "a8372f3ce6e7a3f4cf28524aa729b334eb9d2fd6",
+            "syft:metadata:installedSize": "106496",
+            "syft:metadata:originPackage": "alpine-keys",
+            "syft:metadata:pullChecksum": "Q13FQADwZeGEJWZBG4Ep2E6w0fm2s=",
+            "syft:metadata:size": "5460",
+            "distribution": "https://alpinelinux.org",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/apk-tools@2.10.5-r1?arch=x86_64&upstream=apk-tools&distro=alpine-3.12.4&package-id=91b8cbe8b87b01d0",
+            "type": "library",
+            "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+            "name": "apk-tools",
+            "version": "2.10.5-r1",
+            "description": "Alpine Package Keeper - package manager for alpine",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:apk-tools:apk-tools:2.10.5-r1:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/apk-tools@2.10.5-r1?arch=x86_64&upstream=apk-tools&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:cpe23": "cpe:2.3:a:apk:apk_tools:2.10.5-r1:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "6fb6e4266ba2a4c451d2c31c55eaf5b2d1642f8b",
+            "syft:metadata:installedSize": "262144",
+            "syft:metadata:originPackage": "apk-tools",
+            "syft:metadata:pullChecksum": "Q1dHz9cghfcOD8+DflO5CAq0K6Dkg=",
+            "syft:metadata:pullDependencies": "so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1 so:libz.so.1",
+            "syft:metadata:size": "103041",
+            "distribution": "https://gitlab.alpinelinux.org/alpine/apk-tools",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/busybox@1.31.1-r19?arch=x86_64&upstream=busybox&distro=alpine-3.12.4&package-id=fbf96a638901967c",
+            "type": "library",
+            "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+            "name": "busybox",
+            "version": "1.31.1-r19",
+            "description": "Size optimized toolbox of many common UNIX utilities",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:busybox:busybox:1.31.1-r19:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/busybox@1.31.1-r19?arch=x86_64&upstream=busybox&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "b8f92cf12ab6e48d1c3a7a0e590521581443e720",
+            "syft:metadata:installedSize": "962560",
+            "syft:metadata:originPackage": "busybox",
+            "syft:metadata:pullChecksum": "Q1lIGHcirJJIsOJ+sM9RBH6eoFlZM=",
+            "syft:metadata:pullDependencies": "so:libc.musl-x86_64.so.1",
+            "syft:metadata:size": "505718",
+            "distribution": "https://busybox.net/",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/ca-certificates-bundle@20191127-r4?arch=x86_64&upstream=ca-certificates&distro=alpine-3.12.4&package-id=3b40b8cfbc112998",
+            "type": "library",
+            "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+            "name": "ca-certificates-bundle",
+            "version": "20191127-r4",
+            "description": "Pre generated bundle of Mozilla certificates",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MPL-2.0"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-or-later"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20191127-r4:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/ca-certificates-bundle@20191127-r4?arch=x86_64&upstream=ca-certificates&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:cpe23": "cpe:2.3:a:ca:ca_certificates_bundle:20191127-r4:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "1ba6784c56398723ecee9aa3f6f52af6d8681eee",
+            "syft:metadata:installedSize": "233472",
+            "syft:metadata:originPackage": "ca-certificates",
+            "syft:metadata:pullChecksum": "Q1UDlC1SPAamBNHqEqA40XwCqHZKQ=",
+            "syft:metadata:size": "124464",
+            "distribution": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/awesome-gocui/gocui@v0.6.0?package-id=11ce846f801e4aea",
+            "type": "library",
+            "name": "github.com/awesome-gocui/gocui",
+            "version": "v0.6.0",
+            "cpe": "cpe:2.3:a:awesome-gocui:gocui:v0.6.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/awesome-gocui/gocui@v0.6.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:awesome:gocui:v0.6.0:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:hhDJiQC12tEsJNJ+iZBBVaSSLFYo9llFuYpQlL5JZVI=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/awesome-gocui/keybinding@v1.0.0?package-id=80ae934f5b417b9c",
+            "type": "library",
+            "name": "github.com/awesome-gocui/keybinding",
+            "version": "v1.0.0",
+            "cpe": "cpe:2.3:a:awesome-gocui:keybinding:v1.0.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/awesome-gocui/keybinding@v1.0.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:awesome:keybinding:v1.0.0:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:CrnjCfEhWpjcqIQUan9IllaXeRGELdwfjeUmY7ljbng=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/awesome-gocui/termbox-go@v0.0.0-20190427202837-c0aef3d18bcc?package-id=40450b6e6bf1dd9a",
+            "type": "library",
+            "name": "github.com/awesome-gocui/termbox-go",
+            "version": "v0.0.0-20190427202837-c0aef3d18bcc",
+            "cpe": "cpe:2.3:a:awesome-gocui:termbox-go:v0.0.0-20190427202837-c0aef3d18bcc:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/awesome-gocui/termbox-go@v0.0.0-20190427202837-c0aef3d18bcc",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:awesome:termbox_go:v0.0.0-20190427202837-c0aef3d18bcc:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:wGNpKcHU8Aadr9yOzsT3GEsFLS7HQu8HxQIomnekqf0=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/cespare/xxhash@v1.1.0?package-id=47092303a5e3b292",
+            "type": "library",
+            "name": "github.com/cespare/xxhash",
+            "version": "v1.1.0",
+            "cpe": "cpe:2.3:a:cespare:xxhash:v1.1.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/cespare/xxhash@v1.1.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:a6HrQnmkObjyL+Gs60czilIUGqrzKutQD6XZog3p+ko=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/docker/cli@v0.0.0-20190906153656-016a3232168d?package-id=b3438ff83b9e3d9e",
+            "type": "library",
+            "name": "github.com/docker/cli",
+            "version": "v0.0.0-20190906153656-016a3232168d",
+            "cpe": "cpe:2.3:a:docker:cli:v0.0.0-20190906153656-016a3232168d:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/docker/cli@v0.0.0-20190906153656-016a3232168d",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:gwX/88xJZfxZV1yjhhuQpWTmEgJis7/XGCVu3iDIZYU=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/docker/distribution@v2.7.0-rc.0.0.20181024170156-93e082742a00+incompatible?package-id=4310d751eec133ae",
+            "type": "library",
+            "name": "github.com/docker/distribution",
+            "version": "v2.7.0-rc.0.0.20181024170156-93e082742a00+incompatible",
+            "cpe": "cpe:2.3:a:docker:distribution:v2.7.0-rc.0.0.20181024170156-93e082742a00\\+incompatible:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/docker/distribution@v2.7.0-rc.0.0.20181024170156-93e082742a00+incompatible",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:YOfVNTgst//UrD5ZhDfbY0+GTSWjXfXOYLYHhw0kMpo=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/docker/engine@v0.0.0-20190822205725-ed20165a37b4?package-id=729fb4ade66fdca9",
+            "type": "library",
+            "name": "github.com/docker/engine",
+            "version": "v0.0.0-20190822205725-ed20165a37b4",
+            "cpe": "cpe:2.3:a:docker:engine:v0.0.0-20190822205725-ed20165a37b4:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/docker/engine@v0.0.0-20190822205725-ed20165a37b4",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:hB02X3RT4IZUr/dm+zIXpAlpvQPtRyKBEA/CbzshNZ8=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/docker/go-connections@v0.4.0?package-id=2d5d2a159617f818",
+            "type": "library",
+            "name": "github.com/docker/go-connections",
+            "version": "v0.4.0",
+            "cpe": "cpe:2.3:a:docker:go-connections:v0.4.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/docker/go-connections@v0.4.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:docker:go_connections:v0.4.0:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:El9xVISelRB7BuFusrZozjnkIM5YnzCViNKohAFqRJQ=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/docker/go-units@v0.4.0?package-id=1300fe0455e34124",
+            "type": "library",
+            "name": "github.com/docker/go-units",
+            "version": "v0.4.0",
+            "cpe": "cpe:2.3:a:docker:go-units:v0.4.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/docker/go-units@v0.4.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:docker:go_units:v0.4.0:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:3uh0PgVws3nIA0Q+MwDC8yjEPf9zjRfZZWXZYDct3Tw=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=b7a45150280ee393",
+            "type": "library",
+            "name": "github.com/dustin/go-humanize",
+            "version": "v1.0.0",
+            "cpe": "cpe:2.3:a:dustin:go-humanize:v1.0.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/dustin/go-humanize@v1.0.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:dustin:go_humanize:v1.0.0:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4zYo=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/fatih/color@v1.7.0?package-id=9eac1c601afaaa92",
+            "type": "library",
+            "name": "github.com/fatih/color",
+            "version": "v1.7.0",
+            "cpe": "cpe:2.3:a:fatih:color:v1.7.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/fatih/color@v1.7.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:DkWD4oS2D8LGGgTQ6IvwJJXSL5Vp2ffcQg58nFV38Ys=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/fsnotify/fsnotify@v1.4.7?package-id=ccf8fc2c79893f76",
+            "type": "library",
+            "name": "github.com/fsnotify/fsnotify",
+            "version": "v1.4.7",
+            "cpe": "cpe:2.3:a:fsnotify:fsnotify:v1.4.7:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/fsnotify/fsnotify@v1.4.7",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:IXs+QLmnXW2CcXuY+8Mzv/fWEsPGWxqefPtCP5CnV9I=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/go-errors/errors@v1.0.1?package-id=55d0e7919ab228e0",
+            "type": "library",
+            "name": "github.com/go-errors/errors",
+            "version": "v1.0.1",
+            "cpe": "cpe:2.3:a:go-errors:errors:v1.0.1:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/go-errors/errors@v1.0.1",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:go:errors:v1.0.1:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:LUHzmkK3GUKUrL/1gfBUxAHzcev3apQlezX/+O7ma6w=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.0?package-id=a42271bcdabaf9c9",
+            "type": "library",
+            "name": "github.com/gogo/protobuf",
+            "version": "v1.3.0",
+            "cpe": "cpe:2.3:a:gogo:protobuf:v1.3.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/gogo/protobuf@v1.3.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:G8O7TerXerS4F6sx9OV7/nRfJdnXgHZu/S/7F2SN+UE=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/golang/protobuf@v1.3.1?package-id=42394d94ce0efe73",
+            "type": "library",
+            "name": "github.com/golang/protobuf",
+            "version": "v1.3.1",
+            "cpe": "cpe:2.3:a:golang:protobuf:v1.3.1:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/golang/protobuf@v1.3.1",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:YF8+flBXS5eO826T4nzqPrxfhQThhXl0YzfuUPu4SBg=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/google/uuid@v1.1.1?package-id=1c6a5fbc7243121c",
+            "type": "library",
+            "name": "github.com/google/uuid",
+            "version": "v1.1.1",
+            "cpe": "cpe:2.3:a:google:uuid:v1.1.1:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/google/uuid@v1.1.1",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:Gkbcsh/GbpXz7lPftLA3P6TYMwjCLYm83jiFQZF/3gY=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/hashicorp/hcl@v1.0.0?package-id=3ae9a44e63ced46b",
+            "type": "library",
+            "name": "github.com/hashicorp/hcl",
+            "version": "v1.0.0",
+            "cpe": "cpe:2.3:a:hashicorp:hcl:v1.0.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/hashicorp/hcl@v1.0.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:0Anlzjpi4vEasTeNFn2mLJgTSwt0+6sfsiTG8qcWGx4=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/logrusorgru/aurora@v0.0.0-20190803045625-94edacc10f9b?package-id=6ce70beb060aee4a",
+            "type": "library",
+            "name": "github.com/logrusorgru/aurora",
+            "version": "v0.0.0-20190803045625-94edacc10f9b",
+            "cpe": "cpe:2.3:a:logrusorgru:aurora:v0.0.0-20190803045625-94edacc10f9b:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/logrusorgru/aurora@v0.0.0-20190803045625-94edacc10f9b",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:PMbSa9CgaiQR9NLlUTwKi+7aeLl3GG5JX5ERJxfQ3IE=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/lunixbochs/vtclean@v1.0.0?package-id=f3ecbe8ea6eaf3d2",
+            "type": "library",
+            "name": "github.com/lunixbochs/vtclean",
+            "version": "v1.0.0",
+            "cpe": "cpe:2.3:a:lunixbochs:vtclean:v1.0.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/lunixbochs/vtclean@v1.0.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:xu2sLAri4lGiovBDQKxl5mrXyESr3gUr5m5SM5+LVb8=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/magiconair/properties@v1.8.1?package-id=6a14e6caec94771b",
+            "type": "library",
+            "name": "github.com/magiconair/properties",
+            "version": "v1.8.1",
+            "cpe": "cpe:2.3:a:magiconair:properties:v1.8.1:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/magiconair/properties@v1.8.1",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:ZC2Vc7/ZFkGmsVC9KvOjumD+G5lXy2RtTKyzRKO2BQ4=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/mattn/go-colorable@v0.1.2?package-id=48b795d64eaae22c",
+            "type": "library",
+            "name": "github.com/mattn/go-colorable",
+            "version": "v0.1.2",
+            "cpe": "cpe:2.3:a:mattn:go-colorable:v0.1.2:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/mattn/go-colorable@v0.1.2",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:mattn:go_colorable:v0.1.2:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:/bC9yWikZXAL9uJdulbSfyVNIR3n3trXl+v8+1sx8mU=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.9?package-id=9bc0bbf936c9da9b",
+            "type": "library",
+            "name": "github.com/mattn/go-isatty",
+            "version": "v0.0.9",
+            "cpe": "cpe:2.3:a:mattn:go-isatty:v0.0.9:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.9",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:mattn:go_isatty:v0.0.9:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:d5US/mDsogSGW37IV293h//ZFaeajb69h+EHFsv2xGg=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/mattn/go-runewidth@v0.0.4?package-id=2a09414191745f75",
+            "type": "library",
+            "name": "github.com/mattn/go-runewidth",
+            "version": "v0.0.4",
+            "cpe": "cpe:2.3:a:mattn:go-runewidth:v0.0.4:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/mattn/go-runewidth@v0.0.4",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:mattn:go_runewidth:v0.0.4:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:2BvfKmzob6Bmd4YsL0zygOqfdFnK7GR4QL06Do4/p7Y=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/mitchellh/go-homedir@v1.1.0?package-id=ac496900937960e1",
+            "type": "library",
+            "name": "github.com/mitchellh/go-homedir",
+            "version": "v1.1.0",
+            "cpe": "cpe:2.3:a:mitchellh:go-homedir:v1.1.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/mitchellh/go-homedir@v1.1.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:mitchellh:go_homedir:v1.1.0:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:lukF9ziXFxDFPkA1vsr5zpc1XuPDn/wFntq5mG+4E0Y=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/mitchellh/mapstructure@v1.1.2?package-id=74a47ab150e2e7b5",
+            "type": "library",
+            "name": "github.com/mitchellh/mapstructure",
+            "version": "v1.1.2",
+            "cpe": "cpe:2.3:a:mitchellh:mapstructure:v1.1.2:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/mitchellh/mapstructure@v1.1.2",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:fmNYVwqnSfB9mZU6OS2O6GsXM+wcskZDuKQzvN1EDeE=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/opencontainers/go-digest@v1.0.0-rc1?package-id=d84a3c8e98b25081",
+            "type": "library",
+            "name": "github.com/opencontainers/go-digest",
+            "version": "v1.0.0-rc1",
+            "cpe": "cpe:2.3:a:opencontainers:go-digest:v1.0.0-rc1:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/opencontainers/go-digest@v1.0.0-rc1",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:opencontainers:go_digest:v1.0.0-rc1:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:WzifXhOVOEOuFYOJAW6aQqW0TooG2iki3E3Ii+WN7gQ=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/opencontainers/image-spec@v1.0.1?package-id=c51033629b55655b",
+            "type": "library",
+            "name": "github.com/opencontainers/image-spec",
+            "version": "v1.0.1",
+            "cpe": "cpe:2.3:a:opencontainers:image-spec:v1.0.1:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/opencontainers/image-spec@v1.0.1",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:opencontainers:image_spec:v1.0.1:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:JMemWkRwHx4Zj+fVxWoMCFm/8sYGGrUVojFA6h/TRcI=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/pelletier/go-toml@v1.4.0?package-id=d8e2f479cc04d5b2",
+            "type": "library",
+            "name": "github.com/pelletier/go-toml",
+            "version": "v1.4.0",
+            "cpe": "cpe:2.3:a:pelletier:go-toml:v1.4.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/pelletier/go-toml@v1.4.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:cpe23": "cpe:2.3:a:pelletier:go_toml:v1.4.0:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:u3Z1r+oOXJIkxqw34zVhyPgjBsm6X2wn21NWs/HfSeg=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/phayes/permbits@v0.0.0-20190612203442-39d7c581d2ee?package-id=9cf2a193d603b01f",
+            "type": "library",
+            "name": "github.com/phayes/permbits",
+            "version": "v0.0.0-20190612203442-39d7c581d2ee",
+            "cpe": "cpe:2.3:a:phayes:permbits:v0.0.0-20190612203442-39d7c581d2ee:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/phayes/permbits@v0.0.0-20190612203442-39d7c581d2ee",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:P6U24L02WMfj9ymZTxl7CxS73JC99x3ukk+DBkgQGQs=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/pkg/errors@v0.8.1?package-id=2e11955b59e938bc",
+            "type": "library",
+            "name": "github.com/pkg/errors",
+            "version": "v0.8.1",
+            "cpe": "cpe:2.3:a:pkg:errors:v0.8.1:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/pkg/errors@v0.8.1",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/sirupsen/logrus@v1.4.2?package-id=ce95f2367cb541da",
+            "type": "library",
+            "name": "github.com/sirupsen/logrus",
+            "version": "v1.4.2",
+            "cpe": "cpe:2.3:a:sirupsen:logrus:v1.4.2:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/sirupsen/logrus@v1.4.2",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:SPIRibHv4MatM3XXNO2BJeFLZwZ2LvZgfQ5+UNI2im4=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/spf13/afero@v1.2.2?package-id=bc3709eab28db492",
+            "type": "library",
+            "name": "github.com/spf13/afero",
+            "version": "v1.2.2",
+            "cpe": "cpe:2.3:a:spf13:afero:v1.2.2:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/spf13/afero@v1.2.2",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:5jhuqJyZCZf2JRofRvN/nIFgIWNzPa3/Vz8mYylgbWc=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/spf13/cast@v1.3.0?package-id=b943450bc0fcaa70",
+            "type": "library",
+            "name": "github.com/spf13/cast",
+            "version": "v1.3.0",
+            "cpe": "cpe:2.3:a:spf13:cast:v1.3.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/spf13/cast@v1.3.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:oget//CVOEoFewqQxwr0Ej5yjygnqGkvggSE/gB35Q8=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/spf13/cobra@v0.0.5?package-id=7839516e3c3ffb6b",
+            "type": "library",
+            "name": "github.com/spf13/cobra",
+            "version": "v0.0.5",
+            "cpe": "cpe:2.3:a:spf13:cobra:v0.0.5:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/spf13/cobra@v0.0.5",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:f0B+LkLX6DtmRH1isoNA9VTtNUK9K8xYd28JNNfOv/s=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/spf13/jwalterweatherman@v1.1.0?package-id=545b3a248eca970",
+            "type": "library",
+            "name": "github.com/spf13/jwalterweatherman",
+            "version": "v1.1.0",
+            "cpe": "cpe:2.3:a:spf13:jwalterweatherman:v1.1.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/spf13/jwalterweatherman@v1.1.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:ue6voC5bR5F8YxI5S67j9i582FU4Qvo2bmqnqMYADFk=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=43ec774d0c058bb9",
+            "type": "library",
+            "name": "github.com/spf13/pflag",
+            "version": "v1.0.5",
+            "cpe": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/spf13/viper@v1.4.0?package-id=7022b849f97c55d3",
+            "type": "library",
+            "name": "github.com/spf13/viper",
+            "version": "v1.4.0",
+            "cpe": "cpe:2.3:a:spf13:viper:v1.4.0:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/spf13/viper@v1.4.0",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:yXHLWeravcrgGyFSyCgdYpXQ9dR9c/WED3pg1RhxqEU=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/github.com/wagoodman/dive@(devel)?package-id=23be6531f8351caa",
+            "type": "library",
+            "name": "github.com/wagoodman/dive",
+            "version": "(devel)",
+            "cpe": "cpe:2.3:a:wagoodman:dive:\\(devel\\):*:*:*:*:*:*:*",
+            "purl": "pkg:golang/github.com/wagoodman/dive@(devel)",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/golang.org/x/net@v0.0.0-20190827160401-ba9fcec4b297?package-id=a306c42807e69647",
+            "type": "library",
+            "name": "golang.org/x/net",
+            "version": "v0.0.0-20190827160401-ba9fcec4b297",
+            "cpe": "cpe:2.3:a:golang:x\\/net:v0.0.0-20190827160401-ba9fcec4b297:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/golang.org/x/net@v0.0.0-20190827160401-ba9fcec4b297",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:k7pJ2yAPLPgbskkFdhRCsA77k2fySZ1zf2zCjvQCiIM=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20200212091648-12a6c2dcc1e4?package-id=97caa3cff2910e58",
+            "type": "library",
+            "name": "golang.org/x/sys",
+            "version": "v0.0.0-20200212091648-12a6c2dcc1e4",
+            "cpe": "cpe:2.3:a:golang:x\\/sys:v0.0.0-20200212091648-12a6c2dcc1e4:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20200212091648-12a6c2dcc1e4",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:sfkvUWPNGwSV+8/fNqctR5lS2AqCSqYwXdrjCxp/dXo=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/golang.org/x/text@v0.3.2?package-id=587376f70b78981c",
+            "type": "library",
+            "name": "golang.org/x/text",
+            "version": "v0.3.2",
+            "cpe": "cpe:2.3:a:golang:x\\/text:v0.3.2:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/golang.org/x/text@v0.3.2",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:tW2bmiBqwgJj/UpqtC8EpXEZVYOwU0yG4iWbprSVAcs=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/google.golang.org/genproto@v0.0.0-20190620144150-6af8c5fc6601?package-id=c272508427c4d783",
+            "type": "library",
+            "name": "google.golang.org/genproto",
+            "version": "v0.0.0-20190620144150-6af8c5fc6601",
+            "cpe": "cpe:2.3:a:google:genproto:v0.0.0-20190620144150-6af8c5fc6601:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/google.golang.org/genproto@v0.0.0-20190620144150-6af8c5fc6601",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:9VBRTdmgQxbs6HE0sUnMrSWNePppAJU07NYvX5dIB04=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/google.golang.org/grpc@v1.21.1?package-id=ce4f51172b0ded5a",
+            "type": "library",
+            "name": "google.golang.org/grpc",
+            "version": "v1.21.1",
+            "cpe": "cpe:2.3:a:google:grpc:v1.21.1:*:*:*:*:*:*:*",
+            "purl": "pkg:golang/google.golang.org/grpc@v1.21.1",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:j6XxA85m/6txkUCHvzlV5f+HBNl/1r5cZ2A/3IEFOO8=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.2.2?package-id=dfa2f3774c895d71",
+            "type": "library",
+            "name": "gopkg.in/yaml.v2",
+            "version": "v2.2.2",
+            "purl": "pkg:golang/gopkg.in/yaml.v2@v2.2.2",
+            "syft:package:foundBy": "go-module-binary-cataloger",
+            "syft:package:language": "go",
+            "syft:package:metadataType": "GolangBinMetadata",
+            "syft:package:type": "go-module",
+            "syft:location:0:path": "/usr/local/bin/dive",
+            "syft:metadata:architecture": "x86_64",
+            "syft:metadata:goCompiledVersion": "go1.15.8",
+            "syft:metadata:h1Digest": "h1:ZCJp+EgiOT7lHqUV2J862kp8Qj64Jo6az82+3Td9dZw=",
+            "syft:metadata:mainModule": "github.com/wagoodman/dive",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:83ca17cadcef7281bb5027fc1997b4bcad58daf2637cda1cf4ba36157cf92501"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&upstream=libc-dev&distro=alpine-3.12.4&package-id=f80d96baba263a29",
+            "type": "library",
+            "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+            "name": "libc-utils",
+            "version": "0.7.2-r3",
+            "description": "Meta package to pull in correct libc",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:libc-utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&upstream=libc-dev&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:cpe23": "cpe:2.3:a:libc:libc_utils:0.7.2-r3:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "60424133be2e79bbfeff3d58147a22886f817ce2",
+            "syft:metadata:installedSize": "4096",
+            "syft:metadata:originPackage": "libc-dev",
+            "syft:metadata:pullChecksum": "Q16xP1yRei7gsfFFF2So96SPZpw0c=",
+            "syft:metadata:pullDependencies": "musl-utils",
+            "syft:metadata:size": "1226",
+            "distribution": "https://alpinelinux.org",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/libcrypto1.1@1.1.1j-r0?arch=x86_64&upstream=openssl&distro=alpine-3.12.4&package-id=29b08a6ed8327725",
+            "type": "library",
+            "publisher": "Timo Teras <timo.teras@iki.fi>",
+            "name": "libcrypto1.1",
+            "version": "1.1.1j-r0",
+            "description": "Crypto library from openssl",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "OpenSSL"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1j-r0:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/libcrypto1.1@1.1.1j-r0?arch=x86_64&upstream=openssl&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "6c15d993523a9a33f50facad987e46094f5a23f0",
+            "syft:metadata:installedSize": "2764800",
+            "syft:metadata:originPackage": "openssl",
+            "syft:metadata:pullChecksum": "Q16YLe2crNV4gFTrhdd2aGjnDEXNA=",
+            "syft:metadata:pullDependencies": "so:libc.musl-x86_64.so.1",
+            "syft:metadata:size": "1209393",
+            "distribution": "https://www.openssl.org/",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/libssl1.1@1.1.1j-r0?arch=x86_64&upstream=openssl&distro=alpine-3.12.4&package-id=75a4f540e55300a2",
+            "type": "library",
+            "publisher": "Timo Teras <timo.teras@iki.fi>",
+            "name": "libssl1.1",
+            "version": "1.1.1j-r0",
+            "description": "SSL shared libraries",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "OpenSSL"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:libssl1.1:libssl1.1:1.1.1j-r0:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/libssl1.1@1.1.1j-r0?arch=x86_64&upstream=openssl&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "6c15d993523a9a33f50facad987e46094f5a23f0",
+            "syft:metadata:installedSize": "540672",
+            "syft:metadata:originPackage": "openssl",
+            "syft:metadata:pullChecksum": "Q13E7le+IPAFqgjW9lXcdK3SMbQDk=",
+            "syft:metadata:pullDependencies": "so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1",
+            "syft:metadata:size": "212140",
+            "distribution": "https://www.openssl.org/",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64&upstream=libtls-standalone&distro=alpine-3.12.4&package-id=cb2f5162c15647c4",
+            "type": "library",
+            "name": "libtls-standalone",
+            "version": "2.9.1-r1",
+            "description": "libtls extricated from libressl sources",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "ISC"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:libtls-standalone:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64&upstream=libtls-standalone&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:cpe23": "cpe:2.3:a:libtls:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "7ebfa23b6119a24ca9b9375bdc55373259192da1",
+            "syft:metadata:installedSize": "110592",
+            "syft:metadata:originPackage": "libtls-standalone",
+            "syft:metadata:pullChecksum": "Q14BzqSsJ9wRYejKCBU++3I2VvzSs=",
+            "syft:metadata:pullDependencies": "ca-certificates-bundle so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1",
+            "syft:metadata:size": "33144",
+            "distribution": "https://www.libressl.org/",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/musl@1.1.24-r10?arch=x86_64&upstream=musl&distro=alpine-3.12.4&package-id=8838e981d6f951d5",
+            "type": "library",
+            "publisher": "Timo Ter\u00c3\u00a4s <timo.teras@iki.fi>",
+            "name": "musl",
+            "version": "1.1.24-r10",
+            "description": "the musl c library (libc) implementation",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:musl:musl:1.1.24-r10:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/musl@1.1.24-r10?arch=x86_64&upstream=musl&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "908046ad5f96c4c1df5541ff4b0251767e110c85",
+            "syft:metadata:installedSize": "614400",
+            "syft:metadata:originPackage": "musl",
+            "syft:metadata:pullChecksum": "Q1mGDXWUFVE+6oFGyj8OMl5cZrkkU=",
+            "syft:metadata:size": "377258",
+            "distribution": "https://musl.libc.org/",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/musl-utils@1.1.24-r10?arch=x86_64&upstream=musl&distro=alpine-3.12.4&package-id=a9ea2a9f57787a19",
+            "type": "library",
+            "publisher": "Timo Ter\u00c3\u00a4s <timo.teras@iki.fi>",
+            "name": "musl-utils",
+            "version": "1.1.24-r10",
+            "description": "the musl c library (libc) implementation",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:musl-utils:musl-utils:1.1.24-r10:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/musl-utils@1.1.24-r10?arch=x86_64&upstream=musl&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:cpe23": "cpe:2.3:a:musl:musl_utils:1.1.24-r10:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "908046ad5f96c4c1df5541ff4b0251767e110c85",
+            "syft:metadata:installedSize": "151552",
+            "syft:metadata:originPackage": "musl",
+            "syft:metadata:pullChecksum": "Q1MFuIRwDYNC3UF1ZCaWGJAIXPy8k=",
+            "syft:metadata:pullDependencies": "scanelf so:libc.musl-x86_64.so.1",
+            "syft:metadata:size": "37724",
+            "distribution": "https://musl.libc.org/",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/scanelf@1.2.6-r0?arch=x86_64&upstream=pax-utils&distro=alpine-3.12.4&package-id=9bb2292736678189",
+            "type": "library",
+            "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+            "name": "scanelf",
+            "version": "1.2.6-r0",
+            "description": "Scan ELF binaries for stuff",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:scanelf:scanelf:1.2.6-r0:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/scanelf@1.2.6-r0?arch=x86_64&upstream=pax-utils&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "753fa8d765c7a4edb76f11b1995f84cdcb45bce5",
+            "syft:metadata:installedSize": "94208",
+            "syft:metadata:originPackage": "pax-utils",
+            "syft:metadata:pullChecksum": "Q1jvYavRv99SdiT3M3Kv5gvpi8LXY=",
+            "syft:metadata:pullDependencies": "so:libc.musl-x86_64.so.1",
+            "syft:metadata:size": "36446",
+            "distribution": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/ssl_client@1.31.1-r19?arch=x86_64&upstream=busybox&distro=alpine-3.12.4&package-id=752916a9260cc641",
+            "type": "library",
+            "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+            "name": "ssl_client",
+            "version": "1.31.1-r19",
+            "description": "EXternal ssl_client for busybox wget",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "GPL-2.0-only"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:ssl-client:ssl-client:1.31.1-r19:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/ssl_client@1.31.1-r19?arch=x86_64&upstream=busybox&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:cpe23": "cpe:2.3:a:ssl:ssl_client:1.31.1-r19:*:*:*:*:*:*:*",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "b8f92cf12ab6e48d1c3a7a0e590521581443e720",
+            "syft:metadata:installedSize": "28672",
+            "syft:metadata:originPackage": "busybox",
+            "syft:metadata:pullChecksum": "Q1QjSamWPiWBGCq2cbyc5TjAupgxU=",
+            "syft:metadata:pullDependencies": "so:libc.musl-x86_64.so.1 so:libtls-standalone.so.1",
+            "syft:metadata:size": "4307",
+            "distribution": "https://busybox.net/",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "bom-ref": "pkg:alpine/zlib@1.2.11-r3?arch=x86_64&upstream=zlib&distro=alpine-3.12.4&package-id=c726a0abc04321f8",
+            "type": "library",
+            "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+            "name": "zlib",
+            "version": "1.2.11-r3",
+            "description": "A compression/decompression Library",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Zlib"
+                    }
+                }
+            ],
+            "cpe": "cpe:2.3:a:zlib:zlib:1.2.11-r3:*:*:*:*:*:*:*",
+            "purl": "pkg:alpine/zlib@1.2.11-r3?arch=x86_64&upstream=zlib&distro=alpine-3.12.4",
+            "syft:package:foundBy": "apkdb-cataloger",
+            "syft:package:metadataType": "ApkMetadata",
+            "syft:package:type": "apk",
+            "syft:location:0:path": "/lib/apk/db/installed",
+            "syft:metadata:gitCommitOfApkPort": "388a4fb3640f8ccbd18e105df3ad741dca4247e1",
+            "syft:metadata:installedSize": "110592",
+            "syft:metadata:originPackage": "zlib",
+            "syft:metadata:pullChecksum": "Q1VG3cOxdfR6zZg7CZOD6SSC3lO6s=",
+            "syft:metadata:pullDependencies": "so:libc.musl-x86_64.so.1",
+            "syft:metadata:size": "51197",
+            "distribution": "https://zlib.net/",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081",
+            "layersId": [
+                "sha256:33e8713114f88c8cb3f60c8a0a4aefe2500823b2fbbae05488b0185ba226caae"
+            ]
+        },
+        {
+            "type": "operating-system",
+            "name": "alpine",
+            "version": "3.12.4",
+            "description": "Alpine Linux v3.12",
+            "swid": {
+                "tagId": "alpine",
+                "name": "alpine",
+                "version": "3.12.4"
+            },
+            "syft:distro:id": "alpine",
+            "syft:distro:prettyName": "Alpine Linux v3.12",
+            "syft:distro:versionID": "3.12.4",
+            "issue-tracker": "https://bugs.alpinelinux.org/",
+            "website": "https://alpinelinux.org/",
+            "os_identifier": "alpine_3.12.4",
+            "image_os": "linux",
+            "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081"
+        }
+    ]
+}
