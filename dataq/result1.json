@@ -1,10 +1,10 @@
 {
     "bomFormat": "CycloneDX",
     "specVersion": "1.4",
-    "serialNumber": "urn:uuid:3de5e698-37f6-4e43-acb5-0c548b819078",
+    "serialNumber": "urn:uuid:b026f922-9471-4ee5-bc45-cc716edcc37d",
     "version": 1,
     "metadata": {
-        "timestamp": "2022-07-17T13:19:06+02:00",
+        "timestamp": "2022-07-13T12:43:58+02:00",
         "tools": [
             {
                 "vendor": "anchore",
@@ -1433,8 +1433,6 @@
             "syft:distro:versionID": "3.12.4",
             "issue-tracker": "https://bugs.alpinelinux.org/",
             "website": "https://alpinelinux.org/",
-            "os_identifier": "alpine_3.12.4",
-            "image_os": "linux",
             "image_identifier": "sha256:822b23d200a33eed21f5a9635f36bf14b34e86007424442e1d62a1077a710081"
         }
     ]

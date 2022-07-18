@@ -1,0 +1,117 @@
+@prefix c2t: <https://w3id.org/okn/o/c2t#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dpv: <http://dockerpedia.inf.utfsm.cl/vocab#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dpv: a owl:Ontology ;
+    dc:description "Ontology code created to illustrate the project Containers To Triples"@en ;
+    dc:creator "Lara Herrera, David Lázaro y Adrián Pascual" ;
+    dc:created "July, 2022"@en ;
+    dc:title "Containers To Triples"@en ;
+    dc:licenseURI <https://opensource.org/licenses/Apache-2.0> ;
+    Dc:licenseName "Apache 2.0" ;
+    dc:preferredNamespaceUri "https://w3id.org/okn" ;
+    dc:citation "Cite this vocabulary as: L. Herrera, D. Lázaro, A. Pascual. Containers To Triples"@en .
+
+
+dpv:hasImage a owl:ObjectProperty ;
+    rdfs:label "hasImage" ;
+    rdfs:comment "A docker file has software images" ;
+    rdfs:domain dpv:DockerFile ;
+    rdfs:range dpv:Image .
+
+dpv:isInstalledOn a owl:ObjectProperty ;
+    rdfs:label "isInstalledOn" ;
+    rdfs:comment "One OS may have installed several software packages on it" ;
+    rdfs:domain dpv:PackageVersion ;
+    rdfs:range dpv:Image .
+
+dpv:imageIdentifier a owl:DatatypeProperty ;
+    rdfs:label "imageIdentifier" ;
+    rdfs:comment "Each image is different from the others as it has a unique identifier" ;
+    rdfs:domain dpv:Image .
+
+c2t:hasLayer a owl:ObjectProperty ;
+    rdfs:label "hasLayer" ;
+    rdfs:comment "Several packages may have been installed on an image" ;
+    rdfs:domain dpv:Image ;
+    rdfs:range dpv:ImageLayer .
+
+dpv:hasPackages a owl:ObjectProperty ;
+    rdfs:label "hasPackages" ;
+    rdfs:comment "One software layer is part of a software image" ;
+    rdfs:domain dpv:ImageLayer ;
+    rdfs:range dpv:PackageVersion .
+
+dpv:layerIdentifier a owl:DatatypeProperty ;
+    rdfs:label "layerIdentifier" ;
+    rdfs:comment "Each layer is different from the others as it has a unique identifier" ;
+    rdfs:domain dpv:ImageLayer .
+
+dpv:tag a owl:DatatypeProperty ;
+    rdfs:label "tag" ;
+    rdfs:comment "Image’s versions are identified by its tag" ;
+    rdfs:domain dpv:Image .
+
+c2t:OperativeSystemPackageVersion a owl:Class ;
+    rdfs:label "OperativeSystemPackageVersion" ;
+    rdfs:comment "Version of an operative system package" ;
+    rdfs:subClassOf dpv:PackageVersion .
+
+c2t:architecture a owl:DatatypeProperty ;
+    rdfs:label "architecture" ;
+    rdfs:comment "The architecture for which the image is built. For example, amd64" ;
+    rdfs:domain dpv:Image .
+
+c2t:language a owl:DatatypeProperty ;
+    rdfs:label "language" ;
+    rdfs:comment "A package version is written in a programming language" ;
+    rdfs:domain dpv:PackageVersion .
+
+c2t:license a owl:DatatypeProperty ;
+    rdfs:label "license" ;
+    rdfs:comment "A package version may specify the version that is being used" ;
+    rdfs:domain dpv:PackageVersion .
+
+c2t:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:comment "Each package version has name" ;
+    rdfs:domain dpv:PackageVersion .
+
+c2t:operativeSystem a owl:DatatypeProperty ;
+    rdfs:label "operativeSystem" ;
+    rdfs:comment "Each image is built over an operative system" ;
+    rdfs:domain dpv:Image .
+
+c2t:packageURL a owl:DatatypeProperty ;
+    rdfs:label "packageURL" ;
+    rdfs:comment "A package version may be associated to an URL" ;
+    rdfs:domain dpv:PackageVersion .
+
+c2t:publisher a owl:DatatypeProperty ;
+    rdfs:label "publisher" ;
+    rdfs:comment "A package version is published by the publisher" ;
+    rdfs:domain dpv:PackageVersion .
+
+c2t:version a owl:DatatypeProperty ;
+    rdfs:label "version" ;
+    rdfs:comment "A package may have more than one version available" ;
+    rdfs:domain dpv:PackageVersion .
+
+dpv:DockerFile a owl:Class ;
+    rdfs:label "DockerFile" ;
+    rdfs:comment "A file containing the instructions required to build an image (docker:SoftwareImage) in the Docker framework" .
+
+dpv:ImageLayer a owl:Class ;
+    rdfs:label "ImageLayer" ;
+    rdfs:comment "A layer of a Docker image are a set files generated from running a command from a DockerFile" .
+
+dpv:Image a owl:Class ;
+    rdfs:label "Image" ;
+    rdfs:comment "A serialized copy of the state of a software stored in some non-volatile form such as a file" .
+
+dpv:PackageVersion a owl:Class ;
+    rdfs:label "PackageVersion" ;
+    rdfs:comment "Version of a software package" .
+

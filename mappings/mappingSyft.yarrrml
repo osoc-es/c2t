@@ -27,6 +27,7 @@ mappings:
       - [c2t:created, $(Created)]
       - [dpv:size,$(Size)]
       - [rdfs:label, $(RepoTags)]
+      - []
     
   
   packageversion:
@@ -43,7 +44,7 @@ mappings:
       - [dct:publisher,$(publisher)]
       - [dct:license,$(licenses.*.license.id)]
       - [dpv:size,$(syft:metadata:installedSize)]
-      - [c2t:operativeSystemPackageVersion, $(syft:package:type)]
+      - [c2t:packageType, $(syft:package:type)]
       - [dpv:isInstalledOn,c2ti:$(layersId)~iri]
       - [rdfs:label, $(name) ($(version))]
   
