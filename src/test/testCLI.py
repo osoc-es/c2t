@@ -48,14 +48,15 @@ class TestCLI(unittest.TestCase):
         PREFIX sd: <https://w3id.org/okn/o/sd#>
         SELECT DISTINCT ?os 
         WHERE {
-            ?os sd:name ?nom
+            ?os sd:name ?nom ;
+            sd:hasVersionId ?ver;
+            sd:description ?desc;
+            sd:issueTracker ?tracker;
+            sd:website ?website.
   
         }
         """
-        # sd: hasVersionId ?ver;
-        # sd: description ?desc;
-        # sd: issueTracker ?tracker;
-        # sd: website ?website.
+        # 
         qres = g.query(query)
 
         for row in qres:

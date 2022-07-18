@@ -1,0 +1,37 @@
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dockerpedia.inf.utfsm.cl/vocab#Image> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-1%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-10> <https://purl.org/dc/terms/license> "Zlib" .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://dockerpedia.inf.utfsm.cl/vocab#hasLayer> <https://w3id.org/c2t/i/sha256%3Aca5c6d5c3d01e1e0463415cd97adc7da3d3d5bb09f9ed01ec9d27cf6eeacb928> .
+<https://w3id.org/c2t/i/debian_10> <https://w3id.org/okn/o/sd#description> "Debian GNU/Linux 10 (buster)" .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://dockerpedia.inf.utfsm.cl/vocab#hasLayer> <https://w3id.org/c2t/i/sha256%3A9d5f84e3acdc02af5dbc829f99d4c0bb444cc512bc3839e52f05ec4dd5e3221d> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-1%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-10> <https://w3id.org/okn/o/sd#hasVersionId> "1:1.2.11.dfsg-1" .
+<https://w3id.org/c2t/i/debian_10> <https://w3id.org/okn/o/sd#issueTracker> "https://bugs.debian.org/" .
+<https://w3id.org/c2t/i/debian_10> <https://w3id.org/okn/o/sd#website> "https://www.debian.org/" .
+<https://w3id.org/c2t/i/debian_10> <https://w3id.org/okn/o/sd#name> "debian" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-1%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-10> <http://dockerpedia.inf.utfsm.cl/vocab#size> "174" .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <https://w3id.org/c2t#created> "2022-06-23T11:13:28.963056949Z" .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://dockerpedia.inf.utfsm.cl/vocab#hasLayer> <https://w3id.org/c2t/i/sha256%3A5afd661c6106dfe99ed40c2dd18b8f6ffc5d978fa3302037b513c7a6e366609f> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-1%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-10> <https://purl.org/dc/terms/publisher> "Mark Brown <broonie@debian.org>" .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://dockerpedia.inf.utfsm.cl/vocab#hasLayer> <https://w3id.org/c2t/i/sha256%3A66183893ba248fa10375cfec3e598d7df626b44c7740156e935ce2fcd5589aa7> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-1%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-10> <https://w3id.org/c2t#operativeSystemPackageVersion> "deb" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-1%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-10> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <https://w3id.org/c2t/i/sha256%3A488dfecc21b1bc607e09368d2791cb784cf8c4ec5c05d2952b045b3e0f8cc01e> .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://dockerpedia.inf.utfsm.cl/vocab#hasLayer> <https://w3id.org/c2t/i/sha256%3A97d5fec864d84417c057008f153140193d2cc924b545b0c6fec10ae891fb26f9> .
+<https://w3id.org/c2t/i/debian_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem> .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://dockerpedia.inf.utfsm.cl/vocab#tag> "python:3.9" .
+<https://w3id.org/c2t/i/debian_10> <https://w3id.org/c2t#isOperativeSystemOf> <https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> .
+<https://w3id.org/c2t/i/debian_10> <https://w3id.org/okn/o/sd#hasVersionId> "10" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-1%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-1%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-10> <https://w3id.org/c2t#packageURL> "pkg:deb/debian/zlib1g@1:1.2.11.dfsg-1?arch=amd64&upstream=zlib&distro=debian-10" .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://dockerpedia.inf.utfsm.cl/vocab#hasLayer> <https://w3id.org/c2t/i/sha256%3A33a247b4fc529be9d43b5e70cc7d1beadf12e58c6e74967a4ade33e5e58f936d> .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://dockerpedia.inf.utfsm.cl/vocab#hasLayer> <https://w3id.org/c2t/i/sha256%3A6840c8ff46bd2c0ab4086d311c3e4903639b586c84d4f4ad28d156a2cc749e5f> .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://dockerpedia.inf.utfsm.cl/vocab#hasLayer> <https://w3id.org/c2t/i/sha256%3Aba95fb9ea3e2f81ce8a4c33b684f74b777b4d3e7f9b515ea7d2e66608cbc15fb> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-1%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-10> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <https://w3id.org/c2t/i/sha256%3Ab975f128a24d85e01468428ea1bec2e39e82888866d63c23a71651bcbb21f8ed> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-1%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-10> <https://w3id.org/okn/o/sd#name> "zlib1g" .
+<https://w3id.org/c2t/i/debian_10> <https://w3id.org/c2t#distributionOf> <https://w3id.org/c2t/i/linux> .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <https://w3id.org/c2t#architecture> "amd64" .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-1%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-10> <http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn> <https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <https://purl.org/dc/terms/identifier> "sha256:9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4" .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://www.w3.org/2000/01/rdf-schema#label> "python:3.9" .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://dockerpedia.inf.utfsm.cl/vocab#size> "914661176" .
+<https://w3id.org/c2t/i/sha256%3A9ac24a438a75b54e526f2d7a77802f71e96feddda2646c68459a1c5bed006cf4> <http://dockerpedia.inf.utfsm.cl/vocab#hasLayer> <https://w3id.org/c2t/i/sha256%3A7ae141717ba663725cccffd51144f761d50f34d06418e2bdd3cec9b48bff8284> .
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-1%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-10> <http://www.w3.org/2000/01/rdf-schema#label> "zlib1g (1:1.2.11.dfsg-1)" .
+
