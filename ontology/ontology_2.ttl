@@ -97,7 +97,7 @@ dpv:size rdf:type owl:DatatypeProperty ;
 
 ### sd:name
 sd:name rdf:type owl:DatatypeProperty ;
-		rdfs:domain dpv:operatingsystem, dpv:PackageVersion ;
+		rdfs:domain dpv:OperatingSystem, dpv:PackageVersion ;
 		rdfs:comment "Name of the resource" ;
     	rdfs:isDefinedBy "https://w3id.org/okn/o/sd#name" ;
 		rdfs:label "name" .
