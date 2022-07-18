@@ -5,7 +5,7 @@ prefixes:
   dpv: "http://dockerpedia.inf.utfsm.cl/vocab#" 
   dct: "https://purl.org/dc/terms/"
   rdfs:	"http://www.w3.org/2000/01/rdf-schema#"
-  sd: "htttp://w3id.org/okn/o/sd#"
+  sd: "https://w3id.org/okn/o/sd#"
 
 
 sources:
