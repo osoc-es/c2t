@@ -7,7 +7,7 @@ class db():
         self.sparql = sparql
 
     def name_version_image_finder(self,version,package):
-        if version == '':
+        if version is None:
             self.sparql.setQuery(""" 
             PREFIX sd: <https://w3id.org/okn/o/sd#>
             prefix c2t: <https://w3id.org/c2t#> 
@@ -20,14 +20,15 @@ class db():
             prefix rml: <http://semweb.mmlab.be/ns/rml#> 
             prefix ql: <http://semweb.mmlab.be/ns/ql#> 
             prefix : <http://example.org/> 
+            prefix dct: <https://purl.org/dc/terms/> 
 
-
-            SELECT ?tag
+            SELECT DISTINCT ?tag ?id
             WHERE {
                 ?o a dpv:PackageVersion.
                 ?o sd:name '"""+package+"""'.
                 ?o dpv:isInstalledOn ?image.
-                ?image dpv:tag ?tag
+                ?image dpv:tag ?tag.
+                ?image dct:identifier ?id
             } 
             """)
         else:
@@ -43,15 +44,16 @@ class db():
             prefix rml: <http://semweb.mmlab.be/ns/rml#> 
             prefix ql: <http://semweb.mmlab.be/ns/ql#> 
             prefix : <http://example.org/> 
+            prefix dct: <https://purl.org/dc/terms/> 
 
-
-            SELECT ?tag ?id
+            SELECT DISTINCT ?tag ?id
             WHERE {
                 ?o a dpv:PackageVersion.
                 ?o sd:name '"""+package+"""'.
                 ?o sd:hasVersionId '"""+version+"""'.
                 ?o dpv:isInstalledOn ?image.
-                ?image dpv:tag ?tags
+                ?image dpv:tag ?tag.
+                ?image dct:identifier ?id
             } 
             """)
         self.sparql.setReturnFormat(CSV)
