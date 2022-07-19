@@ -1,0 +1,2186 @@
+@prefix ns1: <http://dockerpedia.inf.utfsm.cl/vocab#> .
+@prefix ns2: <https://purl.org/dc/terms/> .
+@prefix ns3: <https://w3id.org/c2t#> .
+@prefix ns4: <https://w3id.org/okn/o/sd#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fadduser%403.118%3Farch%3Dall%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "adduser (3.118)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "849" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Debian Adduser Developers <adduser@packages.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/adduser@3.118?arch=all&distro=debian-11" ;
+    ns4:hasVersionId "3.118" ;
+    ns4:name "adduser" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fapt%402.2.4%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "apt (2.2.4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "4337" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "APT Development Team <deity@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/apt@2.2.4?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "2.2.4" ;
+    ns4:name "apt" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fbase-files%4011.1%2Bdeb11u3%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "base-files (11.1+deb11u3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "340" ;
+    ns2:publisher "Santiago Vila <sanvila@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/base-files@11.1+deb11u3?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "11.1+deb11u3" ;
+    ns4:name "base-files" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fbase-passwd%403.5.51%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "base-passwd (3.5.51)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "243" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Colin Watson <cjwatson@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/base-passwd@3.5.51?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "3.5.51" ;
+    ns4:name "base-passwd" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fbash%405.1-2%2Bb3%3Farch%3Damd64%26upstream%3Dbash%25405.1-2%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "bash (5.1-2+b3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "6470" ;
+    ns2:license "GPL-3.0" ;
+    ns2:publisher "Matthias Klose <doko@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/bash@5.1-2+b3?arch=amd64&upstream=bash%405.1-2&distro=debian-11" ;
+    ns4:hasVersionId "5.1-2+b3" ;
+    ns4:name "bash" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fbsdutils%401%3A2.36.1-8%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dutil-linux%25402.36.1-8%2Bdeb11u1%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "bsdutils (1:2.36.1-8+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "394" ;
+    ns2:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns2:publisher "util-linux packagers <util-linux@packages.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/bsdutils@1:2.36.1-8+deb11u1?arch=amd64&upstream=util-linux%402.36.1-8+deb11u1&distro=debian-11" ;
+    ns4:hasVersionId "1:2.36.1-8+deb11u1" ;
+    ns4:name "bsdutils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fca-certificates%4020210119%3Farch%3Dall%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "ca-certificates (20210119)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A1f6e409d1c59c8e06608a024b82d50490313abc3b2ff93730e43135d5be0cd72>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "382" ;
+    ns2:license "GPL-2.0",
+        "GPL-2.0+",
+        "MPL-2.0" ;
+    ns2:publisher "Julien Cristau <jcristau@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/ca-certificates@20210119?arch=all&distro=debian-11" ;
+    ns4:hasVersionId "20210119" ;
+    ns4:name "ca-certificates" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fcoreutils%408.32-4%2Bb1%3Farch%3Damd64%26upstream%3Dcoreutils%25408.32-4%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "coreutils (8.32-4+b1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "17478" ;
+    ns2:license "GPL-3.0" ;
+    ns2:publisher "Michael Stone <mstone@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/coreutils@8.32-4+b1?arch=amd64&upstream=coreutils%408.32-4&distro=debian-11" ;
+    ns4:hasVersionId "8.32-4+b1" ;
+    ns4:name "coreutils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fdash%400.5.11%2Bgit20200708%2Bdd9ef66-5%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "dash (0.5.11+git20200708+dd9ef66-5)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "221" ;
+    ns2:license "BSD-3-Clause",
+        "FSFUL",
+        "FSFULLR",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns2:publisher "Andrej Shadura <andrewsh@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/dash@0.5.11+git20200708+dd9ef66-5?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "0.5.11+git20200708+dd9ef66-5" ;
+    ns4:name "dash" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fdebconf%401.5.77%3Farch%3Dall%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "debconf (1.5.77)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "517" ;
+    ns2:license "BSD-2-Clause" ;
+    ns2:publisher "Debconf Developers <debconf-devel@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/debconf@1.5.77?arch=all&distro=debian-11" ;
+    ns4:hasVersionId "1.5.77" ;
+    ns4:name "debconf" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fdebian-archive-keyring%402021.1.1%3Farch%3Dall%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "debian-archive-keyring (2021.1.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "234" ;
+    ns2:publisher "Debian Release Team <packages@release.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/debian-archive-keyring@2021.1.1?arch=all&distro=debian-11" ;
+    ns4:hasVersionId "2021.1.1" ;
+    ns4:name "debian-archive-keyring" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fdebianutils%404.11.2%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "debianutils (4.11.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "230" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Clint Adams <clint@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/debianutils@4.11.2?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "4.11.2" ;
+    ns4:name "debianutils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fdiffutils%401%3A3.7-5%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "diffutils (1:3.7-5)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "1598" ;
+    ns2:publisher "Santiago Vila <sanvila@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/diffutils@1:3.7-5?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "1:3.7-5" ;
+    ns4:name "diffutils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fdpkg%401.20.9%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "dpkg (1.20.9)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "6874" ;
+    ns2:license "BSD-2-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns2:publisher "Dpkg Developers <debian-dpkg@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/dpkg@1.20.9?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "1.20.9" ;
+    ns4:name "dpkg" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fe2fsprogs%401.46.2-2%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "e2fsprogs (1.46.2-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "1511" ;
+    ns2:license "GPL-2.0",
+        "LGPL-2.0" ;
+    ns2:publisher "Theodore Y. Ts'o <tytso@mit.edu>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/e2fsprogs@1.46.2-2?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "1.46.2-2" ;
+    ns4:name "e2fsprogs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Ffindutils%404.8.0-1%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "findutils (4.8.0-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "1959" ;
+    ns2:license "GFDL-1.3",
+        "GPL-3.0" ;
+    ns2:publisher "Andreas Metzler <ametzler@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/findutils@4.8.0-1?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "4.8.0-1" ;
+    ns4:name "findutils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fgcc-10-base%4010.2.1-6%3Farch%3Damd64%26upstream%3Dgcc-10%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "gcc-10-base (10.2.1-6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "261" ;
+    ns2:license "GFDL-1.2",
+        "GPL-2.0",
+        "GPL-3.0" ;
+    ns2:publisher "Debian GCC Maintainers <debian-gcc@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/gcc-10-base@10.2.1-6?arch=amd64&upstream=gcc-10&distro=debian-11" ;
+    ns4:hasVersionId "10.2.1-6" ;
+    ns4:name "gcc-10-base" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fgcc-9-base%409.3.0-22%3Farch%3Damd64%26upstream%3Dgcc-9%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "gcc-9-base (9.3.0-22)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "262" ;
+    ns2:license "GFDL-1.2",
+        "GPL-2.0",
+        "GPL-3.0",
+        "LGPL-2.1+" ;
+    ns2:publisher "Debian GCC Maintainers <debian-gcc@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/gcc-9-base@9.3.0-22?arch=amd64&upstream=gcc-9&distro=debian-11" ;
+    ns4:hasVersionId "9.3.0-22" ;
+    ns4:name "gcc-9-base" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fgpgv%402.2.27-2%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dgnupg2%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "gpgv (2.2.27-2+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "882" ;
+    ns2:license "BSD-3-Clause",
+        "CC0-1.0",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns2:publisher "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/gpgv@2.2.27-2+deb11u1?arch=amd64&upstream=gnupg2&distro=debian-11" ;
+    ns4:hasVersionId "2.2.27-2+deb11u1" ;
+    ns4:name "gpgv" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fgrep%403.6-1%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "grep (3.6-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "1091" ;
+    ns2:license "GPL-3.0",
+        "GPL-3.0+" ;
+    ns2:publisher "Anibal Monsalve Salazar <anibal@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/grep@3.6-1?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "3.6-1" ;
+    ns4:name "grep" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fgzip%401.10-4%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "gzip (1.10-4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "242" ;
+    ns2:license "GPL-3.0",
+        "GPL-3.0+" ;
+    ns2:publisher "Milan Kupcevic <milan@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/gzip@1.10-4?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "1.10-4" ;
+    ns4:name "gzip" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fhostname%403.23%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "hostname (3.23)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "50" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Michael Meskes <meskes@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/hostname@3.23?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "3.23" ;
+    ns4:name "hostname" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Finit-system-helpers%401.60%3Farch%3Dall%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "init-system-helpers (1.60)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "131" ;
+    ns2:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns2:publisher "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/init-system-helpers@1.60?arch=all&distro=debian-11" ;
+    ns4:hasVersionId "1.60" ;
+    ns4:name "init-system-helpers" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibacl1%402.2.53-10%3Farch%3Damd64%26upstream%3Dacl%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libacl1 (2.2.53-10)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "71" ;
+    ns2:license "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.0+",
+        "LGPL-2.1" ;
+    ns2:publisher "Guillem Jover <guillem@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libacl1@2.2.53-10?arch=amd64&upstream=acl&distro=debian-11" ;
+    ns4:hasVersionId "2.2.53-10" ;
+    ns4:name "libacl1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibapt-pkg6.0%402.2.4%3Farch%3Damd64%26upstream%3Dapt%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libapt-pkg6.0 (2.2.4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "3373" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "APT Development Team <deity@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libapt-pkg6.0@2.2.4?arch=amd64&upstream=apt&distro=debian-11" ;
+    ns4:hasVersionId "2.2.4" ;
+    ns4:name "libapt-pkg6.0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibattr1%401%3A2.4.48-6%3Farch%3Damd64%26upstream%3Dattr%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libattr1 (1:2.4.48-6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "56" ;
+    ns2:license "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.0+",
+        "LGPL-2.1" ;
+    ns2:publisher "Guillem Jover <guillem@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libattr1@1:2.4.48-6?arch=amd64&upstream=attr&distro=debian-11" ;
+    ns4:hasVersionId "1:2.4.48-6" ;
+    ns4:name "libattr1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibaudit-common%401%3A3.0-2%3Farch%3Dall%26upstream%3Daudit%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libaudit-common (1:3.0-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "26" ;
+    ns2:license "GPL-1.0",
+        "GPL-2.0",
+        "LGPL-2.1" ;
+    ns2:publisher "Laurent Bigonville <bigon@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libaudit-common@1:3.0-2?arch=all&upstream=audit&distro=debian-11" ;
+    ns4:hasVersionId "1:3.0-2" ;
+    ns4:name "libaudit-common" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibaudit1%401%3A3.0-2%3Farch%3Damd64%26upstream%3Daudit%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libaudit1 (1:3.0-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "154" ;
+    ns2:license "GPL-1.0",
+        "GPL-2.0",
+        "LGPL-2.1" ;
+    ns2:publisher "Laurent Bigonville <bigon@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libaudit1@1:3.0-2?arch=amd64&upstream=audit&distro=debian-11" ;
+    ns4:hasVersionId "1:3.0-2" ;
+    ns4:name "libaudit1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibblkid1%402.36.1-8%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dutil-linux%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libblkid1 (2.36.1-8+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "421" ;
+    ns2:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns2:publisher "util-linux packagers <util-linux@packages.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libblkid1@2.36.1-8+deb11u1?arch=amd64&upstream=util-linux&distro=debian-11" ;
+    ns4:hasVersionId "2.36.1-8+deb11u1" ;
+    ns4:name "libblkid1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibbz2-1.0%401.0.8-4%3Farch%3Damd64%26upstream%3Dbzip2%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libbz2-1.0 (1.0.8-4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "104" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Anibal Monsalve Salazar <anibal@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libbz2-1.0@1.0.8-4?arch=amd64&upstream=bzip2&distro=debian-11" ;
+    ns4:hasVersionId "1.0.8-4" ;
+    ns4:name "libbz2-1.0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibc-bin%402.31-13%2Bdeb11u3%3Farch%3Damd64%26upstream%3Dglibc%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libc-bin (2.31-13+deb11u3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "3692" ;
+    ns2:license "GPL-2.0",
+        "LGPL-2.1" ;
+    ns2:publisher "GNU Libc Maintainers <debian-glibc@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libc-bin@2.31-13+deb11u3?arch=amd64&upstream=glibc&distro=debian-11" ;
+    ns4:hasVersionId "2.31-13+deb11u3" ;
+    ns4:name "libc-bin" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibc6%402.31-13%2Bdeb11u3%3Farch%3Damd64%26upstream%3Dglibc%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libc6 (2.31-13+deb11u3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "12772" ;
+    ns2:license "GPL-2.0",
+        "LGPL-2.1" ;
+    ns2:publisher "GNU Libc Maintainers <debian-glibc@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libc6@2.31-13+deb11u3?arch=amd64&upstream=glibc&distro=debian-11" ;
+    ns4:hasVersionId "2.31-13+deb11u3" ;
+    ns4:name "libc6" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibcap-ng0%400.7.9-2.2%2Bb1%3Farch%3Damd64%26upstream%3Dlibcap-ng%25400.7.9-2.2%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libcap-ng0 (0.7.9-2.2+b1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "48" ;
+    ns2:license "GPL-2.0",
+        "GPL-3.0",
+        "LGPL-2.1" ;
+    ns2:publisher "Pierre Chifflier <pollux@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libcap-ng0@0.7.9-2.2+b1?arch=amd64&upstream=libcap-ng%400.7.9-2.2&distro=debian-11" ;
+    ns4:hasVersionId "0.7.9-2.2+b1" ;
+    ns4:name "libcap-ng0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibcom-err2%401.46.2-2%3Farch%3Damd64%26upstream%3De2fsprogs%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libcom-err2 (1.46.2-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "97" ;
+    ns2:publisher "Theodore Y. Ts'o <tytso@mit.edu>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libcom-err2@1.46.2-2?arch=amd64&upstream=e2fsprogs&distro=debian-11" ;
+    ns4:hasVersionId "1.46.2-2" ;
+    ns4:name "libcom-err2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibcrypt1%401%3A4.4.18-4%3Farch%3Damd64%26upstream%3Dlibxcrypt%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libcrypt1 (1:4.4.18-4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "226" ;
+    ns2:publisher "Marco d'Itri <md@linux.it>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libcrypt1@1:4.4.18-4?arch=amd64&upstream=libxcrypt&distro=debian-11" ;
+    ns4:hasVersionId "1:4.4.18-4" ;
+    ns4:name "libcrypt1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibdb5.3%405.3.28%2Bdfsg1-0.8%3Farch%3Damd64%26upstream%3Ddb5.3%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libdb5.3 (5.3.28+dfsg1-0.8)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "1818" ;
+    ns2:publisher "Debian Berkeley DB Team <team+bdb@tracker.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libdb5.3@5.3.28+dfsg1-0.8?arch=amd64&upstream=db5.3&distro=debian-11" ;
+    ns4:hasVersionId "5.3.28+dfsg1-0.8" ;
+    ns4:name "libdb5.3" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibdebconfclient0%400.260%3Farch%3Damd64%26upstream%3Dcdebconf%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libdebconfclient0 (0.260)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "74" ;
+    ns2:publisher "Debian Install System Team <debian-boot@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libdebconfclient0@0.260?arch=amd64&upstream=cdebconf&distro=debian-11" ;
+    ns4:hasVersionId "0.260" ;
+    ns4:name "libdebconfclient0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibext2fs2%401.46.2-2%3Farch%3Damd64%26upstream%3De2fsprogs%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libext2fs2 (1.46.2-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "578" ;
+    ns2:license "GPL-2.0",
+        "LGPL-2.0" ;
+    ns2:publisher "Theodore Y. Ts'o <tytso@mit.edu>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libext2fs2@1.46.2-2?arch=amd64&upstream=e2fsprogs&distro=debian-11" ;
+    ns4:hasVersionId "1.46.2-2" ;
+    ns4:name "libext2fs2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibffi7%403.3-6%3Farch%3Damd64%26upstream%3Dlibffi%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libffi7 (3.3-6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "66" ;
+    ns2:publisher "Debian GCC Maintainers <debian-gcc@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libffi7@3.3-6?arch=amd64&upstream=libffi&distro=debian-11" ;
+    ns4:hasVersionId "3.3-6" ;
+    ns4:name "libffi7" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibgcc-s1%4010.2.1-6%3Farch%3Damd64%26upstream%3Dgcc-10%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libgcc-s1 (10.2.1-6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "116" ;
+    ns2:license "GFDL-1.2",
+        "GPL-2.0",
+        "GPL-3.0" ;
+    ns2:publisher "Debian GCC Maintainers <debian-gcc@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libgcc-s1@10.2.1-6?arch=amd64&upstream=gcc-10&distro=debian-11" ;
+    ns4:hasVersionId "10.2.1-6" ;
+    ns4:name "libgcc-s1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibgcrypt20%401.8.7-6%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libgcrypt20 (1.8.7-6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "1355" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libgcrypt20@1.8.7-6?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "1.8.7-6" ;
+    ns4:name "libgcrypt20" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibgmp10%402%3A6.2.1%2Bdfsg-1%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dgmp%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libgmp10 (2:6.2.1+dfsg-1+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "863" ;
+    ns2:license "GPL-2.0",
+        "GPL-3.0",
+        "LGPL-3.0" ;
+    ns2:publisher "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libgmp10@2:6.2.1+dfsg-1+deb11u1?arch=amd64&upstream=gmp&distro=debian-11" ;
+    ns4:hasVersionId "2:6.2.1+dfsg-1+deb11u1" ;
+    ns4:name "libgmp10" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibgnutls30%403.7.1-5%3Farch%3Damd64%26upstream%3Dgnutls28%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libgnutls30 (3.7.1-5)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "3142" ;
+    ns2:license "Apache-2.0",
+        "BSD-3-Clause",
+        "GFDL-1.3",
+        "GPL-3.0",
+        "LGPL-3.0" ;
+    ns2:publisher "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libgnutls30@3.7.1-5?arch=amd64&upstream=gnutls28&distro=debian-11" ;
+    ns4:hasVersionId "3.7.1-5" ;
+    ns4:name "libgnutls30" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibgpg-error0%401.38-2%3Farch%3Damd64%26upstream%3Dlibgpg-error%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libgpg-error0 (1.38-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "188" ;
+    ns2:license "BSD-3-Clause",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+" ;
+    ns2:publisher "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libgpg-error0@1.38-2?arch=amd64&upstream=libgpg-error&distro=debian-11" ;
+    ns4:hasVersionId "1.38-2" ;
+    ns4:name "libgpg-error0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibgssapi-krb5-2%401.18.3-6%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dkrb5%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libgssapi-krb5-2 (1.18.3-6+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "451" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Sam Hartman <hartmans@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libgssapi-krb5-2@1.18.3-6+deb11u1?arch=amd64&upstream=krb5&distro=debian-11" ;
+    ns4:hasVersionId "1.18.3-6+deb11u1" ;
+    ns4:name "libgssapi-krb5-2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibhogweed6%403.7.3-1%3Farch%3Damd64%26upstream%3Dnettle%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libhogweed6 (3.7.3-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "455" ;
+    ns2:license "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-3.0+" ;
+    ns2:publisher "Magnus Holmgren <holmgren@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libhogweed6@3.7.3-1?arch=amd64&upstream=nettle&distro=debian-11" ;
+    ns4:hasVersionId "3.7.3-1" ;
+    ns4:name "libhogweed6" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibidn2-0%402.3.0-5%3Farch%3Damd64%26upstream%3Dlibidn2%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libidn2-0 (2.3.0-5)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "300" ;
+    ns2:license "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns2:publisher "Debian Libidn team <help-libidn@gnu.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libidn2-0@2.3.0-5?arch=amd64&upstream=libidn2&distro=debian-11" ;
+    ns4:hasVersionId "2.3.0-5" ;
+    ns4:name "libidn2-0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibk5crypto3%401.18.3-6%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dkrb5%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libk5crypto3 (1.18.3-6+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "296" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Sam Hartman <hartmans@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libk5crypto3@1.18.3-6+deb11u1?arch=amd64&upstream=krb5&distro=debian-11" ;
+    ns4:hasVersionId "1.18.3-6+deb11u1" ;
+    ns4:name "libk5crypto3" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibkeyutils1%401.6.1-2%3Farch%3Damd64%26upstream%3Dkeyutils%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libkeyutils1 (1.6.1-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "46" ;
+    ns2:license "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+" ;
+    ns2:publisher "Christian Kastner <ckk@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libkeyutils1@1.6.1-2?arch=amd64&upstream=keyutils&distro=debian-11" ;
+    ns4:hasVersionId "1.6.1-2" ;
+    ns4:name "libkeyutils1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibkrb5-3%401.18.3-6%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dkrb5%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libkrb5-3 (1.18.3-6+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "1108" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Sam Hartman <hartmans@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libkrb5-3@1.18.3-6+deb11u1?arch=amd64&upstream=krb5&distro=debian-11" ;
+    ns4:hasVersionId "1.18.3-6+deb11u1" ;
+    ns4:name "libkrb5-3" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibkrb5support0%401.18.3-6%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dkrb5%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libkrb5support0 (1.18.3-6+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "169" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Sam Hartman <hartmans@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libkrb5support0@1.18.3-6+deb11u1?arch=amd64&upstream=krb5&distro=debian-11" ;
+    ns4:hasVersionId "1.18.3-6+deb11u1" ;
+    ns4:name "libkrb5support0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fliblz4-1%401.9.3-2%3Farch%3Damd64%26upstream%3Dlz4%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "liblz4-1 (1.9.3-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "157" ;
+    ns2:license "BSD-2-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns2:publisher "Nobuhiro Iwamatsu <iwamatsu@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/liblz4-1@1.9.3-2?arch=amd64&upstream=lz4&distro=debian-11" ;
+    ns4:hasVersionId "1.9.3-2" ;
+    ns4:name "liblz4-1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fliblzma5%405.2.5-2%3Farch%3Damd64%26upstream%3Dxz-utils%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "liblzma5 (5.2.5-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "277" ;
+    ns2:license "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "LGPL-2.0",
+        "LGPL-2.1",
+        "LGPL-2.1+" ;
+    ns2:publisher "Jonathan Nieder <jrnieder@gmail.com>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/liblzma5@5.2.5-2?arch=amd64&upstream=xz-utils&distro=debian-11" ;
+    ns4:hasVersionId "5.2.5-2" ;
+    ns4:name "liblzma5" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibmount1%402.36.1-8%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dutil-linux%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libmount1 (2.36.1-8+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "477" ;
+    ns2:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns2:publisher "util-linux packagers <util-linux@packages.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libmount1@2.36.1-8+deb11u1?arch=amd64&upstream=util-linux&distro=debian-11" ;
+    ns4:hasVersionId "2.36.1-8+deb11u1" ;
+    ns4:name "libmount1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibnettle8%403.7.3-1%3Farch%3Damd64%26upstream%3Dnettle%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libnettle8 (3.7.3-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "480" ;
+    ns2:license "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-3.0+" ;
+    ns2:publisher "Magnus Holmgren <holmgren@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libnettle8@3.7.3-1?arch=amd64&upstream=nettle&distro=debian-11" ;
+    ns4:hasVersionId "3.7.3-1" ;
+    ns4:name "libnettle8" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibnsl2%401.3.0-2%3Farch%3Damd64%26upstream%3Dlibnsl%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libnsl2 (1.3.0-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "127" ;
+    ns2:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-3.0",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "MIT" ;
+    ns2:publisher "GNU Libc Maintainers <debian-glibc@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libnsl2@1.3.0-2?arch=amd64&upstream=libnsl&distro=debian-11" ;
+    ns4:hasVersionId "1.3.0-2" ;
+    ns4:name "libnsl2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibp11-kit0%400.23.22-1%3Farch%3Damd64%26upstream%3Dp11-kit%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libp11-kit0 (0.23.22-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "1401" ;
+    ns2:license "BSD-3-Clause",
+        "ISC" ;
+    ns2:publisher "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libp11-kit0@0.23.22-1?arch=amd64&upstream=p11-kit&distro=debian-11" ;
+    ns4:hasVersionId "0.23.22-1" ;
+    ns4:name "libp11-kit0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibpam-modules%401.4.0-9%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dpam%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libpam-modules (1.4.0-9+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "1048" ;
+    ns2:publisher "Steve Langasek <vorlon@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libpam-modules@1.4.0-9+deb11u1?arch=amd64&upstream=pam&distro=debian-11" ;
+    ns4:hasVersionId "1.4.0-9+deb11u1" ;
+    ns4:name "libpam-modules" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibpam-modules-bin%401.4.0-9%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dpam%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libpam-modules-bin (1.4.0-9+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "227" ;
+    ns2:publisher "Steve Langasek <vorlon@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libpam-modules-bin@1.4.0-9+deb11u1?arch=amd64&upstream=pam&distro=debian-11" ;
+    ns4:hasVersionId "1.4.0-9+deb11u1" ;
+    ns4:name "libpam-modules-bin" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibpam-runtime%401.4.0-9%2Bdeb11u1%3Farch%3Dall%26upstream%3Dpam%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libpam-runtime (1.4.0-9+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "965" ;
+    ns2:publisher "Steve Langasek <vorlon@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libpam-runtime@1.4.0-9+deb11u1?arch=all&upstream=pam&distro=debian-11" ;
+    ns4:hasVersionId "1.4.0-9+deb11u1" ;
+    ns4:name "libpam-runtime" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibpam0g%401.4.0-9%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dpam%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libpam0g (1.4.0-9+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "244" ;
+    ns2:publisher "Steve Langasek <vorlon@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libpam0g@1.4.0-9+deb11u1?arch=amd64&upstream=pam&distro=debian-11" ;
+    ns4:hasVersionId "1.4.0-9+deb11u1" ;
+    ns4:name "libpam0g" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibpcre2-8-0%4010.36-2%3Farch%3Damd64%26upstream%3Dpcre2%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libpcre2-8-0 (10.36-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "664" ;
+    ns2:publisher "Matthew Vernon <matthew@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libpcre2-8-0@10.36-2?arch=amd64&upstream=pcre2&distro=debian-11" ;
+    ns4:hasVersionId "10.36-2" ;
+    ns4:name "libpcre2-8-0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibpcre3%402%3A8.39-13%3Farch%3Damd64%26upstream%3Dpcre3%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libpcre3 (2:8.39-13)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "669" ;
+    ns2:publisher "Matthew Vernon <matthew@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libpcre3@2:8.39-13?arch=amd64&upstream=pcre3&distro=debian-11" ;
+    ns4:hasVersionId "2:8.39-13" ;
+    ns4:name "libpcre3" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibseccomp2%402.5.1-1%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dlibseccomp%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libseccomp2 (2.5.1-1+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "158" ;
+    ns2:license "LGPL-2.1" ;
+    ns2:publisher "Kees Cook <kees@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libseccomp2@2.5.1-1+deb11u1?arch=amd64&upstream=libseccomp&distro=debian-11" ;
+    ns4:hasVersionId "2.5.1-1+deb11u1" ;
+    ns4:name "libseccomp2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibselinux1%403.1-3%3Farch%3Damd64%26upstream%3Dlibselinux%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libselinux1 (3.1-3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "207" ;
+    ns2:license "GPL-2.0",
+        "LGPL-2.1" ;
+    ns2:publisher "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libselinux1@3.1-3?arch=amd64&upstream=libselinux&distro=debian-11" ;
+    ns4:hasVersionId "3.1-3" ;
+    ns4:name "libselinux1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibsemanage-common%403.1-1%3Farch%3Dall%26upstream%3Dlibsemanage%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libsemanage-common (3.1-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "36" ;
+    ns2:publisher "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libsemanage-common@3.1-1?arch=all&upstream=libsemanage&distro=debian-11" ;
+    ns4:hasVersionId "3.1-1" ;
+    ns4:name "libsemanage-common" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibsemanage1%403.1-1%2Bb2%3Farch%3Damd64%26upstream%3Dlibsemanage%25403.1-1%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libsemanage1 (3.1-1+b2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "307" ;
+    ns2:publisher "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libsemanage1@3.1-1+b2?arch=amd64&upstream=libsemanage%403.1-1&distro=debian-11" ;
+    ns4:hasVersionId "3.1-1+b2" ;
+    ns4:name "libsemanage1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibsepol1%403.1-1%3Farch%3Damd64%26upstream%3Dlibsepol%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libsepol1 (3.1-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "743" ;
+    ns2:publisher "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libsepol1@3.1-1?arch=amd64&upstream=libsepol&distro=debian-11" ;
+    ns4:hasVersionId "3.1-1" ;
+    ns4:name "libsepol1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibsmartcols1%402.36.1-8%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dutil-linux%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libsmartcols1 (2.36.1-8+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "328" ;
+    ns2:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns2:publisher "util-linux packagers <util-linux@packages.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libsmartcols1@2.36.1-8+deb11u1?arch=amd64&upstream=util-linux&distro=debian-11" ;
+    ns4:hasVersionId "2.36.1-8+deb11u1" ;
+    ns4:name "libsmartcols1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibss2%401.46.2-2%3Farch%3Damd64%26upstream%3De2fsprogs%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libss2 (1.46.2-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "113" ;
+    ns2:publisher "Theodore Y. Ts'o <tytso@mit.edu>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libss2@1.46.2-2?arch=amd64&upstream=e2fsprogs&distro=debian-11" ;
+    ns4:hasVersionId "1.46.2-2" ;
+    ns4:name "libss2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibssl1.1%401.1.1n-0%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dopenssl%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libssl1.1 (1.1.1n-0+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "4120" ;
+    ns2:publisher "Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libssl1.1@1.1.1n-0+deb11u1?arch=amd64&upstream=openssl&distro=debian-11" ;
+    ns4:hasVersionId "1.1.1n-0+deb11u1" ;
+    ns4:name "libssl1.1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibstdc%2B%2B6%4010.2.1-6%3Farch%3Damd64%26upstream%3Dgcc-10%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libstdc++6 (10.2.1-6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "2351" ;
+    ns2:license "GFDL-1.2",
+        "GPL-2.0",
+        "GPL-3.0" ;
+    ns2:publisher "Debian GCC Maintainers <debian-gcc@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libstdc++6@10.2.1-6?arch=amd64&upstream=gcc-10&distro=debian-11" ;
+    ns4:hasVersionId "10.2.1-6" ;
+    ns4:name "libstdc++6" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibsystemd0%40247.3-7%3Farch%3Damd64%26upstream%3Dsystemd%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libsystemd0 (247.3-7)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "865" ;
+    ns2:license "CC0-1.0",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+" ;
+    ns2:publisher "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libsystemd0@247.3-7?arch=amd64&upstream=systemd&distro=debian-11" ;
+    ns4:hasVersionId "247.3-7" ;
+    ns4:name "libsystemd0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibtasn1-6%404.16.0-2%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libtasn1-6 (4.16.0-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "124" ;
+    ns2:license "GFDL-1.3",
+        "GPL-3.0",
+        "LGPL-2.1" ;
+    ns2:publisher "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libtasn1-6@4.16.0-2?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "4.16.0-2" ;
+    ns4:name "libtasn1-6" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibtinfo6%406.2%2B20201114-2%3Farch%3Damd64%26upstream%3Dncurses%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libtinfo6 (6.2+20201114-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "536" ;
+    ns2:license "BSD-3-Clause",
+        "X11" ;
+    ns2:publisher "Craig Small <csmall@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libtinfo6@6.2+20201114-2?arch=amd64&upstream=ncurses&distro=debian-11" ;
+    ns4:hasVersionId "6.2+20201114-2" ;
+    ns4:name "libtinfo6" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibtirpc-common%401.3.1-1%3Farch%3Dall%26upstream%3Dlibtirpc%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libtirpc-common (1.3.1-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "34" ;
+    ns2:license "BSD-3-Clause",
+        "GPL-2.0",
+        "LGPL-2.1" ;
+    ns2:publisher "Josue Ortega <josue@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libtirpc-common@1.3.1-1?arch=all&upstream=libtirpc&distro=debian-11" ;
+    ns4:hasVersionId "1.3.1-1" ;
+    ns4:name "libtirpc-common" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibtirpc3%401.3.1-1%3Farch%3Damd64%26upstream%3Dlibtirpc%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libtirpc3 (1.3.1-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "225" ;
+    ns2:license "BSD-3-Clause",
+        "GPL-2.0",
+        "LGPL-2.1" ;
+    ns2:publisher "Josue Ortega <josue@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libtirpc3@1.3.1-1?arch=amd64&upstream=libtirpc&distro=debian-11" ;
+    ns4:hasVersionId "1.3.1-1" ;
+    ns4:name "libtirpc3" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibudev1%40247.3-7%3Farch%3Damd64%26upstream%3Dsystemd%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libudev1 (247.3-7)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "282" ;
+    ns2:license "CC0-1.0",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+" ;
+    ns2:publisher "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libudev1@247.3-7?arch=amd64&upstream=systemd&distro=debian-11" ;
+    ns4:hasVersionId "247.3-7" ;
+    ns4:name "libudev1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibunistring2%400.9.10-4%3Farch%3Damd64%26upstream%3Dlibunistring%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libunistring2 (0.9.10-4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "1592" ;
+    ns2:license "GFDL-1.2",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns2:publisher "JÃ¶rg Frings-FÃ¼rst <debian@jff.email>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libunistring2@0.9.10-4?arch=amd64&upstream=libunistring&distro=debian-11" ;
+    ns4:hasVersionId "0.9.10-4" ;
+    ns4:name "libunistring2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibuuid1%402.36.1-8%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dutil-linux%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libuuid1 (2.36.1-8+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "129" ;
+    ns2:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns2:publisher "util-linux packagers <util-linux@packages.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libuuid1@2.36.1-8+deb11u1?arch=amd64&upstream=util-linux&distro=debian-11" ;
+    ns4:hasVersionId "2.36.1-8+deb11u1" ;
+    ns4:name "libuuid1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibxxhash0%400.8.0-2%3Farch%3Damd64%26upstream%3Dxxhash%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libxxhash0 (0.8.0-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "114" ;
+    ns2:license "BSD-2-Clause",
+        "GPL-2.0" ;
+    ns2:publisher "Norbert Preining <norbert@preining.info>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libxxhash0@0.8.0-2?arch=amd64&upstream=xxhash&distro=debian-11" ;
+    ns4:hasVersionId "0.8.0-2" ;
+    ns4:name "libxxhash0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flibzstd1%401.4.8%2Bdfsg-2.1%3Farch%3Damd64%26upstream%3Dlibzstd%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "libzstd1 (1.4.8+dfsg-2.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "904" ;
+    ns2:license "BSD-3-Clause",
+        "GPL-2.0",
+        "Zlib" ;
+    ns2:publisher "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/libzstd1@1.4.8+dfsg-2.1?arch=amd64&upstream=libzstd&distro=debian-11" ;
+    ns4:hasVersionId "1.4.8+dfsg-2.1" ;
+    ns4:name "libzstd1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flogin%401%3A4.8.1-1%3Farch%3Damd64%26upstream%3Dshadow%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "login (1:4.8.1-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "2335" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/login@1:4.8.1-1?arch=amd64&upstream=shadow&distro=debian-11" ;
+    ns4:hasVersionId "1:4.8.1-1" ;
+    ns4:name "login" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flogsave%401.46.2-2%3Farch%3Damd64%26upstream%3De2fsprogs%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "logsave (1.46.2-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "93" ;
+    ns2:license "GPL-2.0",
+        "LGPL-2.0" ;
+    ns2:publisher "Theodore Y. Ts'o <tytso@mit.edu>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/logsave@1.46.2-2?arch=amd64&upstream=e2fsprogs&distro=debian-11" ;
+    ns4:hasVersionId "1.46.2-2" ;
+    ns4:name "logsave" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Flsb-base%4011.1.0%3Farch%3Dall%26upstream%3Dlsb%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "lsb-base (11.1.0)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "49" ;
+    ns2:license "BSD-3-Clause",
+        "GPL-2.0" ;
+    ns2:publisher "Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/lsb-base@11.1.0?arch=all&upstream=lsb&distro=debian-11" ;
+    ns4:hasVersionId "11.1.0" ;
+    ns4:name "lsb-base" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fmawk%401.3.4.20200120-2%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "mawk (1.3.4.20200120-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "242" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Boyuan Yang <byang@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/mawk@1.3.4.20200120-2?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "1.3.4.20200120-2" ;
+    ns4:name "mawk" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fmount%402.36.1-8%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dutil-linux%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "mount (2.36.1-8+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "438" ;
+    ns2:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns2:publisher "util-linux packagers <util-linux@packages.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/mount@2.36.1-8+deb11u1?arch=amd64&upstream=util-linux&distro=debian-11" ;
+    ns4:hasVersionId "2.36.1-8+deb11u1" ;
+    ns4:name "mount" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fncurses-base%406.2%2B20201114-2%3Farch%3Dall%26upstream%3Dncurses%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "ncurses-base (6.2+20201114-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "385" ;
+    ns2:license "BSD-3-Clause",
+        "X11" ;
+    ns2:publisher "Craig Small <csmall@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/ncurses-base@6.2+20201114-2?arch=all&upstream=ncurses&distro=debian-11" ;
+    ns4:hasVersionId "6.2+20201114-2" ;
+    ns4:name "ncurses-base" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fncurses-bin%406.2%2B20201114-2%3Farch%3Damd64%26upstream%3Dncurses%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "ncurses-bin (6.2+20201114-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "645" ;
+    ns2:license "BSD-3-Clause",
+        "X11" ;
+    ns2:publisher "Craig Small <csmall@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/ncurses-bin@6.2+20201114-2?arch=amd64&upstream=ncurses&distro=debian-11" ;
+    ns4:hasVersionId "6.2+20201114-2" ;
+    ns4:name "ncurses-bin" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fopenssl%401.1.1n-0%2Bdeb11u1%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "openssl (1.1.1n-0+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A1f6e409d1c59c8e06608a024b82d50490313abc3b2ff93730e43135d5be0cd72>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "1466" ;
+    ns2:publisher "Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/openssl@1.1.1n-0+deb11u1?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "1.1.1n-0+deb11u1" ;
+    ns4:name "openssl" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fp11-kit%400.23.22-1%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "p11-kit (0.23.22-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A1f6e409d1c59c8e06608a024b82d50490313abc3b2ff93730e43135d5be0cd72>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "960" ;
+    ns2:license "BSD-3-Clause",
+        "ISC" ;
+    ns2:publisher "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/p11-kit@0.23.22-1?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "0.23.22-1" ;
+    ns4:name "p11-kit" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fp11-kit-modules%400.23.22-1%3Farch%3Damd64%26upstream%3Dp11-kit%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "p11-kit-modules (0.23.22-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "1414" ;
+    ns2:license "BSD-3-Clause",
+        "ISC" ;
+    ns2:publisher "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/p11-kit-modules@0.23.22-1?arch=amd64&upstream=p11-kit&distro=debian-11" ;
+    ns4:hasVersionId "0.23.22-1" ;
+    ns4:name "p11-kit-modules" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fpasswd%401%3A4.8.1-1%3Farch%3Damd64%26upstream%3Dshadow%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "passwd (1:4.8.1-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "2736" ;
+    ns2:license "GPL-2.0" ;
+    ns2:publisher "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/passwd@1:4.8.1-1?arch=amd64&upstream=shadow&distro=debian-11" ;
+    ns4:hasVersionId "1:4.8.1-1" ;
+    ns4:name "passwd" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fperl-base%405.32.1-4%2Bdeb11u2%3Farch%3Damd64%26upstream%3Dperl%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "perl-base (5.32.1-4+deb11u2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "7664" ;
+    ns2:license "Artistic-2.0",
+        "BSD-3-Clause",
+        "GPL-1.0",
+        "GPL-1.0+",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.1",
+        "Zlib" ;
+    ns2:publisher "Niko Tyni <ntyni@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/perl-base@5.32.1-4+deb11u2?arch=amd64&upstream=perl&distro=debian-11" ;
+    ns4:hasVersionId "5.32.1-4+deb11u2" ;
+    ns4:name "perl-base" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fsed%404.7-1%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "sed (4.7-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "883" ;
+    ns2:license "GPL-3.0" ;
+    ns2:publisher "Clint Adams <clint@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/sed@4.7-1?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "4.7-1" ;
+    ns4:name "sed" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fsysvinit-utils%402.96-7%2Bdeb11u1%3Farch%3Damd64%26upstream%3Dsysvinit%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "sysvinit-utils (2.96-7+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "79" ;
+    ns2:license "GPL-2.0",
+        "GPL-2.0+" ;
+    ns2:publisher "Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/sysvinit-utils@2.96-7+deb11u1?arch=amd64&upstream=sysvinit&distro=debian-11" ;
+    ns4:hasVersionId "2.96-7+deb11u1" ;
+    ns4:name "sysvinit-utils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Ftar%401.34%2Bdfsg-1%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "tar (1.34+dfsg-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "3152" ;
+    ns2:license "GPL-2.0",
+        "GPL-3.0" ;
+    ns2:publisher "Janos Lenart <ocsi@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/tar@1.34+dfsg-1?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "1.34+dfsg-1" ;
+    ns4:name "tar" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Ftzdata%402021a-1%2Bdeb11u3%3Farch%3Dall%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "tzdata (2021a-1+deb11u3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "3409" ;
+    ns2:publisher "GNU Libc Maintainers <debian-glibc@lists.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/tzdata@2021a-1+deb11u3?arch=all&distro=debian-11" ;
+    ns4:hasVersionId "2021a-1+deb11u3" ;
+    ns4:name "tzdata" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Futil-linux%402.36.1-8%2Bdeb11u1%3Farch%3Damd64%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "util-linux (2.36.1-8+deb11u1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "4615" ;
+    ns2:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns2:publisher "util-linux packagers <util-linux@packages.debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/util-linux@2.36.1-8+deb11u1?arch=amd64&distro=debian-11" ;
+    ns4:hasVersionId "2.36.1-8+deb11u1" ;
+    ns4:name "util-linux" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fdebian%2Fzlib1g%401%3A1.2.11.dfsg-2%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Ddebian-11> a ns1:PackageVersion ;
+    rdfs:label "zlib1g (1:1.2.11.dfsg-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns1:size "166" ;
+    ns2:license "Zlib" ;
+    ns2:publisher "Mark Brown <broonie@debian.org>" ;
+    ns3:operativeSystemPackageVersion "deb" ;
+    ns3:packageURL "pkg:deb/debian/zlib1g@1:1.2.11.dfsg-2?arch=amd64&upstream=zlib&distro=debian-11" ;
+    ns4:hasVersionId "1:1.2.11.dfsg-2" ;
+    ns4:name "zlib1g" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcom.fasterxml%2Fclassmate%401.3.1> a ns1:PackageVersion ;
+    rdfs:label "classmate (1.3.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/com.fasterxml/classmate@1.3.1" ;
+    ns4:hasVersionId "1.3.1" ;
+    ns4:name "classmate" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcom.fasterxml.jackson.core%2Fjackson-annotations%402.9.10> a ns1:PackageVersion ;
+    rdfs:label "jackson-annotations (2.9.10)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.10" ;
+    ns4:hasVersionId "2.9.10" ;
+    ns4:name "jackson-annotations" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcom.fasterxml.jackson.core%2Fjackson-core%402.9.10> a ns1:PackageVersion ;
+    rdfs:label "jackson-core (2.9.10)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10" ;
+    ns4:hasVersionId "2.9.10" ;
+    ns4:name "jackson-core" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcom.fasterxml.jackson.core%2Fjackson-databind%402.9.10.7> a ns1:PackageVersion ;
+    rdfs:label "jackson-databind (2.9.10.7)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.7" ;
+    ns4:hasVersionId "2.9.10.7" ;
+    ns4:name "jackson-databind" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcom.github.jsonld-java%2Fjsonld-java%400.13.0> a ns1:PackageVersion ;
+    rdfs:label "jsonld-java (0.13.0)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/com.github.jsonld-java/jsonld-java@0.13.0" ;
+    ns4:hasVersionId "0.13.0" ;
+    ns4:name "jsonld-java" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcom.github.vsonnier%2Fhppcrt%400.7.5> a ns1:PackageVersion ;
+    rdfs:label "hppcrt (0.7.5)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/com.github.vsonnier/hppcrt@0.7.5" ;
+    ns4:hasVersionId "0.7.5" ;
+    ns4:name "hppcrt" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcom.google.code.findbugs%2Fjsr305%403.0.2> a ns1:PackageVersion ;
+    rdfs:label "jsr305 (3.0.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/com.google.code.findbugs/jsr305@3.0.2" ;
+    ns4:hasVersionId "3.0.2" ;
+    ns4:name "jsr305" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcom.google.errorprone%2Ferror_prone_annotations%402.3.4> a ns1:PackageVersion ;
+    rdfs:label "error_prone_annotations (2.3.4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4" ;
+    ns4:hasVersionId "2.3.4" ;
+    ns4:name "error_prone_annotations" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcom.google.guava%2Ffailureaccess%401.0.1> a ns1:PackageVersion ;
+    rdfs:label "failureaccess (1.0.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/com.google.guava/failureaccess@1.0.1" ;
+    ns4:hasVersionId "1.0.1" ;
+    ns4:name "failureaccess" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcom.google.guava%2Fguava%4030.0-jre> a ns1:PackageVersion ;
+    rdfs:label "guava (30.0-jre)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/com.google.guava/guava@30.0-jre" ;
+    ns4:hasVersionId "30.0-jre" ;
+    ns4:name "guava" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcom.google.guava%2Flistenablefuture%409999.0-empty-to-avoid-conflict-with-guava> a ns1:PackageVersion ;
+    rdfs:label "listenablefuture (9999.0-empty-to-avoid-conflict-with-guava)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava" ;
+    ns4:hasVersionId "9999.0-empty-to-avoid-conflict-with-guava" ;
+    ns4:name "listenablefuture" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcom.google.j2objc%2Fj2objc-annotations%401.3> a ns1:PackageVersion ;
+    rdfs:label "j2objc-annotations (1.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/com.google.j2objc/j2objc-annotations@1.3" ;
+    ns4:hasVersionId "1.3" ;
+    ns4:name "j2objc-annotations" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcommons-cli%2Fcommons-cli%401.3.1> a ns1:PackageVersion ;
+    rdfs:label "commons-cli (1.3.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/commons-cli/commons-cli@1.3.1" ;
+    ns4:hasVersionId "1.3.1" ;
+    ns4:name "commons-cli" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcommons-codec%2Fcommons-codec%401.11> a ns1:PackageVersion ;
+    rdfs:label "commons-codec (1.11)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/commons-codec/commons-codec@1.11" ;
+    ns4:hasVersionId "1.11" ;
+    ns4:name "commons-codec" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fcommons-io%2Fcommons-io%402.5> a ns1:PackageVersion ;
+    rdfs:label "commons-io (2.5)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/commons-io/commons-io@2.5" ;
+    ns4:hasVersionId "2.5" ;
+    ns4:name "commons-io" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fjrt-fs%2Fjrt-fs%4017.0.2> a ns1:PackageVersion ;
+    rdfs:label "jrt-fs (17.0.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/jrt-fs/jrt-fs@17.0.2" ;
+    ns4:hasVersionId "17.0.2" ;
+    ns4:name "jrt-fs" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fnet.sourceforge.owlapi%2Fowlapi-api%405.1.18> a ns1:PackageVersion ;
+    rdfs:label "owlapi-api (5.1.18)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/net.sourceforge.owlapi/owlapi-api@5.1.18" ;
+    ns4:hasVersionId "5.1.18" ;
+    ns4:name "owlapi-api" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fnet.sourceforge.owlapi%2Fowlapi-apibinding%405.1.18> a ns1:PackageVersion ;
+    rdfs:label "owlapi-apibinding (5.1.18)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/net.sourceforge.owlapi/owlapi-apibinding@5.1.18" ;
+    ns4:hasVersionId "5.1.18" ;
+    ns4:name "owlapi-apibinding" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fnet.sourceforge.owlapi%2Fowlapi-compatibility%405.1.18> a ns1:PackageVersion ;
+    rdfs:label "owlapi-compatibility (5.1.18)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/net.sourceforge.owlapi/owlapi-compatibility@5.1.18" ;
+    ns4:hasVersionId "5.1.18" ;
+    ns4:name "owlapi-compatibility" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fnet.sourceforge.owlapi%2Fowlapi-distribution%405.1.18> a ns1:PackageVersion ;
+    rdfs:label "owlapi-distribution (5.1.18)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/net.sourceforge.owlapi/owlapi-distribution@5.1.18" ;
+    ns4:hasVersionId "5.1.18" ;
+    ns4:name "owlapi-distribution" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fnet.sourceforge.owlapi%2Fowlapi-impl%405.1.18> a ns1:PackageVersion ;
+    rdfs:label "owlapi-impl (5.1.18)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/net.sourceforge.owlapi/owlapi-impl@5.1.18" ;
+    ns4:hasVersionId "5.1.18" ;
+    ns4:name "owlapi-impl" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fnet.sourceforge.owlapi%2Fowlapi-oboformat%405.1.18> a ns1:PackageVersion ;
+    rdfs:label "owlapi-oboformat (5.1.18)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/net.sourceforge.owlapi/owlapi-oboformat@5.1.18" ;
+    ns4:hasVersionId "5.1.18" ;
+    ns4:name "owlapi-oboformat" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fnet.sourceforge.owlapi%2Fowlapi-parsers%405.1.18> a ns1:PackageVersion ;
+    rdfs:label "owlapi-parsers (5.1.18)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/net.sourceforge.owlapi/owlapi-parsers@5.1.18" ;
+    ns4:hasVersionId "5.1.18" ;
+    ns4:name "owlapi-parsers" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fnet.sourceforge.owlapi%2Fowlapi-rio%405.1.18> a ns1:PackageVersion ;
+    rdfs:label "owlapi-rio (5.1.18)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/net.sourceforge.owlapi/owlapi-rio@5.1.18" ;
+    ns4:hasVersionId "5.1.18" ;
+    ns4:name "owlapi-rio" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fnet.sourceforge.owlapi%2Fowlapi-tools%405.1.18> a ns1:PackageVersion ;
+    rdfs:label "owlapi-tools (5.1.18)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/net.sourceforge.owlapi/owlapi-tools@5.1.18" ;
+    ns4:hasVersionId "5.1.18" ;
+    ns4:name "owlapi-tools" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.apache.commons%2Fcommons-lang3%403.6> a ns1:PackageVersion ;
+    rdfs:label "commons-lang3 (3.6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.apache.commons/commons-lang3@3.6" ;
+    ns4:hasVersionId "3.6" ;
+    ns4:name "commons-lang3" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.apache.httpcomponents%2Ffluent-hc%404.5.10> a ns1:PackageVersion ;
+    rdfs:label "fluent-hc (4.5.10)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.apache.httpcomponents/fluent-hc@4.5.10" ;
+    ns4:hasVersionId "4.5.10" ;
+    ns4:name "fluent-hc" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.apache.httpcomponents%2Fhttpclient%404.5.10> a ns1:PackageVersion ;
+    rdfs:label "httpclient (4.5.10)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.apache.httpcomponents/httpclient@4.5.10" ;
+    ns4:hasVersionId "4.5.10" ;
+    ns4:name "httpclient" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.apache.httpcomponents%2Fhttpclient-cache%404.5.10> a ns1:PackageVersion ;
+    rdfs:label "httpclient-cache (4.5.10)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.apache.httpcomponents/httpclient-cache@4.5.10" ;
+    ns4:hasVersionId "4.5.10" ;
+    ns4:name "httpclient-cache" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.apache.httpcomponents%2Fhttpclient-osgi%404.5.10> a ns1:PackageVersion ;
+    rdfs:label "httpclient-osgi (4.5.10)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.apache.httpcomponents/httpclient-osgi@4.5.10" ;
+    ns4:hasVersionId "4.5.10" ;
+    ns4:name "httpclient-osgi" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.apache.httpcomponents%2Fhttpcore%404.4.12> a ns1:PackageVersion ;
+    rdfs:label "httpcore (4.4.12)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.apache.httpcomponents/httpcore@4.4.12" ;
+    ns4:hasVersionId "4.4.12" ;
+    ns4:name "httpcore" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.apache.httpcomponents%2Fhttpcore-nio%404.4.12> a ns1:PackageVersion ;
+    rdfs:label "httpcore-nio (4.4.12)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.4.12" ;
+    ns4:hasVersionId "4.4.12" ;
+    ns4:name "httpcore-nio" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.apache.httpcomponents%2Fhttpcore-osgi%404.4.12> a ns1:PackageVersion ;
+    rdfs:label "httpcore-osgi (4.4.12)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.apache.httpcomponents/httpcore-osgi@4.4.12" ;
+    ns4:hasVersionId "4.4.12" ;
+    ns4:name "httpcore-osgi" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.apache.httpcomponents%2Fhttpmime%404.5.10> a ns1:PackageVersion ;
+    rdfs:label "httpmime (4.5.10)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.apache.httpcomponents/httpmime@4.5.10" ;
+    ns4:hasVersionId "4.5.10" ;
+    ns4:name "httpmime" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.apache.logging.log4j%2Flog4j-api%402.7> a ns1:PackageVersion ;
+    rdfs:label "log4j-api (2.7)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.apache.logging.log4j/log4j-api@2.7" ;
+    ns4:hasVersionId "2.7" ;
+    ns4:name "log4j-api" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.apache.servicemix.bundles%2Forg.apache.servicemix.bundles.collections-generic%404.01_1> a ns1:PackageVersion ;
+    rdfs:label "org.apache.servicemix.bundles.collections-generic (4.01_1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.collections-generic@4.01_1" ;
+    ns4:hasVersionId "4.01_1" ;
+    ns4:name "org.apache.servicemix.bundles.collections-generic" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-model%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-model (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-model@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-model" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-api%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-api (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-api@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-api" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-binary%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-binary (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-binary@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-binary" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-datatypes%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-datatypes (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-datatypes@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-datatypes" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-hdt%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-hdt (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-hdt@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-hdt" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-jsonld%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-jsonld (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-jsonld@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-jsonld" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-languages%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-languages (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-languages@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-languages" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-n3%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-n3 (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-n3@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-n3" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-nquads%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-nquads (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-nquads@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-nquads" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-ntriples%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-ntriples (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-ntriples@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-ntriples" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-rdfjson%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-rdfjson (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-rdfjson@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-rdfjson" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-rdfxml%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-rdfxml (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-rdfxml@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-rdfxml" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-trig%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-trig (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-trig@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-trig" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-trix%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-trix (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-trix@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-trix" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-rio-turtle%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-rio-turtle (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-rio-turtle@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-rio-turtle" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.eclipse.rdf4j%2Frdf4j-util%403.4.3> a ns1:PackageVersion ;
+    rdfs:label "rdf4j-util (3.4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.eclipse.rdf4j/rdf4j-util@3.4.3" ;
+    ns4:hasVersionId "3.4.3" ;
+    ns4:name "rdf4j-util" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.hibernate%2Fhibernate-validator%405.3.5.Final> a ns1:PackageVersion ;
+    rdfs:label "hibernate-validator (5.3.5.Final)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.hibernate/hibernate-validator@5.3.5.Final" ;
+    ns4:hasVersionId "5.3.5.Final" ;
+    ns4:name "hibernate-validator" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.jboss.logging%2Fjboss-logging%403.3.0.Final> a ns1:PackageVersion ;
+    rdfs:label "jboss-logging (3.3.0.Final)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.jboss.logging/jboss-logging@3.3.0.Final" ;
+    ns4:hasVersionId "3.3.0.Final" ;
+    ns4:name "jboss-logging" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.slf4j%2Fjcl-over-slf4j%401.7.22> a ns1:PackageVersion ;
+    rdfs:label "jcl-over-slf4j (1.7.22)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.22" ;
+    ns4:hasVersionId "1.7.22" ;
+    ns4:name "jcl-over-slf4j" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.slf4j%2Fslf4j-api%401.7.30> a ns1:PackageVersion ;
+    rdfs:label "slf4j-api (1.7.30)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.slf4j/slf4j-api@1.7.30" ;
+    ns4:hasVersionId "1.7.30" ;
+    ns4:name "slf4j-api" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.slf4j%2Fslf4j-simple%401.7.30> a ns1:PackageVersion ;
+    rdfs:label "slf4j-simple (1.7.30)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.slf4j/slf4j-simple@1.7.30" ;
+    ns4:hasVersionId "1.7.30" ;
+    ns4:name "slf4j-simple" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.springframework.boot%2Fspring-boot%401.5.6.RELEASE> a ns1:PackageVersion ;
+    rdfs:label "spring-boot (1.5.6.RELEASE)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.springframework.boot/spring-boot@1.5.6.RELEASE" ;
+    ns4:hasVersionId "1.5.6.RELEASE" ;
+    ns4:name "spring-boot" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.springframework.boot%2Fspring-boot-autoconfigure%401.5.6.RELEASE> a ns1:PackageVersion ;
+    rdfs:label "spring-boot-autoconfigure (1.5.6.RELEASE)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@1.5.6.RELEASE" ;
+    ns4:hasVersionId "1.5.6.RELEASE" ;
+    ns4:name "spring-boot-autoconfigure" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.springframework.boot%2Fspring-boot-starter%401.5.6.RELEASE> a ns1:PackageVersion ;
+    rdfs:label "spring-boot-starter (1.5.6.RELEASE)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.springframework.boot/spring-boot-starter@1.5.6.RELEASE" ;
+    ns4:hasVersionId "1.5.6.RELEASE" ;
+    ns4:name "spring-boot-starter" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.springframework.boot%2Fspring-boot-starter-tomcat%401.5.6.RELEASE> a ns1:PackageVersion ;
+    rdfs:label "spring-boot-starter-tomcat (1.5.6.RELEASE)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@1.5.6.RELEASE" ;
+    ns4:hasVersionId "1.5.6.RELEASE" ;
+    ns4:name "spring-boot-starter-tomcat" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.springframework.boot%2Fspring-boot-starter-web%401.5.6.RELEASE> a ns1:PackageVersion ;
+    rdfs:label "spring-boot-starter-web (1.5.6.RELEASE)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.springframework.boot/spring-boot-starter-web@1.5.6.RELEASE" ;
+    ns4:hasVersionId "1.5.6.RELEASE" ;
+    ns4:name "spring-boot-starter-web" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.visualdataweb.vowl.owl2vowl%2FOWL2VOWL%400.3.5> a ns1:PackageVersion ;
+    rdfs:label "OWL2VOWL (0.3.5)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.visualdataweb.vowl.owl2vowl/OWL2VOWL@0.3.5" ;
+    ns4:hasVersionId "0.3.5" ;
+    ns4:name "OWL2VOWL" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Forg.yaml%2Fsnakeyaml%401.17> a ns1:PackageVersion ;
+    rdfs:label "snakeyaml (1.17)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/org.yaml/snakeyaml@1.17" ;
+    ns4:hasVersionId "1.17" ;
+    ns4:name "snakeyaml" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fvalidation-api%2Fvalidation-api%401.1.0.Final> a ns1:PackageVersion ;
+    rdfs:label "validation-api (1.1.0.Final)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/validation-api/validation-api@1.1.0.Final" ;
+    ns4:hasVersionId "1.1.0.Final" ;
+    ns4:name "validation-api" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Amaven%2Fwidoco%2Fwidoco%401.4.17> a ns1:PackageVersion ;
+    rdfs:label "widoco (1.4.17)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns3:operativeSystemPackageVersion "java-archive" ;
+    ns3:packageURL "pkg:maven/widoco/widoco@1.4.17" ;
+    ns4:hasVersionId "1.4.17" ;
+    ns4:name "widoco" ;
+    ns4:programmingLanguage "java" .
+
+<https://w3id.org/c2t/i/debian_11> a ns1:OperatingSystem ;
+    ns3:distributionOf <https://w3id.org/c2t/i/linux> ;
+    ns3:isOperativeSystemOf <https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> ;
+    ns4:description "Debian GNU/Linux 11 (bullseye)" ;
+    ns4:hasVersionId "11" ;
+    ns4:issueTracker "https://bugs.debian.org/" ;
+    ns4:name "debian" ;
+    ns4:website "https://www.debian.org/" .
+
+<https://w3id.org/c2t/i/sha256%3Ab87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07> a ns1:Image ;
+    rdfs:label "ghcr.io/dgarijo/widoco:latest" ;
+    ns1:hasLayer <https://w3id.org/c2t/i/sha256%3A1f6e409d1c59c8e06608a024b82d50490313abc3b2ff93730e43135d5be0cd72>,
+        <https://w3id.org/c2t/i/sha256%3A386cd9b98e0c7ae77b585d00158f79ccd413c0b0965b5aecb47fdc72c4962522>,
+        <https://w3id.org/c2t/i/sha256%3A608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce>,
+        <https://w3id.org/c2t/i/sha256%3Ab3f7a25bdc5df0f8e31aed7777e180ae20744a5acbe5ee9562eeccc64b29ad3a>,
+        <https://w3id.org/c2t/i/sha256%3Ac2debae02844a90d5c84416da7e68f4fa32d92b9190b5a9596496b93965c1329> ;
+    ns1:size "448257218" ;
+    ns1:tag "ghcr.io/dgarijo/widoco:latest" ;
+    ns2:identifier "sha256:b87ea8dca2af2ddf68f9b3e4fc1dc18854ba4620cec81a1a6ed6749a4ebc8c07" ;
+    ns3:architecture "amd64" ;
+    ns3:created "2022-04-19T11:11:50.884826416Z" .
+
+

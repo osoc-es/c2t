@@ -1,0 +1,2512 @@
+@prefix ns1: <http://dockerpedia.inf.utfsm.cl/vocab#> .
+@prefix ns2: <https://w3id.org/c2t#> .
+@prefix ns3: <https://w3id.org/okn/o/sd#> .
+@prefix ns4: <https://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fadduser%403.118ubuntu2%3Farch%3Dall%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "adduser (3.118ubuntu2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "624" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/adduser@3.118ubuntu2?arch=all&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.118ubuntu2" ;
+    ns3:name "adduser" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fapt%402.0.8%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "apt (2.0.8)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "4207" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/apt@2.0.8?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.0.8" ;
+    ns3:name "apt" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fbase-files%4011ubuntu5.5%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "base-files (11ubuntu5.5)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "392" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/base-files@11ubuntu5.5?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "11ubuntu5.5" ;
+    ns3:name "base-files" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fbase-passwd%403.5.47%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "base-passwd (3.5.47)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "233" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Colin Watson <cjwatson@debian.org>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/base-passwd@3.5.47?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.5.47" ;
+    ns3:name "base-passwd" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fbash%405.0-6ubuntu1.2%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "bash (5.0-6ubuntu1.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "1660" ;
+    ns4:license "GPL-3.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/bash@5.0-6ubuntu1.2?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "5.0-6ubuntu1.2" ;
+    ns3:name "bash" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fbsdutils%401%3A2.34-0.1ubuntu9.3%3Farch%3Damd64%26upstream%3Dutil-linux%25402.34-0.1ubuntu9.3%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "bsdutils (1:2.34-0.1ubuntu9.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "304" ;
+    ns4:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/bsdutils@1:2.34-0.1ubuntu9.3?arch=amd64&upstream=util-linux%402.34-0.1ubuntu9.3&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1:2.34-0.1ubuntu9.3" ;
+    ns3:name "bsdutils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fbzip2%401.0.8-2%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "bzip2 (1.0.8-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "195" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/bzip2@1.0.8-2?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.0.8-2" ;
+    ns3:name "bzip2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fca-certificates%4020210119~20.04.2%3Farch%3Dall%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "ca-certificates (20210119~20.04.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A515aef222e666f3469bfef93ddc3f4e34b67c91f4a40bbabaf2cbae22332cfb0>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "380" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+",
+        "MPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/ca-certificates@20210119~20.04.2?arch=all&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "20210119~20.04.2" ;
+    ns3:name "ca-certificates" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fcoreutils%408.30-3ubuntu2%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "coreutils (8.30-3ubuntu2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "7196" ;
+    ns4:license "GPL-3.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/coreutils@8.30-3ubuntu2?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "8.30-3ubuntu2" ;
+    ns3:name "coreutils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fdash%400.5.10.2-6%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "dash (0.5.10.2-6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "212" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/dash@0.5.10.2-6?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "0.5.10.2-6" ;
+    ns3:name "dash" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fdebconf%401.5.73%3Farch%3Dall%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "debconf (1.5.73)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "520" ;
+    ns4:license "BSD-2-Clause" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/debconf@1.5.73?arch=all&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.5.73" ;
+    ns3:name "debconf" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fdebianutils%404.9.1%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "debianutils (4.9.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "230" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/debianutils@4.9.1?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "4.9.1" ;
+    ns3:name "debianutils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fdiffutils%401%3A3.7-3%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "diffutils (1:3.7-3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "532" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/diffutils@1:3.7-3?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1:3.7-3" ;
+    ns3:name "diffutils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fdirmngr%402.2.19-3ubuntu2.1%3Farch%3Damd64%26upstream%3Dgnupg2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "dirmngr (2.2.19-3ubuntu2.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "918" ;
+    ns4:license "BSD-3-Clause",
+        "CC0-1.0",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/dirmngr@2.2.19-3ubuntu2.1?arch=amd64&upstream=gnupg2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.19-3ubuntu2.1" ;
+    ns3:name "dirmngr" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fdpkg%401.19.7ubuntu3.2%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "dpkg (1.19.7ubuntu3.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "6741" ;
+    ns4:license "BSD-2-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/dpkg@1.19.7ubuntu3.2?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.19.7ubuntu3.2" ;
+    ns3:name "dpkg" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fe2fsprogs%401.45.5-2ubuntu1%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "e2fsprogs (1.45.5-2ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "1491" ;
+    ns4:license "GPL-2.0",
+        "LGPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/e2fsprogs@1.45.5-2ubuntu1?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.45.5-2ubuntu1" ;
+    ns3:name "e2fsprogs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Ffdisk%402.34-0.1ubuntu9.3%3Farch%3Damd64%26upstream%3Dutil-linux%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "fdisk (2.34-0.1ubuntu9.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "506" ;
+    ns4:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/fdisk@2.34-0.1ubuntu9.3?arch=amd64&upstream=util-linux&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.34-0.1ubuntu9.3" ;
+    ns3:name "fdisk" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Ffindutils%404.7.0-1ubuntu1%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "findutils (4.7.0-1ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "668" ;
+    ns4:license "GFDL-1.3",
+        "GPL-3.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/findutils@4.7.0-1ubuntu1?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "4.7.0-1ubuntu1" ;
+    ns3:name "findutils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgcc-10-base%4010.3.0-1ubuntu1~20.04%3Farch%3Damd64%26upstream%3Dgcc-10%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "gcc-10-base (10.3.0-1ubuntu1~20.04)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "265" ;
+    ns4:license "GFDL-1.2",
+        "GPL-2.0",
+        "GPL-3.0" ;
+    ns4:publisher "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/gcc-10-base@10.3.0-1ubuntu1~20.04?arch=amd64&upstream=gcc-10&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "10.3.0-1ubuntu1~20.04" ;
+    ns3:name "gcc-10-base" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgnupg%402.2.19-3ubuntu2.1%3Farch%3Dall%26upstream%3Dgnupg2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "gnupg (2.2.19-3ubuntu2.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "413" ;
+    ns4:license "BSD-3-Clause",
+        "CC0-1.0",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/gnupg@2.2.19-3ubuntu2.1?arch=all&upstream=gnupg2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.19-3ubuntu2.1" ;
+    ns3:name "gnupg" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgnupg-l10n%402.2.19-3ubuntu2.1%3Farch%3Dall%26upstream%3Dgnupg2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "gnupg-l10n (2.2.19-3ubuntu2.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "380" ;
+    ns4:license "BSD-3-Clause",
+        "CC0-1.0",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/gnupg-l10n@2.2.19-3ubuntu2.1?arch=all&upstream=gnupg2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.19-3ubuntu2.1" ;
+    ns3:name "gnupg-l10n" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgnupg-utils%402.2.19-3ubuntu2.1%3Farch%3Damd64%26upstream%3Dgnupg2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "gnupg-utils (2.2.19-3ubuntu2.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "1550" ;
+    ns4:license "BSD-3-Clause",
+        "CC0-1.0",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/gnupg-utils@2.2.19-3ubuntu2.1?arch=amd64&upstream=gnupg2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.19-3ubuntu2.1" ;
+    ns3:name "gnupg-utils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgpg%402.2.19-3ubuntu2.1%3Farch%3Damd64%26upstream%3Dgnupg2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "gpg (2.2.19-3ubuntu2.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "1135" ;
+    ns4:license "BSD-3-Clause",
+        "CC0-1.0",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/gpg@2.2.19-3ubuntu2.1?arch=amd64&upstream=gnupg2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.19-3ubuntu2.1" ;
+    ns3:name "gpg" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgpg-agent%402.2.19-3ubuntu2.1%3Farch%3Damd64%26upstream%3Dgnupg2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "gpg-agent (2.2.19-3ubuntu2.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "911" ;
+    ns4:license "BSD-3-Clause",
+        "CC0-1.0",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/gpg-agent@2.2.19-3ubuntu2.1?arch=amd64&upstream=gnupg2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.19-3ubuntu2.1" ;
+    ns3:name "gpg-agent" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgpg-wks-client%402.2.19-3ubuntu2.1%3Farch%3Damd64%26upstream%3Dgnupg2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "gpg-wks-client (2.2.19-3ubuntu2.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "275" ;
+    ns4:license "BSD-3-Clause",
+        "CC0-1.0",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/gpg-wks-client@2.2.19-3ubuntu2.1?arch=amd64&upstream=gnupg2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.19-3ubuntu2.1" ;
+    ns3:name "gpg-wks-client" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgpg-wks-server%402.2.19-3ubuntu2.1%3Farch%3Damd64%26upstream%3Dgnupg2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "gpg-wks-server (2.2.19-3ubuntu2.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "255" ;
+    ns4:license "BSD-3-Clause",
+        "CC0-1.0",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/gpg-wks-server@2.2.19-3ubuntu2.1?arch=amd64&upstream=gnupg2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.19-3ubuntu2.1" ;
+    ns3:name "gpg-wks-server" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgpgconf%402.2.19-3ubuntu2.1%3Farch%3Damd64%26upstream%3Dgnupg2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "gpgconf (2.2.19-3ubuntu2.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "409" ;
+    ns4:license "BSD-3-Clause",
+        "CC0-1.0",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/gpgconf@2.2.19-3ubuntu2.1?arch=amd64&upstream=gnupg2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.19-3ubuntu2.1" ;
+    ns3:name "gpgconf" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgpgsm%402.2.19-3ubuntu2.1%3Farch%3Damd64%26upstream%3Dgnupg2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "gpgsm (2.2.19-3ubuntu2.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "568" ;
+    ns4:license "BSD-3-Clause",
+        "CC0-1.0",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/gpgsm@2.2.19-3ubuntu2.1?arch=amd64&upstream=gnupg2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.19-3ubuntu2.1" ;
+    ns3:name "gpgsm" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgpgv%402.2.19-3ubuntu2.1%3Farch%3Damd64%26upstream%3Dgnupg2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "gpgv (2.2.19-3ubuntu2.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "499" ;
+    ns4:license "BSD-3-Clause",
+        "CC0-1.0",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/gpgv@2.2.19-3ubuntu2.1?arch=amd64&upstream=gnupg2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.19-3ubuntu2.1" ;
+    ns3:name "gpgv" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgrep%403.4-1%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "grep (3.4-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "496" ;
+    ns4:license "GPL-3.0",
+        "GPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/grep@3.4-1?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.4-1" ;
+    ns3:name "grep" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fgzip%401.10-0ubuntu4.1%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "gzip (1.10-0ubuntu4.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "245" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/gzip@1.10-0ubuntu4.1?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.10-0ubuntu4.1" ;
+    ns3:name "gzip" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fhostname%403.23%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "hostname (3.23)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "54" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/hostname@3.23?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.23" ;
+    ns3:name "hostname" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Finit-system-helpers%401.57%3Farch%3Dall%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "init-system-helpers (1.57)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "133" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/init-system-helpers@1.57?arch=all&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.57" ;
+    ns3:name "init-system-helpers" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fjq%401.6-1ubuntu0.20.04.1%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "jq (1.6-1ubuntu0.20.04.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A515aef222e666f3469bfef93ddc3f4e34b67c91f4a40bbabaf2cbae22332cfb0>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "97" ;
+    ns4:license "CC-BY-3.0",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/jq@1.6-1ubuntu0.20.04.1?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.6-1ubuntu0.20.04.1" ;
+    ns3:name "jq" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fkrb5-locales%401.17-6ubuntu4.1%3Farch%3Dall%26upstream%3Dkrb5%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "krb5-locales (1.17-6ubuntu4.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "132" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/krb5-locales@1.17-6ubuntu4.1?arch=all&upstream=krb5&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.17-6ubuntu4.1" ;
+    ns3:name "krb5-locales" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibacl1%402.2.53-6%3Farch%3Damd64%26upstream%3Dacl%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libacl1 (2.2.53-6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "70" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.0+",
+        "LGPL-2.1" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libacl1@2.2.53-6?arch=amd64&upstream=acl&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.53-6" ;
+    ns3:name "libacl1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibapt-pkg6.0%402.0.8%3Farch%3Damd64%26upstream%3Dapt%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libapt-pkg6.0 (2.0.8)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "3312" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libapt-pkg6.0@2.0.8?arch=amd64&upstream=apt&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.0.8" ;
+    ns3:name "libapt-pkg6.0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibasn1-8-heimdal%407.7.0%2Bdfsg-1ubuntu1%3Farch%3Damd64%26upstream%3Dheimdal%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libasn1-8-heimdal (7.7.0+dfsg-1ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "798" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libasn1-8-heimdal@7.7.0+dfsg-1ubuntu1?arch=amd64&upstream=heimdal&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "7.7.0+dfsg-1ubuntu1" ;
+    ns3:name "libasn1-8-heimdal" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibassuan0%402.5.3-7ubuntu2%3Farch%3Damd64%26upstream%3Dlibassuan%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libassuan0 (2.5.3-7ubuntu2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "105" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libassuan0@2.5.3-7ubuntu2?arch=amd64&upstream=libassuan&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.5.3-7ubuntu2" ;
+    ns3:name "libassuan0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibattr1%401%3A2.4.48-5%3Farch%3Damd64%26upstream%3Dattr%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libattr1 (1:2.4.48-5)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "57" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.0+",
+        "LGPL-2.1" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libattr1@1:2.4.48-5?arch=amd64&upstream=attr&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1:2.4.48-5" ;
+    ns3:name "libattr1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibaudit-common%401%3A2.8.5-2ubuntu6%3Farch%3Dall%26upstream%3Daudit%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libaudit-common (1:2.8.5-2ubuntu6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "24" ;
+    ns4:license "GPL-1.0",
+        "GPL-2.0",
+        "LGPL-2.1" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libaudit-common@1:2.8.5-2ubuntu6?arch=all&upstream=audit&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1:2.8.5-2ubuntu6" ;
+    ns3:name "libaudit-common" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibaudit1%401%3A2.8.5-2ubuntu6%3Farch%3Damd64%26upstream%3Daudit%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libaudit1 (1:2.8.5-2ubuntu6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "157" ;
+    ns4:license "GPL-1.0",
+        "GPL-2.0",
+        "LGPL-2.1" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libaudit1@1:2.8.5-2ubuntu6?arch=amd64&upstream=audit&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1:2.8.5-2ubuntu6" ;
+    ns3:name "libaudit1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibblkid1%402.34-0.1ubuntu9.3%3Farch%3Damd64%26upstream%3Dutil-linux%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libblkid1 (2.34-0.1ubuntu9.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "440" ;
+    ns4:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libblkid1@2.34-0.1ubuntu9.3?arch=amd64&upstream=util-linux&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.34-0.1ubuntu9.3" ;
+    ns3:name "libblkid1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibbrotli1%401.0.7-6ubuntu0.1%3Farch%3Damd64%26upstream%3Dbrotli%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libbrotli1 (1.0.7-6ubuntu0.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "751" ;
+    ns4:license "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libbrotli1@1.0.7-6ubuntu0.1?arch=amd64&upstream=brotli&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.0.7-6ubuntu0.1" ;
+    ns3:name "libbrotli1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibbz2-1.0%401.0.8-2%3Farch%3Damd64%26upstream%3Dbzip2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libbz2-1.0 (1.0.8-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "99" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libbz2-1.0@1.0.8-2?arch=amd64&upstream=bzip2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.0.8-2" ;
+    ns3:name "libbz2-1.0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibc-bin%402.31-0ubuntu9.9%3Farch%3Damd64%26upstream%3Dglibc%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libc-bin (2.31-0ubuntu9.9)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "3713" ;
+    ns4:license "GPL-2.0",
+        "LGPL-2.1" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.9?arch=amd64&upstream=glibc&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.31-0ubuntu9.9" ;
+    ns3:name "libc-bin" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibc6%402.31-0ubuntu9.9%3Farch%3Damd64%26upstream%3Dglibc%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libc6 (2.31-0ubuntu9.9)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "13238" ;
+    ns4:license "GPL-2.0",
+        "LGPL-2.1" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.9?arch=amd64&upstream=glibc&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.31-0ubuntu9.9" ;
+    ns3:name "libc6" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibcap-ng0%400.7.9-2.1build1%3Farch%3Damd64%26upstream%3Dlibcap-ng%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libcap-ng0 (0.7.9-2.1build1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "45" ;
+    ns4:license "GPL-2.0",
+        "GPL-3.0",
+        "LGPL-2.1" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libcap-ng0@0.7.9-2.1build1?arch=amd64&upstream=libcap-ng&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "0.7.9-2.1build1" ;
+    ns3:name "libcap-ng0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibcom-err2%401.45.5-2ubuntu1%3Farch%3Damd64%26upstream%3De2fsprogs%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libcom-err2 (1.45.5-2ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "100" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libcom-err2@1.45.5-2ubuntu1?arch=amd64&upstream=e2fsprogs&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.45.5-2ubuntu1" ;
+    ns3:name "libcom-err2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibcrypt1%401%3A4.4.10-10ubuntu4%3Farch%3Damd64%26upstream%3Dlibxcrypt%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libcrypt1 (1:4.4.10-10ubuntu4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "226" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libcrypt1@1:4.4.10-10ubuntu4?arch=amd64&upstream=libxcrypt&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1:4.4.10-10ubuntu4" ;
+    ns3:name "libcrypt1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibcurl4%407.68.0-1ubuntu2.11%3Farch%3Damd64%26upstream%3Dcurl%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libcurl4 (7.68.0-1ubuntu2.11)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "693" ;
+    ns4:license "BSD-3-Clause",
+        "BSD-4-Clause",
+        "ISC",
+        "curl" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libcurl4@7.68.0-1ubuntu2.11?arch=amd64&upstream=curl&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "7.68.0-1ubuntu2.11" ;
+    ns3:name "libcurl4" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibdb5.3%405.3.28%2Bdfsg1-0.6ubuntu2%3Farch%3Damd64%26upstream%3Ddb5.3%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libdb5.3 (5.3.28+dfsg1-0.6ubuntu2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "1749" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libdb5.3@5.3.28+dfsg1-0.6ubuntu2?arch=amd64&upstream=db5.3&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "5.3.28+dfsg1-0.6ubuntu2" ;
+    ns3:name "libdb5.3" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibdebconfclient0%400.251ubuntu1%3Farch%3Damd64%26upstream%3Dcdebconf%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libdebconfclient0 (0.251ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "74" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libdebconfclient0@0.251ubuntu1?arch=amd64&upstream=cdebconf&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "0.251ubuntu1" ;
+    ns3:name "libdebconfclient0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibext2fs2%401.45.5-2ubuntu1%3Farch%3Damd64%26upstream%3De2fsprogs%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libext2fs2 (1.45.5-2ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "540" ;
+    ns4:license "GPL-2.0",
+        "LGPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libext2fs2@1.45.5-2ubuntu1?arch=amd64&upstream=e2fsprogs&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.45.5-2ubuntu1" ;
+    ns3:name "libext2fs2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibfdisk1%402.34-0.1ubuntu9.3%3Farch%3Damd64%26upstream%3Dutil-linux%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libfdisk1 (2.34-0.1ubuntu9.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "549" ;
+    ns4:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libfdisk1@2.34-0.1ubuntu9.3?arch=amd64&upstream=util-linux&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.34-0.1ubuntu9.3" ;
+    ns3:name "libfdisk1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibffi7%403.3-4%3Farch%3Damd64%26upstream%3Dlibffi%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libffi7 (3.3-4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "65" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libffi7@3.3-4?arch=amd64&upstream=libffi&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.3-4" ;
+    ns3:name "libffi7" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibgcc-s1%4010.3.0-1ubuntu1~20.04%3Farch%3Damd64%26upstream%3Dgcc-10%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libgcc-s1 (10.3.0-1ubuntu1~20.04)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "120" ;
+    ns4:license "GFDL-1.2",
+        "GPL-2.0",
+        "GPL-3.0" ;
+    ns4:publisher "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libgcc-s1@10.3.0-1ubuntu1~20.04?arch=amd64&upstream=gcc-10&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "10.3.0-1ubuntu1~20.04" ;
+    ns3:name "libgcc-s1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibgcrypt20%401.8.5-5ubuntu1.1%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libgcrypt20 (1.8.5-5ubuntu1.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "1224" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libgcrypt20@1.8.5-5ubuntu1.1?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.8.5-5ubuntu1.1" ;
+    ns3:name "libgcrypt20" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibgmp10%402%3A6.2.0%2Bdfsg-4%3Farch%3Damd64%26upstream%3Dgmp%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libgmp10 (2:6.2.0+dfsg-4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "567" ;
+    ns4:license "GPL-2.0",
+        "GPL-3.0",
+        "LGPL-3.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libgmp10@2:6.2.0+dfsg-4?arch=amd64&upstream=gmp&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2:6.2.0+dfsg-4" ;
+    ns3:name "libgmp10" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibgnutls30%403.6.13-2ubuntu1.6%3Farch%3Damd64%26upstream%3Dgnutls28%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libgnutls30 (3.6.13-2ubuntu1.6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "2192" ;
+    ns4:license "Apache-2.0",
+        "BSD-3-Clause",
+        "GFDL-1.3",
+        "GPL-3.0",
+        "LGPL-3.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libgnutls30@3.6.13-2ubuntu1.6?arch=amd64&upstream=gnutls28&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.6.13-2ubuntu1.6" ;
+    ns3:name "libgnutls30" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibgpg-error0%401.37-1%3Farch%3Damd64%26upstream%3Dlibgpg-error%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libgpg-error0 (1.37-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "176" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libgpg-error0@1.37-1?arch=amd64&upstream=libgpg-error&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.37-1" ;
+    ns3:name "libgpg-error0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibgssapi-krb5-2%401.17-6ubuntu4.1%3Farch%3Damd64%26upstream%3Dkrb5%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libgssapi-krb5-2 (1.17-6ubuntu4.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "426" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libgssapi-krb5-2@1.17-6ubuntu4.1?arch=amd64&upstream=krb5&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.17-6ubuntu4.1" ;
+    ns3:name "libgssapi-krb5-2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibgssapi3-heimdal%407.7.0%2Bdfsg-1ubuntu1%3Farch%3Damd64%26upstream%3Dheimdal%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libgssapi3-heimdal (7.7.0+dfsg-1ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "324" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libgssapi3-heimdal@7.7.0+dfsg-1ubuntu1?arch=amd64&upstream=heimdal&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "7.7.0+dfsg-1ubuntu1" ;
+    ns3:name "libgssapi3-heimdal" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibhcrypto4-heimdal%407.7.0%2Bdfsg-1ubuntu1%3Farch%3Damd64%26upstream%3Dheimdal%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libhcrypto4-heimdal (7.7.0+dfsg-1ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "274" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libhcrypto4-heimdal@7.7.0+dfsg-1ubuntu1?arch=amd64&upstream=heimdal&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "7.7.0+dfsg-1ubuntu1" ;
+    ns3:name "libhcrypto4-heimdal" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibheimbase1-heimdal%407.7.0%2Bdfsg-1ubuntu1%3Farch%3Damd64%26upstream%3Dheimdal%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libheimbase1-heimdal (7.7.0+dfsg-1ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "113" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libheimbase1-heimdal@7.7.0+dfsg-1ubuntu1?arch=amd64&upstream=heimdal&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "7.7.0+dfsg-1ubuntu1" ;
+    ns3:name "libheimbase1-heimdal" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibheimntlm0-heimdal%407.7.0%2Bdfsg-1ubuntu1%3Farch%3Damd64%26upstream%3Dheimdal%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libheimntlm0-heimdal (7.7.0+dfsg-1ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "85" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libheimntlm0-heimdal@7.7.0+dfsg-1ubuntu1?arch=amd64&upstream=heimdal&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "7.7.0+dfsg-1ubuntu1" ;
+    ns3:name "libheimntlm0-heimdal" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibhogweed5%403.5.1%2Breally3.5.1-2ubuntu0.2%3Farch%3Damd64%26upstream%3Dnettle%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libhogweed5 (3.5.1+really3.5.1-2ubuntu0.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "237" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libhogweed5@3.5.1+really3.5.1-2ubuntu0.2?arch=amd64&upstream=nettle&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.5.1+really3.5.1-2ubuntu0.2" ;
+    ns3:name "libhogweed5" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibhx509-5-heimdal%407.7.0%2Bdfsg-1ubuntu1%3Farch%3Damd64%26upstream%3Dheimdal%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libhx509-5-heimdal (7.7.0+dfsg-1ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "360" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libhx509-5-heimdal@7.7.0+dfsg-1ubuntu1?arch=amd64&upstream=heimdal&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "7.7.0+dfsg-1ubuntu1" ;
+    ns3:name "libhx509-5-heimdal" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibidn2-0%402.2.0-2%3Farch%3Damd64%26upstream%3Dlibidn2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libidn2-0 (2.2.0-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "216" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-3.0",
+        "LGPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libidn2-0@2.2.0-2?arch=amd64&upstream=libidn2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.2.0-2" ;
+    ns3:name "libidn2-0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibjq1%401.6-1ubuntu0.20.04.1%3Farch%3Damd64%26upstream%3Djq%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libjq1 (1.6-1ubuntu0.20.04.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A515aef222e666f3469bfef93ddc3f4e34b67c91f4a40bbabaf2cbae22332cfb0>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "342" ;
+    ns4:license "CC-BY-3.0",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libjq1@1.6-1ubuntu0.20.04.1?arch=amd64&upstream=jq&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.6-1ubuntu0.20.04.1" ;
+    ns3:name "libjq1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibk5crypto3%401.17-6ubuntu4.1%3Farch%3Damd64%26upstream%3Dkrb5%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libk5crypto3 (1.17-6ubuntu4.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "299" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libk5crypto3@1.17-6ubuntu4.1?arch=amd64&upstream=krb5&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.17-6ubuntu4.1" ;
+    ns3:name "libk5crypto3" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibkeyutils1%401.6-6ubuntu1.1%3Farch%3Damd64%26upstream%3Dkeyutils%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libkeyutils1 (1.6-6ubuntu1.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "47" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libkeyutils1@1.6-6ubuntu1.1?arch=amd64&upstream=keyutils&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.6-6ubuntu1.1" ;
+    ns3:name "libkeyutils1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibkrb5-26-heimdal%407.7.0%2Bdfsg-1ubuntu1%3Farch%3Damd64%26upstream%3Dheimdal%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libkrb5-26-heimdal (7.7.0+dfsg-1ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "665" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libkrb5-26-heimdal@7.7.0+dfsg-1ubuntu1?arch=amd64&upstream=heimdal&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "7.7.0+dfsg-1ubuntu1" ;
+    ns3:name "libkrb5-26-heimdal" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibkrb5-3%401.17-6ubuntu4.1%3Farch%3Damd64%26upstream%3Dkrb5%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libkrb5-3 (1.17-6ubuntu4.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "1121" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libkrb5-3@1.17-6ubuntu4.1?arch=amd64&upstream=krb5&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.17-6ubuntu4.1" ;
+    ns3:name "libkrb5-3" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibkrb5support0%401.17-6ubuntu4.1%3Farch%3Damd64%26upstream%3Dkrb5%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libkrb5support0 (1.17-6ubuntu4.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "167" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libkrb5support0@1.17-6ubuntu4.1?arch=amd64&upstream=krb5&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.17-6ubuntu4.1" ;
+    ns3:name "libkrb5support0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibksba8%401.3.5-2%3Farch%3Damd64%26upstream%3Dlibksba%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libksba8 (1.3.5-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "259" ;
+    ns4:license "GPL-3.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libksba8@1.3.5-2?arch=amd64&upstream=libksba&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.3.5-2" ;
+    ns3:name "libksba8" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibldap-2.4-2%402.4.49%2Bdfsg-2ubuntu1.9%3Farch%3Damd64%26upstream%3Dopenldap%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libldap-2.4-2 (2.4.49+dfsg-2ubuntu1.9)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "523" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libldap-2.4-2@2.4.49+dfsg-2ubuntu1.9?arch=amd64&upstream=openldap&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.4.49+dfsg-2ubuntu1.9" ;
+    ns3:name "libldap-2.4-2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibldap-common%402.4.49%2Bdfsg-2ubuntu1.9%3Farch%3Dall%26upstream%3Dopenldap%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libldap-common (2.4.49+dfsg-2ubuntu1.9)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "102" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libldap-common@2.4.49+dfsg-2ubuntu1.9?arch=all&upstream=openldap&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.4.49+dfsg-2ubuntu1.9" ;
+    ns3:name "libldap-common" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fliblz4-1%401.9.2-2ubuntu0.20.04.1%3Farch%3Damd64%26upstream%3Dlz4%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "liblz4-1 (1.9.2-2ubuntu0.20.04.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "149" ;
+    ns4:license "BSD-2-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/liblz4-1@1.9.2-2ubuntu0.20.04.1?arch=amd64&upstream=lz4&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.9.2-2ubuntu0.20.04.1" ;
+    ns3:name "liblz4-1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fliblzma5%405.2.4-1ubuntu1.1%3Farch%3Damd64%26upstream%3Dxz-utils%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "liblzma5 (5.2.4-1ubuntu1.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "267" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "LGPL-2.0",
+        "LGPL-2.1",
+        "LGPL-2.1+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/liblzma5@5.2.4-1ubuntu1.1?arch=amd64&upstream=xz-utils&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "5.2.4-1ubuntu1.1" ;
+    ns3:name "liblzma5" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibmount1%402.34-0.1ubuntu9.3%3Farch%3Damd64%26upstream%3Dutil-linux%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libmount1 (2.34-0.1ubuntu9.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "482" ;
+    ns4:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libmount1@2.34-0.1ubuntu9.3?arch=amd64&upstream=util-linux&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.34-0.1ubuntu9.3" ;
+    ns3:name "libmount1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibncurses6%406.2-0ubuntu2%3Farch%3Damd64%26upstream%3Dncurses%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libncurses6 (6.2-0ubuntu2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "337" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libncurses6@6.2-0ubuntu2?arch=amd64&upstream=ncurses&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "6.2-0ubuntu2" ;
+    ns3:name "libncurses6" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibncursesw6%406.2-0ubuntu2%3Farch%3Damd64%26upstream%3Dncurses%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libncursesw6 (6.2-0ubuntu2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "418" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libncursesw6@6.2-0ubuntu2?arch=amd64&upstream=ncurses&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "6.2-0ubuntu2" ;
+    ns3:name "libncursesw6" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibnettle7%403.5.1%2Breally3.5.1-2ubuntu0.2%3Farch%3Damd64%26upstream%3Dnettle%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libnettle7 (3.5.1+really3.5.1-2ubuntu0.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "396" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libnettle7@3.5.1+really3.5.1-2ubuntu0.2?arch=amd64&upstream=nettle&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.5.1+really3.5.1-2ubuntu0.2" ;
+    ns3:name "libnettle7" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibnghttp2-14%401.40.0-1build1%3Farch%3Damd64%26upstream%3Dnghttp2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libnghttp2-14 (1.40.0-1build1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "212" ;
+    ns4:license "BSD-2-Clause",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libnghttp2-14@1.40.0-1build1?arch=amd64&upstream=nghttp2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.40.0-1build1" ;
+    ns3:name "libnghttp2-14" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibnpth0%401.6-1%3Farch%3Damd64%26upstream%3Dnpth%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libnpth0 (1.6-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "36" ;
+    ns4:license "LGPL-2.1",
+        "LGPL-2.1+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libnpth0@1.6-1?arch=amd64&upstream=npth&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.6-1" ;
+    ns3:name "libnpth0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibnuma1%402.0.12-1%3Farch%3Damd64%26upstream%3Dnumactl%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libnuma1 (2.0.12-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A515aef222e666f3469bfef93ddc3f4e34b67c91f4a40bbabaf2cbae22332cfb0>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "72" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libnuma1@2.0.12-1?arch=amd64&upstream=numactl&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.0.12-1" ;
+    ns3:name "libnuma1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibonig5%406.9.4-1%3Farch%3Damd64%26upstream%3Dlibonig%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libonig5 (6.9.4-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A515aef222e666f3469bfef93ddc3f4e34b67c91f4a40bbabaf2cbae22332cfb0>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "598" ;
+    ns4:license "BSD-2-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libonig5@6.9.4-1?arch=amd64&upstream=libonig&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "6.9.4-1" ;
+    ns3:name "libonig5" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibp11-kit0%400.23.20-1ubuntu0.1%3Farch%3Damd64%26upstream%3Dp11-kit%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libp11-kit0 (0.23.20-1ubuntu0.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "1271" ;
+    ns4:license "BSD-3-Clause",
+        "ISC" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libp11-kit0@0.23.20-1ubuntu0.1?arch=amd64&upstream=p11-kit&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "0.23.20-1ubuntu0.1" ;
+    ns3:name "libp11-kit0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibpam-modules%401.3.1-5ubuntu4.3%3Farch%3Damd64%26upstream%3Dpam%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libpam-modules (1.3.1-5ubuntu4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "1166" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libpam-modules@1.3.1-5ubuntu4.3?arch=amd64&upstream=pam&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.3.1-5ubuntu4.3" ;
+    ns3:name "libpam-modules" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibpam-modules-bin%401.3.1-5ubuntu4.3%3Farch%3Damd64%26upstream%3Dpam%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libpam-modules-bin (1.3.1-5ubuntu4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "339" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libpam-modules-bin@1.3.1-5ubuntu4.3?arch=amd64&upstream=pam&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.3.1-5ubuntu4.3" ;
+    ns3:name "libpam-modules-bin" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibpam-runtime%401.3.1-5ubuntu4.3%3Farch%3Dall%26upstream%3Dpam%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libpam-runtime (1.3.1-5ubuntu4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "304" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libpam-runtime@1.3.1-5ubuntu4.3?arch=all&upstream=pam&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.3.1-5ubuntu4.3" ;
+    ns3:name "libpam-runtime" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibpam0g%401.3.1-5ubuntu4.3%3Farch%3Damd64%26upstream%3Dpam%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libpam0g (1.3.1-5ubuntu4.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "231" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libpam0g@1.3.1-5ubuntu4.3?arch=amd64&upstream=pam&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.3.1-5ubuntu4.3" ;
+    ns3:name "libpam0g" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibpcre2-8-0%4010.34-7%3Farch%3Damd64%26upstream%3Dpcre2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libpcre2-8-0 (10.34-7)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "592" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libpcre2-8-0@10.34-7?arch=amd64&upstream=pcre2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "10.34-7" ;
+    ns3:name "libpcre2-8-0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibpcre3%402%3A8.39-12ubuntu0.1%3Farch%3Damd64%26upstream%3Dpcre3%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libpcre3 (2:8.39-12ubuntu0.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "671" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libpcre3@2:8.39-12ubuntu0.1?arch=amd64&upstream=pcre3&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2:8.39-12ubuntu0.1" ;
+    ns3:name "libpcre3" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibprocps8%402%3A3.3.16-1ubuntu2.3%3Farch%3Damd64%26upstream%3Dprocps%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libprocps8 (2:3.3.16-1ubuntu2.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "128" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libprocps8@2:3.3.16-1ubuntu2.3?arch=amd64&upstream=procps&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2:3.3.16-1ubuntu2.3" ;
+    ns3:name "libprocps8" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibpsl5%400.21.0-1ubuntu1%3Farch%3Damd64%26upstream%3Dlibpsl%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libpsl5 (0.21.0-1ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "91" ;
+    ns4:license "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libpsl5@0.21.0-1ubuntu1?arch=amd64&upstream=libpsl&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "0.21.0-1ubuntu1" ;
+    ns3:name "libpsl5" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibreadline8%408.0-4%3Farch%3Damd64%26upstream%3Dreadline%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libreadline8 (8.0-4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "441" ;
+    ns4:license "GPL-3.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libreadline8@8.0-4?arch=amd64&upstream=readline&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "8.0-4" ;
+    ns3:name "libreadline8" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibroken18-heimdal%407.7.0%2Bdfsg-1ubuntu1%3Farch%3Damd64%26upstream%3Dheimdal%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libroken18-heimdal (7.7.0+dfsg-1ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "144" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libroken18-heimdal@7.7.0+dfsg-1ubuntu1?arch=amd64&upstream=heimdal&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "7.7.0+dfsg-1ubuntu1" ;
+    ns3:name "libroken18-heimdal" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibrtmp1%402.4%2B20151223.gitfa8646d.1-2build1%3Farch%3Damd64%26upstream%3Drtmpdump%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "librtmp1 (2.4+20151223.gitfa8646d.1-2build1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "144" ;
+    ns4:license "GPL-2.0",
+        "LGPL-2.1" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/librtmp1@2.4+20151223.gitfa8646d.1-2build1?arch=amd64&upstream=rtmpdump&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.4+20151223.gitfa8646d.1-2build1" ;
+    ns3:name "librtmp1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibsasl2-2%402.1.27%2Bdfsg-2ubuntu0.1%3Farch%3Damd64%26upstream%3Dcyrus-sasl2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libsasl2-2 (2.1.27+dfsg-2ubuntu0.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "152" ;
+    ns4:license "BSD-4-Clause",
+        "GPL-3.0",
+        "GPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libsasl2-2@2.1.27+dfsg-2ubuntu0.1?arch=amd64&upstream=cyrus-sasl2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.1.27+dfsg-2ubuntu0.1" ;
+    ns3:name "libsasl2-2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibsasl2-modules-db%402.1.27%2Bdfsg-2ubuntu0.1%3Farch%3Damd64%26upstream%3Dcyrus-sasl2%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libsasl2-modules-db (2.1.27+dfsg-2ubuntu0.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "66" ;
+    ns4:license "BSD-4-Clause",
+        "GPL-3.0",
+        "GPL-3.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libsasl2-modules-db@2.1.27+dfsg-2ubuntu0.1?arch=amd64&upstream=cyrus-sasl2&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.1.27+dfsg-2ubuntu0.1" ;
+    ns3:name "libsasl2-modules-db" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibseccomp2%402.5.1-1ubuntu1~20.04.2%3Farch%3Damd64%26upstream%3Dlibseccomp%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libseccomp2 (2.5.1-1ubuntu1~20.04.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "152" ;
+    ns4:license "LGPL-2.1" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libseccomp2@2.5.1-1ubuntu1~20.04.2?arch=amd64&upstream=libseccomp&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.5.1-1ubuntu1~20.04.2" ;
+    ns3:name "libseccomp2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibselinux1%403.0-1build2%3Farch%3Damd64%26upstream%3Dlibselinux%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libselinux1 (3.0-1build2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "202" ;
+    ns4:license "GPL-2.0",
+        "LGPL-2.1" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libselinux1@3.0-1build2?arch=amd64&upstream=libselinux&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.0-1build2" ;
+    ns3:name "libselinux1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibsemanage-common%403.0-1build2%3Farch%3Dall%26upstream%3Dlibsemanage%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libsemanage-common (3.0-1build2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "36" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libsemanage-common@3.0-1build2?arch=all&upstream=libsemanage&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.0-1build2" ;
+    ns3:name "libsemanage-common" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibsemanage1%403.0-1build2%3Farch%3Damd64%26upstream%3Dlibsemanage%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libsemanage1 (3.0-1build2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "305" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libsemanage1@3.0-1build2?arch=amd64&upstream=libsemanage&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.0-1build2" ;
+    ns3:name "libsemanage1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibsepol1%403.0-1ubuntu0.1%3Farch%3Damd64%26upstream%3Dlibsepol%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libsepol1 (3.0-1ubuntu0.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "734" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libsepol1@3.0-1ubuntu0.1?arch=amd64&upstream=libsepol&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.0-1ubuntu0.1" ;
+    ns3:name "libsepol1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibsmartcols1%402.34-0.1ubuntu9.3%3Farch%3Damd64%26upstream%3Dutil-linux%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libsmartcols1 (2.34-0.1ubuntu9.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "338" ;
+    ns4:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libsmartcols1@2.34-0.1ubuntu9.3?arch=amd64&upstream=util-linux&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.34-0.1ubuntu9.3" ;
+    ns3:name "libsmartcols1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibsqlite3-0%403.31.1-4ubuntu0.3%3Farch%3Damd64%26upstream%3Dsqlite3%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libsqlite3-0 (3.31.1-4ubuntu0.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "1323" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libsqlite3-0@3.31.1-4ubuntu0.3?arch=amd64&upstream=sqlite3&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "3.31.1-4ubuntu0.3" ;
+    ns3:name "libsqlite3-0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibss2%401.45.5-2ubuntu1%3Farch%3Damd64%26upstream%3De2fsprogs%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libss2 (1.45.5-2ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "108" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libss2@1.45.5-2ubuntu1?arch=amd64&upstream=e2fsprogs&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.45.5-2ubuntu1" ;
+    ns3:name "libss2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibssh-4%400.9.3-2ubuntu2.2%3Farch%3Damd64%26upstream%3Dlibssh%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libssh-4 (0.9.3-2ubuntu2.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "491" ;
+    ns4:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "LGPL-2.1" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libssh-4@0.9.3-2ubuntu2.2?arch=amd64&upstream=libssh&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "0.9.3-2ubuntu2.2" ;
+    ns3:name "libssh-4" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibssl1.1%401.1.1f-1ubuntu2.13%3Farch%3Damd64%26upstream%3Dopenssl%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libssl1.1 (1.1.1f-1ubuntu2.13)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A515aef222e666f3469bfef93ddc3f4e34b67c91f4a40bbabaf2cbae22332cfb0>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "4028" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libssl1.1@1.1.1f-1ubuntu2.13?arch=amd64&upstream=openssl&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.1.1f-1ubuntu2.13" ;
+    ns3:name "libssl1.1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibstdc%2B%2B6%4010.3.0-1ubuntu1~20.04%3Farch%3Damd64%26upstream%3Dgcc-10%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libstdc++6 (10.3.0-1ubuntu1~20.04)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "2437" ;
+    ns4:license "GFDL-1.2",
+        "GPL-2.0",
+        "GPL-3.0" ;
+    ns4:publisher "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libstdc++6@10.3.0-1ubuntu1~20.04?arch=amd64&upstream=gcc-10&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "10.3.0-1ubuntu1~20.04" ;
+    ns3:name "libstdc++6" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibsystemd0%40245.4-4ubuntu3.17%3Farch%3Damd64%26upstream%3Dsystemd%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libsystemd0 (245.4-4ubuntu3.17)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "877" ;
+    ns4:license "CC0-1.0",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libsystemd0@245.4-4ubuntu3.17?arch=amd64&upstream=systemd&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "245.4-4ubuntu3.17" ;
+    ns3:name "libsystemd0" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibtasn1-6%404.16.0-2%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libtasn1-6 (4.16.0-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "125" ;
+    ns4:license "GFDL-1.3",
+        "GPL-3.0",
+        "LGPL-2.1" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libtasn1-6@4.16.0-2?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "4.16.0-2" ;
+    ns3:name "libtasn1-6" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibtinfo6%406.2-0ubuntu2%3Farch%3Damd64%26upstream%3Dncurses%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libtinfo6 (6.2-0ubuntu2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "537" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libtinfo6@6.2-0ubuntu2?arch=amd64&upstream=ncurses&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "6.2-0ubuntu2" ;
+    ns3:name "libtinfo6" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibudev1%40245.4-4ubuntu3.17%3Farch%3Damd64%26upstream%3Dsystemd%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libudev1 (245.4-4ubuntu3.17)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "339" ;
+    ns4:license "CC0-1.0",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libudev1@245.4-4ubuntu3.17?arch=amd64&upstream=systemd&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "245.4-4ubuntu3.17" ;
+    ns3:name "libudev1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibunistring2%400.9.10-2%3Farch%3Damd64%26upstream%3Dlibunistring%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libunistring2 (0.9.10-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "1582" ;
+    ns4:license "GFDL-1.2",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libunistring2@0.9.10-2?arch=amd64&upstream=libunistring&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "0.9.10-2" ;
+    ns3:name "libunistring2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibuuid1%402.34-0.1ubuntu9.3%3Farch%3Damd64%26upstream%3Dutil-linux%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libuuid1 (2.34-0.1ubuntu9.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "123" ;
+    ns4:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libuuid1@2.34-0.1ubuntu9.3?arch=amd64&upstream=util-linux&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.34-0.1ubuntu9.3" ;
+    ns3:name "libuuid1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibwind0-heimdal%407.7.0%2Bdfsg-1ubuntu1%3Farch%3Damd64%26upstream%3Dheimdal%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libwind0-heimdal (7.7.0+dfsg-1ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "205" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libwind0-heimdal@7.7.0+dfsg-1ubuntu1?arch=amd64&upstream=heimdal&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "7.7.0+dfsg-1ubuntu1" ;
+    ns3:name "libwind0-heimdal" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flibzstd1%401.4.4%2Bdfsg-3ubuntu0.1%3Farch%3Damd64%26upstream%3Dlibzstd%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "libzstd1 (1.4.4+dfsg-3ubuntu0.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "700" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "Zlib" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/libzstd1@1.4.4+dfsg-3ubuntu0.1?arch=amd64&upstream=libzstd&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.4.4+dfsg-3ubuntu0.1" ;
+    ns3:name "libzstd1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flogin%401%3A4.8.1-1ubuntu5.20.04.2%3Farch%3Damd64%26upstream%3Dshadow%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "login (1:4.8.1-1ubuntu5.20.04.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "932" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/login@1:4.8.1-1ubuntu5.20.04.2?arch=amd64&upstream=shadow&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1:4.8.1-1ubuntu5.20.04.2" ;
+    ns3:name "login" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flogsave%401.45.5-2ubuntu1%3Farch%3Damd64%26upstream%3De2fsprogs%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "logsave (1.45.5-2ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "92" ;
+    ns4:license "GPL-2.0",
+        "LGPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/logsave@1.45.5-2ubuntu1?arch=amd64&upstream=e2fsprogs&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.45.5-2ubuntu1" ;
+    ns3:name "logsave" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Flsb-base%4011.1.0ubuntu2%3Farch%3Dall%26upstream%3Dlsb%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "lsb-base (11.1.0ubuntu2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "58" ;
+    ns4:license "BSD-3-Clause",
+        "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/lsb-base@11.1.0ubuntu2?arch=all&upstream=lsb&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "11.1.0ubuntu2" ;
+    ns3:name "lsb-base" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fmawk%401.3.4.20200120-2%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "mawk (1.3.4.20200120-2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "233" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/mawk@1.3.4.20200120-2?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.3.4.20200120-2" ;
+    ns3:name "mawk" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fmongodb-database-tools%40100.5.3%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "mongodb-database-tools (100.5.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "0" ;
+    ns4:publisher "MongoDB Connectors Team <database-tools-packaging@mongodb.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/mongodb-database-tools@100.5.3?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "100.5.3" ;
+    ns3:name "mongodb-database-tools" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fmongodb-mongosh%401.5.0%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "mongodb-mongosh (1.5.0)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "211056" ;
+    ns4:license "Apache-2.0" ;
+    ns4:publisher "Compass Team <team-compass@10gen.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/mongodb-mongosh@1.5.0?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.5.0" ;
+    ns3:name "mongodb-mongosh" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fmongodb-org%405.0.9%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "mongodb-org (5.0.9)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "8" ;
+    ns4:publisher "MongoDB Packaging <packaging@mongodb.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/mongodb-org@5.0.9?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "5.0.9" ;
+    ns3:name "mongodb-org" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fmongodb-org-database%405.0.9%3Farch%3Damd64%26upstream%3Dmongodb-org%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "mongodb-org-database (5.0.9)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "13" ;
+    ns4:publisher "MongoDB Packaging <packaging@mongodb.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/mongodb-org-database@5.0.9?arch=amd64&upstream=mongodb-org&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "5.0.9" ;
+    ns3:name "mongodb-org-database" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fmongodb-org-database-tools-extra%405.0.9%3Farch%3Damd64%26upstream%3Dmongodb-org%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "mongodb-org-database-tools-extra (5.0.9)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "27" ;
+    ns4:publisher "MongoDB Packaging <packaging@mongodb.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/mongodb-org-database-tools-extra@5.0.9?arch=amd64&upstream=mongodb-org&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "5.0.9" ;
+    ns3:name "mongodb-org-database-tools-extra" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fmongodb-org-mongos%405.0.9%3Farch%3Damd64%26upstream%3Dmongodb-org%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "mongodb-org-mongos (5.0.9)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "74589" ;
+    ns4:publisher "MongoDB Packaging <packaging@mongodb.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/mongodb-org-mongos@5.0.9?arch=amd64&upstream=mongodb-org&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "5.0.9" ;
+    ns3:name "mongodb-org-mongos" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fmongodb-org-server%405.0.9%3Farch%3Damd64%26upstream%3Dmongodb-org%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "mongodb-org-server (5.0.9)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "107010" ;
+    ns4:publisher "MongoDB Packaging <packaging@mongodb.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/mongodb-org-server@5.0.9?arch=amd64&upstream=mongodb-org&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "5.0.9" ;
+    ns3:name "mongodb-org-server" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fmongodb-org-shell%405.0.9%3Farch%3Damd64%26upstream%3Dmongodb-org%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "mongodb-org-shell (5.0.9)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "57108" ;
+    ns4:publisher "MongoDB Packaging <packaging@mongodb.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/mongodb-org-shell@5.0.9?arch=amd64&upstream=mongodb-org&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "5.0.9" ;
+    ns3:name "mongodb-org-shell" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fmongodb-org-tools%405.0.9%3Farch%3Damd64%26upstream%3Dmongodb-org%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "mongodb-org-tools (5.0.9)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "8" ;
+    ns4:publisher "MongoDB Packaging <packaging@mongodb.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/mongodb-org-tools@5.0.9?arch=amd64&upstream=mongodb-org&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "5.0.9" ;
+    ns3:name "mongodb-org-tools" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fmount%402.34-0.1ubuntu9.3%3Farch%3Damd64%26upstream%3Dutil-linux%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "mount (2.34-0.1ubuntu9.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "434" ;
+    ns4:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/mount@2.34-0.1ubuntu9.3?arch=amd64&upstream=util-linux&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.34-0.1ubuntu9.3" ;
+    ns3:name "mount" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fncurses-base%406.2-0ubuntu2%3Farch%3Dall%26upstream%3Dncurses%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "ncurses-base (6.2-0ubuntu2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "381" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/ncurses-base@6.2-0ubuntu2?arch=all&upstream=ncurses&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "6.2-0ubuntu2" ;
+    ns3:name "ncurses-base" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fncurses-bin%406.2-0ubuntu2%3Farch%3Damd64%26upstream%3Dncurses%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "ncurses-bin (6.2-0ubuntu2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "642" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/ncurses-bin@6.2-0ubuntu2?arch=amd64&upstream=ncurses&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "6.2-0ubuntu2" ;
+    ns3:name "ncurses-bin" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fnumactl%402.0.12-1%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "numactl (2.0.12-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A515aef222e666f3469bfef93ddc3f4e34b67c91f4a40bbabaf2cbae22332cfb0>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "146" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/numactl@2.0.12-1?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.0.12-1" ;
+    ns3:name "numactl" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fopenssl%401.1.1f-1ubuntu2.13%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "openssl (1.1.1f-1ubuntu2.13)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3A515aef222e666f3469bfef93ddc3f4e34b67c91f4a40bbabaf2cbae22332cfb0>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "1257" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/openssl@1.1.1f-1ubuntu2.13?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.1.1f-1ubuntu2.13" ;
+    ns3:name "openssl" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fpasswd%401%3A4.8.1-1ubuntu5.20.04.2%3Farch%3Damd64%26upstream%3Dshadow%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "passwd (1:4.8.1-1ubuntu5.20.04.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "2668" ;
+    ns4:license "GPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/passwd@1:4.8.1-1ubuntu5.20.04.2?arch=amd64&upstream=shadow&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1:4.8.1-1ubuntu5.20.04.2" ;
+    ns3:name "passwd" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fperl-base%405.30.0-9ubuntu0.2%3Farch%3Damd64%26upstream%3Dperl%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "perl-base (5.30.0-9ubuntu0.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "10786" ;
+    ns4:license "Artistic-2.0",
+        "BSD-3-Clause",
+        "GPL-1.0",
+        "GPL-1.0+",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.1",
+        "Zlib" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/perl-base@5.30.0-9ubuntu0.2?arch=amd64&upstream=perl&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "5.30.0-9ubuntu0.2" ;
+    ns3:name "perl-base" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fpinentry-curses%401.1.0-3build1%3Farch%3Damd64%26upstream%3Dpinentry%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "pinentry-curses (1.1.0-3build1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "100" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "X11" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/pinentry-curses@1.1.0-3build1?arch=amd64&upstream=pinentry&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.1.0-3build1" ;
+    ns3:name "pinentry-curses" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fprocps%402%3A3.3.16-1ubuntu2.3%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "procps (2:3.3.16-1ubuntu2.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "816" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/procps@2:3.3.16-1ubuntu2.3?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2:3.3.16-1ubuntu2.3" ;
+    ns3:name "procps" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fpublicsuffix%4020200303.0012-1%3Farch%3Dall%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "publicsuffix (20200303.0012-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "309" ;
+    ns4:license "MPL-2.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/publicsuffix@20200303.0012-1?arch=all&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "20200303.0012-1" ;
+    ns3:name "publicsuffix" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Freadline-common%408.0-4%3Farch%3Dall%26upstream%3Dreadline%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "readline-common (8.0-4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "79" ;
+    ns4:license "GPL-3.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/readline-common@8.0-4?arch=all&upstream=readline&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "8.0-4" ;
+    ns3:name "readline-common" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fsed%404.7-1%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "sed (4.7-1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "336" ;
+    ns4:license "GPL-3.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/sed@4.7-1?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "4.7-1" ;
+    ns3:name "sed" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fsensible-utils%400.0.12%2Bnmu1%3Farch%3Dall%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "sensible-utils (0.0.12+nmu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "62" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/sensible-utils@0.0.12+nmu1?arch=all&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "0.0.12+nmu1" ;
+    ns3:name "sensible-utils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fsysvinit-utils%402.96-2.1ubuntu1%3Farch%3Damd64%26upstream%3Dsysvinit%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "sysvinit-utils (2.96-2.1ubuntu1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "74" ;
+    ns4:license "GPL-2.0",
+        "GPL-2.0+" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/sysvinit-utils@2.96-2.1ubuntu1?arch=amd64&upstream=sysvinit&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.96-2.1ubuntu1" ;
+    ns3:name "sysvinit-utils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Ftar%401.30%2Bdfsg-7ubuntu0.20.04.2%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "tar (1.30+dfsg-7ubuntu0.20.04.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "880" ;
+    ns4:license "GPL-2.0",
+        "GPL-3.0" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/tar@1.30+dfsg-7ubuntu0.20.04.2?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1.30+dfsg-7ubuntu0.20.04.2" ;
+    ns3:name "tar" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Ftzdata%402022a-0ubuntu0.20.04%3Farch%3Dall%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "tzdata (2022a-0ubuntu0.20.04)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "3935" ;
+    ns4:license "ICU" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/tzdata@2022a-0ubuntu0.20.04?arch=all&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2022a-0ubuntu0.20.04" ;
+    ns3:name "tzdata" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fubuntu-keyring%402020.02.11.4%3Farch%3Dall%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "ubuntu-keyring (2020.02.11.4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "46" ;
+    ns4:publisher "Dimitri John Ledkov <dimitri.ledkov@canonical.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/ubuntu-keyring@2020.02.11.4?arch=all&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2020.02.11.4" ;
+    ns3:name "ubuntu-keyring" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Futil-linux%402.34-0.1ubuntu9.3%3Farch%3Damd64%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "util-linux (2.34-0.1ubuntu9.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "4539" ;
+    ns4:license "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause",
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "GPL-3.0+",
+        "LGPL-2.0",
+        "LGPL-2.0+",
+        "LGPL-2.1",
+        "LGPL-2.1+",
+        "LGPL-3.0",
+        "LGPL-3.0+",
+        "MIT" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/util-linux@2.34-0.1ubuntu9.3?arch=amd64&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "2.34-0.1ubuntu9.3" ;
+    ns3:name "util-linux" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Adeb%2Fubuntu%2Fzlib1g%401%3A1.2.11.dfsg-2ubuntu1.3%3Farch%3Damd64%26upstream%3Dzlib%26distro%3Dubuntu-20.04> a ns1:PackageVersion ;
+    rdfs:label "zlib1g (1:1.2.11.dfsg-2ubuntu1.3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "163" ;
+    ns4:license "Zlib" ;
+    ns4:publisher "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>" ;
+    ns2:operativeSystemPackageVersion "deb" ;
+    ns2:packageURL "pkg:deb/ubuntu/zlib1g@1:1.2.11.dfsg-2ubuntu1.3?arch=amd64&upstream=zlib&distro=ubuntu-20.04" ;
+    ns3:hasVersionId "1:1.2.11.dfsg-2ubuntu1.3" ;
+    ns3:name "zlib1g" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgo-stack%2Fstack%40v1.8.0> a ns1:PackageVersion ;
+    rdfs:label "github.com/go-stack/stack (v1.8.0)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/github.com/go-stack/stack@v1.8.0" ;
+    ns3:hasVersionId "v1.8.0" ;
+    ns3:name "github.com/go-stack/stack" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fgolang%2Fsnappy%40v0.0.1> a ns1:PackageVersion ;
+    rdfs:label "github.com/golang/snappy (v0.0.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/github.com/golang/snappy@v0.0.1" ;
+    ns3:hasVersionId "v0.0.1" ;
+    ns3:name "github.com/golang/snappy" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fjessevdk%2Fgo-flags%40v1.4.0> a ns1:PackageVersion ;
+    rdfs:label "github.com/jessevdk/go-flags (v1.4.0)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/github.com/jessevdk/go-flags@v1.4.0" ;
+    ns3:hasVersionId "v1.4.0" ;
+    ns3:name "github.com/jessevdk/go-flags" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fklauspost%2Fcompress%40v1.13.6> a ns1:PackageVersion ;
+    rdfs:label "github.com/klauspost/compress (v1.13.6)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/github.com/klauspost/compress@v1.13.6" ;
+    ns3:hasVersionId "v1.13.6" ;
+    ns3:name "github.com/klauspost/compress" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmattn%2Fgo-runewidth%40v0.0.4> a ns1:PackageVersion ;
+    rdfs:label "github.com/mattn/go-runewidth (v0.0.4)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/github.com/mattn/go-runewidth@v0.0.4" ;
+    ns3:hasVersionId "v0.0.4" ;
+    ns3:name "github.com/mattn/go-runewidth" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fmongodb%2Fmongo-tools%40%28devel%29> a ns1:PackageVersion ;
+    rdfs:label "github.com/mongodb/mongo-tools ((devel))" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/github.com/mongodb/mongo-tools@(devel)" ;
+    ns3:hasVersionId "(devel)" ;
+    ns3:name "github.com/mongodb/mongo-tools" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fnsf%2Ftermbox-go%40v0.0.0-20160718140619-0723e7c3d0a3> a ns1:PackageVersion ;
+    rdfs:label "github.com/nsf/termbox-go (v0.0.0-20160718140619-0723e7c3d0a3)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/github.com/nsf/termbox-go@v0.0.0-20160718140619-0723e7c3d0a3" ;
+    ns3:hasVersionId "v0.0.0-20160718140619-0723e7c3d0a3" ;
+    ns3:name "github.com/nsf/termbox-go" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fpkg%2Ferrors%40v0.9.1> a ns1:PackageVersion ;
+    rdfs:label "github.com/pkg/errors (v0.9.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/github.com/pkg/errors@v0.9.1" ;
+    ns3:hasVersionId "v0.9.1" ;
+    ns3:name "github.com/pkg/errors" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fxdg-go%2Fpbkdf2%40v1.0.0> a ns1:PackageVersion ;
+    rdfs:label "github.com/xdg-go/pbkdf2 (v1.0.0)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/github.com/xdg-go/pbkdf2@v1.0.0" ;
+    ns3:hasVersionId "v1.0.0" ;
+    ns3:name "github.com/xdg-go/pbkdf2" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fxdg-go%2Fscram%40v1.0.2> a ns1:PackageVersion ;
+    rdfs:label "github.com/xdg-go/scram (v1.0.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/github.com/xdg-go/scram@v1.0.2" ;
+    ns3:hasVersionId "v1.0.2" ;
+    ns3:name "github.com/xdg-go/scram" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fxdg-go%2Fstringprep%40v1.0.2> a ns1:PackageVersion ;
+    rdfs:label "github.com/xdg-go/stringprep (v1.0.2)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/github.com/xdg-go/stringprep@v1.0.2" ;
+    ns3:hasVersionId "v1.0.2" ;
+    ns3:name "github.com/xdg-go/stringprep" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fyoumark%2Fpkcs8%40v0.0.0-20181117223130-1be2e3e5546d> a ns1:PackageVersion ;
+    rdfs:label "github.com/youmark/pkcs8 (v0.0.0-20181117223130-1be2e3e5546d)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/github.com/youmark/pkcs8@v0.0.0-20181117223130-1be2e3e5546d" ;
+    ns3:hasVersionId "v0.0.0-20181117223130-1be2e3e5546d" ;
+    ns3:name "github.com/youmark/pkcs8" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgo.mongodb.org%2Fmongo-driver%40v1.9.1> a ns1:PackageVersion ;
+    rdfs:label "go.mongodb.org/mongo-driver (v1.9.1)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/go.mongodb.org/mongo-driver@v1.9.1" ;
+    ns3:hasVersionId "v1.9.1" ;
+    ns3:name "go.mongodb.org/mongo-driver" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fcrypto%40v0.0.0-20201216223049-8b5274cf687f> a ns1:PackageVersion ;
+    rdfs:label "golang.org/x/crypto (v0.0.0-20201216223049-8b5274cf687f)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/golang.org/x/crypto@v0.0.0-20201216223049-8b5274cf687f" ;
+    ns3:hasVersionId "v0.0.0-20201216223049-8b5274cf687f" ;
+    ns3:name "golang.org/x/crypto" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fsync%40v0.0.0-20190911185100-cd5d95a43a6e> a ns1:PackageVersion ;
+    rdfs:label "golang.org/x/sync (v0.0.0-20190911185100-cd5d95a43a6e)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/golang.org/x/sync@v0.0.0-20190911185100-cd5d95a43a6e" ;
+    ns3:hasVersionId "v0.0.0-20190911185100-cd5d95a43a6e" ;
+    ns3:name "golang.org/x/sync" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fsys%40v0.0.0-20220520151302-bc2c85ada10a> a ns1:PackageVersion ;
+    rdfs:label "golang.org/x/sys (v0.0.0-20220520151302-bc2c85ada10a)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/golang.org/x/sys@v0.0.0-20220520151302-bc2c85ada10a" ;
+    ns3:hasVersionId "v0.0.0-20220520151302-bc2c85ada10a" ;
+    ns3:name "golang.org/x/sys" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fterm%40v0.0.0-20201117132131-f5c789dd3221> a ns1:PackageVersion ;
+    rdfs:label "golang.org/x/term (v0.0.0-20201117132131-f5c789dd3221)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/golang.org/x/term@v0.0.0-20201117132131-f5c789dd3221" ;
+    ns3:hasVersionId "v0.0.0-20201117132131-f5c789dd3221" ;
+    ns3:name "golang.org/x/term" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Ftext%40v0.3.5> a ns1:PackageVersion ;
+    rdfs:label "golang.org/x/text (v0.3.5)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/golang.org/x/text@v0.3.5" ;
+    ns3:hasVersionId "v0.3.5" ;
+    ns3:name "golang.org/x/text" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgopkg.in%2Ftomb.v2%40v2.0.0-20140626144623-14b3d72120e8> a ns1:PackageVersion ;
+    rdfs:label "gopkg.in/tomb.v2 (v2.0.0-20140626144623-14b3d72120e8)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/gopkg.in/tomb.v2@v2.0.0-20140626144623-14b3d72120e8" ;
+    ns3:hasVersionId "v2.0.0-20140626144623-14b3d72120e8" ;
+    ns3:name "gopkg.in/tomb.v2" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgopkg.in%2Fyaml.v2%40v2.4.0> a ns1:PackageVersion ;
+    rdfs:label "gopkg.in/yaml.v2 (v2.4.0)" ;
+    ns1:isInstalledOn <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns2:operativeSystemPackageVersion "go-module" ;
+    ns2:packageURL "pkg:golang/gopkg.in/yaml.v2@v2.4.0" ;
+    ns3:hasVersionId "v2.4.0" ;
+    ns3:name "gopkg.in/yaml.v2" ;
+    ns3:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/ubuntu_20.04> a ns1:OperatingSystem ;
+    ns2:distributionOf <https://w3id.org/c2t/i/linux> ;
+    ns2:isOperativeSystemOf <https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469> ;
+    ns3:description "Ubuntu 20.04.4 LTS" ;
+    ns3:hasVersionId "20.04" ;
+    ns3:issueTracker "https://bugs.launchpad.net/ubuntu/" ;
+    ns3:name "ubuntu" ;
+    ns3:website "https://www.ubuntu.com/" .
+
+<https://w3id.org/c2t/i/sha256%3Ac8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469> a ns1:Image ;
+    rdfs:label "mongo:latest" ;
+    ns1:hasLayer <https://w3id.org/c2t/i/sha256%3A515aef222e666f3469bfef93ddc3f4e34b67c91f4a40bbabaf2cbae22332cfb0>,
+        <https://w3id.org/c2t/i/sha256%3A57347ee55fa15458d49bc25c14f722372e60939097ed8f9505f70fd991727baa>,
+        <https://w3id.org/c2t/i/sha256%3A86018f608fb23448bbc3892c8bd15e2dd9a6aa0842bfd0cec96ed01525e069a6>,
+        <https://w3id.org/c2t/i/sha256%3Aa0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895>,
+        <https://w3id.org/c2t/i/sha256%3Aaf7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4>,
+        <https://w3id.org/c2t/i/sha256%3Accce83c1748ef6a46dd0e6b6f6bdfb852cde8881d4f8824ea161c737f0dc54cd>,
+        <https://w3id.org/c2t/i/sha256%3Adc1709ad02bf4b6f64e8cb039bdf4d4b0d6a522954a9041cddb3891fb879cbf8>,
+        <https://w3id.org/c2t/i/sha256%3Ae7465d5fff711a49231ae330c882924474c83988148e9b5a6dac332cb39d94f0>,
+        <https://w3id.org/c2t/i/sha256%3Afe7272fa51d7945fa6dfdcd94e35c1247a5e6c57eba8ea51368ca648fe3b689b> ;
+    ns1:size "701471245" ;
+    ns1:tag "mongo:latest" ;
+    ns4:identifier "sha256:c8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469" ;
+    ns2:architecture "amd64" ;
+    ns2:created "2022-06-13T22:08:51.667362387Z" .
+
+

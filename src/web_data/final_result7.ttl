@@ -1,0 +1,1400 @@
+@prefix ns1: <https://w3id.org/okn/o/sd#> .
+@prefix ns2: <http://dockerpedia.inf.utfsm.cl/vocab#> .
+@prefix ns3: <https://w3id.org/c2t#> .
+@prefix ns4: <https://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Fopencontainers%2Frunc%40v1.0.1> a ns2:PackageVersion ;
+    rdfs:label "github.com/opencontainers/runc (v1.0.1)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed>,
+        <https://w3id.org/c2t/i/sha256%3Af1ea503194624aa88fe65e3477e718c0168886e03f068860b05a0d909664e0f2> ;
+    ns3:operativeSystemPackageVersion "go-module" ;
+    ns3:packageURL "pkg:golang/github.com/opencontainers/runc@v1.0.1" ;
+    ns1:hasVersionId "v1.0.1" ;
+    ns1:name "github.com/opencontainers/runc" ;
+    ns1:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgithub.com%2Ftianon%2Fgosu%40%28devel%29> a ns2:PackageVersion ;
+    rdfs:label "github.com/tianon/gosu ((devel))" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed>,
+        <https://w3id.org/c2t/i/sha256%3Af1ea503194624aa88fe65e3477e718c0168886e03f068860b05a0d909664e0f2> ;
+    ns3:operativeSystemPackageVersion "go-module" ;
+    ns3:packageURL "pkg:golang/github.com/tianon/gosu@(devel)" ;
+    ns1:hasVersionId "(devel)" ;
+    ns1:name "github.com/tianon/gosu" ;
+    ns1:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Agolang%2Fgolang.org%2Fx%2Fsys%40v0.0.0-20210817142637-7d9622a276b7> a ns2:PackageVersion ;
+    rdfs:label "golang.org/x/sys (v0.0.0-20210817142637-7d9622a276b7)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed>,
+        <https://w3id.org/c2t/i/sha256%3Af1ea503194624aa88fe65e3477e718c0168886e03f068860b05a0d909664e0f2> ;
+    ns3:operativeSystemPackageVersion "go-module" ;
+    ns3:packageURL "pkg:golang/golang.org/x/sys@v0.0.0-20210817142637-7d9622a276b7" ;
+    ns1:hasVersionId "v0.0.0-20210817142637-7d9622a276b7" ;
+    ns1:name "golang.org/x/sys" ;
+    ns1:programmingLanguage "go" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2FPyNaCl%401.4.0> a ns2:PackageVersion ;
+    rdfs:label "PyNaCl (1.4.0)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/PyNaCl@1.4.0" ;
+    ns1:hasVersionId "1.4.0" ;
+    ns1:name "PyNaCl" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2FPyYAML%405.4.1> a ns2:PackageVersion ;
+    rdfs:label "PyYAML (5.4.1)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:license "MIT" ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/PyYAML@5.4.1" ;
+    ns1:hasVersionId "5.4.1" ;
+    ns1:name "PyYAML" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Fbcrypt%403.2.0> a ns2:PackageVersion ;
+    rdfs:label "bcrypt (3.2.0)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/bcrypt@3.2.0" ;
+    ns1:hasVersionId "3.2.0" ;
+    ns1:name "bcrypt" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Fcertifi%402021.10.8> a ns2:PackageVersion ;
+    rdfs:label "certifi (2021.10.8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:license "MPL-2.0" ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/certifi@2021.10.8" ;
+    ns1:hasVersionId "2021.10.8" ;
+    ns1:name "certifi" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Fcffi%401.15.0> a ns2:PackageVersion ;
+    rdfs:label "cffi (1.15.0)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:license "MIT" ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/cffi@1.15.0" ;
+    ns1:hasVersionId "1.15.0" ;
+    ns1:name "cffi" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Fcircuitbreaker%401.3.2> a ns2:PackageVersion ;
+    rdfs:label "circuitbreaker (1.3.2)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:license "BSD-3-Clause" ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/circuitbreaker@1.3.2" ;
+    ns1:hasVersionId "1.3.2" ;
+    ns1:name "circuitbreaker" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Fcryptography%403.4.7> a ns2:PackageVersion ;
+    rdfs:label "cryptography (3.4.7)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/cryptography@3.4.7" ;
+    ns1:hasVersionId "3.4.7" ;
+    ns1:name "cryptography" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Foci%402.58.0> a ns2:PackageVersion ;
+    rdfs:label "oci (2.58.0)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/oci@2.58.0" ;
+    ns1:hasVersionId "2.58.0" ;
+    ns1:name "oci" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Fparamiko%402.9.2> a ns2:PackageVersion ;
+    rdfs:label "paramiko (2.9.2)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/paramiko@2.9.2" ;
+    ns1:hasVersionId "2.9.2" ;
+    ns1:name "paramiko" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2FpyOpenSSL%4019.1.0> a ns2:PackageVersion ;
+    rdfs:label "pyOpenSSL (19.1.0)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/pyOpenSSL@19.1.0" ;
+    ns1:hasVersionId "19.1.0" ;
+    ns1:name "pyOpenSSL" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Fpycparser%402.21> a ns2:PackageVersion ;
+    rdfs:label "pycparser (2.21)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/pycparser@2.21" ;
+    ns1:hasVersionId "2.21" ;
+    ns1:name "pycparser" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Fpython-dateutil%402.8.2> a ns2:PackageVersion ;
+    rdfs:label "python-dateutil (2.8.2)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/python-dateutil@2.8.2" ;
+    ns1:hasVersionId "2.8.2" ;
+    ns1:name "python-dateutil" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Fpytz%402021.3> a ns2:PackageVersion ;
+    rdfs:label "pytz (2021.3)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:license "MIT" ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/pytz@2021.3" ;
+    ns1:hasVersionId "2021.3" ;
+    ns1:name "pytz" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Fsix%401.16.0> a ns2:PackageVersion ;
+    rdfs:label "six (1.16.0)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:license "MIT" ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/six@1.16.0" ;
+    ns1:hasVersionId "1.16.0" ;
+    ns1:name "six" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Apypi%2Fwebsocket-client%401.2.1> a ns2:PackageVersion ;
+    rdfs:label "websocket-client (1.2.1)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:license "Apache-2.0" ;
+    ns3:operativeSystemPackageVersion "python" ;
+    ns3:packageURL "pkg:pypi/websocket-client@1.2.1" ;
+    ns1:hasVersionId "1.2.1" ;
+    ns1:name "websocket-client" ;
+    ns1:programmingLanguage "python" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Faudit-libs%403.0.7-2.el8.2%3Farch%3Dx86_64%26upstream%3Daudit-3.0.7-2.el8.2.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "audit-libs (3.0.7-2.el8.2)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/audit-libs@3.0.7-2.el8.2?arch=x86_64&upstream=audit-3.0.7-2.el8.2.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "3.0.7-2.el8.2" ;
+    ns1:name "audit-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fbasesystem%4011-5.el8%3Farch%3Dnoarch%26upstream%3Dbasesystem-11-5.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "basesystem (11-5.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/basesystem@11-5.el8?arch=noarch&upstream=basesystem-11-5.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "11-5.el8" ;
+    ns1:name "basesystem" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fbash%404.4.20-3.el8%3Farch%3Dx86_64%26upstream%3Dbash-4.4.20-3.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "bash (4.4.20-3.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/bash@4.4.20-3.el8?arch=x86_64&upstream=bash-4.4.20-3.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "4.4.20-3.el8" ;
+    ns1:name "bash" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fbrotli%401.0.6-3.el8%3Farch%3Dx86_64%26upstream%3Dbrotli-1.0.6-3.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "brotli (1.0.6-3.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/brotli@1.0.6-3.el8?arch=x86_64&upstream=brotli-1.0.6-3.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.0.6-3.el8" ;
+    ns1:name "brotli" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fbzip2%401.0.6-26.el8%3Farch%3Dx86_64%26upstream%3Dbzip2-1.0.6-26.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "bzip2 (1.0.6-26.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/bzip2@1.0.6-26.el8?arch=x86_64&upstream=bzip2-1.0.6-26.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.0.6-26.el8" ;
+    ns1:name "bzip2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fbzip2-libs%401.0.6-26.el8%3Farch%3Dx86_64%26upstream%3Dbzip2-1.0.6-26.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "bzip2-libs (1.0.6-26.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/bzip2-libs@1.0.6-26.el8?arch=x86_64&upstream=bzip2-1.0.6-26.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.0.6-26.el8" ;
+    ns1:name "bzip2-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fca-certificates%402021.2.50-80.0.el8_4%3Farch%3Dnoarch%26upstream%3Dca-certificates-2021.2.50-80.0.el8_4.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "ca-certificates (2021.2.50-80.0.el8_4)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/ca-certificates@2021.2.50-80.0.el8_4?arch=noarch&upstream=ca-certificates-2021.2.50-80.0.el8_4.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2021.2.50-80.0.el8_4" ;
+    ns1:name "ca-certificates" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fchkconfig%401.19.1-1.0.1.el8%3Farch%3Dx86_64%26upstream%3Dchkconfig-1.19.1-1.0.1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "chkconfig (1.19.1-1.0.1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/chkconfig@1.19.1-1.0.1.el8?arch=x86_64&upstream=chkconfig-1.19.1-1.0.1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.19.1-1.0.1.el8" ;
+    ns1:name "chkconfig" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fcoreutils-single%408.30-12.0.1.el8%3Farch%3Dx86_64%26upstream%3Dcoreutils-8.30-12.0.1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "coreutils-single (8.30-12.0.1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/coreutils-single@8.30-12.0.1.el8?arch=x86_64&upstream=coreutils-8.30-12.0.1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "8.30-12.0.1.el8" ;
+    ns1:name "coreutils-single" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fcrypto-policies%4020211116-1.gitae470d6.el8%3Farch%3Dnoarch%26upstream%3Dcrypto-policies-20211116-1.gitae470d6.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "crypto-policies (20211116-1.gitae470d6.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/crypto-policies@20211116-1.gitae470d6.el8?arch=noarch&upstream=crypto-policies-20211116-1.gitae470d6.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "20211116-1.gitae470d6.el8" ;
+    ns1:name "crypto-policies" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fcurl%407.61.1-22.el8_6.3%3Farch%3Dx86_64%26upstream%3Dcurl-7.61.1-22.el8_6.3.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "curl (7.61.1-22.el8_6.3)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/curl@7.61.1-22.el8_6.3?arch=x86_64&upstream=curl-7.61.1-22.el8_6.3.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "7.61.1-22.el8_6.3" ;
+    ns1:name "curl" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fcyrus-sasl-lib%402.1.27-6.el8_5%3Farch%3Dx86_64%26upstream%3Dcyrus-sasl-2.1.27-6.el8_5.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "cyrus-sasl-lib (2.1.27-6.el8_5)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/cyrus-sasl-lib@2.1.27-6.el8_5?arch=x86_64&upstream=cyrus-sasl-2.1.27-6.el8_5.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.1.27-6.el8_5" ;
+    ns1:name "cyrus-sasl-lib" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Felfutils-libelf%400.186-1.el8%3Farch%3Dx86_64%26upstream%3Delfutils-0.186-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "elfutils-libelf (0.186-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/elfutils-libelf@0.186-1.el8?arch=x86_64&upstream=elfutils-0.186-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.186-1.el8" ;
+    ns1:name "elfutils-libelf" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fexpat%402.2.5-8.0.1.el8_6.2%3Farch%3Dx86_64%26upstream%3Dexpat-2.2.5-8.0.1.el8_6.2.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "expat (2.2.5-8.0.1.el8_6.2)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/expat@2.2.5-8.0.1.el8_6.2?arch=x86_64&upstream=expat-2.2.5-8.0.1.el8_6.2.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.2.5-8.0.1.el8_6.2" ;
+    ns1:name "expat" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Ffile-libs%405.33-20.el8%3Farch%3Dx86_64%26upstream%3Dfile-5.33-20.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "file-libs (5.33-20.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/file-libs@5.33-20.el8?arch=x86_64&upstream=file-5.33-20.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "5.33-20.el8" ;
+    ns1:name "file-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Ffilesystem%403.8-6.el8%3Farch%3Dx86_64%26upstream%3Dfilesystem-3.8-6.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "filesystem (3.8-6.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/filesystem@3.8-6.el8?arch=x86_64&upstream=filesystem-3.8-6.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "3.8-6.el8" ;
+    ns1:name "filesystem" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Ffindutils%404.6.0-20.el8%3Farch%3Dx86_64%26epoch%3D1%26upstream%3Dfindutils-4.6.0-20.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "findutils (1:4.6.0-20.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/findutils@4.6.0-20.el8?arch=x86_64&epoch=1&upstream=findutils-4.6.0-20.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1:4.6.0-20.el8" ;
+    ns1:name "findutils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fgawk%404.2.1-4.el8%3Farch%3Dx86_64%26upstream%3Dgawk-4.2.1-4.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "gawk (4.2.1-4.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/gawk@4.2.1-4.el8?arch=x86_64&upstream=gawk-4.2.1-4.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "4.2.1-4.el8" ;
+    ns1:name "gawk" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fgdbm-libs%401.18-1.el8%3Farch%3Dx86_64%26epoch%3D1%26upstream%3Dgdbm-1.18-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "gdbm-libs (1:1.18-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/gdbm-libs@1.18-1.el8?arch=x86_64&epoch=1&upstream=gdbm-1.18-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1:1.18-1.el8" ;
+    ns1:name "gdbm-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fglib2%402.56.4-158.el8%3Farch%3Dx86_64%26upstream%3Dglib2-2.56.4-158.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "glib2 (2.56.4-158.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/glib2@2.56.4-158.el8?arch=x86_64&upstream=glib2-2.56.4-158.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.56.4-158.el8" ;
+    ns1:name "glib2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fglibc%402.28-189.5.0.1.el8_6%3Farch%3Dx86_64%26upstream%3Dglibc-2.28-189.5.0.1.el8_6.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "glibc (2.28-189.5.0.1.el8_6)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/glibc@2.28-189.5.0.1.el8_6?arch=x86_64&upstream=glibc-2.28-189.5.0.1.el8_6.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.28-189.5.0.1.el8_6" ;
+    ns1:name "glibc" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fglibc-common%402.28-189.5.0.1.el8_6%3Farch%3Dx86_64%26upstream%3Dglibc-2.28-189.5.0.1.el8_6.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "glibc-common (2.28-189.5.0.1.el8_6)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/glibc-common@2.28-189.5.0.1.el8_6?arch=x86_64&upstream=glibc-2.28-189.5.0.1.el8_6.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.28-189.5.0.1.el8_6" ;
+    ns1:name "glibc-common" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fglibc-minimal-langpack%402.28-189.5.0.1.el8_6%3Farch%3Dx86_64%26upstream%3Dglibc-2.28-189.5.0.1.el8_6.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "glibc-minimal-langpack (2.28-189.5.0.1.el8_6)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/glibc-minimal-langpack@2.28-189.5.0.1.el8_6?arch=x86_64&upstream=glibc-2.28-189.5.0.1.el8_6.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.28-189.5.0.1.el8_6" ;
+    ns1:name "glibc-minimal-langpack" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fgmp%406.1.2-10.el8%3Farch%3Dx86_64%26epoch%3D1%26upstream%3Dgmp-6.1.2-10.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "gmp (1:6.1.2-10.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/gmp@6.1.2-10.el8?arch=x86_64&epoch=1&upstream=gmp-6.1.2-10.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1:6.1.2-10.el8" ;
+    ns1:name "gmp" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fgnupg2%402.2.20-2.el8%3Farch%3Dx86_64%26upstream%3Dgnupg2-2.2.20-2.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "gnupg2 (2.2.20-2.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/gnupg2@2.2.20-2.el8?arch=x86_64&upstream=gnupg2-2.2.20-2.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.2.20-2.el8" ;
+    ns1:name "gnupg2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fgnutls%403.6.16-4.el8%3Farch%3Dx86_64%26upstream%3Dgnutls-3.6.16-4.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "gnutls (3.6.16-4.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/gnutls@3.6.16-4.el8?arch=x86_64&upstream=gnutls-3.6.16-4.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "3.6.16-4.el8" ;
+    ns1:name "gnutls" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fgobject-introspection%401.56.1-1.el8%3Farch%3Dx86_64%26upstream%3Dgobject-introspection-1.56.1-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "gobject-introspection (1.56.1-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/gobject-introspection@1.56.1-1.el8?arch=x86_64&upstream=gobject-introspection-1.56.1-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.56.1-1.el8" ;
+    ns1:name "gobject-introspection" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fgpg-pubkey%40ad986da3-5cabf60d%3Fdistro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "gpg-pubkey (ad986da3-5cabf60d)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/gpg-pubkey@ad986da3-5cabf60d?distro=ol-8.6" ;
+    ns1:hasVersionId "ad986da3-5cabf60d" ;
+    ns1:name "gpg-pubkey" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fgpgme%401.13.1-11.el8%3Farch%3Dx86_64%26upstream%3Dgpgme-1.13.1-11.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "gpgme (1.13.1-11.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/gpgme@1.13.1-11.el8?arch=x86_64&upstream=gpgme-1.13.1-11.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.13.1-11.el8" ;
+    ns1:name "gpgme" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fgrep%403.1-6.el8%3Farch%3Dx86_64%26upstream%3Dgrep-3.1-6.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "grep (3.1-6.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/grep@3.1-6.el8?arch=x86_64&upstream=grep-3.1-6.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "3.1-6.el8" ;
+    ns1:name "grep" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fgzip%401.9-13.el8_5%3Farch%3Dx86_64%26upstream%3Dgzip-1.9-13.el8_5.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "gzip (1.9-13.el8_5)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/gzip@1.9-13.el8_5?arch=x86_64&upstream=gzip-1.9-13.el8_5.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.9-13.el8_5" ;
+    ns1:name "gzip" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Finfo%406.5-7.el8%3Farch%3Dx86_64%26upstream%3Dtexinfo-6.5-7.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "info (6.5-7.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/info@6.5-7.el8?arch=x86_64&upstream=texinfo-6.5-7.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "6.5-7.el8" ;
+    ns1:name "info" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fjson-c%400.13.1-3.el8%3Farch%3Dx86_64%26upstream%3Djson-c-0.13.1-3.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "json-c (0.13.1-3.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/json-c@0.13.1-3.el8?arch=x86_64&upstream=json-c-0.13.1-3.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.13.1-3.el8" ;
+    ns1:name "json-c" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fkeyutils-libs%401.5.10-9.el8%3Farch%3Dx86_64%26upstream%3Dkeyutils-1.5.10-9.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "keyutils-libs (1.5.10-9.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/keyutils-libs@1.5.10-9.el8?arch=x86_64&upstream=keyutils-1.5.10-9.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.5.10-9.el8" ;
+    ns1:name "keyutils-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fkrb5-libs%401.18.2-14.0.1.el8%3Farch%3Dx86_64%26upstream%3Dkrb5-1.18.2-14.0.1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "krb5-libs (1.18.2-14.0.1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/krb5-libs@1.18.2-14.0.1.el8?arch=x86_64&upstream=krb5-1.18.2-14.0.1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.18.2-14.0.1.el8" ;
+    ns1:name "krb5-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibacl%402.2.53-1.el8%3Farch%3Dx86_64%26upstream%3Dacl-2.2.53-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libacl (2.2.53-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libacl@2.2.53-1.el8?arch=x86_64&upstream=acl-2.2.53-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.2.53-1.el8" ;
+    ns1:name "libacl" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibaio%400.3.112-1.el8%3Farch%3Dx86_64%26upstream%3Dlibaio-0.3.112-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libaio (0.3.112-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libaio@0.3.112-1.el8?arch=x86_64&upstream=libaio-0.3.112-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.3.112-1.el8" ;
+    ns1:name "libaio" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibarchive%403.3.3-3.el8_5%3Farch%3Dx86_64%26upstream%3Dlibarchive-3.3.3-3.el8_5.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libarchive (3.3.3-3.el8_5)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libarchive@3.3.3-3.el8_5?arch=x86_64&upstream=libarchive-3.3.3-3.el8_5.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "3.3.3-3.el8_5" ;
+    ns1:name "libarchive" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibassuan%402.5.1-3.el8%3Farch%3Dx86_64%26upstream%3Dlibassuan-2.5.1-3.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libassuan (2.5.1-3.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libassuan@2.5.1-3.el8?arch=x86_64&upstream=libassuan-2.5.1-3.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.5.1-3.el8" ;
+    ns1:name "libassuan" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibattr%402.4.48-3.el8%3Farch%3Dx86_64%26upstream%3Dattr-2.4.48-3.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libattr (2.4.48-3.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libattr@2.4.48-3.el8?arch=x86_64&upstream=attr-2.4.48-3.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.4.48-3.el8" ;
+    ns1:name "libattr" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibblkid%402.32.1-35.el8%3Farch%3Dx86_64%26upstream%3Dutil-linux-2.32.1-35.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libblkid (2.32.1-35.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libblkid@2.32.1-35.el8?arch=x86_64&upstream=util-linux-2.32.1-35.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.32.1-35.el8" ;
+    ns1:name "libblkid" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibcap%402.48-2.el8%3Farch%3Dx86_64%26upstream%3Dlibcap-2.48-2.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libcap (2.48-2.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libcap@2.48-2.el8?arch=x86_64&upstream=libcap-2.48-2.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.48-2.el8" ;
+    ns1:name "libcap" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibcap-ng%400.7.11-1.el8%3Farch%3Dx86_64%26upstream%3Dlibcap-ng-0.7.11-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libcap-ng (0.7.11-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libcap-ng@0.7.11-1.el8?arch=x86_64&upstream=libcap-ng-0.7.11-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.7.11-1.el8" ;
+    ns1:name "libcap-ng" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibcom_err%401.45.6-4.el8%3Farch%3Dx86_64%26upstream%3De2fsprogs-1.45.6-4.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libcom_err (1.45.6-4.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libcom_err@1.45.6-4.el8?arch=x86_64&upstream=e2fsprogs-1.45.6-4.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.45.6-4.el8" ;
+    ns1:name "libcom_err" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibcurl%407.61.1-22.el8_6.3%3Farch%3Dx86_64%26upstream%3Dcurl-7.61.1-22.el8_6.3.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libcurl (7.61.1-22.el8_6.3)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libcurl@7.61.1-22.el8_6.3?arch=x86_64&upstream=curl-7.61.1-22.el8_6.3.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "7.61.1-22.el8_6.3" ;
+    ns1:name "libcurl" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibdb%405.3.28-42.el8_4%3Farch%3Dx86_64%26upstream%3Dlibdb-5.3.28-42.el8_4.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libdb (5.3.28-42.el8_4)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libdb@5.3.28-42.el8_4?arch=x86_64&upstream=libdb-5.3.28-42.el8_4.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "5.3.28-42.el8_4" ;
+    ns1:name "libdb" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibdb-utils%405.3.28-42.el8_4%3Farch%3Dx86_64%26upstream%3Dlibdb-5.3.28-42.el8_4.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libdb-utils (5.3.28-42.el8_4)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libdb-utils@5.3.28-42.el8_4?arch=x86_64&upstream=libdb-5.3.28-42.el8_4.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "5.3.28-42.el8_4" ;
+    ns1:name "libdb-utils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibdnf%400.63.0-8.0.1.el8%3Farch%3Dx86_64%26upstream%3Dlibdnf-0.63.0-8.0.1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libdnf (0.63.0-8.0.1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libdnf@0.63.0-8.0.1.el8?arch=x86_64&upstream=libdnf-0.63.0-8.0.1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.63.0-8.0.1.el8" ;
+    ns1:name "libdnf" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibffi%403.1-23.el8%3Farch%3Dx86_64%26upstream%3Dlibffi-3.1-23.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libffi (3.1-23.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libffi@3.1-23.el8?arch=x86_64&upstream=libffi-3.1-23.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "3.1-23.el8" ;
+    ns1:name "libffi" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibgcc%408.5.0-10.1.0.1.el8_6%3Farch%3Dx86_64%26upstream%3Dgcc-8.5.0-10.1.0.1.el8_6.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libgcc (8.5.0-10.1.0.1.el8_6)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libgcc@8.5.0-10.1.0.1.el8_6?arch=x86_64&upstream=gcc-8.5.0-10.1.0.1.el8_6.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "8.5.0-10.1.0.1.el8_6" ;
+    ns1:name "libgcc" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibgcrypt%401.8.5-7.el8_6%3Farch%3Dx86_64%26upstream%3Dlibgcrypt-1.8.5-7.el8_6.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libgcrypt (1.8.5-7.el8_6)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libgcrypt@1.8.5-7.el8_6?arch=x86_64&upstream=libgcrypt-1.8.5-7.el8_6.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.8.5-7.el8_6" ;
+    ns1:name "libgcrypt" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibgpg-error%401.31-1.el8%3Farch%3Dx86_64%26upstream%3Dlibgpg-error-1.31-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libgpg-error (1.31-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libgpg-error@1.31-1.el8?arch=x86_64&upstream=libgpg-error-1.31-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.31-1.el8" ;
+    ns1:name "libgpg-error" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibidn2%402.2.0-1.el8%3Farch%3Dx86_64%26upstream%3Dlibidn2-2.2.0-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libidn2 (2.2.0-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libidn2@2.2.0-1.el8?arch=x86_64&upstream=libidn2-2.2.0-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.2.0-1.el8" ;
+    ns1:name "libidn2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibksba%401.3.5-7.el8%3Farch%3Dx86_64%26upstream%3Dlibksba-1.3.5-7.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libksba (1.3.5-7.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libksba@1.3.5-7.el8?arch=x86_64&upstream=libksba-1.3.5-7.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.3.5-7.el8" ;
+    ns1:name "libksba" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibmodulemd%402.13.0-1.el8%3Farch%3Dx86_64%26upstream%3Dlibmodulemd-2.13.0-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libmodulemd (2.13.0-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libmodulemd@2.13.0-1.el8?arch=x86_64&upstream=libmodulemd-2.13.0-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.13.0-1.el8" ;
+    ns1:name "libmodulemd" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibmount%402.32.1-35.el8%3Farch%3Dx86_64%26upstream%3Dutil-linux-2.32.1-35.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libmount (2.32.1-35.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libmount@2.32.1-35.el8?arch=x86_64&upstream=util-linux-2.32.1-35.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.32.1-35.el8" ;
+    ns1:name "libmount" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibnghttp2%401.33.0-3.el8_2.1%3Farch%3Dx86_64%26upstream%3Dnghttp2-1.33.0-3.el8_2.1.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libnghttp2 (1.33.0-3.el8_2.1)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libnghttp2@1.33.0-3.el8_2.1?arch=x86_64&upstream=nghttp2-1.33.0-3.el8_2.1.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.33.0-3.el8_2.1" ;
+    ns1:name "libnghttp2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibnsl2%401.2.0-2.20180605git4a062cf.el8%3Farch%3Dx86_64%26upstream%3Dlibnsl2-1.2.0-2.20180605git4a062cf.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libnsl2 (1.2.0-2.20180605git4a062cf.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libnsl2@1.2.0-2.20180605git4a062cf.el8?arch=x86_64&upstream=libnsl2-1.2.0-2.20180605git4a062cf.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.2.0-2.20180605git4a062cf.el8" ;
+    ns1:name "libnsl2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibpeas%401.22.0-6.el8%3Farch%3Dx86_64%26upstream%3Dlibpeas-1.22.0-6.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libpeas (1.22.0-6.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libpeas@1.22.0-6.el8?arch=x86_64&upstream=libpeas-1.22.0-6.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.22.0-6.el8" ;
+    ns1:name "libpeas" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibpsl%400.20.2-6.el8%3Farch%3Dx86_64%26upstream%3Dlibpsl-0.20.2-6.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libpsl (0.20.2-6.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libpsl@0.20.2-6.el8?arch=x86_64&upstream=libpsl-0.20.2-6.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.20.2-6.el8" ;
+    ns1:name "libpsl" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibrepo%401.14.2-1.el8%3Farch%3Dx86_64%26upstream%3Dlibrepo-1.14.2-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "librepo (1.14.2-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/librepo@1.14.2-1.el8?arch=x86_64&upstream=librepo-1.14.2-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.14.2-1.el8" ;
+    ns1:name "librepo" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibselinux%402.9-5.el8%3Farch%3Dx86_64%26upstream%3Dlibselinux-2.9-5.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libselinux (2.9-5.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libselinux@2.9-5.el8?arch=x86_64&upstream=libselinux-2.9-5.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.9-5.el8" ;
+    ns1:name "libselinux" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibsemanage%402.9-8.el8%3Farch%3Dx86_64%26upstream%3Dlibsemanage-2.9-8.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libsemanage (2.9-8.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libsemanage@2.9-8.el8?arch=x86_64&upstream=libsemanage-2.9-8.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.9-8.el8" ;
+    ns1:name "libsemanage" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibsepol%402.9-3.el8%3Farch%3Dx86_64%26upstream%3Dlibsepol-2.9-3.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libsepol (2.9-3.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libsepol@2.9-3.el8?arch=x86_64&upstream=libsepol-2.9-3.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.9-3.el8" ;
+    ns1:name "libsepol" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibsigsegv%402.11-5.el8%3Farch%3Dx86_64%26upstream%3Dlibsigsegv-2.11-5.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libsigsegv (2.11-5.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libsigsegv@2.11-5.el8?arch=x86_64&upstream=libsigsegv-2.11-5.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.11-5.el8" ;
+    ns1:name "libsigsegv" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibsmartcols%402.32.1-35.el8%3Farch%3Dx86_64%26upstream%3Dutil-linux-2.32.1-35.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libsmartcols (2.32.1-35.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libsmartcols@2.32.1-35.el8?arch=x86_64&upstream=util-linux-2.32.1-35.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.32.1-35.el8" ;
+    ns1:name "libsmartcols" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibsolv%400.7.20-1.el8%3Farch%3Dx86_64%26upstream%3Dlibsolv-0.7.20-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libsolv (0.7.20-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libsolv@0.7.20-1.el8?arch=x86_64&upstream=libsolv-0.7.20-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.7.20-1.el8" ;
+    ns1:name "libsolv" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibssh%400.9.6-3.el8%3Farch%3Dx86_64%26upstream%3Dlibssh-0.9.6-3.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libssh (0.9.6-3.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libssh@0.9.6-3.el8?arch=x86_64&upstream=libssh-0.9.6-3.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.9.6-3.el8" ;
+    ns1:name "libssh" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibssh-config%400.9.6-3.el8%3Farch%3Dnoarch%26upstream%3Dlibssh-0.9.6-3.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libssh-config (0.9.6-3.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libssh-config@0.9.6-3.el8?arch=noarch&upstream=libssh-0.9.6-3.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.9.6-3.el8" ;
+    ns1:name "libssh-config" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibstdc%2B%2B%408.5.0-10.1.0.1.el8_6%3Farch%3Dx86_64%26upstream%3Dgcc-8.5.0-10.1.0.1.el8_6.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libstdc++ (8.5.0-10.1.0.1.el8_6)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libstdc++@8.5.0-10.1.0.1.el8_6?arch=x86_64&upstream=gcc-8.5.0-10.1.0.1.el8_6.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "8.5.0-10.1.0.1.el8_6" ;
+    ns1:name "libstdc++" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibtasn1%404.13-3.el8%3Farch%3Dx86_64%26upstream%3Dlibtasn1-4.13-3.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libtasn1 (4.13-3.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libtasn1@4.13-3.el8?arch=x86_64&upstream=libtasn1-4.13-3.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "4.13-3.el8" ;
+    ns1:name "libtasn1" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibtirpc%401.1.4-6.el8%3Farch%3Dx86_64%26upstream%3Dlibtirpc-1.1.4-6.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libtirpc (1.1.4-6.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libtirpc@1.1.4-6.el8?arch=x86_64&upstream=libtirpc-1.1.4-6.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.1.4-6.el8" ;
+    ns1:name "libtirpc" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibunistring%400.9.9-3.el8%3Farch%3Dx86_64%26upstream%3Dlibunistring-0.9.9-3.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libunistring (0.9.9-3.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libunistring@0.9.9-3.el8?arch=x86_64&upstream=libunistring-0.9.9-3.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.9.9-3.el8" ;
+    ns1:name "libunistring" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibusbx%401.0.23-4.el8%3Farch%3Dx86_64%26upstream%3Dlibusbx-1.0.23-4.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libusbx (1.0.23-4.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libusbx@1.0.23-4.el8?arch=x86_64&upstream=libusbx-1.0.23-4.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.0.23-4.el8" ;
+    ns1:name "libusbx" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibuuid%402.32.1-35.el8%3Farch%3Dx86_64%26upstream%3Dutil-linux-2.32.1-35.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libuuid (2.32.1-35.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libuuid@2.32.1-35.el8?arch=x86_64&upstream=util-linux-2.32.1-35.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.32.1-35.el8" ;
+    ns1:name "libuuid" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibverto%400.3.0-5.el8%3Farch%3Dx86_64%26upstream%3Dlibverto-0.3.0-5.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libverto (0.3.0-5.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libverto@0.3.0-5.el8?arch=x86_64&upstream=libverto-0.3.0-5.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.3.0-5.el8" ;
+    ns1:name "libverto" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibxcrypt%404.1.1-6.el8%3Farch%3Dx86_64%26upstream%3Dlibxcrypt-4.1.1-6.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libxcrypt (4.1.1-6.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libxcrypt@4.1.1-6.el8?arch=x86_64&upstream=libxcrypt-4.1.1-6.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "4.1.1-6.el8" ;
+    ns1:name "libxcrypt" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibxml2%402.9.7-13.el8_6.1%3Farch%3Dx86_64%26upstream%3Dlibxml2-2.9.7-13.el8_6.1.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libxml2 (2.9.7-13.el8_6.1)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libxml2@2.9.7-13.el8_6.1?arch=x86_64&upstream=libxml2-2.9.7-13.el8_6.1.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.9.7-13.el8_6.1" ;
+    ns1:name "libxml2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibyaml%400.1.7-5.el8%3Farch%3Dx86_64%26upstream%3Dlibyaml-0.1.7-5.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libyaml (0.1.7-5.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libyaml@0.1.7-5.el8?arch=x86_64&upstream=libyaml-0.1.7-5.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.1.7-5.el8" ;
+    ns1:name "libyaml" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flibzstd%401.4.4-1.0.1.el8%3Farch%3Dx86_64%26upstream%3Dzstd-1.4.4-1.0.1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "libzstd (1.4.4-1.0.1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/libzstd@1.4.4-1.0.1.el8?arch=x86_64&upstream=zstd-1.4.4-1.0.1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.4.4-1.0.1.el8" ;
+    ns1:name "libzstd" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flua-libs%405.3.4-12.el8%3Farch%3Dx86_64%26upstream%3Dlua-5.3.4-12.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "lua-libs (5.3.4-12.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/lua-libs@5.3.4-12.el8?arch=x86_64&upstream=lua-5.3.4-12.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "5.3.4-12.el8" ;
+    ns1:name "lua-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Flz4-libs%401.8.3-3.el8_4%3Farch%3Dx86_64%26upstream%3Dlz4-1.8.3-3.el8_4.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "lz4-libs (1.8.3-3.el8_4)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/lz4-libs@1.8.3-3.el8_4?arch=x86_64&upstream=lz4-1.8.3-3.el8_4.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.8.3-3.el8_4" ;
+    ns1:name "lz4-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fmicrodnf%403.8.0-2.el8%3Farch%3Dx86_64%26upstream%3Dmicrodnf-3.8.0-2.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "microdnf (3.8.0-2.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/microdnf@3.8.0-2.el8?arch=x86_64&upstream=microdnf-3.8.0-2.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "3.8.0-2.el8" ;
+    ns1:name "microdnf" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fmpfr%403.1.6-1.el8%3Farch%3Dx86_64%26upstream%3Dmpfr-3.1.6-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "mpfr (3.1.6-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/mpfr@3.1.6-1.el8?arch=x86_64&upstream=mpfr-3.1.6-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "3.1.6-1.el8" ;
+    ns1:name "mpfr" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fmysql-community-server-minimal%408.0.29-1.el8%3Farch%3Dx86_64%26upstream%3Dmysql-community-minimal-8.0.29-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "mysql-community-server-minimal (8.0.29-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle and/or its affiliates" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/mysql-community-server-minimal@8.0.29-1.el8?arch=x86_64&upstream=mysql-community-minimal-8.0.29-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "8.0.29-1.el8" ;
+    ns1:name "mysql-community-server-minimal" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fmysql-shell%408.0.29-1.el8%3Farch%3Dx86_64%26upstream%3Dmysql-shell-8.0.29-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "mysql-shell (8.0.29-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/mysql-shell@8.0.29-1.el8?arch=x86_64&upstream=mysql-shell-8.0.29-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "8.0.29-1.el8" ;
+    ns1:name "mysql-shell" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fncurses-base%406.1-9.20180224.el8%3Farch%3Dnoarch%26upstream%3Dncurses-6.1-9.20180224.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "ncurses-base (6.1-9.20180224.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/ncurses-base@6.1-9.20180224.el8?arch=noarch&upstream=ncurses-6.1-9.20180224.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "6.1-9.20180224.el8" ;
+    ns1:name "ncurses-base" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fncurses-libs%406.1-9.20180224.el8%3Farch%3Dx86_64%26upstream%3Dncurses-6.1-9.20180224.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "ncurses-libs (6.1-9.20180224.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/ncurses-libs@6.1-9.20180224.el8?arch=x86_64&upstream=ncurses-6.1-9.20180224.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "6.1-9.20180224.el8" ;
+    ns1:name "ncurses-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fnettle%403.4.1-7.el8%3Farch%3Dx86_64%26upstream%3Dnettle-3.4.1-7.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "nettle (3.4.1-7.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/nettle@3.4.1-7.el8?arch=x86_64&upstream=nettle-3.4.1-7.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "3.4.1-7.el8" ;
+    ns1:name "nettle" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fnpth%401.5-4.el8%3Farch%3Dx86_64%26upstream%3Dnpth-1.5-4.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "npth (1.5-4.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/npth@1.5-4.el8?arch=x86_64&upstream=npth-1.5-4.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.5-4.el8" ;
+    ns1:name "npth" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fopenldap%402.4.46-18.el8%3Farch%3Dx86_64%26upstream%3Dopenldap-2.4.46-18.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "openldap (2.4.46-18.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/openldap@2.4.46-18.el8?arch=x86_64&upstream=openldap-2.4.46-18.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.4.46-18.el8" ;
+    ns1:name "openldap" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fopenssl%401.1.1k-6.el8_5%3Farch%3Dx86_64%26epoch%3D1%26upstream%3Dopenssl-1.1.1k-6.el8_5.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "openssl (1:1.1.1k-6.el8_5)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/openssl@1.1.1k-6.el8_5?arch=x86_64&epoch=1&upstream=openssl-1.1.1k-6.el8_5.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1:1.1.1k-6.el8_5" ;
+    ns1:name "openssl" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fopenssl-libs%401.1.1k-6.el8_5%3Farch%3Dx86_64%26epoch%3D1%26upstream%3Dopenssl-1.1.1k-6.el8_5.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "openssl-libs (1:1.1.1k-6.el8_5)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/openssl-libs@1.1.1k-6.el8_5?arch=x86_64&epoch=1&upstream=openssl-1.1.1k-6.el8_5.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1:1.1.1k-6.el8_5" ;
+    ns1:name "openssl-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Foraclelinux-release%408.6-1.0.5.el8%3Farch%3Dx86_64%26epoch%3D8%26upstream%3Doraclelinux-release-8.6-1.0.5.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "oraclelinux-release (8:8.6-1.0.5.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/oraclelinux-release@8.6-1.0.5.el8?arch=x86_64&epoch=8&upstream=oraclelinux-release-8.6-1.0.5.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "8:8.6-1.0.5.el8" ;
+    ns1:name "oraclelinux-release" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Foraclelinux-release-el8%401.0-25.el8%3Farch%3Dx86_64%26upstream%3Doraclelinux-release-el8-1.0-25.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "oraclelinux-release-el8 (1.0-25.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/oraclelinux-release-el8@1.0-25.el8?arch=x86_64&upstream=oraclelinux-release-el8-1.0-25.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.0-25.el8" ;
+    ns1:name "oraclelinux-release-el8" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fp11-kit%400.23.22-1.el8%3Farch%3Dx86_64%26upstream%3Dp11-kit-0.23.22-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "p11-kit (0.23.22-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/p11-kit@0.23.22-1.el8?arch=x86_64&upstream=p11-kit-0.23.22-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.23.22-1.el8" ;
+    ns1:name "p11-kit" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fp11-kit-trust%400.23.22-1.el8%3Farch%3Dx86_64%26upstream%3Dp11-kit-0.23.22-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "p11-kit-trust (0.23.22-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/p11-kit-trust@0.23.22-1.el8?arch=x86_64&upstream=p11-kit-0.23.22-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "0.23.22-1.el8" ;
+    ns1:name "p11-kit-trust" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fpcre%408.42-6.el8%3Farch%3Dx86_64%26upstream%3Dpcre-8.42-6.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "pcre (8.42-6.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/pcre@8.42-6.el8?arch=x86_64&upstream=pcre-8.42-6.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "8.42-6.el8" ;
+    ns1:name "pcre" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fpcre2%4010.32-2.el8%3Farch%3Dx86_64%26upstream%3Dpcre2-10.32-2.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "pcre2 (10.32-2.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/pcre2@10.32-2.el8?arch=x86_64&upstream=pcre2-10.32-2.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "10.32-2.el8" ;
+    ns1:name "pcre2" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fpopt%401.18-1.el8%3Farch%3Dx86_64%26upstream%3Dpopt-1.18-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "popt (1.18-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/popt@1.18-1.el8?arch=x86_64&upstream=popt-1.18-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.18-1.el8" ;
+    ns1:name "popt" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fpublicsuffix-list-dafsa%4020180723-1.el8%3Farch%3Dnoarch%26upstream%3Dpublicsuffix-list-20180723-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "publicsuffix-list-dafsa (20180723-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/publicsuffix-list-dafsa@20180723-1.el8?arch=noarch&upstream=publicsuffix-list-20180723-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "20180723-1.el8" ;
+    ns1:name "publicsuffix-list-dafsa" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fpython39-libs%403.9.7-1.module%2Bel8.6.0%2B20625%2Bee813db2%3Farch%3Dx86_64%26upstream%3Dpython39-3.9.7-1.module%2Bel8.6.0%2B20625%2Bee813db2.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "python39-libs (3.9.7-1.module+el8.6.0+20625+ee813db2)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/python39-libs@3.9.7-1.module+el8.6.0+20625+ee813db2?arch=x86_64&upstream=python39-3.9.7-1.module+el8.6.0+20625+ee813db2.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "3.9.7-1.module+el8.6.0+20625+ee813db2" ;
+    ns1:name "python39-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fpython39-pip-wheel%4020.2.4-7.module%2Bel8.6.0%2B20625%2Bee813db2%3Farch%3Dnoarch%26upstream%3Dpython3x-pip-20.2.4-7.module%2Bel8.6.0%2B20625%2Bee813db2.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "python39-pip-wheel (20.2.4-7.module+el8.6.0+20625+ee813db2)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/python39-pip-wheel@20.2.4-7.module+el8.6.0+20625+ee813db2?arch=noarch&upstream=python3x-pip-20.2.4-7.module+el8.6.0+20625+ee813db2.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "20.2.4-7.module+el8.6.0+20625+ee813db2" ;
+    ns1:name "python39-pip-wheel" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fpython39-setuptools-wheel%4050.3.2-4.module%2Bel8.5.0%2B20364%2Bc7fe1181%3Farch%3Dnoarch%26upstream%3Dpython3x-setuptools-50.3.2-4.module%2Bel8.5.0%2B20364%2Bc7fe1181.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "python39-setuptools-wheel (50.3.2-4.module+el8.5.0+20364+c7fe1181)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/python39-setuptools-wheel@50.3.2-4.module+el8.5.0+20364+c7fe1181?arch=noarch&upstream=python3x-setuptools-50.3.2-4.module+el8.5.0+20364+c7fe1181.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "50.3.2-4.module+el8.5.0+20364+c7fe1181" ;
+    ns1:name "python39-setuptools-wheel" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Freadline%407.0-10.el8%3Farch%3Dx86_64%26upstream%3Dreadline-7.0-10.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "readline (7.0-10.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/readline@7.0-10.el8?arch=x86_64&upstream=readline-7.0-10.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "7.0-10.el8" ;
+    ns1:name "readline" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fredhat-release%408.6-0.1.0.1.el8%3Farch%3Dx86_64%26epoch%3D2%26upstream%3Dredhat-release-8.6-0.1.0.1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "redhat-release (2:8.6-0.1.0.1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/redhat-release@8.6-0.1.0.1.el8?arch=x86_64&epoch=2&upstream=redhat-release-8.6-0.1.0.1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2:8.6-0.1.0.1.el8" ;
+    ns1:name "redhat-release" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Frpm%404.14.3-23.el8%3Farch%3Dx86_64%26upstream%3Drpm-4.14.3-23.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "rpm (4.14.3-23.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/rpm@4.14.3-23.el8?arch=x86_64&upstream=rpm-4.14.3-23.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "4.14.3-23.el8" ;
+    ns1:name "rpm" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Frpm-libs%404.14.3-23.el8%3Farch%3Dx86_64%26upstream%3Drpm-4.14.3-23.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "rpm-libs (4.14.3-23.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/rpm-libs@4.14.3-23.el8?arch=x86_64&upstream=rpm-4.14.3-23.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "4.14.3-23.el8" ;
+    ns1:name "rpm-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fsed%404.5-5.el8%3Farch%3Dx86_64%26upstream%3Dsed-4.5-5.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "sed (4.5-5.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/sed@4.5-5.el8?arch=x86_64&upstream=sed-4.5-5.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "4.5-5.el8" ;
+    ns1:name "sed" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fsetup%402.12.2-6.el8%3Farch%3Dnoarch%26upstream%3Dsetup-2.12.2-6.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "setup (2.12.2-6.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/setup@2.12.2-6.el8?arch=noarch&upstream=setup-2.12.2-6.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2.12.2-6.el8" ;
+    ns1:name "setup" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fshadow-utils%404.6-16.el8%3Farch%3Dx86_64%26epoch%3D2%26upstream%3Dshadow-utils-4.6-16.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "shadow-utils (2:4.6-16.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/shadow-utils@4.6-16.el8?arch=x86_64&epoch=2&upstream=shadow-utils-4.6-16.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2:4.6-16.el8" ;
+    ns1:name "shadow-utils" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fsqlite-libs%403.26.0-15.el8%3Farch%3Dx86_64%26upstream%3Dsqlite-3.26.0-15.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "sqlite-libs (3.26.0-15.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/sqlite-libs@3.26.0-15.el8?arch=x86_64&upstream=sqlite-3.26.0-15.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "3.26.0-15.el8" ;
+    ns1:name "sqlite-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fsystemd-libs%40239-58.0.1.el8%3Farch%3Dx86_64%26upstream%3Dsystemd-239-58.0.1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "systemd-libs (239-58.0.1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/systemd-libs@239-58.0.1.el8?arch=x86_64&upstream=systemd-239-58.0.1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "239-58.0.1.el8" ;
+    ns1:name "systemd-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Ftzdata%402022a-1.el8%3Farch%3Dnoarch%26upstream%3Dtzdata-2022a-1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "tzdata (2022a-1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/tzdata@2022a-1.el8?arch=noarch&upstream=tzdata-2022a-1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "2022a-1.el8" ;
+    ns1:name "tzdata" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fxz%405.2.4-4.el8_6%3Farch%3Dx86_64%26upstream%3Dxz-5.2.4-4.el8_6.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "xz (5.2.4-4.el8_6)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/xz@5.2.4-4.el8_6?arch=x86_64&upstream=xz-5.2.4-4.el8_6.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "5.2.4-4.el8_6" ;
+    ns1:name "xz" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fxz-libs%405.2.4-4.el8_6%3Farch%3Dx86_64%26upstream%3Dxz-5.2.4-4.el8_6.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "xz-libs (5.2.4-4.el8_6)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/xz-libs@5.2.4-4.el8_6?arch=x86_64&upstream=xz-5.2.4-4.el8_6.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "5.2.4-4.el8_6" ;
+    ns1:name "xz-libs" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fzlib%401.2.11-18.el8_5%3Farch%3Dx86_64%26upstream%3Dzlib-1.2.11-18.el8_5.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "zlib (1.2.11-18.el8_5)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/zlib@1.2.11-18.el8_5?arch=x86_64&upstream=zlib-1.2.11-18.el8_5.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.2.11-18.el8_5" ;
+    ns1:name "zlib" .
+
+<https://w3id.org/c2t/i/PackageVersion/pkg%3Arpm%2Fol%2Fzstd%401.4.4-1.0.1.el8%3Farch%3Dx86_64%26upstream%3Dzstd-1.4.4-1.0.1.el8.src.rpm%26distro%3Dol-8.6> a ns2:PackageVersion ;
+    rdfs:label "zstd (1.4.4-1.0.1.el8)" ;
+    ns2:isInstalledOn <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns4:publisher "Oracle America" ;
+    ns3:operativeSystemPackageVersion "rpm" ;
+    ns3:packageURL "pkg:rpm/ol/zstd@1.4.4-1.0.1.el8?arch=x86_64&upstream=zstd-1.4.4-1.0.1.el8.src.rpm&distro=ol-8.6" ;
+    ns1:hasVersionId "1.4.4-1.0.1.el8" ;
+    ns1:name "zstd" .
+
+<https://w3id.org/c2t/i/ol_8.6> a ns2:OperatingSystem ;
+    ns3:distributionOf <https://w3id.org/c2t/i/linux> ;
+    ns3:isOperativeSystemOf <https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> ;
+    ns1:description "Oracle Linux Server 8.6" ;
+    ns1:hasVersionId "8.6" ;
+    ns1:issueTracker "https://bugzilla.oracle.com/" ;
+    ns1:name "ol" ;
+    ns1:website "https://linux.oracle.com/" .
+
+<https://w3id.org/c2t/i/sha256%3A33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed> a ns2:Image ;
+    rdfs:label "mysql:latest" ;
+    ns2:hasLayer <https://w3id.org/c2t/i/sha256%3A25dc86c6646dbe3de73037d24a4c521029c8d251c11ee2a4a7351ed58f77ee56>,
+        <https://w3id.org/c2t/i/sha256%3A27df4ae8cdd9b83162d2a091252cc501f5912e1216a0c17cb6003f96904e7346>,
+        <https://w3id.org/c2t/i/sha256%3A35dd272baf557f3b9382f339cbbbed264f59024518e5377de6122940c9912b6b>,
+        <https://w3id.org/c2t/i/sha256%3A4b2f0167d834f0ef884274f75ee86c5ff641c4faef110cae1060b75e9ab3f9d4>,
+        <https://w3id.org/c2t/i/sha256%3A5162a1b305a985ba391c06d868677e0a4fe6b926d4af4f4a8b7fc5574c1de755>,
+        <https://w3id.org/c2t/i/sha256%3A8613b3ca056029b25dd719661dd08cbd697c3ebfc9eefa613b0b25505f318e0e>,
+        <https://w3id.org/c2t/i/sha256%3Ac1b9bd4130df3ccc44775da7aaff3cc0cc589cb5b1c908d0c0387e4d693d2900>,
+        <https://w3id.org/c2t/i/sha256%3Ac6c89a36c214d7ecf7a684bf0fc21692dd60e9f204f48545bcb4085185166031>,
+        <https://w3id.org/c2t/i/sha256%3Aea8b5bae0f85ad480602e1945751771fe172201343ef48538f291a3fc31e53dc>,
+        <https://w3id.org/c2t/i/sha256%3Af1ea503194624aa88fe65e3477e718c0168886e03f068860b05a0d909664e0f2>,
+        <https://w3id.org/c2t/i/sha256%3Affce1106e77569b3edc7de444f16f4aca6306919e639700ce159fde87fc68daf> ;
+    ns2:size "443989708" ;
+    ns2:tag "mysql:latest" ;
+    ns4:identifier "sha256:33037edcac9b155a185e9555a5da711d754c88cb244e3d13e214db029c3b28ed" ;
+    ns3:architecture "amd64" ;
+    ns3:created "2022-07-13T06:46:11.919327635Z" .
+
+
