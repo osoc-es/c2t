@@ -3,7 +3,7 @@ from ensurepip import version
 from SPARQLWrapper import SPARQLWrapper, JSON, CSV
 import io
 import pandas as pd
-sparql = SPARQLWrapper("http://localhost:3030/graph%22)
+sparql = SPARQLWrapper("http://localhost:3030/graph")
 
 def name_version_image_finder(version,package):
     if version == '':

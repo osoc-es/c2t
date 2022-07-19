@@ -1,5 +1,4 @@
 __pycache__
-*.ipynb
 *.jar
 venv
 .idea
