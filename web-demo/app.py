@@ -87,9 +87,10 @@ def render_tab_content(active_tab):
 def output_image_list(package_name,package_version):
     df = dataBase.name_version_image_finder(package_version,package_name)
     content =[]
-    for i in df.iterrows():
-        identifier = i.id
-        heading = i.tag
+    for tag in df.items():
+        identifier = 'nada'
+        heading = tag
+        print(tag)
         content.append(image_lib(heading,identifier))
     return content
 
