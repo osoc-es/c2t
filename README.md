@@ -26,7 +26,7 @@ We inspect your image to get enviroment properties. Then we use syft to obtain t
 Once we have these data sources, we have to create a knowledge graph. For this purpose we will use [morphkgc](https://github.com/oeg-upm/morph-kgc)
 
 ## Ontology Documentation
-Available here: [https://osoc-es.github.io/c2t/myDocumentation_2/index-en.html](https://osoc-es.github.io/c2t/myDocumentation_2/index-en.html)
+Available here: [https://osoc-es.github.io/c2t/onto_documentation/index-en.html](https://osoc-es.github.io/c2t/onto_documentation/index-en.html)
 
 ## Ontology diagram
 ![onto_map](onto_documentation/images/diagram.svg)
