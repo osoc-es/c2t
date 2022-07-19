@@ -1,12 +1,14 @@
 import numpy as np
 import pandas as pd
-
+from db import db
 import dash
 import dash_bootstrap_components as dbc
 from dash import Input, Output, dcc, html
+from SPARQLWrapper import SPARQLWrapper
+from utils import image_lib
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP]) #[dark,light], [CYBORG,BOOTSTRAP]
-
+dataBase = db(SPARQLWrapper("http://localhost:3030/graph"))
 app.layout = dbc.Container(
     [
         dcc.Store(id="store"),
@@ -56,9 +58,8 @@ def render_tab_content(active_tab):
             align="center",
             ),
                 html.Br(),
-                html.P(id="output")
-            ],
-            style={'width': '45%','text-align': 'center', 'margin':'auto'}
+                dbc.ListGroup(id='list-images')
+            
             )
             ]
             return content
@@ -79,12 +80,18 @@ def render_tab_content(active_tab):
             return content
     return "No tab selected"
 
-@app.callback(Output("output", "children"),
+@app.callback(Output("list-images", "children"),
                      Input("PackageName", "value"),
                      Input("PackageVersion", "value")
                      )
-def output_text(package_name,package_version):
-    return package_name+package_version
+def output_image_list(package_name,package_version):
+    df = dataBase.name_version_image_finder(package_version,package_name)
+    content =[]
+    for i in df.iterrows():
+        identifier = i.id
+        heading = i.tag
+        content.append(image_lib(heading,identifier))
+    return content
 
 
 if __name__ == "__main__":
