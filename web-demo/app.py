@@ -8,7 +8,7 @@ from SPARQLWrapper import SPARQLWrapper
 from utils import image_lib
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP]) #[dark,light], [CYBORG,BOOTSTRAP]
-dataBase = db(SPARQLWrapper("http://localhost:3030/graph"))
+dataBase = db(SPARQLWrapper("https://demo.c2t.linkeddata.es/sparql"))
 app.layout = dbc.Container(
     [
         dcc.Store(id="store"),
@@ -60,7 +60,7 @@ def render_tab_content(active_tab):
                 html.Br(),
                 dbc.ListGroup(id='list-images')
             
-            )
+            ])
             ]
             return content
         elif active_tab == "compare":
