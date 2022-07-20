@@ -1,0 +1,14 @@
+stain/jena-fuseki:latest
+wagoodman/dive:latest
+ghcr.io/dgarijo/widoco:latest
+python:latest
+mysql:latest
+neo4j:4.4.5
+node:latest
+wordpress:latest
+python:3.8
+pegasus/pegasus:panorama-xenial
+amancevice/pandas:latest
+mongo:latest
+hello-world:latest
+pegasus/pegasus:panorama-focal

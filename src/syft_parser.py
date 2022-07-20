@@ -73,7 +73,7 @@ def parse_data(json_as_string, path_output, path):
                 data_parsed[i][j][aux_key] = aux_value
             data_parsed[i][j].pop('externalReferences')
         if data[i][j]['type'] == 'operating-system':
-            data[i][j]['os_identifier'] = data[i][j]['name']+'_'+data[i][j]['version']
+            data[i][j]['os_identifier'] = data[i][j]['name']+'_'+data[i][j]['version']+'_'+data[i][j]['description']
             data_parsed[i][j]['image_os'] = os_id
 
         data_parsed[i][j]['image_identifier'] = image_id 

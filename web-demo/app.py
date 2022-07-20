@@ -1,3 +1,4 @@
+from platform import architecture
 import numpy as np
 import pandas as pd
 from db import db
@@ -5,7 +6,7 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import Input, Output, dcc, html
 from SPARQLWrapper import SPARQLWrapper
-from utils import image_lib
+from utils import image_lib, make_card
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP]) #[dark,light], [CYBORG,BOOTSTRAP]
 dataBase = db(SPARQLWrapper("https://demo.c2t.linkeddata.es/sparql"))
@@ -73,10 +74,20 @@ def render_tab_content(active_tab):
             ]
             return content
         elif active_tab == "resume":
-            content = [html.Div([
-
-                
-            ],style={'width': '90%','text-align': 'center', 'margin':'auto'})]
+            content = content = [html.Div([
+                dbc.Row([
+                html.Br(),
+                dbc.Col([
+                    dbc.Input(id="ImageTag", placeholder="image Tag", type="text"),
+                ])   
+            ],
+            align="center",
+            ),
+                html.Br(),
+                dbc.Card(id='resume_card')
+            
+            ])
+            ]
             return content
     return "No tab selected"
 
@@ -91,6 +102,46 @@ def output_image_list(package_name,package_version):
         identifier = row['id']
         heading = row["tag"]
         content.append(image_lib(heading,identifier))
+    return content
+
+
+@app.callback(Output("resume_card", "children"),
+                     Input("ImageTag", "value"),
+                     )
+def output_image_list(ImageTag):
+    df = dataBase.get_card_resume(ImageTag)
+    content =[]
+    for index, row in df.iterrows():
+        architecture = row['architecture']
+        tag = row["tag"]
+        os = row['osDescription']
+        size = row['size']
+        packageT = row['packageT']
+        print(packageT)
+        total = row['total']
+        print(total)
+        created = row['created']
+        content.append(make_card(tag, architecture, size, os, created, packageT, total))
+    return content
+
+
+@app.callback(Output("compare_table", "children"),
+                     Input("ImageTag", "value"),
+                     )
+def output_image_list(ImageTag):
+    df = dataBase.get_comparison_meta(ImageTag)
+    content =[]
+    for index, row in df.iterrows():
+        architecture = row['architecture']
+        tag = row["tag"]
+        os = row['osDescription']
+        size = row['size']
+        packageT = row['packageT']
+        print(packageT)
+        total = row['total']
+        print(total)
+        created = row['created']
+        content.append(make_card(tag, architecture, size, os, created, packageT, total))
     return content
 
 
