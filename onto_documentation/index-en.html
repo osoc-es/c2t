@@ -61,7 +61,12 @@ $(function(){
 <dd>Lara Herrera, David Lázaro y Adrián Pascual</dd>
 
 <dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.rdf" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.org" /></a>
-</dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
+</dd>
+
+<dt>License:</dt>
+<dd><a href="https://www.apache.org/licenses/LICENSE-2.0" target="Apache 2.0"/></dd> 
+
+<dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
 <!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
 <dd>Cite this vocabulary as: L. Herrera, D. Lázaro, A. Pascual. Containers To Triples</dd>
 </dl>
@@ -277,18 +282,18 @@ This section provides details for each class and property defined by Containers 
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#https://w3id.org/okn/o/c2t#architecture" title="https://w3id.org/okn/o/c2t#architecture">architecture</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="https://w3id.org/okn/o/sd#dateCreated"
-               target="_blank"
-               title="https://w3id.org/okn/o/sd#dateCreated">dateCreated</a>, <a href="#https://w3id.org/okn/o/c2t#hasLayer" title="https://w3id.org/okn/o/c2t#hasLayer">hasLayer</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#tag" title="http://dockerpedia.inf.utfsm.cl/vocab#tag">tag</a>
-            <sup class="type-dp" title="data property">dp</sup>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://purl.org/dc/terms/identifier" title="identifier">identifier</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/okn/o/c2t#architecture" title="https://w3id.org/okn/o/c2t#architecture">architecture</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://dockerpedia.inf.utfsm.cl/vocab#tag" title="http://dockerpedia.inf.utfsm.cl/vocab#tag">tag</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#htttp://w3id.org/okn/o/sd#dateCreated" title="htttp://w3id.org/okn/o/sd#dateCreated">dateCreated</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://dockerpedia.inf.utfsm.cl/vocab#size" title="http://dockerpedia.inf.utfsm.cl/vocab#size">size</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/okn/o/c2t#hasLayer" title="https://w3id.org/okn/o/c2t#hasLayer">hasLayer</a>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#hasImage" title="http://dockerpedia.inf.utfsm.cl/vocab#hasImage">hasImage</a>
+            <sup class="type-op" title="object property">op</sup>,<a href="#hasImage" title="http://dockerpedia.inf.utfsm.cl/vocab#hasImage">hasImage</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/okn/o/c2t#isOperativeSystemOf" title="https://w3id.org/okn/o/c2t#isOperativeSystemOf">isOperativeSystemOf</a>
-            <sup class="type-op" title="object property">op</sup>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn" title="http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn">isInstalledOn</a>
          </dd>
       </dl>
    </div>
@@ -303,10 +308,14 @@ This section provides details for each class and property defined by Containers 
          <span class="markdown">A layer of a Docker image are a set files generated from running a command from a DockerFile</span>
       </div>
       <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://purl.org/dc/terms/identifier" title="https://purl.org/dc/terms/identifier">identifier</a>
+         </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://w3id.org/okn/o/c2t#hasLayer" title="https://w3id.org/okn/o/c2t#hasLayer">hasLayer</a>
-            <sup class="type-op" title="object property">op</sup>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/okn/o/c2t#hasLayer" title="https://w3id.org/okn/o/c2t#hasLayer">hasLayer</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn" title="hhttp://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn">isInstalledOn</a>
          </dd>
       </dl>
    </div>
@@ -323,22 +332,19 @@ This section provides details for each class and property defined by Containers 
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="https://w3id.org/okn/o/sd#description"
-               target="_blank"
-               title="https://w3id.org/okn/o/sd#description">description</a>, <a href="#https://w3id.org/okn/o/c2t#distributionOf" title="https://w3id.org/okn/o/c2t#distributionOf">distributionOf</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="https://w3id.org/okn/o/sd#hasDocumentation"
-               target="_blank"
-               title="https://w3id.org/okn/o/sd#hasDocumentation">hasDocumentation</a>, <a href="#https://w3id.org/okn/o/c2t#isOperativeSystemOf" title="https://w3id.org/okn/o/c2t#isOperativeSystemOf">isOperativeSystemOf</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="https://w3id.org/okn/o/sd#issueTracker"
-               target="_blank"
-               title="https://w3id.org/okn/o/sd#issueTracker">issueTracker</a>, <a href="https://w3id.org/okn/o/sd#website"
-               target="_blank"
-               title="https://w3id.org/okn/o/sd#website">website</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#htttp://w3id.org/okn/o/sd#name" title="htttp://w3id.org/okn/o/sd#name">name</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#htttp://w3id.org/okn/o/sd#hasVersionId" title="htttp://w3id.org/okn/o/sd#hasVersionId">hasVersionId</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#htttp://w3id.org/okn/o/sd#description" title="htttp://w3id.org/okn/o/sd#description">description</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#htttp://w3id.org/okn/o/sd#hasDocumentation" title="htttp://w3id.org/okn/o/sd#hasDocumentation">hasDocumentation</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#htttp://w3id.org/okn/o/sd#issueTracker" title="htttp://w3id.org/okn/o/sd#issueTracker">issueTracker</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#htttp://w3id.org/okn/o/sd#website" title="htttp://w3id.org/okn/o/sd#website">website</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://purl.org/dc/terms/license" title="https://purl.org/dc/terms/license">license</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/okn/o/c2t#isOperativeSystemOf" title="https://w3id.org/okn/o/c2t#isOperativeSystemOf">isOperativeSystemOf</a>      
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/okn/o/c2t#distributionOf" title="https://w3id.org/okn/o/c2t#distributionOf">distributionOf</a>     
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://w3id.org/okn/o/c2t#distributionOf" title="https://w3id.org/okn/o/c2t#distributionOf">distributionOf</a>
-            <sup class="type-op" title="object property">op</sup>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/okn/o/c2t#distributionOf" title="https://w3id.org/okn/o/c2t#distributionOf">distributionOf</a>   
          </dd>
       </dl>
    </div>
@@ -355,14 +361,15 @@ This section provides details for each class and property defined by Containers 
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#isInstalledOn"
-               title="http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn">isInstalledOn</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="https://w3id.org/okn/o/c2t#operativeSystemPackageVersion"
-               target="_blank"
-               title="https://w3id.org/okn/o/c2t#operativeSystemPackageVersion">operativeSystemPackageVersion</a>, <a href="#https://w3id.org/okn/o/c2t#packageURL" title="https://w3id.org/okn/o/c2t#packageURL">packageURL</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn" title="http://dockerpedia.inf.utfsm.cl/vocab#isInstalledOn">isInstalledOn</a>, 
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#htttp://w3id.org/okn/o/sd#name" title="htttp://w3id.org/okn/o/sd#name">name</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/okn/o/sd#programmingLanguage" title="https://w3id.org/okn/o/sd#programmingLanguage">programmingLanguage</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/okn/o/c2t#packageURL" title="https://w3id.org/okn/o/c2t#packageURL">packageURL</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hhtttp://w3id.org/okn/o/sd#hasVersionId" title="htttp://w3id.org/okn/o/sd#hasVersionId">hasVersionId</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#https://purl.org/dc/terms/publisher" title="https://purl.org/dc/terms/publisher">publisher</a>
-            <sup class="type-dp" title="data property">dp</sup>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://purl.org/dc/terms/publisher" title="https://purl.org/dc/terms/publisher">publisher</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://dockerpedia.inf.utfsm.cl/vocab#license" title="http://dockerpedia.inf.utfsm.cl/vocab#license">license</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/okn/o/c2t#packageType" title="https://w3id.org/okn/o/c2t#packageType">packageType</a>
          </dd>
       </dl>
    </div>
@@ -521,16 +528,31 @@ This section provides details for each class and property defined by Containers 
          <a href="#https://w3id.org/okn/o/c2t#architecture" title="https://w3id.org/okn/o/c2t#architecture">architecture</a>
       </li>
       <li>
+         <a href="#htttp://w3id.org/okn/o/sd#dateCreated" title="htttp://w3id.org/okn/o/sd#dateCreated">dateCreated</a>
+      </li>
+      <li>
+         <a href="#htttp://w3id.org/okn/o/sd#description" title="htttp://w3id.org/okn/o/sd#description">description</a>
+      </li>
+      <li>
+         <a href="#htttp://w3id.org/okn/o/sd#hasDocumentation" title="htttp://w3id.org/okn/o/sd#hasDocumentation">hasDocumentation</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/okn/o/sd#hasVersionId" title="https://w3id.org/okn/o/sd#hasVersionId">hasVersionId</a>
       </li>
       <li>
          <a href="#https://purl.org/dc/terms/identifier" title="https://purl.org/dc/terms/identifier">identifier</a>
       </li>
       <li>
+         <a href="#htttp://w3id.org/okn/o/sd#issueTracker" title="htttp://w3id.org/okn/o/sd#issueTracker">issueTracker</a>
+      </li>
+      <li>
          <a href="#https://purl.org/dc/terms/license" title="https://purl.org/dc/terms/license">license</a>
       </li>
       <li>
          <a href="#https://w3id.org/okn/o/sd#name" title="https://w3id.org/okn/o/sd#name">name</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/okn/o/c2t#packageType" title="https://w3id.org/okn/o/c2t#packageType">packageType</a>
       </li>
       <li>
          <a href="#https://w3id.org/okn/o/c2t#packageURL" title="https://w3id.org/okn/o/c2t#packageURL">packageURL</a>
@@ -542,7 +564,13 @@ This section provides details for each class and property defined by Containers 
          <a href="#https://purl.org/dc/terms/publisher" title="https://purl.org/dc/terms/publisher">publisher</a>
       </li>
       <li>
+         <a href="#http://dockerpedia.inf.utfsm.cl/vocab#size" title="http://dockerpedia.inf.utfsm.cl/vocab#size">size</a>
+      </li>
+      <li>
          <a href="#tag" title="http://dockerpedia.inf.utfsm.cl/vocab#tag">tag</a>
+      </li>
+      <li>
+         <a href="#htttp://w3id.org/okn/o/sd#website" title="htttp://w3id.org/okn/o/sd#website">website</a>
       </li>
    </ul>
    <div class="entity" id="https://w3id.org/okn/o/c2t#architecture">
@@ -560,6 +588,66 @@ This section provides details for each class and property defined by Containers 
             <dt>has domain</dt>
             <dd>
                <a href="#Image" title="http://dockerpedia.inf.utfsm.cl/vocab#Image">Image</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/sd#dateCreated">
+      <h3>dateCreated<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/sd#dateCreated</p>
+      <div class="comment">
+         <span class="markdown">Date when a software component was created</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Image" title="http://dockerpedia.inf.utfsm.cl/vocab#Image">Image</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/sd#description">
+      <h3>description<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/sd#description</p>
+      <div class="comment">
+         <span class="markdown">A description of a resource</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#OperatingSystem" title="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem">OperatingSystem</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/sd#hasDocumentation">
+      <h3>hasDocumentation<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/sd#hasDocumentation</p>
+      <div class="comment">
+         <span class="markdown">Pointer to the documentation of the model</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#OperatingSystem" title="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem">OperatingSystem</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -595,6 +683,26 @@ This section provides details for each class and property defined by Containers 
          <dd>http://dockerpedia.inf.utfsm.cl/vocab#</dd>
       </dl>
    </div>
+   <div class="entity" id="https://w3id.org/okn/o/sd#issueTracker">
+      <h3>issueTracker<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/sd#issueTracker</p>
+      <div class="comment">
+         <span class="markdown">Pointer to the documentation of the model</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#OperatingSystem" title="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem">OperatingSystem</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="https://purl.org/dc/terms/license">
       <h3>license<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -624,6 +732,26 @@ This section provides details for each class and property defined by Containers 
          <dt>Is defined by</dt>
          <dd>http://dockerpedia.inf.utfsm.cl/vocab#</dd>
       </dl>
+   </div>
+   <div class="entity" id="https://w3id.org/okn/o/c2t#packageType">
+      <h3>packageType<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/okn/o/c2t#packageType</p>
+      <div class="comment">
+         <span class="markdown">Version of an operative system package</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PackageVersion" title="http://dockerpedia.inf.utfsm.cl/vocab#PackageVersion">PackageVersion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
    </div>
    <div class="entity" id="https://w3id.org/okn/o/c2t#packageURL">
       <h3>packageURL<sup class="type-dp" title="data property">dp</sup>
@@ -688,6 +816,21 @@ This section provides details for each class and property defined by Containers 
          </dl>
       </div>
    </div>
+   <div class="entity" id="size">
+      <h3>size<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dockerpedia.inf.utfsm.cl/vocab#size</p>
+      <div class="comment">
+         <span class="markdown">An image/package has a size</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://dockerpedia.inf.utfsm.cl/vocab#</dd>
+      </dl>
+   </div>
    <div class="entity" id="tag">
       <h3>tag<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -708,201 +851,31 @@ This section provides details for each class and property defined by Containers 
          </dl>
       </div>
    </div>
-</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
-   <h3 id="namedindividuals" class="list">Named Individuals</h3>
-   <ul class="hlist">
-      <li>
-         <a href="#https://w3id.org/okn/o/sd#dateCreated" title="https://w3id.org/okn/o/sd#dateCreated">
-            <span>dateCreated</span>
-         </a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/okn/o/sd#description" title="https://w3id.org/okn/o/sd#description">
-            <span>description</span>
-         </a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/okn/o/sd#hasDocumentation" title="https://w3id.org/okn/o/sd#hasDocumentation">
-            <span>hasDocumentation</span>
-         </a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/okn/o/sd#issueTracker" title="https://w3id.org/okn/o/sd#issueTracker">
-            <span>issueTracker</span>
-         </a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/okn/o/c2t#operativeSystemPackageVersion"
-            title="https://w3id.org/okn/o/c2t#operativeSystemPackageVersion">
-            <span>operativeSystemPackageVersion</span>
-         </a>
-      </li>
-      <li>
-         <a href="#size" title="http://dockerpedia.inf.utfsm.cl/vocab#size">size</a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/okn/o/sd#website" title="https://w3id.org/okn/o/sd#website">
-            <span>website</span>
-         </a>
-      </li>
-   </ul>
-   <div class="entity" id="https://w3id.org/okn/o/sd#dateCreated">
-      <h3>dateCreated<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/okn/o/sd#dateCreated</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2002/07/owl#DataTypeProperty"
-               target="_blank"
-               title="http://www.w3.org/2002/07/owl#DataTypeProperty">data type property</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is also defined as</dt>
-         <dd>
-            <a href="#https://w3id.org/okn/o/sd#dateCreated">annotation property</a>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="https://w3id.org/okn/o/sd#description">
-      <h3>description<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/okn/o/sd#description</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2002/07/owl#DataTypeProperty"
-               target="_blank"
-               title="http://www.w3.org/2002/07/owl#DataTypeProperty">data type property</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is also defined as</dt>
-         <dd>
-            <a href="#https://w3id.org/okn/o/sd#description">annotation property</a>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="https://w3id.org/okn/o/sd#hasDocumentation">
-      <h3>hasDocumentation<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/okn/o/sd#hasDocumentation</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2002/07/owl#DataTypeProperty"
-               target="_blank"
-               title="http://www.w3.org/2002/07/owl#DataTypeProperty">data type property</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is also defined as</dt>
-         <dd>
-            <a href="#https://w3id.org/okn/o/sd#hasDocumentation">annotation property</a>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="https://w3id.org/okn/o/sd#issueTracker">
-      <h3>issueTracker<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/okn/o/sd#issueTracker</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2002/07/owl#DataTypeProperty"
-               target="_blank"
-               title="http://www.w3.org/2002/07/owl#DataTypeProperty">data type property</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is also defined as</dt>
-         <dd>
-            <a href="#https://w3id.org/okn/o/sd#issueTracker">annotation property</a>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="https://w3id.org/okn/o/c2t#operativeSystemPackageVersion">
-      <h3>operativeSystemPackageVersion<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/okn/o/c2t#operativeSystemPackageVersion</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2002/07/owl#DataTypeProperty"
-               target="_blank"
-               title="http://www.w3.org/2002/07/owl#DataTypeProperty">data type property</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is also defined as</dt>
-         <dd>
-            <a href="#https://w3id.org/okn/o/c2t#operativeSystemPackageVersion">annotation property</a>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="size">
-      <h3>size<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://dockerpedia.inf.utfsm.cl/vocab#size</p>
-      <div class="comment">
-         <span class="markdown">An image/package has a size</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>http://dockerpedia.inf.utfsm.cl/vocab#</dd>
-      </dl>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2002/07/owl#DataTypeProperty"
-               target="_blank"
-               title="http://www.w3.org/2002/07/owl#DataTypeProperty">data type property</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
    <div class="entity" id="https://w3id.org/okn/o/sd#website">
-      <h3>website<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>website<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/okn/o/sd#website</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2002/07/owl#DataTypeProperty"
-               target="_blank"
-               title="http://www.w3.org/2002/07/owl#DataTypeProperty">data type property</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is also defined as</dt>
-         <dd>
-            <a href="#https://w3id.org/okn/o/sd#website">annotation property</a>
-         </dd>
-      </dl>
+      <div class="comment">
+         <span class="markdown">Website of the software</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#OperatingSystem" title="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem">OperatingSystem</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
    </div>
-</div><div id="legend">
 <h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <div   class="entity">
 <sup class="type-c" title="Classes">c</sup>: Classes <br/>
 <sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
 <sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
-<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
 </div>
 </div>
 </div>
