@@ -48,6 +48,9 @@ def render_tab_content(active_tab):
         if active_tab == "library":
             content = [html.Div([
                 dbc.Row([
+                    html.P('Introduce the name of a package or the name and the version and the app will return the images that contain that package. ', className="card-text")
+                ]),
+                dbc.Row([
                 html.Br(),
                 dbc.Col([
                     dbc.Input(id="PackageName", placeholder="Package Name", type="text",debounce=True),
@@ -67,6 +70,9 @@ def render_tab_content(active_tab):
             return content
         elif active_tab == "compare":
             content = [html.Div([
+                dbc.Row([
+                    html.P('Introduce the name of two images and the app will make a comparison of them', className="card-text")
+                ]),
                 dbc.Row([
                 html.Br(),
                 dbc.Col([
@@ -122,6 +128,9 @@ def render_tab_content(active_tab):
             return content
         elif active_tab == "summary":
             content = [html.Div([
+                dbc.Row([
+                    html.P('Introduce the name of an image and the app will make a summary of its metadata.', className="card-text")
+                ]),
                 dbc.Row([
                 html.Br(),
                 dbc.Col([
@@ -237,3 +246,7 @@ def output_image_list(Image1, Image2):
 if __name__ == "__main__":
    ssl._create_default_https_context = ssl._create_unverified_context
    app.run_server(debug=True, host="0.0.0.0", port=3000)
+
+
+
+   

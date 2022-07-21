@@ -22,16 +22,13 @@ def generate_table(packageT, total):
     table_header = [
         html.Thead(html.Tr([html.Th("Package Type"), html.Th("Number of packages")]))
     ]
-    print(packageT)
     rows = []
     for i in range (0, len(packageT)):
         row = html.Tr([html.Td(packageT[i]), html.Td(str(total[i]))])
         rows += [row]
 
     table_body = [html.Tbody(rows)]
-    print(table_body)
     table = dbc.Table(table_header + table_body, bordered=True)
-    print(table)
     return table
 
 
