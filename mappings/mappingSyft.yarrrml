@@ -52,7 +52,7 @@ mappings:
   operatingsystem:
     sources:
       - component-source
-    s: c2ti:$(description) ($(os_identifier))
+    s: c2ti:$(os_identifier)
     po:
       - [a, dpv:OperatingSystem]
       - [sd:name,$(name)]

@@ -24,10 +24,9 @@ def get_graph(name, save, i, output_path):#, temp_folder:tempfile.TemporaryDirec
         open(os.path.join(output_path ,'result_syft_'+str(i)+'.json'), 'w')
         shutil.copy(os.path.join("tmp" ,'result1.json'), os.path.join(output_path ,'result_syft_'+str(i)+'.json'))
     g = morph_kgc.materialize('./tmp/config.ini')
-    print('acaba')
-    g.serialize(destination=os.path.join("tmp" ,"grafo"+str(i)+".ttl"), format="ttl")
-    with open(os.path.join(output_path,"final_result.ttl"), "a") as new_file:
-        with open(os.path.join("tmp","grafo"+str(i)+".ttl"), 'r') as f:
+    g.serialize(destination=os.path.join("tmp" ,"grafo"+str(i)+".nt"), format="ntriples")
+    with open(os.path.join(output_path,"final_result.nt"), "a") as new_file:
+        with open(os.path.join("tmp","grafo"+str(i)+".nt"), 'r') as f:
             for line in f:
                 new_file.write(line)
             new_file.write("\n")
@@ -39,7 +38,7 @@ def temp_dir(name, save, i, output_file):
     temp = os.makedirs("tmp",exist_ok=True)#tempfile.TemporaryDirectory(dir = os.path.dirname(os.getcwd()))
     try:
         f = open(os.path.join("tmp" ,'mapping.ttl'), 'w')
-        shutil.copy('../mappings/mapping2.ttl', os.path.join("tmp" ,'mapping.ttl'))
+        shutil.copy('../mappings/mapping_complete.ttl', os.path.join("tmp" ,'mapping.ttl'))
         f.close()
         f1 = open(os.path.join("tmp" ,'config.ini'), 'w')
         shutil.copy(os.path.join('../config.ini'), os.path.join("tmp" ,'config.ini'))
@@ -64,7 +63,7 @@ def cli():
 def image(input_path, input_image, save, output_path):
     """ Inspect y:our image or images from its name or ID;"""    
     os.makedirs(output_path, exist_ok=True)
-    f = open(output_path+'/final_result.ttl', 'w')
+    f = open(output_path+'/final_result.nt', 'w')
     if input_path:
         if os.path.isfile(input_path):
             with open(input_path,'r') as fp:
@@ -94,7 +93,7 @@ def image(input_path, input_image, save, output_path):
 def dockerhub(input_path, input_image, save, output_path):
     """ Inspect an image or images from dockerhub """
     os.makedirs(output_path, exist_ok=True)
-    f = open(output_path+'/final_result.ttl', 'w')
+    f = open(output_path+'/final_result.nt', 'w')
     if input_path:
         if os.path.isfile(input_path):
             with open(input_path,'r') as fp:
@@ -126,7 +125,7 @@ def dockerhub(input_path, input_image, save, output_path):
 def dockerfile(input_path, image_name, save, output_path):
     "Inspect your image from your local dockerfile. The name must be between 2 and 255 letters."
     os.makedirs(output_path, exist_ok=True)
-    f = open(output_path+'/final_result.ttl', 'w')
+    f = open(output_path+'/final_result.nt', 'w')
     print("docker build "+str(input_path)+ " -t "+image_name)
     os.system(("docker build "+str(input_path)+ " -t "+image_name))
     if save:
