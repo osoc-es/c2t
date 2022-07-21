@@ -195,7 +195,66 @@ class db():
         results_card1 = self.sparql.query().convert()
         results_2card1 = io.StringIO(results_card1.decode('utf-8'))
         card_results1 = pd.read_csv(results_2card1)
+        card_result_join = pd.concat([card_results, card_results1])
+        return card_result_join
 
-        card_results.
 
-        return card_results
+    def get_comparison_pack(self, image1_name, image2_name):
+        self.sparql.setQuery("""
+        PREFIX sd: <https://w3id.org/okn/o/sd#>
+        prefix c2t: <https://w3id.org/c2t#> 
+        prefix c2ti: <https://w3id.org/c2t/i/> 
+        prefix dc: <http://purl.org/dc/elements/1.1/> 
+        prefix dpv: <http://dockerpedia.inf.utfsm.cl/vocab#> 
+        prefix owl: <http://www.w3.org/2002/07/owl#> 
+        prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        prefix rr: <http://www.w3.org/ns/r2rml#> 
+        prefix rml: <http://semweb.mmlab.be/ns/rml#> 
+        prefix ql: <http://semweb.mmlab.be/ns/ql#> 
+        prefix dct: <https://purl.org/dc/terms/> 
+        prefix : <http://example.org/> 
+
+        SELECT ?name
+        WHERE {
+            ?image a dpv:Image.
+            ?image dpv:tag '"""+image1_name+"""'.
+            ?package dpv:isInstalledOn ?image.
+            ?package sd:name ?name
+        }
+        """)
+        self.sparql.setReturnFormat(CSV)
+        results_card = self.sparql.query().convert()
+        results_2card = io.StringIO(results_card.decode('utf-8'))
+        card_results = pd.read_csv(results_2card)
+        package_list = card_results2['packageT'].to_list()
+        counter_list = card_results2['total'].to_list()
+
+
+        self.sparql.setQuery("""
+        PREFIX sd: <https://w3id.org/okn/o/sd#>
+        prefix c2t: <https://w3id.org/c2t#> 
+        prefix c2ti: <https://w3id.org/c2t/i/> 
+        prefix dc: <http://purl.org/dc/elements/1.1/> 
+        prefix dpv: <http://dockerpedia.inf.utfsm.cl/vocab#> 
+        prefix owl: <http://www.w3.org/2002/07/owl#> 
+        prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        prefix rr: <http://www.w3.org/ns/r2rml#> 
+        prefix rml: <http://semweb.mmlab.be/ns/rml#> 
+        prefix ql: <http://semweb.mmlab.be/ns/ql#> 
+        prefix dct: <https://purl.org/dc/terms/> 
+        prefix : <http://example.org/> 
+
+        SELECT ?name
+        WHERE {
+            ?image a dpv:Image.
+            ?image dpv:tag '"""+image2_name+"""'.
+            ?package dpv:isInstalledOn ?image.
+            ?package sd:name ?name
+        }
+        """)
+        self.sparql.setReturnFormat(CSV)
+        results_card1 = self.sparql.query().convert()
+        results_2card1 = io.StringIO(results_card1.decode('utf-8'))
+        card_results1 = pd.read_csv(results_2card1)
+        card_result_join = pd.concat([card_results, card_results1])
+        return card_result_join

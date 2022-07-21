@@ -1,6 +1,7 @@
 from turtle import heading
 import dash_bootstrap_components as dbc
 from dash import html
+import pandas as pd
 
 def image_lib(heading,identifier):
     content = dbc.ListGroupItem(
@@ -53,8 +54,18 @@ def make_card(tag, architecture, size, osDescription, created, packageT, total):
 
 
 def make_differences():
+
     return 
 
 
-def make_comparison_table():
+def make_comparison_table(df:pd.DataFrame):
+    df = df.transpose()
+    df.insert(0,'tags',['architecture', 'size', 'osDescription', 'created'])
+    df.set_index('tags')
+    table = dbc.Table.from_dataframe(df, striped=True, bordered=True, hover=True)
+    return table
+
+
+def make_comparison_table_pack(df:pd.DataFrame):
+    df
     return

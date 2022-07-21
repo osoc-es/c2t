@@ -6,7 +6,7 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import Input, Output, dcc, html
 from SPARQLWrapper import SPARQLWrapper
-from utils import image_lib, make_card
+from utils import image_lib, make_card, make_comparison_table
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP]) #[dark,light], [CYBORG,BOOTSTRAP]
 dataBase = db(SPARQLWrapper("https://demo.c2t.linkeddata.es/sparql"))
@@ -18,9 +18,9 @@ app.layout = dbc.Container(
         html.Hr(),
         dbc.Tabs(
             [
-                dbc.Tab(label="Libreria", tab_id="library"),
-                dbc.Tab(label="Comparación", tab_id="compare"),
-                dbc.Tab(label="Resumen", tab_id="resume"),
+                dbc.Tab(label="Library", tab_id="library"),
+                dbc.Tab(label="Compare", tab_id="compare"),
+                dbc.Tab(label="Summary", tab_id="summary"),
             ],
             id="tabs",
             active_tab="library",
@@ -65,16 +65,27 @@ def render_tab_content(active_tab):
             ]
             return content
         elif active_tab == "compare":
-            content=[
-            html.Div([
+            content = [html.Div([
+                dbc.Row([
+                html.Br(),
+                dbc.Col([
+                    dbc.Input(id="Image1", placeholder="Image name 1", type="text"),
+                ]),
+                html.Br(),
+                dbc.Col([
+                    dbc.Input(id="Image2", placeholder="Image name 2", type="text"),
+                ])   
             ],
-            style={'text-align': 'center', 'margin':'auto'}
+            align="center",
             ),
+                html.Br(),
+                dbc.Table(id='compare-images')
             
+            ])
             ]
             return content
-        elif active_tab == "resume":
-            content = content = [html.Div([
+        elif active_tab == "summary":
+            content = [html.Div([
                 dbc.Row([
                 html.Br(),
                 dbc.Col([
@@ -125,23 +136,16 @@ def output_image_list(ImageTag):
     return content
 
 
-@app.callback(Output("compare_table", "children"),
-                     Input("ImageTag", "value"),
+@app.callback(Output("compare-images", "children"),
+                     Input("Image1", "value"),
+                     Input('Image2', "value")
                      )
-def output_image_list(ImageTag):
-    df = dataBase.get_comparison_meta(ImageTag)
+def output_image_list(Image1, Image2):
+    df = dataBase.get_comparison_meta(Image1, Image2)
+    df1 = dataBase.get_comparison_pack(Image1, Image2)
     content =[]
-    for index, row in df.iterrows():
-        architecture = row['architecture']
-        tag = row["tag"]
-        os = row['osDescription']
-        size = row['size']
-        packageT = row['packageT']
-        print(packageT)
-        total = row['total']
-        print(total)
-        created = row['created']
-        content.append(make_card(tag, architecture, size, os, created, packageT, total))
+    content.append(make_comparison_table(df.set_index('tag')))
+    #content.append(make_comparison_table_pack(df.set_index('tag')))
     return content
 
 
