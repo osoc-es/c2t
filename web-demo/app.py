@@ -188,7 +188,6 @@ def output_image_list(Image1, Image2):
     df = dataBase.get_comparison_meta(Image1, Image2)
     content =[]
     content.append(make_comparison_table(df.set_index('tag')))
-<<<<<<< HEAD
     return content
 
 @app.callback(
@@ -232,13 +231,9 @@ def output_image_list(Image1, Image2):
     df1, _ = dataBase.get_comparison_pack(Image1, Image2)
     content =[]
     content.append(make_comparison_table_pack_sim(df1))
-=======
-    content.append(make_comparison_table_pack_diff(df1))
-    content.append(make_comparison_table_pack_sim(df2))
->>>>>>> 26f2b4b57e7940ab6f9f4ff3a04c53b3d330c23d
     return content
 
 
 if __name__ == "__main__":
-   #ssl._create_default_https_context = ssl._create_unverified_context
+   ssl._create_default_https_context = ssl._create_unverified_context
    app.run_server(debug=True, host="0.0.0.0", port=3000)
