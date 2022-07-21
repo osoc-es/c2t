@@ -149,11 +149,11 @@
                                           rdfs:label "architecture" .
 
 
-###  https://w3id.org/okn/o/c2t#operativeSystemPackageVersion
-<https://w3id.org/okn/o/c2t#operativeSystemPackageVersion> rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/okn/o/c2t#packageType
+<https://w3id.org/okn/o/c2t#packageType> rdf:type owl:DatatypeProperty ;
                                                            rdfs:domain :PackageVersion ;
                                                            rdfs:comment "Version of an operative system package" ;
-                                                           rdfs:label "operativeSystemPackageVersion" .
+                                                           rdfs:label "packageType" .
 
 
 ###  https://w3id.org/okn/o/c2t#packageURL
