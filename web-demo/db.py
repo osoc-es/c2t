@@ -219,16 +219,14 @@ class db():
             ?image a dpv:Image.
             ?image dpv:tag '"""+image1_name+"""'.
             ?package dpv:isInstalledOn ?image.
-            ?package sd:name ?name
+            ?package rdfs:label ?name
         }
         """)
         self.sparql.setReturnFormat(CSV)
         results_card = self.sparql.query().convert()
         results_2card = io.StringIO(results_card.decode('utf-8'))
         card_results = pd.read_csv(results_2card)
-        package_list = card_results2['packageT'].to_list()
-        counter_list = card_results2['total'].to_list()
-
+        package_list1 = card_results['name'].to_list()
 
         self.sparql.setQuery("""
         PREFIX sd: <https://w3id.org/okn/o/sd#>
@@ -249,12 +247,20 @@ class db():
             ?image a dpv:Image.
             ?image dpv:tag '"""+image2_name+"""'.
             ?package dpv:isInstalledOn ?image.
-            ?package sd:name ?name
+            ?package rdfs:label ?name
         }
         """)
         self.sparql.setReturnFormat(CSV)
         results_card1 = self.sparql.query().convert()
         results_2card1 = io.StringIO(results_card1.decode('utf-8'))
         card_results1 = pd.read_csv(results_2card1)
-        card_result_join = pd.concat([card_results, card_results1])
-        return card_result_join
+        package_list2 = card_results1['name'].to_list()
+        similarities = []
+        for elem in package_list2:
+            if elem in package_list2:
+                similarities += [elem]
+        diff1 = list(set(package_list1)-set(similarities))
+        diff2 = list(set(package_list2)-set(similarities))
+        same = pd.DataFrame({'Image 1':similarities,'Image 2':similarities})
+        diff = pd.DataFrame({'Image 1': diff1, 'Image2':diff2})
+        return same, diff

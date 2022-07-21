@@ -6,7 +6,7 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import Input, Output, dcc, html
 from SPARQLWrapper import SPARQLWrapper
-from utils import image_lib, make_card, make_comparison_table
+from utils import image_lib, make_card, make_comparison_table, make_comparison_table_pack_diff, make_comparison_table_pack_sim
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP]) #[dark,light], [CYBORG,BOOTSTRAP]
 dataBase = db(SPARQLWrapper("https://demo.c2t.linkeddata.es/sparql"))
@@ -49,11 +49,11 @@ def render_tab_content(active_tab):
                 dbc.Row([
                 html.Br(),
                 dbc.Col([
-                    dbc.Input(id="PackageName", placeholder="Package Name", type="text"),
+                    dbc.Input(id="PackageName", placeholder="Package Name", type="text",debounce=True),
                 ]),
                 html.Br(),
                 dbc.Col([
-                    dbc.Input(id="PackageVersion", placeholder="Package Version", type="text"),
+                    dbc.Input(id="PackageVersion", placeholder="Package Version", type="text",debounce=True),
                 ])   
             ],
             align="center",
@@ -142,10 +142,11 @@ def output_image_list(ImageTag):
                      )
 def output_image_list(Image1, Image2):
     df = dataBase.get_comparison_meta(Image1, Image2)
-    df1 = dataBase.get_comparison_pack(Image1, Image2)
+    df1, df2 = dataBase.get_comparison_pack(Image1, Image2)
     content =[]
     content.append(make_comparison_table(df.set_index('tag')))
-    #content.append(make_comparison_table_pack(df.set_index('tag')))
+    content.append(make_comparison_table_pack_sim(df1))
+    content.append(make_comparison_table_pack_diff(df2))
     return content
 
 
