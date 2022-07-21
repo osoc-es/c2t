@@ -235,5 +235,5 @@ def output_image_list(Image1, Image2):
 
 
 if __name__ == "__main__":
-   #ssl._create_default_https_context = ssl._create_unverified_context
+   ssl._create_default_https_context = ssl._create_unverified_context
    app.run_server(debug=True, host="0.0.0.0", port=3000)
