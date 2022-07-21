@@ -68,11 +68,11 @@ def make_comparison_table(df:pd.DataFrame):
 
 def make_comparison_table_pack_sim(df:pd.DataFrame):
     df = df.transpose()
-    table = dbc.Table.from_dataframe(df, striped=True, bordered=True, hover=True)
+    table = dbc.Table.from_dataframe(df.transpose(), dark = True ,striped=True, bordered=True, hover=True)
     return table
 
-    
+
 def make_comparison_table_pack_diff(df:pd.DataFrame):
     df = df.transpose()
-    table = dbc.Table.from_dataframe(df, striped=True, bordered=True, hover=True)
+    table = dbc.Table.from_dataframe(df.transpose(), striped=True, bordered=True, hover=True)
     return table

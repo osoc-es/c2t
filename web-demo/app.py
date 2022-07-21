@@ -69,11 +69,11 @@ def render_tab_content(active_tab):
                 dbc.Row([
                 html.Br(),
                 dbc.Col([
-                    dbc.Input(id="Image1", placeholder="Image name 1", type="text"),
+                    dbc.Input(id="Image1", placeholder="Image name 1", type="text",debounce=True),
                 ]),
                 html.Br(),
                 dbc.Col([
-                    dbc.Input(id="Image2", placeholder="Image name 2", type="text"),
+                    dbc.Input(id="Image2", placeholder="Image name 2", type="text",debounce=True),
                 ])   
             ],
             align="center",
@@ -89,7 +89,7 @@ def render_tab_content(active_tab):
                 dbc.Row([
                 html.Br(),
                 dbc.Col([
-                    dbc.Input(id="ImageTag", placeholder="image Tag", type="text"),
+                    dbc.Input(id="ImageTag", placeholder="image Tag", type="text",debounce=True),
                 ])   
             ],
             align="center",
@@ -128,9 +128,7 @@ def output_image_list(ImageTag):
         os = row['osDescription']
         size = row['size']
         packageT = row['packageT']
-        print(packageT)
         total = row['total']
-        print(total)
         created = row['created']
         content.append(make_card(tag, architecture, size, os, created, packageT, total))
     return content

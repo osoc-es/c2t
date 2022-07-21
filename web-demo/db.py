@@ -255,12 +255,22 @@ class db():
         results_2card1 = io.StringIO(results_card1.decode('utf-8'))
         card_results1 = pd.read_csv(results_2card1)
         package_list2 = card_results1['name'].to_list()
+        print('-------------------------------------------')
+        print(package_list2)
         similarities = []
-        for elem in package_list2:
+        for elem in package_list1:
             if elem in package_list2:
                 similarities += [elem]
         diff1 = list(set(package_list1)-set(similarities))
         diff2 = list(set(package_list2)-set(similarities))
-        same = pd.DataFrame({'Image 1':similarities,'Image 2':similarities})
-        diff = pd.DataFrame({'Image 1': diff1, 'Image2':diff2})
+        print('------------------------------')
+        print(diff2)
+        same = pd.DataFrame({image1_name:similarities,image2_name:similarities})
+        diff_1 = pd.DataFrame({image1_name: diff1})
+        diff_2 = pd.DataFrame({image2_name: diff2})
+        print('-------------------------------------')
+        print(diff_2)
+        diff = pd.concat([diff_1,diff_2], axis=1)
+        print('--------------------------------')
+        print(diff)
         return same, diff
