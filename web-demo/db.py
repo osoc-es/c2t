@@ -262,11 +262,11 @@ class db():
         diff1 = list(set(package_list1)-set(similarities))
         diff2 = list(set(package_list2)-set(similarities))
         print(similarities)
-        if len(diff1) > 2:
+        if len(diff1) >= 2:
             diff1.sort()
-        if len(diff2) > 2:
+        if len(diff2) >= 2:
             diff2.sort()
-        if len(similarities) >2:
+        if len(similarities) >= 2:
             similarities.sort()
         print(similarities)
         same = pd.DataFrame({image1_name:similarities,image2_name:similarities})
