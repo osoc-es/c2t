@@ -143,8 +143,8 @@ def output_image_list(Image1, Image2):
     df1, df2 = dataBase.get_comparison_pack(Image1, Image2)
     content =[]
     content.append(make_comparison_table(df.set_index('tag')))
-    content.append(make_comparison_table_pack_sim(df1))
     content.append(make_comparison_table_pack_diff(df2))
+    content.append(make_comparison_table_pack_sim(df1))
     return content
 
 
