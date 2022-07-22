@@ -9,7 +9,25 @@ For using this repo we asume that you have installed:
 ## Usage
 To create your knowledge graph from your Docker container you must run one of these commands. 
 
-If you 
+To create the graph from a local image:
+
+To create the graph from a file with a list of local images that may be 
+
+To create the graph from a DockerHub image:
+
+To create the graph from a file with a list of DockerHub images (the file must have this format: \n "mongo:latest \n python:3.10 \n mysql:latest"):
+
+To create the graph from a DockerFile:
+
+
+
+Para crear el grafo a partir de una imagen en local: 
+
+Para crear el grafo a partir de una lista de imágenes en local (tiene que estar en un fichero):
+
+Para ... a partir de una imagen de DockerHub 
+
+Para ... a partir de un DockerFile 
 ``` bash
 CLI.py image {name} {output}
 ```
