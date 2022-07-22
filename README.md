@@ -7,13 +7,31 @@ For using this repo we asume that you have installed:
 - [python 3.10.4](https://www.python.org/downloads/release/python-3104/)
 
 ## Usage
-To create your knowledge graph from your Docker container you must run one of these commands. 
+To create your knowledge graph from your Docker container you must run one of these commands. (add -s to the command to save the json files in the output_path)
 
-To create the graph from a local image:
+To create the graph from a local image: ({name} can be Image ID or image tag)
 
-To create the graph from a file with a list of local images that may be 
+``` bash
+py CLI.py image -i {name} -o {output_path}
+```
+
+To create the graph from a file with a list of local images (the file must have this format: 
+
+"mongo:latest
+
+python:3.10 
+
+mysql:latest")
+
+```bash
+py CLI.py image -p {file_path} -o {output_path}
+```
 
 To create the graph from a DockerHub image:
+
+```bash
+py CLI.py dockerhub -i {name} -o {output_path}
+```
 
 To create the graph from a file with a list of DockerHub images (the file must have this format: 
 
@@ -23,28 +41,16 @@ python:3.10
 
 mysql:latest")
 
+```bash
+py CLI.py dockerhub -p {file_path} -o {output_path}
+```
+
 To create the graph from a DockerFile:
 
-
-
-Para crear el grafo a partir de una imagen en local: 
-
-Para crear el grafo a partir de una lista de imágenes en local (tiene que estar en un fichero):
-
-Para ... a partir de una imagen de DockerHub 
-
-Para ... a partir de un DockerFile 
-``` bash
-CLI.py image {name} {output}
+```bash
+py CLI.py dockerhub -p {dockerhub_path} -o {output_path}
 ```
-DockerHub images
-``` bash
-CLI.py dockerhub {name} {output}
-```
-DockerFiles
-``` bash
-CLI.py dockerfile {name} {output}
-```
+
 
 ## How it works
 We inspect your image to get enviroment properties. Then we use syft to obtain the image dependencies. After that we have to [transform](syft_parser.py) a bit the output.
