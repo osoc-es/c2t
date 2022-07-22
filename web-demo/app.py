@@ -53,11 +53,11 @@ def render_tab_content(active_tab):
                 dbc.Row([
                 html.Br(),
                 dbc.Col([
-                    dbc.Input(id="PackageName", placeholder="Package Name", type="text",debounce=True),
+                    dbc.Input(id="PackageName", placeholder="Package Name (for example: log4j)", type="text",debounce=True),
                 ]),
                 html.Br(),
                 dbc.Col([
-                    dbc.Input(id="PackageVersion", placeholder="Package Version", type="text",debounce=True),
+                    dbc.Input(id="PackageVersion", placeholder="Package Version (for example: 1.2.17)", type="text",debounce=True),
                 ]),
             ],
             align="center",
@@ -83,7 +83,7 @@ def render_tab_content(active_tab):
                         )
                     ]
                 ),
-                style={"width": "18rem"},
+                style={"width": "180rem"},
             )
                 ]),
                 dbc.Row([
@@ -155,7 +155,7 @@ def render_tab_content(active_tab):
                         )
                     ]
                 ),
-                style={"width": "18rem"},
+                style={"width": "180rem"},
             )
                 ]),
                 dbc.Row([
