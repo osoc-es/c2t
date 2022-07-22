@@ -33,5 +33,5 @@ WHERE { ?image a dpv:Image .
   OPTIONAL {?packages dct:license ?pacLicense } .
   OPTIONAL {?packages sd:programmingLanguage ?pacLanguage } .
   OPTIONAL {?packages sd:name ?pacName }
-} 
+}
 ```
