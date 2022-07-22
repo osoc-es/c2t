@@ -78,7 +78,7 @@ def render_tab_content(active_tab):
                     [
                         html.H4("Images in the graph", className="card-title"),
                         html.P(
-                            "stain/jena-fuseki:latest \n wagoodman/dive:latest \n ghcr.io/dgarijo/widoco:latest \n python:latest \n mysql:latest \n neo4j:4.4.5 \n node:latest \n wordpress:latest \n python:3.8 \n pegasus/pegasus:panorama-xenial \n amancevice/pandas:latest \n mongo:latest \n hello-world:latest \n pegasus/pegasus:panorama-focal",
+                            "stain/jena-fuseki:latest, wagoodman/dive:latest, ghcr.io/dgarijo/widoco:latest, python:latest, mysql:latest, neo4j:4.4.5, node:latest, wordpress:latest, python:3.8, pegasus/pegasus:panorama-xenial, amancevice/pandas:latest, mongo:latest, hello-world:latest, pegasus/pegasus:panorama-focal",
                             className="card-text",
                         )
                     ]
@@ -150,7 +150,7 @@ def render_tab_content(active_tab):
                     [
                         html.H4("Images in the graph", className="card-title"),
                         html.P(
-                            "stain/jena-fuseki:latest \n wagoodman/dive:latest \n ghcr.io/dgarijo/widoco:latest \n python:latest \n mysql:latest \n neo4j:4.4.5 \n node:latest \n wordpress:latest \n python:3.8 \n pegasus/pegasus:panorama-xenial \n amancevice/pandas:latest \n mongo:latest \n hello-world:latest \n pegasus/pegasus:panorama-focal",
+                            "stain/jena-fuseki:latest, wagoodman/dive:latest, ghcr.io/dgarijo/widoco:latest, python:latest, mysql:latest, neo4j:4.4.5, node:latest, wordpress:latest, python:3.8, pegasus/pegasus:panorama-xenial, amancevice/pandas:latest, mongo:latest, hello-world:latest, pegasus/pegasus:panorama-focal",
                             className="card-text",
                         )
                     ]

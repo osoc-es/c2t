@@ -21,7 +21,7 @@ To create the graph from a file with a list of DockerHub images (the file must h
 
 python:3.10 
 
-mysql:latest"):
+mysql:latest")
 
 To create the graph from a DockerFile:
 
