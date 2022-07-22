@@ -6,7 +6,7 @@ For using this repo we asume that you have installed:
 - [syft](https://github.com/anchore/syft)
 - [python 3.10.4](https://www.python.org/downloads/release/python-3104/)
 
-## Usage
+##  CLI Usage
 To create your knowledge graph from your Docker container you must run one of these commands. (add -s to the command to save the json files in the output_path)
 
 To create the graph from a local image: ({name} can be Image ID or image tag)
