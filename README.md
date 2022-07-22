@@ -63,5 +63,8 @@ Available here: [https://osoc-es.github.io/c2t/onto_documentation/index-en.html]
 ## Landing Page
 Available here: [https://osoc-es.github.io/c2t/website](https://osoc-es.github.io/c2t/website)
 
+## Demo Page
+Available here: [https://c2t.linkeddata.es/](https://c2t.linkeddata.es/)
+
 ## Ontology diagram
 ![onto_map](onto_documentation/images/diagram.svg)
