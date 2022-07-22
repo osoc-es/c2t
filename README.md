@@ -16,8 +16,11 @@ To create the graph from a file with a list of local images that may be
 To create the graph from a DockerHub image:
 
 To create the graph from a file with a list of DockerHub images (the file must have this format: 
-"mongo:latest 
+
+"mongo:latest
+
 python:3.10 
+
 mysql:latest"):
 
 To create the graph from a DockerFile:
