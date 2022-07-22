@@ -7,7 +7,9 @@ For using this repo we asume that you have installed:
 - [python 3.10.4](https://www.python.org/downloads/release/python-3104/)
 
 ## Usage
-Local images
+To create your knowledge graph from your Docker container you must run one of these commands. 
+
+If you 
 ``` bash
 CLI.py image {name} {output}
 ```

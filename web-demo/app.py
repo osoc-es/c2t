@@ -48,7 +48,7 @@ def render_tab_content(active_tab):
         if active_tab == "library":
             content = [html.Div([
                 dbc.Row([
-                    html.P('Introduce the name of a package or the name and the version and the app will return the images that contain that package. ', className="card-text")
+                    html.P('Introduce the name of a package or the name and the version and the app will return the images that contain that package. Press enter to make your search. ', className="card-text")
                 ]),
                 dbc.Row([
                 html.Br(),
@@ -58,20 +58,33 @@ def render_tab_content(active_tab):
                 html.Br(),
                 dbc.Col([
                     dbc.Input(id="PackageVersion", placeholder="Package Version", type="text",debounce=True),
-                ])   
+                ]),
             ],
             align="center",
             ),
                 html.Br(),
                 dbc.ListGroup(id='list-images')
-            
             ])
             ]
             return content
         elif active_tab == "compare":
             content = [html.Div([
                 dbc.Row([
-                    html.P('Introduce the name of two images and the app will make a comparison of them', className="card-text")
+                    html.P('Introduce the name of two images and the app will make a comparison of them. Press enter to make your search. ', className="card-text")
+                ]),
+                dbc.Row([
+                    dbc.Card(
+                dbc.CardBody(
+                    [
+                        html.H4("Images in the graph", className="card-title"),
+                        html.P(
+                            "stain/jena-fuseki:latest \n wagoodman/dive:latest \n ghcr.io/dgarijo/widoco:latest \n python:latest \n mysql:latest \n neo4j:4.4.5 \n node:latest \n wordpress:latest \n python:3.8 \n pegasus/pegasus:panorama-xenial \n amancevice/pandas:latest \n mongo:latest \n hello-world:latest \n pegasus/pegasus:panorama-focal",
+                            className="card-text",
+                        )
+                    ]
+                ),
+                style={"width": "18rem"},
+            )
                 ]),
                 dbc.Row([
                 html.Br(),
@@ -129,7 +142,21 @@ def render_tab_content(active_tab):
         elif active_tab == "summary":
             content = [html.Div([
                 dbc.Row([
-                    html.P('Introduce the name of an image and the app will make a summary of its metadata.', className="card-text")
+                    html.P('Introduce the name of an image and the app will make a summary of its metadata. Press enter to make your search.', className="card-text")
+                ]),
+                dbc.Row([
+                    dbc.Card(
+                dbc.CardBody(
+                    [
+                        html.H4("Images in the graph", className="card-title"),
+                        html.P(
+                            "stain/jena-fuseki:latest \n wagoodman/dive:latest \n ghcr.io/dgarijo/widoco:latest \n python:latest \n mysql:latest \n neo4j:4.4.5 \n node:latest \n wordpress:latest \n python:3.8 \n pegasus/pegasus:panorama-xenial \n amancevice/pandas:latest \n mongo:latest \n hello-world:latest \n pegasus/pegasus:panorama-focal",
+                            className="card-text",
+                        )
+                    ]
+                ),
+                style={"width": "18rem"},
+            )
                 ]),
                 dbc.Row([
                 html.Br(),
