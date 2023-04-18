@@ -71,5 +71,7 @@ Available here: [https://osoc-es.github.io/c2t/website](https://osoc-es.github.i
 ## Demo Page
 Available here: [https://c2t.linkeddata.es/](https://c2t.linkeddata.es/)
 
+Assuming you have the sparql endpoint up, you can launch the demo with `docker run -it -p 3000:3000 c2t_demo`. The Dockerfile for creating the image is under the `web-demo` folder
+
 ## Ontology diagram
 ![onto_map](onto_documentation/images/diagram.svg)
